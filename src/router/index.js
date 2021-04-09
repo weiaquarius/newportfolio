@@ -6,12 +6,12 @@ import SireHealthPage from '../views/SireHealthPage.vue';
 
 const routes = [
   {
-    path: '/',
+    path: '/newportfolio',
     name: 'Home',
     component: Home,
   },
   {
-    path: '/about',
+    path: '/newportfolio/about',
     name: 'About',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
