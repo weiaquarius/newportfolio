@@ -676,6 +676,7 @@ export default {
   width: 70%;
   img {
     width: 60%;
+    margin-right: 35px;
   }
 
   @media (max-width: 992px) {
