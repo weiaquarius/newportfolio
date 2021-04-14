@@ -133,7 +133,7 @@ export default {
     padding: 250px 100px 200px;
   }
   @media (max-width: 500px) {
-    padding: 200px 100px;
+    padding: 220px 100px;
   }
 }
 .card-content-left {
@@ -146,7 +146,7 @@ export default {
     top: 53%;
   }
   @media (max-width: 500px) {
-    top: 50%;
+    top: 55%;
   }
 }
 .prototype-img {

@@ -425,7 +425,7 @@
     <h1>Design Implications or recommendations from our findings.</h1>
     <br />
     <br />
-    <div class="HMW-img" style="margin: 0;">
+    <div class="design-image">
       <img src="../../src/assets/Podcast/inspired-card.png" alt="" />
       <h1>
         <span class="underline">Random Inspiring Cards</span>
@@ -440,7 +440,7 @@
     </div>
   </div>
   <div class="method-reason">
-    <div class="HMW-img" style="margin: 0;">
+    <div class="design-image">
       <img src="../../src/assets/Podcast/hotspot.png" alt="" />
       <h1>
         <span class="underline">Hot Spot design on page of media player</span>
@@ -625,16 +625,38 @@ export default {
     margin: 0px 20%;
   }
 }
-
+.method-reason {
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      font-size: 28px;
+      p {
+        font-size: 18px;
+      }
+    }
+    img {
+      width: 80%;
+      margin: 5%;
+    }
+    h1 {
+      max-width: 450px;
+    }
+  }
+}
 .HMW-img {
   display: flex;
   display: -webkit-inline-box;
   flex-direction: row;
   margin: 0 10% 5%;
-
   img {
-    width: 45%;
+    width: 40%;
     margin: 0 2.5%;
+  }
+  @media (max-width: 992px) {
+    img {
+      width: 70%;
+    }
   }
   @media (max-width: 700px) {
     flex-direction: column;
@@ -643,6 +665,37 @@ export default {
     img {
       width: 80%;
       margin: 5%;
+    }
+    h1 {
+      max-width: 450px;
+    }
+  }
+}
+.design-image {
+  display: -webkit-inline-box;
+  width: 70%;
+  img {
+    width: 60%;
+  }
+
+  @media (max-width: 992px) {
+    width: 60%;
+    h1 {
+      font-size: 32px;
+    }
+  }
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    h1 {
+      font-size: 28px;
+      p {
+        font-size: 20px;
+      }
+    }
+    img {
+      width: 70%;
     }
   }
 }
