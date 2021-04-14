@@ -4,11 +4,9 @@
       <h1>Podcast</h1>
       <h2>Podcast app design</h2>
     </div>
-    <div class="pjt-img">
-      <img
-        src="https://images.unsplash.com/photo-1615823321540-1eb9ec955373?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60"
-        alt=""
-      />
+    <div class="podcast-image">
+      <img src="../assets/Podcast/home1.jpg" alt="" />
+      <img src="../assets/Podcast/home2.jpg" alt="" />
     </div>
   </div>
   <div class="pjt-content">
@@ -192,55 +190,6 @@
       <p>Commuting (60.7%)</p>
     </div>
   </div>
-
-  <!-- <div class="pjt-content" style="margin-top:10%;">
-    <div
-      class="left-title"
-      data-aos="fade-up"
-      data-aos-duration="700"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-    >
-      <h2>Online<br />Survey</h2>
-    </div>
-    <div
-      class="right-content box box3"
-      style="margin:0 !important;"
-      data-aos="zoom-in-up"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-    >
-      <div class="oddboxinner">
-        <div class="card-layout">
-          <img
-            src="https://images.unsplash.com/photo-1567336910695-c02280a3f198?ixlib=rb-1.2.1&ixid=MXwxMj3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-            alt=""
-          />
-          <p>
-            At first, we started with an online survey to better understand
-            users’ usage habits and preferences. We chose to apply the online
-            survey method because we wanted to collect information quickly from
-            the podcast listeners, which enabled us to organize and filter the
-            data and pick suitable podcast users for in-depth interviews.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div></div>
-    <div
-      class="right-content"
-      data-aos="zoom-in-up"
-      data-aos-duration="800"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-    >
-      <p>
-        1.Received 237 responses<br />
-        2.Recruited seven people to be our respondents
-      </p>
-    </div>
-  </div> -->
   <div class="method-reason">
     <h3>Interview</h3>
     <h1>
@@ -492,12 +441,15 @@
   </div>
   <div class="method-reason">
     <div class="HMW-img" style="margin: 0;">
-      <img src="../../src/assets/Podcast/inspired-card.png" alt="" />
+      <img src="../../src/assets/Podcast/hotspot.png" alt="" />
       <h1>
         <span class="underline">Hot Spot design on page of media player</span>
         <p>
           Users can save time and efficiently choose the episode they want to
           listen to.
+        </p>
+        <p style="font-size:18px;font-weight:300;">
+          (Page designed by Qinxuan Li.)
         </p>
       </h1>
     </div>
@@ -558,6 +510,39 @@ export default {
 //fontstyle
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+.podcast-image {
+  width: 50%;
+  position: absolute;
+  right: 7%;
+  top: 25%;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 50%;
+    margin: 0 20px;
+  }
+  @media (max-width: 992px) {
+    flex-direction: column;
+    right: 0;
+    align-items: center;
+    top: 15%;
+    img {
+      margin: 5px 0;
+    }
+  }
+  @media (max-width: 600px) {
+    width: 60%;
+    align-items: center;
+  }
+  @media (max-width: 400px) {
+    img {
+      display: none;
+    }
+  }
+}
+
 .pjt-content {
   margin-bottom: 5%;
 }
