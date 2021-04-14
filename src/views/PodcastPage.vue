@@ -6,7 +6,7 @@
     </div>
     <div class="podcast-image">
       <img src="../assets/Podcast/home1.jpg" alt="" />
-      <img src="../assets/Podcast/home2.jpg" alt="" />
+      <!-- <img src="../assets/Podcast/home2.jpg" alt="" /> -->
     </div>
   </div>
   <div class="pjt-content">
@@ -511,29 +511,21 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
 .podcast-image {
+  display: flex;
+  display: -webkit-inline-box;
+  // flex-direction: row;
   width: 50%;
   position: absolute;
   right: 7%;
   top: 25%;
-  z-index: 1;
-
-  display: flex;
-  flex-direction: row;
+  z-index: -1;
   img {
-    width: 50%;
+    width: 60%;
     margin: 0 20px;
   }
-  @media (max-width: 992px) {
-    flex-direction: column;
-    right: 0;
-    align-items: center;
-    top: 15%;
-    img {
-      margin: 5px 0;
-    }
-  }
   @media (max-width: 600px) {
-    width: 60%;
+    width: 75%;
+    right: 0;
     align-items: center;
   }
   @media (max-width: 400px) {
@@ -636,6 +628,7 @@ export default {
 
 .HMW-img {
   display: flex;
+  display: -webkit-inline-box;
   flex-direction: row;
   margin: 0 10% 5%;
 
