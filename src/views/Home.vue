@@ -5,19 +5,41 @@
       <h1 class="heading heading--stroke">
         CASE STUDIES
       </h1>
-      <Podcast />
-      <FineTutor />
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+      >
+        <Podcast />
+      </div>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+      >
+        <FineTutor />
+      </div>
     </div>
 
     <div class="design-work">
       <h1 class="heading heading--stroke__design">
         DESIGN WORKS
       </h1>
-      <SireHealth />
+
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+      >
+        <SireHealth />
+      </div>
     </div>
   </div>
 
-  <div class="bg"></div>
+  <!-- <div class="bg"></div> -->
   <div id="footer" class="sns">
     <ul>
       <li>
@@ -38,6 +60,10 @@
     </ul>
     <p>李唯閣 | WEI-KO LI | NTHU EE</p>
   </div>
+
+  <back-to-top bottom="50px" right="50px">
+    <button type="button" class="btn btn-info btn-to-top"><p>TOP</p></button>
+  </back-to-top>
 </template>
 
 <script>
@@ -48,6 +74,11 @@ import FineTutor from '@/components/Home/FineTutor.vue';
 import Podcast from '@/components/Home/Podcast.vue';
 import SireHealth from '@/components/Home/SireHealth.vue';
 
+import BackToTop from 'vue-backtotop';
+
+//Fade-In transition
+import '../assets/script/AOS.js';
+
 export default {
   name: 'Home',
   components: {
@@ -55,11 +86,16 @@ export default {
     FineTutor,
     Podcast,
     SireHealth,
+    BackToTop,
+  },
+  mounted() {
+    window.scrollTo(0, 0);
   },
 };
 </script>
 
 <style scoped lang="scss">
+@import '../assets/scss/index.scss';
 .projects {
   padding: 10px 0;
   background-color: #eaf9ff;
@@ -110,9 +146,6 @@ h1 {
   -moz-text-stroke-width: 3.5px;
   -webkit-text-stroke-color: #0e8dbb;
   -moz-text-stroke-color: #0e8dbb;
-  // -webkit-text-stroke-color: #0d1b1e;
-  // -moz-text-stroke-color: #0d1b1e;
-  // color: transparent;
   color: rgb(210, 234, 241);
   &__design {
     -webkit-text-stroke-width: 3.5px;

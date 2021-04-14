@@ -6,8 +6,8 @@
         <span>NEXT</span>
         <span>
           <svg
-            width="66px"
-            height="43px"
+            width="58px"
+            height="33px"
             viewBox="0 0 66 43"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -65,15 +65,26 @@ export default {
 
 .cta {
   display: flex;
-  padding: 10px 45px;
+  padding: 20px 45px;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  font-size: 40px;
+  font-size: 36px;
   color: white;
   background: #6225e6;
   transition: 1s;
   box-shadow: 6px 6px 0 black;
   transform: skewX(-15deg);
+  margin-top: 5%;
+  @media (max-width: 800px) {
+    margin-top: 15%;
+    padding: 10px 40px;
+    font-size: 32px;
+  }
+  @media (max-width: 500px) {
+    margin-top: 25%;
+    padding: 15px 25px;
+    font-size: 24px;
+  }
 }
 
 .cta:focus {

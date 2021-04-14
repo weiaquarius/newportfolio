@@ -14,11 +14,15 @@
         I am WEI-KO LI, a senior student at National Tsing-Hua University.
       </h2>
       <h3>
-        I found interest in User Experience when I was a sophomore and had spent
-        lots of time immersing in the users’ world. <br /><br />
+        I found interest in
+        <span class="underline diffcolor">User Experience</span> when I was a
+        sophomore and had spent lots of time immersing in the users’ world.
+        <br /><br />
 
-        My portfolio includes the process of interviewing, qualitative analysis,
-        and User interface design.<br /><br />
+        My portfolio includes the process of
+        <span class="underline"
+          >interviewing, qualitative analysis, and User interface design.</span
+        ><br /><br />
         If you have any questions, please feel free to ask me.<br /><br /><br />
       </h3>
     </div>
@@ -29,6 +33,7 @@
 </template>
 
 <script>
+import '../../assets/script/underline.js';
 export default {
   data() {
     return {};
@@ -37,6 +42,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '../../assets/scss/index.scss';
 section {
   width: 100%;
   margin: 0;
@@ -171,5 +177,10 @@ section {
   100% {
     transform: translateX(-50px);
   }
+}
+
+.diffcolor {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-size: 100% 0.25em;
 }
 </style>
