@@ -675,14 +675,18 @@ export default {
   display: -webkit-inline-box;
   width: 70%;
   img {
-    width: 60%;
-    margin-right: 35px;
+    width: 55%;
+    margin-right: 40px;
   }
 
   @media (max-width: 992px) {
     width: 60%;
     h1 {
       font-size: 32px;
+    }
+    img {
+      width: 60%;
+      margin-right: 30px;
     }
   }
   @media (max-width: 700px) {
