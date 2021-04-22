@@ -434,7 +434,7 @@
           when they are using our Podcast app.
         </p>
         <p style="font-size:18px;font-weight:300;">
-          (Page designed by Yuxin Zhou.)
+          (Wireframe Designed from group ideation and integration.)
         </p>
       </h1>
     </div>
@@ -449,7 +449,7 @@
           listen to.
         </p>
         <p style="font-size:18px;font-weight:300;">
-          (Page designed by Qinxuan Li.)
+          (Wireframe Designed from group ideation and integration.)
         </p>
       </h1>
     </div>

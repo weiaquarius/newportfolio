@@ -25,7 +25,7 @@
 
     <div class="design-work">
       <h1 class="heading heading--stroke__design">
-        DESIGN WORKS
+        UI Design
       </h1>
 
       <div
