@@ -10,10 +10,10 @@
     </div>
   </div>
   <div class="pjt-content">
-    <div class="left-title">
+    <div class="title">
       <h2>Project<br />Background</h2>
     </div>
-    <div class="right-content">
+    <div class="content">
       <p>
         Last summer, I proactively launched a user research project to immerse
         deeply in research methods and accumulate project experiences. Six team
@@ -44,7 +44,7 @@
         </div>
         <div class="card-content-right">
           <h2>METHODS & TOOLS</h2>
-          <p>Surveys, User Interview | Miro, Figma</p>
+          <p>Surveys, User Interview, Usability testing | Miro, Figma</p>
           <h2>PRACTICES</h2>
           <p>User Research | Brainstorming | Reframing Problems</p>
         </div>
@@ -259,23 +259,23 @@
     class="pjt-content"
     style="margin:10% 0;grid-gap:20px 70px;justify-content:center"
   >
-    <div class="left-title">
+    <div class="title">
       <h2 style="border:none;text-align:left;">
         <span class="underline diffcolor"> How Might We</span><br />
         (Finding 1)
       </h2>
     </div>
-    <!-- <div class="left-title">
+    <!-- <div class="title">
       <h2 style="border:none;text-align:left;">
         <span class="underline"> User Story</span>
       </h2>
     </div> -->
-    <div class="right-content">
+    <div class="content">
       <p style="max-width:300px;">
         How might we let users feel fresh on the platform?
       </p>
     </div>
-    <!-- <div class="right-content">
+    <!-- <div class="content">
       <p class="story-style">
         As a user craving to explore new things<br />
         I want to use the random inspired cards to recommend me new episodes<br />
@@ -283,14 +283,14 @@
       </p>
     </div> -->
     <div></div>
-    <div class="right-content">
+    <div class="content">
       <p style="max-width:300px;">
         How might we let users want to keep staying on the platform?
       </p>
     </div>
 
     <div></div>
-    <div class="right-content">
+    <div class="content">
       <p style="max-width:300px;">
         How might we design the exploring procedure so that users can be
         intrigued by the app?
@@ -300,20 +300,20 @@
     <div></div>
     <div></div>
     <div></div>
-    <div class="left-title">
+    <div class="title">
       <h2 style="border:none;text-align:left;">
         <span class="underline"> How Might We</span><br />
         (Finding 2)
       </h2>
     </div>
-    <div class="right-content">
+    <div class="content">
       <p style="max-width:300px;">
         How might we let users efficiently catch up on the information of the
         episode?
       </p>
     </div>
     <div></div>
-    <div class="right-content">
+    <div class="content">
       <p style="max-width:300px;">
         How might we let users flexibly change the display of information?
       </p>
@@ -369,23 +369,23 @@
     class="pjt-content"
     style="margin:10%;grid-gap:30px 70px;justify-content:center"
   >
-    <div class="left-title">
+    <div class="title">
       <h2 style="border:none;text-align:left;">
         <span class="underline diffcolor"> How Might We</span><br />
         (Finding 1)
       </h2>
     </div>
-    <div class="left-title">
+    <div class="title">
       <h2 style="border:none;text-align:left;">
         <span class="underline"> User Story</span>
       </h2>
     </div>
-    <div class="right-content">
+    <div class="content">
       <p style="max-width:300px;">
         How might we let users feel fresh on the platform?
       </p>
     </div>
-    <div class="right-content">
+    <div class="content">
       <p class="story-style">
         <span class="underline">As a user</span> craving to explore new
         things,<br /><br />
@@ -396,20 +396,20 @@
     </div>
     <div></div>
     <div></div>
-    <div class="left-title">
+    <div class="title">
       <h2 style="border:none;text-align:left;">
         <span class="underline diffcolor"> How Might We</span><br />
         (Finding 2)
       </h2>
     </div>
     <div></div>
-    <div class="right-content">
+    <div class="content">
       <p>
         How might we let users efficiently catch up on the information of the
         episode?
       </p>
     </div>
-    <div class="right-content">
+    <div class="content">
       <p class="story-style">
         <span class="underline diffcolor">As a user</span> don't want to waste
         time, <br /><br />
@@ -421,41 +421,134 @@
     </div>
   </div>
   <div class="method-reason">
-    <h3>Brainstorming</h3>
-    <h1>Design Implications or recommendations from our findings.</h1>
-    <br />
-    <br />
-    <div class="design-image">
-      <img src="../../src/assets/Podcast/inspired-card.png" alt="" />
-      <h1>
-        <span class="underline">Random Inspiring Cards</span>
-        <p>
-          Recommend new episodes to users, so that that can feel fresh and novel
-          when they are using our Podcast app.
-        </p>
-        <p style="font-size:18px;font-weight:300;">
-          (Wireframe Designed from group ideation and integration.)
-        </p>
-      </h1>
+    <h3>Brainstorming & Usability testing</h3>
+    <h1>
+      We designed wireframe from our research findings and applied
+      <span class="underline">usabilty testing </span>on
+      <span class="underline">5</span> participants.
+    </h1>
+    <br /><br />
+    <h1>
+      <span class="underline diffcolor"
+        >1. Random Inspiring Cards (inspired by finding 1)</span
+      >
+
+      <p>
+        Recommend new episodes to users, so that that can feel fresh and novel
+        when they are using our Podcast app.
+      </p>
+      <p>
+        We applied A/B test to evaluate our design
+      </p>
+      <p>
+        <span class="underline"><b>Version A:</b></span
+        ><br />
+        We put the button in exploring page.<br />
+        Users need to click "search" icon then get to see random inspiring
+        cards.<br /><br />
+        <span class="underline"><b>Version B:</b></span
+        ><br />
+        We put the button in main tab.<br />
+        Users can directly click the "card" icon to get to the page.<br />
+      </p>
+    </h1>
+  </div>
+
+  <div class="prototype-image">
+    <img src="../../src/assets/Podcast/Wireframe_RIC_flow.png" alt="" />
+  </div>
+  <h1><span class="underline">Decision: Version B</span></h1>
+  <div
+    class="pjt-content"
+    style="margin:10%;grid-gap:30px 70px;justify-content:center"
+  >
+    <div class="title">
+      <h2 style="border:none;text-align:left;"><i>Task:</i><br /></h2>
+    </div>
+    <div class="title">
+      <h2 style="border:none;text-align:left;">
+        Users' feedback and results
+      </h2>
+    </div>
+
+    <div class="content">
+      <p style="max-width:300px;">
+        "You can try random inspiring cards to explore new episodes and audition
+        tapes.<br />
+        Could you try to find the function in this app?"
+      </p>
+    </div>
+    <div class="content">
+      <p style="max-width:300px;">
+        Participants think that "random inspiring cards" is an
+        <b>important and special</b> feature in this app, so the functional
+        button should be put in the <b>main tab</b> to emphasize the function.
+      </p>
     </div>
   </div>
   <div class="method-reason">
-    <div class="design-image">
-      <img src="../../src/assets/Podcast/hotspot.png" alt="" />
-      <h1>
-        <span class="underline">Hot Spot design on page of media player</span>
-        <p>
-          Users can save time and efficiently choose the episode they want to
-          listen to.
-        </p>
-        <p style="font-size:18px;font-weight:300;">
-          (Wireframe Designed from group ideation and integration.)
-        </p>
-      </h1>
-    </div>
+    <h1>
+      <span class="underline diffcolor"
+        >2. Customized Homepage sections (inspired by finding 2)</span
+      >
+      <p></p>
+      <p>
+        We applied A/B test to evaluate our design
+      </p>
+      <p>
+        <span class="underline"><b>Version A:</b></span
+        ><br />
+        Users can edit the sequences of homepage sections from pop-up buttons in
+        the same page. <br /><br />
+        <span class="underline"><b>Version B:</b></span
+        ><br />
+        Users can edit the sections with shifting pages and preview the layout
+        of section.
+      </p>
+    </h1>
   </div>
 
+  <div class="prototype-image">
+    <img src="../../src/assets/Podcast/Wireframe_HP_flow.png" alt="" />
+  </div>
+  <h1><span class="underline">Decision: Version A</span></h1>
   <div
+    class="pjt-content"
+    style="margin:10%;grid-gap:30px 70px;justify-content:center"
+  >
+    <div class="title">
+      <h2 style="border:none;text-align:left;"><i>Task:</i><br /></h2>
+    </div>
+    <div class="title">
+      <h2 style="border:none;text-align:left;">
+        Users' feedback and results
+      </h2>
+    </div>
+
+    <div class="content">
+      <p style="max-width:300px;">
+        "In this podcast app, you have subscribed to lots of favorite shows, and
+        you also want to see the latest episodes of the show on the homepage.<br />
+        Therefore, you want to adjust the content order of the homepage and add
+        the "New episodes" section to the second column, What would you do?"
+      </p>
+    </div>
+    <div class="content">
+      <p style="max-width:300px;">
+        Participants think that the display window of the edit section
+        <b>should be displayed directly on the same page</b>, and they don't
+        want pages shifting to perform operations.
+      </p>
+    </div>
+  </div>
+  <div class="method-reason">
+    <h3>Hi-Fidelity Prototypes</h3>
+  </div>
+
+  <div class="prototype-image">
+    <img src="../../src/assets/Podcast/HIFI_RIC_flow.png" alt="" />
+  </div>
+  <!-- <div
     class="pjt-desc"
     style="padding:0px;background-color:white;left:0;top:0;"
   >
@@ -469,7 +562,7 @@
       >
       of our Podcast app!
     </h2>
-  </div>
+  </div> -->
 
   <div class="button-bg">
     <div class="button-bg-image"></div>
@@ -626,6 +719,9 @@ export default {
   }
 }
 .method-reason {
+  img {
+    width: 100%;
+  }
   @media (max-width: 700px) {
     flex-direction: column;
     align-items: center;
@@ -671,37 +767,11 @@ export default {
     }
   }
 }
-.design-image {
+.prototype-image {
   display: -webkit-inline-box;
-  width: 70%;
   img {
-    width: 55%;
-    margin-right: 40px;
-  }
-
-  @media (max-width: 992px) {
-    width: 60%;
-    h1 {
-      font-size: 32px;
-    }
-    img {
-      width: 60%;
-      margin-right: 30px;
-    }
-  }
-  @media (max-width: 700px) {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    h1 {
-      font-size: 28px;
-      p {
-        font-size: 20px;
-      }
-    }
-    img {
-      width: 70%;
-    }
   }
+  margin: 70px 0%;
 }
 </style>

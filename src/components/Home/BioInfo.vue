@@ -11,7 +11,8 @@
       </h1> -->
       <!-- <h1>Hello!</h1> -->
       <h2>
-        I am WEI-KO LI, a senior student at National Tsing-Hua University.
+        I am WEI-KO LI, a master student at National Yang-Ming Chiao Tung
+        University (NYCU) in Taiwan.
       </h2>
       <h3>
         I found interest in
@@ -19,10 +20,12 @@
         sophomore and had spent lots of time immersing in the users’ world.
         <br /><br />
 
-        My portfolio includes the process of
-        <span class="underline"
-          >interviewing, qualitative analysis, and User interface design.</span
-        ><br /><br />
+        My portfolio includes the process of<br />
+        • interviewing<br />
+        • qualitative analysis<br />
+        • usability testing<br />
+        • user interface design.<br />
+        • Web development<br />
         If you have any questions, please feel free to ask me.<br /><br /><br />
       </h3>
     </div>
@@ -59,7 +62,7 @@ section {
 }
 .bio {
   margin: 200px 0 0 15%;
-  width: 30%;
+  width: 35%;
   text-align: left;
   z-index: 999;
   @media (max-width: 992px) {
@@ -103,7 +106,7 @@ section {
   position: absolute;
   left: 10%;
   // right: 10%;
-  top: 30%;
+  top: 25%;
   margin: auto;
   transform: translateY(-50%);
   @media (max-width: 992px) {
