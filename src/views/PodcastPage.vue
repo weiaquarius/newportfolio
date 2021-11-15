@@ -1,8 +1,8 @@
 <template>
   <div class="pjt-top">
     <div class="pjt-title">
-      <h1>Podcast</h1>
-      <h2>Podcast app design</h2>
+      <h1>Podcast side project</h1>
+      <h2>Podcast app redesign</h2>
     </div>
     <div class="podcast-image">
       <img src="../assets/Podcast/home1.jpg" alt="" />
@@ -218,7 +218,7 @@
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
       <div class="card" style="margin:30px;">
-        <div class="card-style card-style-two">
+        <div class="card-style-two">
           <!-- <div class="card-content-left" style="padding:20px;left:0;"> -->
           <h2>
             Users think that
@@ -230,7 +230,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-style card-style-two">
+        <div class="card-style-two">
           <!-- <div class="card-content-left" style="padding:20px;left:0;"> -->
           <h2>
             Users think that
@@ -543,10 +543,21 @@
   </div>
   <div class="method-reason">
     <h3>Hi-Fidelity Prototypes</h3>
+    <h1>
+      <span class="underline diffcolor"> Random inspiring cards</span>
+    </h1>
   </div>
 
   <div class="prototype-image">
     <img src="../../src/assets/Podcast/HIFI_RIC_flow.png" alt="" />
+  </div>
+  <div class="method-reason">
+    <h1>
+      <span class="underline">Player</span>
+    </h1>
+  </div>
+  <div class="prototype-image">
+    <img src="../../src/assets/Podcast/HIFI_Player_flow.png" alt="" />
   </div>
   <!-- <div
     class="pjt-desc"
@@ -613,15 +624,19 @@ export default {
   top: 25%;
   z-index: -1;
   img {
-    width: 60%;
+    width: 70%;
     margin: 0 20px;
   }
-  @media (max-width: 600px) {
-    width: 75%;
+  @media (max-width: 1024px) {
+    width: 60%;
     right: 0;
+    top: 30%;
     align-items: center;
+    img {
+      width: 65%;
+    }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     img {
       display: none;
     }
@@ -632,9 +647,34 @@ export default {
   margin-bottom: 5%;
 }
 
-.card-conclusion {
+.card-style {
+  margin: 20px -20px;
+  padding: 230px 170px;
+  max-width: 600px;
+  @media (max-width: 1200px) {
+    margin: 20px -30px;
+    padding: 200px 150px;
+  }
+  @media (max-width: 1024px) {
+    max-width: 400px;
+    padding: 300px 100px;
+  }
   @media (max-width: 500px) {
-    padding: 400px 100px;
+    padding: 320px 100px;
+  }
+}
+.card-content-left {
+  @media (max-width: 500px) {
+    top: 5%;
+  }
+}
+.card-content-right {
+  @media (max-width: 1024px) {
+    top: 63%;
+    left: 8%;
+  }
+  @media (max-width: 500px) {
+    top: 58%;
   }
 }
 

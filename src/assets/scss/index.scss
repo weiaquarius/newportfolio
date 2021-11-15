@@ -41,7 +41,7 @@
 .pjt-desc {
   width: 100%;
   background-color: #ecb0ae;
-  height: 350px;
+  height: 400px;
   padding: 100px 0;
   position: relative;
   h1 {
@@ -57,18 +57,38 @@
     margin: 0 15%;
     max-width: 900px;
     text-align: left;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
   }
 
   @media (max-width: 862px) {
-    padding: 180px 0;
+    padding: 130px 0;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 20px;
+    }
   }
   @media (max-width: 700px) {
     padding: 250px 0;
+    height: 300px;
+
+    h1 {
+      font-size: 36px;
+    }
     p {
       top: 20%;
-      font-size: 20px;
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      top: 18%;
+      font-size: 16px;
     }
   }
 }
@@ -84,18 +104,21 @@
   }
 }
 .problem-statement {
-  top: 70% !important;
+  top: 65% !important;
 
   @media (max-width: 992px) {
-    top: 72% !important;
+    top: 70% !important;
   }
   @media (max-width: 700px) {
-    top: 50% !important;
+    top: 60% !important;
   }
   @media (max-width: 600px) {
-    top: 55% !important;
+    top: 65% !important;
   }
   @media (max-width: 500px) {
+    top: 70% !important;
+  }
+  @media (max-width: 400px) {
     top: 68% !important;
   }
 }
@@ -178,6 +201,8 @@
   margin: 0px;
   max-width: 300px;
   padding: 30px;
+
+  background-color: rgb(255, 255, 255);
 }
 .card-h1 {
   color: white;

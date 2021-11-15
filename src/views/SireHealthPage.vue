@@ -96,7 +96,7 @@ export default {
   data() {
     return {
       name: 'PodcastProject',
-      num: '1',
+      num: '2',
     };
   },
   mounted() {

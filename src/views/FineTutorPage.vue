@@ -34,7 +34,9 @@
       <div class="card-style card-conclusion">
         <div class="card-content-left">
           <h2>ROLE</h2>
-          <p>UI design | Interview | Fronted develop</p>
+          <p>UI design</p>
+          <p>Interview</p>
+          <p>Front-end develop</p>
           <h2>Date</h2>
           <p>April 2020 ~ June 2020</p>
           <h2>TEAMMATES</h2>
@@ -46,7 +48,7 @@
           <h2>RESAERCH METHODS & TOOLS</h2>
           <p>User Interview, Developing | Figma</p>
           <h2>PRACTICES</h2>
-          <p>UIUX design | Fronted develop</p>
+          <p>UIUX design, Fronted develop</p>
           <h2>CODING LANGUAGE & ENVIORNMENT</h2>
           <p>HTML,CSS,Javascript | Firebase</p>
         </div>
@@ -94,9 +96,8 @@
     <h3>Interview</h3>
     <h1>
       In order to deeper understand users' experiences of using tutor wesite, we
-      asked for
-      <span class="underline">3</span> people for
-      <span class="underline">interview.</span><br />
+      interviewed
+      <span class="underline">3</span> people.
     </h1>
     <h2>
       Respondents from:<br />
@@ -180,7 +181,7 @@
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
       <div class="card" style="margin:30px;">
-        <div class="card-style card-style-two">
+        <div class="card-style-two">
           <h3>
             "<i
               ><b
@@ -209,7 +210,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-style card-style-two">
+        <div class="card-style-two">
           <h3>
             "<i
               ><b
@@ -249,10 +250,10 @@
   </p>
   <div class="pjt-content" style="margin:5% !important;">
     <div class="right-content">
-      <img src="../assets/FineTutor/persona_t.jpg" alt="persona of teacher" />
+      <!-- <img src="../assets/FineTutor/persona_t.jpg" alt="persona of teacher" /> -->
     </div>
     <div class="right-content">
-      <img src="../assets/FineTutor/persona_s.jpg" alt="persona of student" />
+      <!-- <img src="../assets/FineTutor/persona_s.jpg" alt="persona of student" /> -->
     </div>
   </div>
 
@@ -365,25 +366,44 @@ export default {
     background-size: 100% 0.14em;
   }
 }
-.card-conclusion {
+
+.card-style {
+  margin: 20px -50px;
+  padding: 250px 100px;
   @media (max-width: 1200px) {
-    padding: 450px 100px 200px;
+    margin: 20px -30px;
+    padding: 230px 0;
+  }
+  @media (max-width: 900px) {
+    margin: 20px -30px;
+    padding: 350px 0;
+    max-width: 500px;
   }
   @media (max-width: 500px) {
-    padding: 400px 100px;
+    margin: 20px -30px;
+    padding: 370px 0;
   }
 }
+// .card-conclusion {
+//   @media (max-width: 1200px) {
+//     padding: 400px 0 100px 200px;
+//   }
+//   @media (max-width: 500px) {
+//     padding: 600px 100px;
+//   }
+// }
 .card-content-left {
-  @media (max-width: 1200px) {
+  @media (max-width: 900px) {
     top: 5%;
   }
 }
 .card-content-right {
-  @media (max-width: 1200px) {
-    top: 53%;
+  @media (max-width: 900px) {
+    top: 62%;
+    left: 8%;
   }
   @media (max-width: 500px) {
-    top: 50%;
+    top: 58%;
   }
 }
 .white-blank {

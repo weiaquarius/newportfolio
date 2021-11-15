@@ -5,6 +5,14 @@
       <h1 class="heading heading--stroke">
         CASE STUDIES
       </h1>
+      <!-- <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+      >
+        <Meeture />
+      </div> -->
       <div
         data-aos="fade-up"
         data-aos-duration="700"
@@ -68,8 +76,8 @@
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue';
 import BioInfo from '@/components/Home/BioInfo.vue';
+// import Meeture from '@/components/Home/Meeture.vue';
 import FineTutor from '@/components/Home/FineTutor.vue';
 import Podcast from '@/components/Home/Podcast.vue';
 import SireHealth from '@/components/Home/SireHealth.vue';
@@ -83,6 +91,7 @@ export default {
   name: 'Home',
   components: {
     BioInfo,
+    // Meeture,
     FineTutor,
     Podcast,
     SireHealth,

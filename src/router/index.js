@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import FineTutorPage from '../views/FineTutorPage.vue';
 import PodcastPage from '../views/PodcastPage.vue';
+import MeeturePage from '../views/MeeturePage.vue';
 import SireHealthPage from '../views/SireHealthPage.vue';
 
 const routes = [
@@ -20,22 +21,28 @@ const routes = [
       import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
+    path: '/Meeture',
+    name: 'MeeturePage',
+    component: MeeturePage,
+    props: { projectLink: 1 },
+  },
+  {
     path: '/PodcastProject',
     name: 'PodcastPage',
     component: PodcastPage,
-    props: { projectLink: 1 },
+    props: { projectLink: 2 },
   },
   {
     path: '/FineTutor',
     name: 'FineTutorPage',
     component: FineTutorPage,
-    props: { projectLink: 2 },
+    props: { projectLink: 3 },
   },
   {
     path: '/SireHealth',
     name: 'SireHealthPage',
     component: SireHealthPage,
-    props: { projectLink: 3 },
+    props: { projectLink: 4 },
   },
 ];
 

@@ -5,11 +5,11 @@
         <img src="../../assets/Home/Podcast.png" alt="Podcast.png LOGO" />
       </div>
       <div class="project-bio">
-        <h1>Podcast<br /></h1>
+        <h1>Podcast side project<br /></h1>
         <h3>New Podcast App</h3>
         <p>
-          Design a free and efficient tutor website to help the students and
-          teachers easily find their suitable matchings.
+          Went through quantiative and qualitative user research methodologies
+          to redesign a new Podcast app for the public.
         </p>
       </div>
     </div>
@@ -38,24 +38,24 @@ export default {};
 .project-img {
   &__podcast {
     position: absolute;
-    top: 25%;
-    left: -15%;
+    top: 10%;
+    left: -25%;
     img {
-      width: 25%;
+      width: 30%;
     }
   }
   @media (max-width: 700px) {
     &__podcast {
-      top: 20%;
+      top: 15%;
       left: -35%;
     }
   }
   @media (max-width: 600px) {
     &__podcast {
       left: 5%;
-      top: 5%;
+      top: 0%;
       img {
-        width: 27%;
+        width: 30%;
       }
     }
   }

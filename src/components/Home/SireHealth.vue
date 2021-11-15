@@ -30,11 +30,11 @@ export default {};
     &__sire {
       position: absolute;
       bottom: 0;
-      left: 20%;
+      left: 8%;
       top: 0%;
     }
     &__sire img {
-      width: 65%;
+      width: 60%;
     }
   }
 }
