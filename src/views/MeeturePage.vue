@@ -5,11 +5,11 @@
       <h2>Elderly activity platform</h2>
     </div>
     <div class="meeture-image">
-      <img src="../assets/Meeture/groupimage.png" alt="" />
+      <img src="../assets/Meeture/Product.png" alt="" />
     </div>
   </div>
-  <div class="pjt-content">
-    <div class="title">
+  <div class="pjt-content" style="margin-bottom:5%!important;">
+    <div class="left-title">
       <h2>Project<br />Background</h2>
     </div>
     <div class="content">
@@ -105,20 +105,20 @@
   <div class="method-reason">
     <h3>Interview</h3>
     <h1>
-      In order to deeper understand users' listening experinces, we recruited
-      <span class="underline">7</span> people for
-      <span class="underline">semi-structured interview.</span><br />
+      We interviewed
+      <span class="underline">8</span> older adults to understand their
     </h1>
-    <h2>
-      Respondents from:<br />
-      Students(3), Technology Industry(2), Car business(1), Media Industry(1)
-    </h2>
-    <p style="font-size:18px;">
-      Most of them are high frequency users ( > 7 times/week ) so that we could
-      ask more aspects and experiences from them.
-    </p>
+    <h3>(1) Technology usage (Pros & Cons, Challenges...)</h3>
+    <h3>
+      (2) Feelings and concerns when joining activities & Activities types
+    </h3>
+    <h3>(3) Current lives</h3>
   </div>
-
+  <div class="interview-img">
+    <img src="../../src/assets/Meeture/interview.png" alt="" />
+    <img src="../../src/assets/Meeture/interview1.jpg" alt="" />
+    <img src="../../src/assets/Meeture/interview2.jpg" alt="" />
+  </div>
   <div
     class="pjt-desc"
     style="background:white;"
@@ -132,359 +132,108 @@
       <div class="card" style="margin:30px;">
         <div class="card-style-two">
           <h2>
-            Users think that
-            <span class="underline"
-              >podcast exploration results are not diverse enough.</span
-            >
+            <span style="background:yellow; padding:5px 3px;"
+              >Living attitude of the elderly</span
+            ><br />
+            The elderly live regular lives, are afraid of
+            <span class="underline">making changes</span>, and are
+            <span class="underline">vigilant to information sources.</span>
           </h2>
-          <!-- </div> -->
         </div>
       </div>
-      <div class="card">
+      <div class="card" style="margin:30px;">
         <div class="card-style-two">
-          <!-- <div class="card-content-left" style="padding:20px;left:0;"> -->
           <h2>
-            Users think that
-            <span class="underline diffcolor"
-              >the information display is cluttered and cannot find the target
-              information efficiently.</span
+            <span style="background:yellow; padding:5px 3px;"
+              >Expand social network</span
+            ><br />
+            The elderly want to
+            <span class="underline">join activities with their friends</span>,
+            and are
+            <span class="underline"
+              >STILL willing to make new friends with similar interests and
+              hobbies.</span
             >
           </h2>
-          <!-- </div> -->
+        </div>
+      </div>
+      <div class="card" style="margin:30px;">
+        <div class="card-style-two">
+          <h2>
+            <span style="background:yellow; padding:5px 3px;"
+              >Provide feedback to make contribution</span
+            ><br />
+
+            The elderly want to
+            <span class="underline"
+              >report problems in the environment to make influence to the
+              society</span
+            >
+            but they don’t know how to do.
+          </h2>
         </div>
       </div>
     </div>
   </div>
 
   <div class="method-reason">
-    <h3>How Might We (HMW)</h3>
+    <h3>UIs design</h3>
     <h1>
-      For
-      <span class="underline">ideation and brainstorming</span> from our
-      research findings, we chose to apply
-      <span class="underline">How Might We </span>question to help us develop
-      trigger questions and break down users' needs.
-    </h1>
-  </div>
-  <div
-    class="pjt-content"
-    style="margin:10% 0;grid-gap:20px 70px;justify-content:center"
-  >
-    <div class="title">
-      <h2 style="border:none;text-align:left;">
-        <span class="underline diffcolor"> How Might We</span><br />
-        (Finding 1)
-      </h2>
-    </div>
-    <!-- <div class="title">
-      <h2 style="border:none;text-align:left;">
-        <span class="underline"> User Story</span>
-      </h2>
-    </div> -->
-    <div class="content">
-      <p style="max-width:300px;">
-        How might we let users feel fresh on the platform?
-      </p>
-    </div>
-    <!-- <div class="content">
-      <p class="story-style">
-        As a user craving to explore new things<br />
-        I want to use the random inspired cards to recommend me new episodes<br />
-        So that I would not feel bored.
-      </p>
-    </div> -->
-    <div></div>
-    <div class="content">
-      <p style="max-width:300px;">
-        How might we let users want to keep staying on the platform?
-      </p>
-    </div>
-
-    <div></div>
-    <div class="content">
-      <p style="max-width:300px;">
-        How might we design the exploring procedure so that users can be
-        intrigued by the app?
-      </p>
-    </div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div class="title">
-      <h2 style="border:none;text-align:left;">
-        <span class="underline"> How Might We</span><br />
-        (Finding 2)
-      </h2>
-    </div>
-    <div class="content">
-      <p style="max-width:300px;">
-        How might we let users efficiently catch up on the information of the
-        episode?
-      </p>
-    </div>
-    <div></div>
-    <div class="content">
-      <p style="max-width:300px;">
-        How might we let users flexibly change the display of information?
-      </p>
-    </div>
-  </div>
-
-  <h2>
-    Use How Might We questions to genereate design solutions and vote for the
-    ideas
-  </h2>
-  <div class="HMW-img">
-    <img src="../../src/assets/Podcast/HMW1.jpg" alt="" />
-    <img src="../../src/assets/Podcast/HMW2.jpg" alt="" />
-  </div>
-
-  <div
-    class="pjt-desc"
-    style="
-  padding-bottom:50px;background:white;"
-  >
-    <h1><span class="underline diffcolor__four">Challenge</span></h1>
-    <p style="line-height:50px;margin-top:40px">
-      We didn't specifically identify the reasons for<br />
-      <span class="underline">"Why"</span> we wanted to code with each HMW
-      questions, and<br />
-      <span class="underline">"How"</span> we wanted to address such question
-      <br />
-      by <span class="underline">"What"</span> design methodologies, which
-      resulted in ambiguity of our design.
-    </p>
-  </div>
-
-  <div
-    class="pjt-desc"
-    style="
-  padding-bottom:70px;background:white;"
-  >
-    <h1><span class="underline diffcolor__three">Solved</span></h1>
-    <p style="line-height:50px;margin-top:40px">
-      We decided to write down the
-      <span class="underline diffcolor">"User Story"</span><br />
-      to zomm in from Why, How and What of our
-      <span class="underline diffcolor">product features</span> and
-      <span class="underline diffcolor">users' needs</span>.<br /><br />
-      <span class="story-style">
-        As a ... users, (Why & Who)<br />
-        I want to ... (What), <br />
-        so that I can ... (How)<br
-      /></span>
-    </p>
-  </div>
-  <div
-    class="pjt-content"
-    style="margin:10%;grid-gap:30px 70px;justify-content:center"
-  >
-    <div class="title">
-      <h2 style="border:none;text-align:left;">
-        <span class="underline diffcolor"> How Might We</span><br />
-        (Finding 1)
-      </h2>
-    </div>
-    <div class="title">
-      <h2 style="border:none;text-align:left;">
-        <span class="underline"> User Story</span>
-      </h2>
-    </div>
-    <div class="content">
-      <p style="max-width:300px;">
-        How might we let users feel fresh on the platform?
-      </p>
-    </div>
-    <div class="content">
-      <p class="story-style">
-        <span class="underline">As a user</span> craving to explore new
-        things,<br /><br />
-        <span class="underline">I want to</span> use the random inspired cards
-        to recommend me new episodes,<br /><br />
-        <span class="underline">So that I would</span> not feel bored.
-      </p>
-    </div>
-    <div></div>
-    <div></div>
-    <div class="title">
-      <h2 style="border:none;text-align:left;">
-        <span class="underline diffcolor"> How Might We</span><br />
-        (Finding 2)
-      </h2>
-    </div>
-    <div></div>
-    <div class="content">
-      <p>
-        How might we let users efficiently catch up on the information of the
-        episode?
-      </p>
-    </div>
-    <div class="content">
-      <p class="story-style">
-        <span class="underline diffcolor">As a user</span> don't want to waste
-        time, <br /><br />
-        <span class="underline diffcolor">I want to</span> know the hot spot of
-        each episode,<br /><br />
-        <span class="underline diffcolor">So that I would</span> efficiently
-        know about the information of the episode.
-      </p>
-    </div>
-  </div>
-  <div class="method-reason">
-    <h3>Brainstorming & Usability testing</h3>
-    <h1>
-      We designed wireframe from our research findings and applied
-      <span class="underline">usabilty testing </span>on
-      <span class="underline">5</span> participants.
+      Following our research findings, we designed three features
     </h1>
     <br /><br />
     <h1>
       <span class="underline diffcolor"
-        >1. Random Inspiring Cards (inspired by finding 1)</span
+        >1. Joining Meeture LINE official account (finding 1)</span
       >
 
       <p>
-        Recommend new episodes to users, so that that can feel fresh and novel
-        when they are using our Podcast app.
+        ● The elderly can use their familiar platform, LINE, to start their
+        journey.
       </p>
       <p>
-        We applied A/B test to evaluate our design
-      </p>
-      <p>
-        <span class="underline"><b>Version A:</b></span
-        ><br />
-        We put the button in exploring page.<br />
-        Users need to click "search" icon then get to see random inspiring
-        cards.<br /><br />
-        <span class="underline"><b>Version B:</b></span
-        ><br />
-        We put the button in main tab.<br />
-        Users can directly click the "card" icon to get to the page.<br />
+        ● Family members or friends could introduce Meeture to them.
       </p>
     </h1>
   </div>
-
   <div class="prototype-image">
-    <img src="../../src/assets/Podcast/Wireframe_RIC_flow.png" alt="" />
+    <img src="../../src/assets/Meeture/family_recommend.png" alt="" />
   </div>
-  <h1><span class="underline">Decision: Version B</span></h1>
-  <div
-    class="pjt-content"
-    style="margin:10%;grid-gap:30px 70px;justify-content:center"
-  >
-    <div class="title">
-      <h2 style="border:none;text-align:left;"><i>Task:</i><br /></h2>
-    </div>
-    <div class="title">
-      <h2 style="border:none;text-align:left;">
-        Users' feedback and results
-      </h2>
-    </div>
 
-    <div class="content">
-      <p style="max-width:300px;">
-        "You can try random inspiring cards to explore new episodes and audition
-        tapes.<br />
-        Could you try to find the function in this app?"
-      </p>
-    </div>
-    <div class="content">
-      <p style="max-width:300px;">
-        Participants think that "random inspiring cards" is an
-        <b>important and special</b> feature in this app, so the functional
-        button should be put in the <b>main tab</b> to emphasize the function.
-      </p>
-    </div>
-  </div>
   <div class="method-reason">
     <h1>
       <span class="underline diffcolor"
-        >2. Customized Homepage sections (inspired by finding 2)</span
+        >2. Sharing events information with their friends (finding 2)</span
       >
       <p></p>
       <p>
-        We applied A/B test to evaluate our design
-      </p>
-      <p>
-        <span class="underline"><b>Version A:</b></span
-        ><br />
-        Users can edit the sequences of homepage sections from pop-up buttons in
-        the same page. <br /><br />
-        <span class="underline"><b>Version B:</b></span
-        ><br />
-        Users can edit the sections with shifting pages and preview the layout
-        of section.
+        If the elderly find interested activity on Meeture, they can click the
+        sharing button on the right buttom to share this activity information
+        with their friends via LINE.
       </p>
     </h1>
   </div>
 
   <div class="prototype-image">
-    <img src="../../src/assets/Podcast/Wireframe_HP_flow.png" alt="" />
-  </div>
-  <h1><span class="underline">Decision: Version A</span></h1>
-  <div
-    class="pjt-content"
-    style="margin:10%;grid-gap:30px 70px;justify-content:center"
-  >
-    <div class="title">
-      <h2 style="border:none;text-align:left;"><i>Task:</i><br /></h2>
-    </div>
-    <div class="title">
-      <h2 style="border:none;text-align:left;">
-        Users' feedback and results
-      </h2>
-    </div>
-
-    <div class="content">
-      <p style="max-width:300px;">
-        "In this podcast app, you have subscribed to lots of favorite shows, and
-        you also want to see the latest episodes of the show on the homepage.<br />
-        Therefore, you want to adjust the content order of the homepage and add
-        the "New episodes" section to the second column, What would you do?"
-      </p>
-    </div>
-    <div class="content">
-      <p style="max-width:300px;">
-        Participants think that the display window of the edit section
-        <b>should be displayed directly on the same page</b>, and they don't
-        want pages shifting to perform operations.
-      </p>
-    </div>
-  </div>
-  <div class="method-reason">
-    <h3>Hi-Fidelity Prototypes</h3>
-    <h1>
-      <span class="underline diffcolor"> Random inspiring cards</span>
-    </h1>
+    <img src="../../src/assets/Meeture/friend_sharing.png" alt="" />
   </div>
 
-  <div class="prototype-image">
-    <img src="../../src/assets/Podcast/HIFI_RIC_flow.png" alt="" />
-  </div>
   <div class="method-reason">
     <h1>
-      <span class="underline">Player</span>
-    </h1>
-  </div>
-  <div class="prototype-image">
-    <img src="../../src/assets/Podcast/HIFI_Player_flow.png" alt="" />
-  </div>
-  <!-- <div
-    class="pjt-desc"
-    style="padding:0px;background-color:white;left:0;top:0;"
-  >
-    <h2 class="survey-reason">
-      The project is still ongoing.<br />
-      Next, we would
-      <span class="underline diffcolor">finish our wireframe design</span> of
-      each key features and
       <span class="underline diffcolor"
-        >build up the information architecture</span
+        >3. Writing comments to share opinion with the public (finding 3)</span
       >
-      of our Podcast app!
-    </h2>
-  </div> -->
+      <p>
+        ● The elderly can review past events, activity photos with their friends
+        to retrospect memories.
+      </p>
+      <p>● The elderly can write comments to share opinion with the public.</p>
+    </h1>
+  </div>
+
+  <div class="prototype-image">
+    <img src="../../src/assets/Meeture/Comment.png" alt="" />
+  </div>
 
   <div class="button-bg">
     <div class="button-bg-image"></div>
@@ -529,10 +278,10 @@ export default {
   display: flex;
   display: -webkit-inline-box;
   // flex-direction: row;
-  width: 50%;
+  width: 52%;
   position: absolute;
-  right: 7%;
-  top: 25%;
+  right: 3%;
+  top: 14%;
   z-index: -1;
   img {
     width: 60%;
@@ -684,27 +433,22 @@ export default {
     }
   }
 }
-.HMW-img {
+.interview-img {
   display: flex;
   display: -webkit-inline-box;
   flex-direction: row;
   margin: 0 10% 5%;
   img {
-    width: 40%;
+    width: 20%;
     margin: 0 2.5%;
-  }
-  @media (max-width: 992px) {
-    img {
-      width: 70%;
-    }
   }
   @media (max-width: 700px) {
     flex-direction: column;
     align-items: center;
     margin: 0;
     img {
-      width: 80%;
-      margin: 5%;
+      width: 50%;
+      margin: 1%;
     }
     h1 {
       max-width: 450px;
@@ -714,8 +458,15 @@ export default {
 .prototype-image {
   display: -webkit-inline-box;
   img {
-    width: 100%;
+    width: 85%;
   }
   margin: 70px 0%;
+  @media (max-width: 700px) {
+    img {
+      width: 100%;
+    }
+
+    margin: 10px 0;
+  }
 }
 </style>

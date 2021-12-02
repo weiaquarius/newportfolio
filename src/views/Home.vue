@@ -5,14 +5,14 @@
       <h1 class="heading heading--stroke">
         CASE STUDIES
       </h1>
-      <!-- <div
+      <div
         data-aos="fade-up"
         data-aos-duration="700"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
       >
         <Meeture />
-      </div> -->
+      </div>
       <div
         data-aos="fade-up"
         data-aos-duration="700"
@@ -52,32 +52,39 @@
     <ul>
       <li>
         <a href="https://www.linkedin.com/in/wei-ko-li-a77707194/"
-          ><i class="fab fa-linkedin-in fa-lg"></i
-        ></a>
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/1384/1384030.png"
+            alt=""
+        /></a>
       </li>
       <li>
         <a href="https://github.com/weiaquarius"
-          ><i class="fab fa-github fa-lg"></i
-        ></a>
+          ><img
+            src="https://cdn-icons.flaticon.com/png/512/3128/premium/3128308.png?token=exp=1638408954~hmac=323fb9f76fb521d3127c86bdb842608d"
+            style="padding-top:8px;width: 40px;height: 40px;"
+            alt=""
+        /></a>
       </li>
       <li>
         <a href="mailto:weiaquarius17@gmail.com"
-          ><i class="fas fa-envelope fa-lg"></i
-        ></a>
+          ><img
+            src="https://cdn-icons.flaticon.com/png/512/542/premium/542689.png?token=exp=1638409025~hmac=c9c7b9258098813abd913aea0f7ce7e3"
+            style="padding-top:10px;width: 35px;height: 35px;"
+            alt=""
+        /></a>
       </li>
     </ul>
-    <p>李唯閣 | WEI-KO LI | NTHU EE</p>
+    <p>李唯閣 | WEI-KO LI | NYCU</p>
   </div>
 
   <back-to-top bottom="50px" right="50px">
     <button type="button" class="btn btn-info btn-to-top"><p>TOP</p></button>
   </back-to-top>
 </template>
-
 <script>
 // @ is an alias to /src
 import BioInfo from '@/components/Home/BioInfo.vue';
-// import Meeture from '@/components/Home/Meeture.vue';
+import Meeture from '@/components/Home/Meeture.vue';
 import FineTutor from '@/components/Home/FineTutor.vue';
 import Podcast from '@/components/Home/Podcast.vue';
 import SireHealth from '@/components/Home/SireHealth.vue';
@@ -91,7 +98,7 @@ export default {
   name: 'Home',
   components: {
     BioInfo,
-    // Meeture,
+    Meeture,
     FineTutor,
     Podcast,
     SireHealth,

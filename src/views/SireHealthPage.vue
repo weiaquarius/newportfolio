@@ -95,8 +95,8 @@ export default {
   components: { 'next-button': NextButton, BackToTop },
   data() {
     return {
-      name: 'PodcastProject',
-      num: '2',
+      name: 'Meeture',
+      num: '1',
     };
   },
   mounted() {
@@ -129,11 +129,14 @@ export default {
 }
 .card-conclusion {
   padding: 100px 200px;
+  max-width: 600px;
   @media (max-width: 1200px) {
     padding: 250px 100px 200px;
+    max-width: 450px;
   }
   @media (max-width: 500px) {
     padding: 220px 100px;
+    max-width: 350px;
   }
 }
 .card-content-left {
@@ -144,6 +147,8 @@ export default {
 .card-content-right {
   @media (max-width: 1200px) {
     top: 53%;
+
+    left: 8%;
   }
   @media (max-width: 500px) {
     top: 55%;

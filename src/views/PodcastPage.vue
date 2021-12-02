@@ -599,7 +599,7 @@ export default {
   data() {
     return {
       name: 'FineTutor',
-      num: '2',
+      num: '3',
     };
   },
   mounted() {

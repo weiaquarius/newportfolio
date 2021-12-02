@@ -12,11 +12,11 @@
     <div class="bg-circle"></div>
   </div>
 
-  <div class="pjt-content" style="margin-bottom:5%!important;">
-    <div class="left-title">
+  <div class="pjt-content">
+    <div class="title">
       <h2>Project<br />Background</h2>
     </div>
-    <div class="right-content">
+    <div class="content">
       <p>
         It’s a class project from Software Design and Studio in 2020,<br />
         our group ran through interviews, prototyping, prototype testing and
@@ -339,7 +339,7 @@ export default {
   data() {
     return {
       name: 'SireHealth',
-      num: '3',
+      num: '4',
     };
   },
   mounted() {
@@ -384,14 +384,6 @@ export default {
     padding: 370px 0;
   }
 }
-// .card-conclusion {
-//   @media (max-width: 1200px) {
-//     padding: 400px 0 100px 200px;
-//   }
-//   @media (max-width: 500px) {
-//     padding: 600px 100px;
-//   }
-// }
 .card-content-left {
   @media (max-width: 900px) {
     top: 5%;

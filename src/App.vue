@@ -61,7 +61,12 @@ body {
   }
 }
 .sns {
-  margin-top: 50px;
+  // margin-top: 50px;
+  img {
+    padding-top: 7px;
+    width: 36px;
+    height: 36px;
+  }
 }
 .sns ul {
   padding: 0;
@@ -73,22 +78,23 @@ body {
 }
 .sns a {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   color: #f1f1f1;
   font-weight: bold;
   text-decoration: none;
   transition: 0.5s;
   border-radius: 50%;
   line-height: 48px;
-  background-color: #7c7b7b;
+  // background-color: #7c7b7b;
+  background-color: #e2e2e2;
   text-align: center;
   font-size: 19px;
 }
 .sns a:hover {
   color: steelblue;
 
-  background-color: #ffffff;
+  background-color: #c3d2eccb;
 }
 .sns a i {
   vertical-align: middle;

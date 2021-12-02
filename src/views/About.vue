@@ -88,11 +88,11 @@
           </div>
         </div> -->
   </div>
-  <div id="footer" class="sns">
+  <!-- <div id="footer" class="sns">
     <ul>
       <li>
         <a href="https://www.linkedin.com/in/wei-ko-li-a77707194/"
-          ><i class="fab fa-linkedin-in fa-lg"></i
+          ><i class="fab fa-linkedin-in"></i
         ></a>
       </li>
       <li>
@@ -107,7 +107,7 @@
       </li>
     </ul>
     <p>李唯閣 | WEI-KO LI | NTHU EE</p>
-  </div>
+  </div> -->
 </template>
 <script>
 export default {};

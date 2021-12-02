@@ -9,6 +9,7 @@
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@inotom/vue-go-top": "^1.3.0",
     "aos": "^3.0.0-beta.6",
     "babel-preset-es2015": "^6.24.1",
