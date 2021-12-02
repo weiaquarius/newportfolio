@@ -60,7 +60,7 @@
       <li>
         <a href="https://github.com/weiaquarius"
           ><img
-            src="https://cdn-icons.flaticon.com/png/512/3128/premium/3128308.png?token=exp=1638408954~hmac=323fb9f76fb521d3127c86bdb842608d"
+            src="https://cdn-icons.flaticon.com/png/512/4926/premium/4926625.png?token=exp=1638410258~hmac=d3e329ef1831483120a105fcd424e79f"
             style="padding-top:8px;width: 40px;height: 40px;"
             alt=""
         /></a>
@@ -68,7 +68,7 @@
       <li>
         <a href="mailto:weiaquarius17@gmail.com"
           ><img
-            src="https://cdn-icons.flaticon.com/png/512/542/premium/542689.png?token=exp=1638409025~hmac=c9c7b9258098813abd913aea0f7ce7e3"
+            src="https://cdn-icons-png.flaticon.com/512/95/95645.png"
             style="padding-top:10px;width: 35px;height: 35px;"
             alt=""
         /></a>
