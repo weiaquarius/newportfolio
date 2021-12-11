@@ -11,7 +11,7 @@
       </h1> -->
       <!-- <h1>Hello!</h1> -->
       <h2>
-        I am WEI-KO LI, a master student at National Yang-Ming Chiao Tung
+        I am WEI-KO LI, a graduate student at National Yang-Ming Chiao Tung
         University (NYCU) in Taiwan.
       </h2>
       <h3>
