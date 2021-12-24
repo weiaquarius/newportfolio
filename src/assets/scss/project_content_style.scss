@@ -143,6 +143,9 @@
     margin: 0;
     font-size: 20px;
   }
+  p {
+    font-size: 17px;
+  }
 }
 .card-style {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.26);
@@ -171,12 +174,16 @@
 .card-content-left {
   position: absolute;
   top: 10%;
-  left: 8%;
+  left: 6%;
+
+  @media (max-width: 1024px) {
+    left: 8%;
+  }
 }
 .card-content-right {
   position: absolute;
   top: 10%;
-  right: 8%;
+  right: 5%;
 }
 
 .bg {

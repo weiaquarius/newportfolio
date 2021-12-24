@@ -32,6 +32,7 @@
       <div class="card-style card-conclusion">
         <div class="card-content-left">
           <h2>ROLE</h2>
+          <p>Team Leader</p>
           <p>Quantiative study - Online survey</p>
           <p>Quanlitative study - Semi-structured interviews</p>
           <p>User Interface design</p>
@@ -92,9 +93,7 @@
       <span class="underline diffcolor__one"
         >lack opportunities to meet new friends.</span
       >
-    </p>
-
-    <p class="problem-statement">
+      <br /><br />
       Therefore, we wanted to design activity platforms to help them firstly
       build up relationships with old friends and also make new friends, and
       secondly, we hoped to bridge the gap between elderly people and digital
@@ -119,14 +118,7 @@
     <img src="../../src/assets/Meeture/interview1.jpg" alt="" />
     <img src="../../src/assets/Meeture/interview2.jpg" alt="" />
   </div>
-  <div
-    class="pjt-desc"
-    style="background:white;"
-    data-aos="fade-up"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-  >
+  <div class="pjt-desc" style="background:white;">
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
       <div class="card" style="margin:30px;">
@@ -175,7 +167,7 @@
       </div>
     </div>
   </div>
-
+  <div class="white-blank"></div>
   <div class="method-reason">
     <h3>UIs design</h3>
     <h1>
@@ -200,6 +192,9 @@
     <img src="../../src/assets/Meeture/family_recommend.png" alt="" />
   </div>
 
+  <p class="author">
+    (Page designed by Wei-Ko Li.)
+  </p>
   <div class="method-reason">
     <h1>
       <span class="underline diffcolor"
@@ -218,6 +213,9 @@
     <img src="../../src/assets/Meeture/friend_sharing.png" alt="" />
   </div>
 
+  <p class="author">
+    (Page designed by Wei-Ko Li.)
+  </p>
   <div class="method-reason">
     <h1>
       <span class="underline diffcolor"
@@ -235,6 +233,9 @@
     <img src="../../src/assets/Meeture/Comment.png" alt="" />
   </div>
 
+  <p class="author" style="margin-bottom:70px">
+    (Page designed by Wei-Ko Li.)
+  </p>
   <div class="button-bg">
     <div class="button-bg-image"></div>
     <next-button :project-num="num" :name="name"></next-button>
@@ -278,10 +279,10 @@ export default {
   display: flex;
   display: -webkit-inline-box;
   // flex-direction: row;
-  width: 52%;
+  width: 50%;
   position: absolute;
   right: 3%;
-  top: 14%;
+  top: 12%;
   z-index: -1;
   img {
     width: 60%;
@@ -299,13 +300,34 @@ export default {
     }
   }
 }
+.pjt-desc {
+  margin: 0;
+  @media (max-width: 1024px) {
+    margin-bottom: 150px;
+  }
+  @media (max-width: 862px) {
+    // padding: 130px 0;
+    margin-bottom: 100px;
+  }
+}
 
+.white-blank {
+  @media (max-width: 900px) {
+    margin: 200px 0;
+  }
+  @media (max-width: 800px) {
+    margin: 600px 0;
+  }
+  @media (max-width: 500px) {
+    margin: 650px 0;
+  }
+}
 .pjt-content {
   margin-bottom: 5%;
 }
 .card-style {
   margin: 20px -40px;
-  padding: 230px 170px;
+  padding: 240px 170px;
   max-width: 600px;
   @media (max-width: 1200px) {
     margin: 20px -30px;
@@ -315,19 +337,22 @@ export default {
     max-width: 400px;
     padding: 450px 100px;
   }
+  @media (max-width: 600px) {
+    padding: 490px 100px;
+  }
 }
 .card-content-left {
-  @media (max-width: 500px) {
+  @media (max-width: 1024px) {
     top: 5%;
   }
 }
 .card-content-right {
   @media (max-width: 1024px) {
-    top: 52%;
+    top: 55%;
     left: 8%;
   }
-  @media (max-width: 500px) {
-    top: 48%;
+  @media (max-width: 600px) {
+    top: 50%;
   }
 }
 
@@ -421,7 +446,7 @@ export default {
     h1 {
       font-size: 28px;
       p {
-        font-size: 18px;
+        font-size: 20px;
       }
     }
     img {
@@ -460,13 +485,20 @@ export default {
   img {
     width: 85%;
   }
-  margin: 70px 0%;
   @media (max-width: 700px) {
     img {
       width: 100%;
     }
-
     margin: 10px 0;
+  }
+}
+.author {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(117, 117, 117);
+  font-style: italic;
+  @media (max-width: 700px) {
+    font-size: 14px;
   }
 }
 </style>

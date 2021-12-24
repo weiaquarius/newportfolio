@@ -55,13 +55,14 @@
           ><img
             src="https://cdn-icons-png.flaticon.com/512/1384/1384030.png"
             alt=""
+            style="padding-top:10px;width: 33px;height: 33px;"
         /></a>
       </li>
       <li>
         <a href="https://github.com/weiaquarius"
           ><img
-            src="https://cdn-icons.flaticon.com/png/512/4926/premium/4926625.png?token=exp=1639237058~hmac=047083a252b4cfcf201a584aac6b99cd"
-            style="padding-top:8px;width: 40px;height: 40px;"
+            src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png"
+            style="padding-top:6px;width: 40px;height: 40px;"
             alt=""
         /></a>
       </li>

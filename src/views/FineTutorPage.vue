@@ -170,14 +170,7 @@
       </p>
     </div>
   </div>
-  <div
-    class="pjt-desc"
-    style="background:white;"
-    data-aos="fade-up"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="false"
-  >
+  <div class="pjt-desc" style="background:white;">
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
       <div class="card" style="margin:30px;">
@@ -368,10 +361,10 @@ export default {
 }
 
 .card-style {
-  margin: 20px -50px;
-  padding: 250px 100px;
+  margin: 20px 0px;
+  padding: 250px 0px;
   @media (max-width: 1200px) {
-    margin: 20px -30px;
+    margin: 20px 0px;
     padding: 230px 0;
   }
   @media (max-width: 900px) {
@@ -395,12 +388,12 @@ export default {
     left: 8%;
   }
   @media (max-width: 500px) {
-    top: 58%;
+    top: 60%;
   }
 }
 .white-blank {
   margin: 400px 0;
-  @media (max-width: 884px) {
+  @media (max-width: 800px) {
     margin: 700px 0;
   }
 }

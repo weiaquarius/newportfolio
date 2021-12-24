@@ -5,7 +5,7 @@
       <h2>Podcast app redesign</h2>
     </div>
     <div class="podcast-image">
-      <img src="../assets/Podcast/home1.jpg" alt="" />
+      <img src="../assets/Podcast/PodcastCover.png" alt="" />
       <!-- <img src="../assets/Podcast/home2.jpg" alt="" /> -->
     </div>
   </div>
@@ -207,14 +207,7 @@
     </p>
   </div>
 
-  <div
-    class="pjt-desc"
-    style="background:white;"
-    data-aos="fade-up"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-  >
+  <div class="pjt-desc" style="background:white;">
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
       <div class="card" style="margin:30px;">
@@ -618,10 +611,10 @@ export default {
   display: flex;
   display: -webkit-inline-box;
   // flex-direction: row;
-  width: 50%;
+  width: 58%;
   position: absolute;
-  right: 7%;
-  top: 25%;
+  right: 3%;
+  top: 18%;
   z-index: -1;
   img {
     width: 70%;
@@ -648,8 +641,8 @@ export default {
 }
 
 .card-style {
-  margin: 20px -20px;
-  padding: 230px 170px;
+  margin: 10px -20px;
+  padding: 190px 170px;
   max-width: 600px;
   @media (max-width: 1200px) {
     margin: 20px -30px;
