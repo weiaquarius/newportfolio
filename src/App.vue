@@ -1,13 +1,11 @@
 <template>
   <div id="nav">
-    <router-link to="/">Portfolio</router-link>
+    <router-link to="/">Wei-Ko's Portfolio</router-link>
     <!-- <router-link to="/about">About</router-link> -->
   </div>
   <router-view />
 </template>
-<script>
-export default {};
-</script>
+<script setup></script>
 
 <style lang="scss">
 html,
