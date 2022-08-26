@@ -2,9 +2,7 @@
   <div class="home">
     <BioInfo />
     <div class="projects">
-      <h1 class="heading heading--stroke">
-        CASE STUDIES
-      </h1>
+      <h1 class="heading heading--stroke m-0">CASE STUDIES</h1>
       <div
         data-aos="fade-up"
         data-aos-duration="700"
@@ -32,9 +30,7 @@
     </div>
 
     <div class="design-work">
-      <h1 class="heading heading--stroke__design">
-        UI Design
-      </h1>
+      <h1 class="heading heading--stroke__design">UI Design</h1>
 
       <div
         data-aos="fade-up"
@@ -55,14 +51,14 @@
           ><img
             src="https://cdn-icons-png.flaticon.com/512/1384/1384030.png"
             alt=""
-            style="padding-top:10px;width: 33px;height: 33px;"
+            style="padding-top: 10px; width: 33px; height: 33px"
         /></a>
       </li>
       <li>
         <a href="https://github.com/weiaquarius"
           ><img
             src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png"
-            style="padding-top:6px;width: 40px;height: 40px;"
+            style="padding-top: 6px; width: 40px; height: 40px"
             alt=""
         /></a>
       </li>
@@ -70,7 +66,7 @@
         <a href="mailto:weiaquarius17@gmail.com"
           ><img
             src="https://cdn-icons-png.flaticon.com/512/95/95645.png"
-            style="padding-top:10px;width: 35px;height: 35px;"
+            style="padding-top: 10px; width: 35px; height: 35px"
             alt=""
         /></a>
       </li>
@@ -82,37 +78,69 @@
     <button type="button" class="btn btn-info btn-to-top"><p>TOP</p></button>
   </back-to-top>
 </template>
-<script>
-// @ is an alias to /src
-import BioInfo from '@/components/Home/BioInfo.vue';
-import Meeture from '@/components/Home/Meeture.vue';
-import FineTutor from '@/components/Home/FineTutor.vue';
-import Podcast from '@/components/Home/Podcast.vue';
-import SireHealth from '@/components/Home/SireHealth.vue';
+<script setup lang="ts">
+import BioInfo from "@/components/Home/BioInfo.vue";
+import Meeture from "@/components/Home/Meeture.vue";
+import FineTutor from "@/components/Home/FineTutor.vue";
+import Podcast from "@/components/Home/Podcast.vue";
+import SireHealth from "@/components/Home/SireHealth.vue";
 
-import BackToTop from 'vue-backtotop';
+import BackToTop from "vue-backtotop";
 
-//Fade-In transition
-import '../assets/script/AOS.js';
+import { onMounted } from "vue";
 
-export default {
-  name: 'Home',
-  components: {
-    BioInfo,
-    Meeture,
-    FineTutor,
-    Podcast,
-    SireHealth,
-    BackToTop,
-  },
-  mounted() {
-    window.scrollTo(0, 0);
-  },
-};
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
 <style scoped lang="scss">
-@import '../assets/scss/index.scss';
+#footer {
+  overflow: hidden;
+  width: 100%;
+  z-index: 999;
+  li {
+    list-style: none;
+    line-height: 1.6em;
+  }
+  // margin-top: 50px;
+  img {
+    padding-top: 7px;
+    width: 36px;
+    height: 36px;
+  }
+  ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    margin: 0 25px;
+  }
+  a {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    color: #f1f1f1;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 50%;
+    line-height: 48px;
+    // background-color: #7c7b7b;
+    background-color: #e2e2e2;
+    text-align: center;
+    font-size: 19px;
+  }
+  a:hover {
+    color: steelblue;
+
+    background-color: #c3d2eccb;
+  }
+  a i {
+    vertical-align: middle;
+  }
+}
 .projects {
   padding: 10px 0;
   background-color: #eaf9ff;
@@ -141,9 +169,6 @@ export default {
     padding: 0 25px;
     transform: translate(-50%, 150%);
   }
-}
-h1 {
-  margin: 0;
 }
 .heading {
   font-size: 5rem;

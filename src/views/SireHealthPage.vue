@@ -87,8 +87,6 @@
 
 <script>
 import NextButton from '../components/Shared/button.vue';
-import '../assets/script/AOS.js';
-import '../assets/script/underline.js';
 import BackToTop from 'vue-backtotop';
 export default {
   name: 'SireHealthPage',
@@ -108,7 +106,6 @@ export default {
 <style scoped lang="scss">
 @import '../assets/scss/project_content_style.scss';
 @import '../assets/scss/project_card_style.scss';
-@import '../assets/scss/index.scss';
 .pjt-desc {
   margin-top: 0;
   p {

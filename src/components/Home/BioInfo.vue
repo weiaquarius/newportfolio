@@ -35,17 +35,9 @@
   </section>
 </template>
 
-<script>
-import '../../assets/script/underline.js';
-export default {
-  data() {
-    return {};
-  },
-};
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
-@import '../../assets/scss/index.scss';
 section {
   width: 100%;
   margin: 0;
@@ -96,7 +88,7 @@ section {
 }
 
 .loading {
-  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
   text-transform: uppercase;
 
   width: 200px;
@@ -126,7 +118,7 @@ section {
   font-size: 28px;
 }
 .loading:before {
-  content: '';
+  content: "";
   background: #61bdb6;
   width: 100%;
   height: 80%;
@@ -154,7 +146,7 @@ section {
 }
 
 .loading:after {
-  content: '';
+  content: "";
   background: #ff3600;
   width: 5%;
   height: 100%;

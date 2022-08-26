@@ -579,8 +579,6 @@
 
 <script>
 import NextButton from '../components/Shared/button.vue';
-import '../assets/script/AOS.js';
-import '../assets/script/underline.js';
 import BackToTop from 'vue-backtotop';
 
 export default {
@@ -603,7 +601,6 @@ export default {
 <style scoped lang="scss">
 @import '../assets/scss/project_content_style.scss';
 @import '../assets/scss/project_card_style.scss';
-@import '../assets/scss/index.scss';
 //fontstyle
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');

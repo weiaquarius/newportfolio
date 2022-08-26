@@ -317,8 +317,6 @@
 
 <script>
 import NextButton from '../components/Shared/button.vue';
-import '../assets/script/AOS.js';
-import '../assets/script/underline.js';
 import BackToTop from 'vue-backtotop';
 
 //Fade-In transition
@@ -351,7 +349,6 @@ export default {
 <style scoped lang="scss">
 @import '../assets/scss/project_content_style.scss';
 @import '../assets/scss/project_card_style.scss';
-@import '../assets/scss/index.scss';
 
 .underline {
   background-size: 100% 0.14em;
