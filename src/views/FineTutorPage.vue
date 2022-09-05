@@ -239,16 +239,20 @@
   </div>
 
   <p class="author">
-    (Page designed by Wei-Ko Li.)
+    (Persona designed by Wei-Ko Li.)
   </p>
-  <div class="pjt-content" style="margin:5% !important;">
-    <div class="right-content">
-      <!-- <img src="../assets/FineTutor/persona_t.jpg" alt="persona of teacher" /> -->
-    </div>
-    <div class="right-content">
-      <!-- <img src="../assets/FineTutor/persona_s.jpg" alt="persona of student" /> -->
-    </div>
+  <div class="persona-image">
+    <img src="../assets/FineTutor/persona_t.jpg" alt="persona of teacher" />
+    <img src="../assets/FineTutor/persona_s.jpg" alt="persona of student" />
   </div>
+  <!-- <div class="pjt-content" style="margin:5% !important;">
+    <div class="right-content">
+      <img src="../assets/FineTutor/persona_t.jpg" alt="persona of teacher" />
+    </div>
+    <div class="right-content">
+      <img src="../assets/FineTutor/persona_s.jpg" alt="persona of student" />
+    </div>
+  </div> -->
 
   <div class="method-reason">
     <h3>Design Solution</h3>
@@ -405,6 +409,16 @@ export default {
   @media (max-width: 500px) {
     margin-top: 270px;
     margin-bottom: 270px;
+  }
+}
+.persona-image {
+  display: -webkit-inline-box;
+  img {
+    width: 70%;
+    margin: 30px 0%;
+  }
+  @media (max-width: 700px) {
+    width: 100%;
   }
 }
 </style>

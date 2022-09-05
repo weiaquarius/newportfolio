@@ -3,6 +3,15 @@
     <div class="pjt-title">
       <h1>Podcast side project</h1>
       <h2>Podcast app redesign</h2>
+      <h3 style="">
+        Check
+        <a
+          href="https://medium.com/@podcasthsinchu/podcast-app-ow%CE%BBoice-f0a8721ace6"
+          target="_blank"
+          >Medium</a
+        ><br />
+        (Chinese documentation)
+      </h3>
     </div>
     <div class="podcast-image">
       <img src="../assets/Podcast/PodcastCover.png" alt="" />
@@ -34,12 +43,13 @@
           <h2>ROLE</h2>
           <p>Quantiative study - Online survey</p>
           <p>Quanlitative study - Semi-structured interviews</p>
+          <p>Medium documentation</p>
           <h2>Date</h2>
           <p>July 2020 - Present</p>
           <h2>TEAMMATES</h2>
           <p>
-            Wei-Ko Li, Jhan Yan Lin, Yuxin Zhou<br />
-            Qinxuan Li, Chenyou Liao, Weixin Jiang
+            Wei-Ko Li, Cecilia Chou, Vivian Chiang<br />
+            Michelle Lee, Ryan Liao, Jhan Yan Lin
           </p>
         </div>
         <div class="card-content-right">
@@ -541,6 +551,10 @@
     </h1>
   </div>
 
+  <p class="author">
+    (Page mainly designed by Ryan Liao, Cecilia Chou, Michelle Lee)
+  </p>
+
   <div class="prototype-image">
     <img src="../../src/assets/Podcast/HIFI_RIC_flow.png" alt="" />
   </div>
@@ -549,6 +563,10 @@
       <span class="underline">Player</span>
     </h1>
   </div>
+
+  <p class="author">
+    (Page mainly designed by Ryan Liao, Cecilia Chou, Michelle Lee)
+  </p>
   <div class="prototype-image">
     <img src="../../src/assets/Podcast/HIFI_Player_flow.png" alt="" />
   </div>
@@ -642,18 +660,21 @@ export default {
 
 .card-style {
   margin: 10px -20px;
-  padding: 190px 170px;
+  padding: 220px 170px;
   max-width: 600px;
   @media (max-width: 1200px) {
     margin: 20px -30px;
-    padding: 200px 150px;
+    padding: 220px 140px;
   }
   @media (max-width: 1024px) {
     max-width: 400px;
-    padding: 300px 100px;
+    padding: 320px 100px;
+  }
+  @media (max-width: 800px) {
+    max-width: 300px;
   }
   @media (max-width: 500px) {
-    padding: 320px 100px;
+    padding: 340px 100px;
   }
 }
 .card-content-left {
@@ -663,11 +684,11 @@ export default {
 }
 .card-content-right {
   @media (max-width: 1024px) {
-    top: 63%;
+    top: 66%;
     left: 8%;
   }
   @media (max-width: 500px) {
-    top: 58%;
+    top: 62%;
   }
 }
 

@@ -188,13 +188,14 @@
       </p>
     </h1>
   </div>
-  <div class="prototype-image">
-    <img src="../../src/assets/Meeture/family_recommend.png" alt="" />
-  </div>
 
   <p class="author">
     (Page designed by Wei-Ko Li.)
   </p>
+  <div class="prototype-image">
+    <img src="../../src/assets/Meeture/family_recommend.png" alt="" />
+  </div>
+
   <div class="method-reason">
     <h1>
       <span class="underline diffcolor"
@@ -209,13 +210,13 @@
     </h1>
   </div>
 
+  <p class="author">
+    (Page designed by Wei-Ko Li.)
+  </p>
   <div class="prototype-image">
     <img src="../../src/assets/Meeture/friend_sharing.png" alt="" />
   </div>
 
-  <p class="author">
-    (Page designed by Wei-Ko Li.)
-  </p>
   <div class="method-reason">
     <h1>
       <span class="underline diffcolor"
@@ -229,13 +230,13 @@
     </h1>
   </div>
 
-  <div class="prototype-image">
+  <p class="author">
+    (Page designed by Wei-Ko Li.)
+  </p>
+  <div class="prototype-image" style="margin-bottom:90px">
     <img src="../../src/assets/Meeture/Comment.png" alt="" />
   </div>
 
-  <p class="author" style="margin-bottom:70px">
-    (Page designed by Wei-Ko Li.)
-  </p>
   <div class="button-bg">
     <div class="button-bg-image"></div>
     <next-button :project-num="num" :name="name"></next-button>
@@ -281,17 +282,24 @@ export default {
   // flex-direction: row;
   width: 50%;
   position: absolute;
-  right: 3%;
-  top: 12%;
+  right: 8%;
+  top: 13%;
   z-index: -1;
   img {
     width: 60%;
     margin: 0 20px;
   }
+  @media (max-width: 1024px) {
+    width: 56%;
+    top: 14%;
+    img {
+      width: 75%;
+    }
+  }
   @media (max-width: 900px) {
     width: 60%;
     right: 0;
-    top: 30%;
+    top: 16%;
     align-items: center;
   }
   @media (max-width: 600px) {
@@ -490,15 +498,6 @@ export default {
       width: 100%;
     }
     margin: 10px 0;
-  }
-}
-.author {
-  font-size: 18px;
-  font-weight: 300;
-  color: rgb(117, 117, 117);
-  font-style: italic;
-  @media (max-width: 700px) {
-    font-size: 14px;
   }
 }
 </style>

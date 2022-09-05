@@ -62,7 +62,7 @@
     width: 35%;
     top: 15%;
   }
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     width: 0;
   }
 }
@@ -119,12 +119,6 @@
   img {
     box-shadow: 3px 3px 4px 4px rgba(128, 128, 128, 0.856);
     width: 100%;
-  }
-  .author {
-    font-size: 20px;
-    font-weight: 300;
-    color: rgb(117, 117, 117);
-    font-style: italic;
   }
   a {
     text-decoration: none;
@@ -221,7 +215,7 @@
     padding: 0 50px;
     transform: translate(50%, 200%);
   }
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     display: none;
   }
 }
