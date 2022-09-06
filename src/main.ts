@@ -4,6 +4,7 @@ import router from './router';
 import store from './store';
 import './plugins/aos'
 import './plugins/underline.js'
+import './index.css'
 
 createApp(App)
   .use(store)

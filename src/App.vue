@@ -1,5 +1,5 @@
 <template>
-  <div id="nav">
+  <div id="nav" class="p-2 sm:p-6">
     <router-link to="/">Wei-Ko's Portfolio</router-link>
     <!-- <router-link to="/about">About</router-link> -->
   </div>
@@ -9,7 +9,7 @@
 
 <style lang="scss" scoped>
 #nav {
-  padding: 25px;
+  // padding: 25px;
   width: 100%;
   position: fixed;
   top: 0;
