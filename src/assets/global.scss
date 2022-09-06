@@ -1,0 +1,250 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+//underline
+.underline {
+  background-image: linear-gradient(120deg, #f5c0c0 0%, #ff9292 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  &:hover {
+    background-size: 100% 88%;
+  }
+}
+
+.diffcolor {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  &__one {
+    background-image: linear-gradient(120deg, #556052 0%, #3a4637 100%);
+  }
+  &__two {
+    background-image: linear-gradient(120deg, #ff9292 0%, #d68e8e 100%);
+    background-repeat: repeat;
+    padding: 5px;
+    line-height: 45px;
+    @media (max-width: 600px) {
+      background-image: none;
+    }
+  }
+  &__three {
+    background-repeat: repeat;
+    padding: 5px;
+    line-height: 45px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  }
+  &__four {
+    background-image: linear-gradient(120deg, #ff9292 0%, #d68e8e 100%);
+    background-repeat: repeat;
+    padding: 5px;
+    line-height: 45px;
+  }
+}
+//
+.pjt-desc {
+  width: 100%;
+  background-color: #ecb0ae;
+  height: 400px;
+  padding: 100px 0;
+  position: relative;
+  h1 {
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    font-size: 44px;
+    font-weight: bolder;
+  }
+  p {
+    position: absolute;
+    top: 25%;
+    margin: 0 15%;
+    max-width: 900px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  @media (max-width: 862px) {
+    padding: 130px 0;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 700px) {
+    padding: 250px 0;
+    height: 300px;
+
+    h1 {
+      font-size: 36px;
+    }
+    p {
+      top: 20%;
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      top: 18%;
+      font-size: 17px;
+    }
+  }
+}
+//Problem
+
+.problem-example {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 15px;
+  left: 10%;
+  @media (max-width: 700px) {
+    font-size: 17px;
+  }
+}
+.problem-statement {
+  top: 65% !important;
+
+  @media (max-width: 992px) {
+    top: 70% !important;
+  }
+  @media (max-width: 700px) {
+    top: 60% !important;
+  }
+  @media (max-width: 600px) {
+    top: 65% !important;
+  }
+  @media (max-width: 500px) {
+    top: 70% !important;
+  }
+  @media (max-width: 400px) {
+    top: 68% !important;
+  }
+}
+//interview
+.method-reason {
+  margin: 70px 15%;
+  text-align: left;
+  h1 {
+    margin: 0 5%;
+    p {
+      font-size: 24px;
+      font-weight: 400;
+    }
+  }
+  img {
+    margin: 2% 0;
+    width: 70%;
+  }
+  @media (max-width: 700px) {
+    h1 {
+      font-size: 28px;
+    }
+  }
+}
+
+//survey or interview question
+
+.survey-question {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  grid-gap: 10px 30px;
+  align-content: center;
+  background: cornsilk;
+  padding: 50px 5% 50px;
+  margin: 10% 5%;
+  font-size: 20px;
+  font-weight: 600;
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    margin: 10px;
+  }
+  @media (max-width: 600px) {
+    font-size: 18px;
+    grid-gap: 15px 20px;
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
+.question {
+  text-align: left;
+  padding: 5px;
+}
+.question-result {
+  color: #df563b;
+}
+.question-reason {
+  @media (max-width: 600px) {
+    font-weight: 600;
+  }
+}
+//finding-cards
+.findings-card-layout {
+  padding: 130px 0 50px;
+  background: #2f5d62;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.card-style-two {
+  margin: 0px;
+  max-width: 300px;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.card-h1 {
+  color: white;
+  left: 30% !important;
+  top: 20% !important;
+  @media (max-width: 800px) {
+    font-size: 40px !important;
+    left: 10% !important;
+    top: 26% !important;
+  }
+  @media (max-width: 700px) {
+    top: 34% !important;
+    font-size: 34px !important;
+  }
+}
+
+//Back to top button
+.btn-to-top {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-top: 10px;
+  @media (max-width: 920px) {
+    display: none;
+  }
+  p {
+    font-size: 16px;
+  }
+  &:focus {
+    outline: 0;
+  }
+}

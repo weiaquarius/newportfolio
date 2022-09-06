@@ -2,9 +2,7 @@
   <div class="home">
     <BioInfo />
     <div class="projects">
-      <h1 class="heading heading--stroke">
-        CASE STUDIES
-      </h1>
+      <h1 class="heading heading--stroke m-0">CASE STUDIES</h1>
       <div
         data-aos="fade-up"
         data-aos-duration="700"
@@ -32,9 +30,7 @@
     </div>
 
     <div class="design-work">
-      <h1 class="heading heading--stroke__design">
-        UI Design
-      </h1>
+      <h1 class="heading heading--stroke__design">UI Design</h1>
 
       <div
         data-aos="fade-up"
@@ -48,136 +44,163 @@
   </div>
 
   <!-- <div class="bg"></div> -->
-  <div
-    id="footer"
-    class="sns"
-  >
+  <div id="footer" class="sns">
     <ul>
       <li>
-        <a href="https://www.linkedin.com/in/wei-ko-li-a77707194/"><img
+        <a href="https://www.linkedin.com/in/wei-ko-li-a77707194/"
+          ><img
             src="https://cdn-icons-png.flaticon.com/512/1384/1384030.png"
             alt=""
-            style="padding-top:10px;width: 33px;height: 33px;"
-          /></a>
+            style="padding-top: 10px; width: 33px; height: 33px"
+        /></a>
       </li>
       <li>
-        <a href="https://github.com/weiaquarius"><img
+        <a href="https://github.com/weiaquarius"
+          ><img
             src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png"
-            style="padding-top:8px;width: 40px;height: 40px;"
+            style="padding-top: 6px; width: 40px; height: 40px"
             alt=""
-          /></a>
+        /></a>
       </li>
       <li>
-        <a href="mailto:vivian.wkl@utexas.edu"><img
+        <a href="mailto:vivian.wkl@utexas.edu"
+          ><img
             src="https://cdn-icons-png.flaticon.com/512/95/95645.png"
-            style="padding-top:10px;width: 35px;height: 35px;"
+            style="padding-top: 10px; width: 35px; height: 35px"
             alt=""
-          /></a>
+        /></a>
       </li>
     </ul>
     <p>李唯閣 | WEI-KO LI | NYCU</p>
   </div>
 
-  <back-to-top
-    bottom="50px"
-    right="50px"
-  >
-    <button
-      type="button"
-      class="btn btn-info btn-to-top"
-    >
+  <back-to-top bottom="50px" right="50px">
+    <button type="button" class="btn btn-info btn-to-top">
       <p>TOP</p>
     </button>
   </back-to-top>
 </template>
-<script>
-  // @ is an alias to /src
-  import BioInfo from "@/components/Home/BioInfo.vue";
-  import Meeture from "@/components/Home/Meeture.vue";
-  import FineTutor from "@/components/Home/FineTutor.vue";
-  import Podcast from "@/components/Home/Podcast.vue";
-  import SireHealth from "@/components/Home/SireHealth.vue";
+<script setup lang="ts">
+import BioInfo from '@/components/Home/BioInfo.vue';
+import Meeture from '@/components/Home/Meeture.vue';
+import FineTutor from '@/components/Home/FineTutor.vue';
+import Podcast from '@/components/Home/Podcast.vue';
+import SireHealth from '@/components/Home/SireHealth.vue';
 
-  import BackToTop from "vue-backtotop";
+import BackToTop from 'vue-backtotop';
 
-  //Fade-In transition
-  import "../assets/script/AOS.js";
+import { onMounted } from 'vue';
 
-  export default {
-    name: "Home",
-    components: {
-      BioInfo,
-      Meeture,
-      FineTutor,
-      Podcast,
-      SireHealth,
-      BackToTop,
-    },
-    mounted() {
-      window.scrollTo(0, 0);
-    },
-  };
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
 <style scoped lang="scss">
-  @import "../assets/scss/index.scss";
-  .projects {
-    padding: 10px 0;
-    background-color: #eaf9ff;
+#footer {
+  overflow: hidden;
+  width: 100%;
+  z-index: 999;
+  li {
+    list-style: none;
+    line-height: 1.6em;
   }
-  .design-work {
-    padding: 10px;
-    background-color: #fbffec;
+  // margin-top: 50px;
+  img {
+    padding-top: 7px;
+    width: 36px;
+    height: 36px;
   }
+  ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    margin: 0 25px;
+  }
+  a {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    color: #f1f1f1;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 50%;
+    line-height: 48px;
+    // background-color: #7c7b7b;
+    background-color: #e2e2e2;
+    text-align: center;
+    font-size: 19px;
+  }
+  a:hover {
+    color: steelblue;
 
-  .bg {
-    background-color: #9e3f3254;
-    padding: 0 280px;
-    height: 200px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    transform: translate(0%, 230%);
-    @media (max-width: 992px) {
-      height: 180px;
-      padding: 0 200px;
-      transform: translate(-50%, 200%);
-    }
-    @media (max-width: 600px) {
-      height: 50px;
-      padding: 0 25px;
-      transform: translate(-50%, 150%);
-    }
+    background-color: #c3d2eccb;
   }
-  h1 {
-    margin: 0;
+  a i {
+    vertical-align: middle;
   }
-  .heading {
-    font-size: 5rem;
-    letter-spacing: 6px;
-    margin: 8% 0 5%;
+}
+.projects {
+  padding: 10px 0;
+  background-color: #eaf9ff;
+}
 
-    @media (max-width: 992px) {
-      font-size: 4rem;
-    }
-    @media (max-width: 600px) {
-      margin-top: 10%;
-      font-size: 3.5rem;
-    }
+.design-work {
+  padding: 10px;
+  background-color: #fbffec;
+}
+
+.bg {
+  background-color: #9e3f3254;
+  padding: 0 280px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: translate(0%, 230%);
+  @media (max-width: 992px) {
+    height: 180px;
+    padding: 0 200px;
+    transform: translate(-50%, 200%);
   }
-  .heading--stroke {
+  @media (max-width: 600px) {
+    height: 50px;
+    padding: 0 25px;
+    transform: translate(-50%, 150%);
+  }
+}
+h1 {
+  margin: 0;
+}
+.heading {
+  font-size: 5rem;
+  letter-spacing: 6px;
+  margin: 8% 0 5%;
+
+  @media (max-width: 992px) {
+    font-size: 4rem;
+  }
+  @media (max-width: 600px) {
+    margin-top: 10%;
+    font-size: 3.5rem;
+  }
+}
+.heading--stroke {
+  -webkit-text-stroke-width: 3.5px;
+  -moz-text-stroke-width: 3.5px;
+  -webkit-text-stroke-color: #0e8dbb;
+  -moz-text-stroke-color: #0e8dbb;
+  color: rgb(210, 234, 241);
+  &__design {
     -webkit-text-stroke-width: 3.5px;
     -moz-text-stroke-width: 3.5px;
-    -webkit-text-stroke-color: #0e8dbb;
-    -moz-text-stroke-color: #0e8dbb;
-    color: rgb(210, 234, 241);
-    &__design {
-      -webkit-text-stroke-width: 3.5px;
-      -moz-text-stroke-width: 3.5px;
-      -webkit-text-stroke-color: #7a2c26;
-      -moz-text-stroke-color: #7a2c26;
-      color: transparent;
-    }
+    -webkit-text-stroke-color: #7a2c26;
+    -moz-text-stroke-color: #7a2c26;
+    color: transparent;
   }
+}
 </style>
