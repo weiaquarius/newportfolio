@@ -29,8 +29,8 @@
         If you have any questions, please feel free to ask me.<br /><br /><br />
       </h3>
     </div>
-    <div class="profile-img">
-      <img src="../../assets/Home/Vivian_gray.png" alt="" />
+    <div class="profile-img circular--landscape">
+      <img src="../../assets/Home/VivianTexas.JPG" alt="" />
     </div>
   </section>
 </template>
@@ -58,34 +58,76 @@ section {
   text-align: left;
   z-index: 999;
   @media (max-width: 992px) {
+    h2 {
+      font-size: 24px;
+    }
     width: 40%;
     margin: 230px 0 0 0;
     padding-left: 10%;
   }
   @media (max-width: 700px) {
     width: 60%;
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 18px;
+    }
   }
 }
-.profile-img {
-  width: 60%;
+
+.circular--landscape {
+  display: inline-block;
   position: absolute;
-  top: 20%;
-  left: 40%;
-  img {
-    width: 55%;
-  }
+  top: 30%;
+  left: 60%;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 50%;
   @media (max-width: 1200px) {
-    width: 60%;
-    top: 30%;
-  }
-  @media (max-width: 992px) {
+    width: 350px;
+    height: 350px;
     top: 40%;
   }
-
+  @media (max-width: 992px) {
+    width: 300px;
+    height: 300px;
+    top: 40%;
+    left: 55%;
+  }
   @media (max-width: 700px) {
     display: none;
   }
 }
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -120px;
+  @media (max-width: 992px) {
+    margin-left: -100px;
+  }
+}
+// .profile-img {
+//   width: 60%;
+//   position: absolute;
+//   top: 20%;
+//   left: 40%;
+//   img {
+//     width: 55%;
+//   }
+//   @media (max-width: 1200px) {
+//     width: 60%;
+//     top: 30%;
+//   }
+//   @media (max-width: 992px) {
+//     top: 40%;
+//   }
+
+//   @media (max-width: 700px) {
+//     display: none;
+//   }
+// }
 
 .loading {
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;

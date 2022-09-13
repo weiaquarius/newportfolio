@@ -2,7 +2,20 @@
   <div class="home">
     <BioInfo />
     <div class="projects">
+      <div class="design-work">
+        <h1 class="heading heading--stroke__design">Research Project</h1>
+
+        <div
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+        >
+          <Travel />
+        </div>
+      </div>
       <h1 class="heading heading--stroke m-0">CASE STUDIES</h1>
+
       <div
         data-aos="fade-up"
         data-aos-duration="700"
@@ -19,17 +32,17 @@
       >
         <Podcast />
       </div>
-      <div
+      <!-- <div
         data-aos="fade-up"
         data-aos-duration="700"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
       >
         <FineTutor />
-      </div>
+      </div> -->
     </div>
 
-    <div class="design-work">
+    <!-- <div class="design-work">
       <h1 class="heading heading--stroke__design">UI Design</h1>
 
       <div
@@ -40,7 +53,7 @@
       >
         <SireHealth />
       </div>
-    </div>
+    </div> -->
   </div>
 
   <!-- <div class="bg"></div> -->
@@ -85,6 +98,7 @@ import BioInfo from '@/components/Home/BioInfo.vue';
 import Meeture from '@/components/Home/Meeture.vue';
 import FineTutor from '@/components/Home/FineTutor.vue';
 import Podcast from '@/components/Home/Podcast.vue';
+import Travel from '@/components/Home/Travel.vue';
 import SireHealth from '@/components/Home/SireHealth.vue';
 
 import BackToTop from 'vue-backtotop';
@@ -177,16 +191,15 @@ h1 {
   margin: 0;
 }
 .heading {
-  font-size: 5rem;
+  font-size: 4.5rem;
   letter-spacing: 6px;
   margin: 8% 0 5%;
-
   @media (max-width: 992px) {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   @media (max-width: 600px) {
     margin-top: 10%;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 .heading--stroke {

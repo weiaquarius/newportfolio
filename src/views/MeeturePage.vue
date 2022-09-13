@@ -8,7 +8,7 @@
       <img src="../assets/Meeture/Product.png" alt="" />
     </div>
   </div>
-  <div class="pjt-content" style="margin-bottom:5%!important;">
+  <div class="pjt-content" style="margin-bottom: 5% !important">
     <div class="left-title">
       <h2>Project<br />Background</h2>
     </div>
@@ -40,21 +40,13 @@
           <h2>Date</h2>
           <p>February 2021 - Present</p>
           <h2>TEAMMATES</h2>
-          <p>
-            Wei-Ko Li, Carol Huang, Daniel Chang
-          </p>
+          <p>Wei-Ko Li, Carol Huang, Daniel Chang</p>
         </div>
         <div class="card-content-right">
           <h2>METHODS & TOOLS</h2>
-          <p>
-            Surveys, User Interview, HMW&PoV
-          </p>
-          <p>
-            Usability testing, Heuristics Evaluation
-          </p>
-          <p>
-            Miro, Figma, Vue
-          </p>
+          <p>Surveys, User Interview, HMW&PoV</p>
+          <p>Usability testing, Heuristics Evaluation</p>
+          <p>Miro, Figma, Vue</p>
           <h2>PRACTICES</h2>
           <p>User Research, Separation of front-end and back-end</p>
           <p>Reframing research questions and design process</p>
@@ -118,13 +110,13 @@
     <img src="../../src/assets/Meeture/interview1.jpg" alt="" />
     <img src="../../src/assets/Meeture/interview2.jpg" alt="" />
   </div>
-  <div class="pjt-desc" style="background:white;">
+  <div class="pjt-desc" style="background: white">
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
-      <div class="card" style="margin:30px;">
+      <div class="card" style="margin: 30px">
         <div class="card-style-two">
           <h2>
-            <span style="background:yellow; padding:5px 3px;"
+            <span style="background: yellow; padding: 5px 3px"
               >Living attitude of the elderly</span
             ><br />
             The elderly live regular lives, are afraid of
@@ -133,10 +125,10 @@
           </h2>
         </div>
       </div>
-      <div class="card" style="margin:30px;">
+      <div class="card" style="margin: 30px">
         <div class="card-style-two">
           <h2>
-            <span style="background:yellow; padding:5px 3px;"
+            <span style="background: yellow; padding: 5px 3px"
               >Expand social network</span
             ><br />
             The elderly want to
@@ -149,10 +141,10 @@
           </h2>
         </div>
       </div>
-      <div class="card" style="margin:30px;">
+      <div class="card" style="margin: 30px">
         <div class="card-style-two">
           <h2>
-            <span style="background:yellow; padding:5px 3px;"
+            <span style="background: yellow; padding: 5px 3px"
               >Provide feedback to make contribution</span
             ><br />
 
@@ -170,9 +162,7 @@
   <div class="white-blank"></div>
   <div class="method-reason">
     <h3>UIs design</h3>
-    <h1>
-      Following our research findings, we designed three features
-    </h1>
+    <h1>Following our research findings, we designed three features</h1>
     <br /><br />
     <h1>
       <span class="underline diffcolor"
@@ -183,15 +173,11 @@
         ● The elderly can use their familiar platform, LINE, to start their
         journey.
       </p>
-      <p>
-        ● Family members or friends could introduce Meeture to them.
-      </p>
+      <p>● Family members or friends could introduce Meeture to them.</p>
     </h1>
   </div>
 
-  <p class="author">
-    (Page designed by Wei-Ko Li.)
-  </p>
+  <p class="author">(Page designed by Wei-Ko Li.)</p>
   <div class="prototype-image">
     <img src="../../src/assets/Meeture/family_recommend.png" alt="" />
   </div>
@@ -210,9 +196,7 @@
     </h1>
   </div>
 
-  <p class="author">
-    (Page designed by Wei-Ko Li.)
-  </p>
+  <p class="author">(Page designed by Wei-Ko Li.)</p>
   <div class="prototype-image">
     <img src="../../src/assets/Meeture/friend_sharing.png" alt="" />
   </div>
@@ -230,10 +214,8 @@
     </h1>
   </div>
 
-  <p class="author">
-    (Page designed by Wei-Ko Li.)
-  </p>
-  <div class="prototype-image" style="margin-bottom:90px">
+  <p class="author">(Page designed by Wei-Ko Li.)</p>
+  <div class="prototype-image" style="margin-bottom: 90px">
     <img src="../../src/assets/Meeture/Comment.png" alt="" />
   </div>
 
@@ -259,7 +241,7 @@ export default {
   data() {
     return {
       name: 'PodcastProject',
-      num: '2',
+      num: '3',
     };
   },
   mounted() {

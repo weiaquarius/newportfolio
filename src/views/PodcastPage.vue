@@ -99,7 +99,7 @@
   </div>
   <div
     class="pjt-desc"
-    style="padding:0px;background-color:white;left:0;top:0;"
+    style="padding: 0px; background-color: white; left: 0; top: 0"
   >
     <h2 class="survey-reason">
       To better
@@ -108,7 +108,7 @@
       <span class="underline diffcolor">collect information quickly</span> from
       the podcast listeners,<br />
       we chose to apply the
-      <span class="underline" style="background-repeat: repeat;"
+      <span class="underline" style="background-repeat: repeat"
         >online survey methods.</span
       >
     </h2>
@@ -211,16 +211,16 @@
       Respondents from:<br />
       Students(3), Technology Industry(2), Car business(1), Media Industry(1)
     </h2>
-    <p style="font-size:18px;">
+    <p style="font-size: 18px">
       Most of them are high frequency users ( > 7 times/week ) so that we could
       ask more aspects and experiences from them.
     </p>
   </div>
 
-  <div class="pjt-desc" style="background:white;">
+  <div class="pjt-desc" style="background: white">
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
-      <div class="card" style="margin:30px;">
+      <div class="card" style="margin: 30px">
         <div class="card-style-two">
           <!-- <div class="card-content-left" style="padding:20px;left:0;"> -->
           <h2>
@@ -260,10 +260,10 @@
   </div>
   <div
     class="pjt-content"
-    style="margin:10% 0;grid-gap:20px 70px;justify-content:center"
+    style="margin: 10% 0; grid-gap: 20px 70px; justify-content: center"
   >
     <div class="title">
-      <h2 style="border:none;text-align:left;">
+      <h2 style="border: none; text-align: left">
         <span class="underline diffcolor"> How Might We</span><br />
         (Finding 1)
       </h2>
@@ -274,7 +274,7 @@
       </h2>
     </div> -->
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         How might we let users feel fresh on the platform?
       </p>
     </div>
@@ -287,14 +287,14 @@
     </div> -->
     <div></div>
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         How might we let users want to keep staying on the platform?
       </p>
     </div>
 
     <div></div>
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         How might we design the exploring procedure so that users can be
         intrigued by the app?
       </p>
@@ -304,20 +304,20 @@
     <div></div>
     <div></div>
     <div class="title">
-      <h2 style="border:none;text-align:left;">
+      <h2 style="border: none; text-align: left">
         <span class="underline"> How Might We</span><br />
         (Finding 2)
       </h2>
     </div>
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         How might we let users efficiently catch up on the information of the
         episode?
       </p>
     </div>
     <div></div>
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         How might we let users flexibly change the display of information?
       </p>
     </div>
@@ -332,13 +332,9 @@
     <img src="../../src/assets/Podcast/HMW2.jpg" alt="" />
   </div>
 
-  <div
-    class="pjt-desc"
-    style="
-  padding-bottom:50px;background:white;"
-  >
+  <div class="pjt-desc" style="padding-bottom: 50px; background: white">
     <h1><span class="underline diffcolor__four">Challenge</span></h1>
-    <p style="line-height:50px;margin-top:40px">
+    <p style="line-height: 50px; margin-top: 40px">
       We didn't specifically identify the reasons for<br />
       <span class="underline">"Why"</span> we wanted to code with each HMW
       questions, and<br />
@@ -349,13 +345,9 @@
     </p>
   </div>
 
-  <div
-    class="pjt-desc"
-    style="
-  padding-bottom:70px;background:white;"
-  >
+  <div class="pjt-desc" style="padding-bottom: 70px; background: white">
     <h1><span class="underline diffcolor__three">Solved</span></h1>
-    <p style="line-height:50px;margin-top:40px">
+    <p style="line-height: 50px; margin-top: 40px">
       We decided to write down the
       <span class="underline diffcolor">"User Story"</span><br />
       to zomm in from Why, How and What of our
@@ -370,21 +362,21 @@
   </div>
   <div
     class="pjt-content"
-    style="margin:10%;grid-gap:30px 70px;justify-content:center"
+    style="margin: 10%; grid-gap: 30px 70px; justify-content: center"
   >
     <div class="title">
-      <h2 style="border:none;text-align:left;">
+      <h2 style="border: none; text-align: left">
         <span class="underline diffcolor"> How Might We</span><br />
         (Finding 1)
       </h2>
     </div>
     <div class="title">
-      <h2 style="border:none;text-align:left;">
+      <h2 style="border: none; text-align: left">
         <span class="underline"> User Story</span>
       </h2>
     </div>
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         How might we let users feel fresh on the platform?
       </p>
     </div>
@@ -400,7 +392,7 @@
     <div></div>
     <div></div>
     <div class="title">
-      <h2 style="border:none;text-align:left;">
+      <h2 style="border: none; text-align: left">
         <span class="underline diffcolor"> How Might We</span><br />
         (Finding 2)
       </h2>
@@ -440,9 +432,7 @@
         Recommend new episodes to users, so that that can feel fresh and novel
         when they are using our Podcast app.
       </p>
-      <p>
-        We applied A/B test to evaluate our design
-      </p>
+      <p>We applied A/B test to evaluate our design</p>
       <p>
         <span class="underline"><b>Version A:</b></span
         ><br />
@@ -463,26 +453,26 @@
   <h1><span class="underline">Decision: Version B</span></h1>
   <div
     class="pjt-content"
-    style="margin:10%;grid-gap:30px 70px;justify-content:center"
+    style="margin: 10%; grid-gap: 30px 70px; justify-content: center"
   >
     <div class="title">
-      <h2 style="border:none;text-align:left;"><i>Task:</i><br /></h2>
+      <h2 style="border: none; text-align: left"><i>Task:</i><br /></h2>
     </div>
     <div class="title">
-      <h2 style="border:none;text-align:left;">
+      <h2 style="border: none; text-align: left">
         Users' feedback and results
       </h2>
     </div>
 
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         "You can try random inspiring cards to explore new episodes and audition
         tapes.<br />
         Could you try to find the function in this app?"
       </p>
     </div>
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         Participants think that "random inspiring cards" is an
         <b>important and special</b> feature in this app, so the functional
         button should be put in the <b>main tab</b> to emphasize the function.
@@ -495,9 +485,7 @@
         >2. Customized Homepage sections (inspired by finding 2)</span
       >
       <p></p>
-      <p>
-        We applied A/B test to evaluate our design
-      </p>
+      <p>We applied A/B test to evaluate our design</p>
       <p>
         <span class="underline"><b>Version A:</b></span
         ><br />
@@ -517,19 +505,19 @@
   <h1><span class="underline">Decision: Version A</span></h1>
   <div
     class="pjt-content"
-    style="margin:10%;grid-gap:30px 70px;justify-content:center"
+    style="margin: 10%; grid-gap: 30px 70px; justify-content: center"
   >
     <div class="title">
-      <h2 style="border:none;text-align:left;"><i>Task:</i><br /></h2>
+      <h2 style="border: none; text-align: left"><i>Task:</i><br /></h2>
     </div>
     <div class="title">
-      <h2 style="border:none;text-align:left;">
+      <h2 style="border: none; text-align: left">
         Users' feedback and results
       </h2>
     </div>
 
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         "In this podcast app, you have subscribed to lots of favorite shows, and
         you also want to see the latest episodes of the show on the homepage.<br />
         Therefore, you want to adjust the content order of the homepage and add
@@ -537,7 +525,7 @@
       </p>
     </div>
     <div class="content">
-      <p style="max-width:300px;">
+      <p style="max-width: 300px">
         Participants think that the display window of the edit section
         <b>should be displayed directly on the same page</b>, and they don't
         want pages shifting to perform operations.
@@ -607,8 +595,8 @@ export default {
   },
   data() {
     return {
-      name: 'FineTutor',
-      num: '3',
+      name: 'TravelBasedMultitasking',
+      num: '1',
     };
   },
   mounted() {
