@@ -110,7 +110,7 @@ onMounted(() => {
 });
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 #footer {
   overflow: hidden;
   width: 100%;

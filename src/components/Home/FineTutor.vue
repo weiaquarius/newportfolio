@@ -25,6 +25,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import '../../assets/scss/project_card_style.scss';
-</style>
+<style scoped lang="scss"></style>

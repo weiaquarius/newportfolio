@@ -30,7 +30,9 @@ export default defineConfig({
     postcss,
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "@/assets/global.scss";`,
+        additionalData: `@import "@/assets/global.scss";
+        @import '@/assets/scss/project_card_style.scss';
+        @import '@/assets/scss/project_content_style.scss';`,
       },
     },
   },

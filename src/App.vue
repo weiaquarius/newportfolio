@@ -1,5 +1,5 @@
 <template>
-  <div id="nav" class="p-2 sm:p-6">
+  <div id="nav" class="tw-p-2 sm:tw-p-6">
     <router-link to="/">Wei-Ko's Portfolio</router-link>
     <!-- <router-link to="/about">About</router-link> -->
   </div>
