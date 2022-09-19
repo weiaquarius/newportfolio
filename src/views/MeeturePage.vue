@@ -2,7 +2,7 @@
   <div class="pjt-top">
     <div class="pjt-title">
       <h1>Meeture</h1>
-      <h2>Elderly activity platform</h2>
+      <h2>Elderly social activity platform</h2>
     </div>
     <div class="meeture-image">
       <img src="../assets/Meeture/Product.png" alt="" />
@@ -10,15 +10,14 @@
   </div>
   <div class="pjt-content" style="margin-bottom: 5% !important">
     <div class="left-title">
-      <h2>Project<br />Background</h2>
+      <h2>Overview</h2>
     </div>
     <div class="content">
       <p>
-        To learn from human-computer interaction, I joined the “Human-Computer
-        Interaction for Emerging Technology Design, Prototype, and Evaluation”
-        course when I was a senior. The goal of our project was to create an
-        activity platform for the elderly so that they can join the daily
-        leisure activity effortlessly.
+        Meeture is a social activity platform that helps the elderly get
+        activity information, find interesting events to join, and meet new
+        friends which enhances the social networking between elderly people and
+        constructs activities memories at the same time.
       </p>
     </div>
     <div></div>
@@ -91,6 +90,10 @@
       secondly, we hoped to bridge the gap between elderly people and digital
       devices by creating aging-friendly website.
     </p>
+  </div>
+  <div class="method-reason">
+    <h3>Competitor Analysis</h3>
+    <img src="@/assets/Meeture/MeetureCompetitor.png" alt="" />
   </div>
 
   <div class="method-reason">
@@ -230,13 +233,13 @@
 
 <script>
 import NextButton from '../components/Shared/button.vue';
-import BackToTop from 'vue-backtotop';
+// import BackToTop from 'vue-backtotop';
 
 export default {
   name: 'PodcastPage',
   components: {
     'next-button': NextButton,
-    BackToTop,
+    // BackToTop,
   },
   data() {
     return {

@@ -43,7 +43,7 @@
     </div>
   </div>
 
-  <div class="pjt-desc" style="background:#f8efd4">
+  <div class="pjt-desc" style="background: #f8efd4">
     <h1>Feedback</h1>
     <p>
       It was so great to work directly with the
@@ -65,7 +65,7 @@
     </p>
   </div>
 
-  <h1 style="margin-top:100px;">Prototype Images</h1>
+  <h1 style="margin-top: 100px">Prototype Images</h1>
   <div class="prototype-img">
     <div><img src="../assets/SireHealth/sire_img1.png" alt="" /></div>
     <div><img src="../assets/SireHealth/sire_img2.png" alt="" /></div>
@@ -87,10 +87,13 @@
 
 <script>
 import NextButton from '../components/Shared/button.vue';
-import BackToTop from 'vue-backtotop';
+// import BackToTop from 'vue-backtotop';
 export default {
   name: 'SireHealthPage',
-  components: { 'next-button': NextButton, BackToTop },
+  components: {
+    'next-button': NextButton,
+    // BackToTop
+  },
   data() {
     return {
       name: 'Meeture',

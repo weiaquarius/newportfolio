@@ -1,7 +1,15 @@
 <template>
-  <div id="nav" class="tw-p-2 sm:tw-p-6">
-    <router-link to="/">Wei-Ko's Portfolio</router-link>
-    <!-- <router-link to="/about">About</router-link> -->
+  <div id="nav" class="grid grid-cols-10 text-center p-2 sm:p-6 text-center">
+    <div>
+      <router-link to="/">Wei-Ko Li</router-link>
+    </div>
+    <div class="col-span-6"></div>
+    <div>
+      <router-link to="/">Home</router-link>
+    </div>
+    <div>
+      <router-link to="/about">About me</router-link>
+    </div>
   </div>
   <router-view />
 </template>
@@ -14,8 +22,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
-  justify-content: flex-start;
+  // display: flex;
+  // justify-content: flex-start;
   font-size: 20px;
   background-color: #e6e6e6;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.26);

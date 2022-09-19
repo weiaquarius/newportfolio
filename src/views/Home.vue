@@ -14,7 +14,7 @@
           <Travel />
         </div>
       </div>
-      <h1 class="heading heading--stroke m-0">CASE STUDIES</h1>
+      <h1 class="heading heading--stroke px-6">CASE STUDIES</h1>
 
       <div
         data-aos="fade-up"
@@ -57,7 +57,7 @@
   </div>
 
   <!-- <div class="bg"></div> -->
-  <div id="footer" class="sns">
+  <div id="footer" class="sns mt-4">
     <ul>
       <li>
         <a href="https://www.linkedin.com/in/wei-ko-li-a77707194/"
@@ -101,7 +101,7 @@ import Podcast from '@/components/Home/Podcast.vue';
 import Travel from '@/components/Home/Travel.vue';
 import SireHealth from '@/components/Home/SireHealth.vue';
 
-import BackToTop from 'vue-backtotop';
+// import BackToTop from 'vue-backtotop';
 
 import { onMounted } from 'vue';
 

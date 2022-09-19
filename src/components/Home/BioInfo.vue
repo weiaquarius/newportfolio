@@ -10,6 +10,7 @@
         Hello
       </h1> -->
       <!-- <h1>Hello!</h1> -->
+
       <h2>
         I am WEI-KO LI, a graduate student major in MS in Information Science
         (UX Track) at the University Of Texas At Austin (UT Austin).
@@ -30,7 +31,7 @@
       </h3>
     </div>
     <div class="profile-img circular--landscape">
-      <img src="../../assets/Home/VivianTexas.JPG" alt="" />
+      <img src="@/assets/Home/viviantexas.png" alt="" />
     </div>
   </section>
 </template>

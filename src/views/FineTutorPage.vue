@@ -170,10 +170,10 @@
       </p>
     </div>
   </div>
-  <div class="pjt-desc" style="background:white;">
+  <div class="pjt-desc" style="background: white">
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
-      <div class="card" style="margin:30px;">
+      <div class="card" style="margin: 30px">
         <div class="card-style-two">
           <h3>
             "<i
@@ -238,9 +238,7 @@
     </h1>
   </div>
 
-  <p class="author">
-    (Persona designed by Wei-Ko Li.)
-  </p>
+  <p class="author">(Persona designed by Wei-Ko Li.)</p>
   <div class="persona-image">
     <img src="../assets/FineTutor/persona_t.jpg" alt="persona of teacher" />
     <img src="../assets/FineTutor/persona_s.jpg" alt="persona of student" />
@@ -256,19 +254,17 @@
 
   <div class="method-reason">
     <h3>Design Solution</h3>
-    <h1 style="color:#2f5d62;">
+    <h1 style="color: #2f5d62">
       "Designed the recommend function to save users’ time and enhance
       efficiency."
     </h1>
 
-    <p class="author">
-      (Page designed by Wei-Ko Li.)
-    </p>
+    <p class="author">(Page designed by Wei-Ko Li.)</p>
     <img src="../assets/FineTutor/Matching.jpg" alt="" />
   </div>
-  <div class="pjt-desc" style="padding-bottom:50px;background:white;">
+  <div class="pjt-desc" style="padding-bottom: 50px; background: white">
     <h1><span class="underline diffcolor__four">Challenge</span></h1>
-    <p style="line-height:50px;margin-top:40px">
+    <p style="line-height: 50px; margin-top: 40px">
       1. How to
       <span class="underline">highlight our key value</span> among any other
       tutor website.<br />
@@ -278,9 +274,9 @@
     </p>
   </div>
 
-  <div class="pjt-desc" style="padding-bottom:70px;background:white;">
+  <div class="pjt-desc" style="padding-bottom: 70px; background: white">
     <h1><span class="underline diffcolor__three">Solved</span></h1>
-    <p style="line-height:50px;margin-top:40px">
+    <p style="line-height: 50px; margin-top: 40px">
       1. After interviewing and user testing, we built up two features,
       <span class="underline diffcolor"
         >a suitable matching page, and a matching progress page</span
@@ -298,7 +294,7 @@
     <h3>
       <i
         class="fas fa-mouse fa-lg"
-        style="color: steelblue;padding-right:20px;"
+        style="color: steelblue; padding-right: 20px"
       ></i
       ><a href="https://finetutor.github.io/">Links</a>
     </h3>
@@ -321,7 +317,7 @@
 
 <script>
 import NextButton from '../components/Shared/button.vue';
-import BackToTop from 'vue-backtotop';
+// import BackToTop from 'vue-backtotop';
 
 //Fade-In transition
 
@@ -329,7 +325,7 @@ export default {
   name: 'FineTutorPage',
   components: {
     'next-button': NextButton,
-    BackToTop,
+    // BackToTop,
   },
   data() {
     return {

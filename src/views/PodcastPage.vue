@@ -585,13 +585,13 @@
 
 <script>
 import NextButton from '../components/Shared/button.vue';
-import BackToTop from 'vue-backtotop';
+// import BackToTop from 'vue-backtotop';
 
 export default {
   name: 'PodcastPage',
   components: {
     'next-button': NextButton,
-    BackToTop,
+    // BackToTop,
   },
   data() {
     return {
