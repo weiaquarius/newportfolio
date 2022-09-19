@@ -87,11 +87,11 @@
     <p>李唯閣 | WEI-KO LI | NYCU</p>
   </div>
 
-  <back-to-top bottom="50px" right="50px">
+  <!-- <back-to-top bottom="50px" right="50px">
     <button type="button" class="btn btn-info btn-to-top">
       <p>TOP</p>
     </button>
-  </back-to-top>
+  </back-to-top> -->
 </template>
 <script setup lang="ts">
 import BioInfo from '@/components/Home/BioInfo.vue';

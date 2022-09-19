@@ -80,9 +80,9 @@
     <div class="button-bg-image"></div>
     <next-button :project-num="num" :name="name"></next-button>
   </div>
-  <back-to-top bottom="50px" right="50px">
+  <!-- <back-to-top bottom="50px" right="50px">
     <button type="button" class="btn btn-info btn-to-top"><p>TOP</p></button>
-  </back-to-top>
+  </back-to-top> -->
 </template>
 
 <script>
