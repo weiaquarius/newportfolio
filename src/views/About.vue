@@ -1,120 +1,214 @@
 <template>
-  <div class="about">
-    <section>
-      <h2>Hi! I am WEI-KO!</h2>
-      <br />
-      <p>
-        I am now the <b>UX team member in NCTU+</b> and a
-        <b>volunteer in LTUX.</b><br /><br />
-
-        I found a passion for <b>user experiences</b> in my sophomore year in
-        college. After that, I have spent lots of time digging into the UX field
-        by
-        <b
-          >joining book clubs, conducting side projects, being a volunteer, and
-          taking many related courses at school.</b
-        >
-        There are lots of fantastic ideas and inspirations during the discussion
-        with the users and teammates. It is fascinating to know deeply about the
-        users and work with teammates to solve users’ problems.<br /><br />
-
-        In addition to user research, I also work hard on programming because I
-        want to use the methodology on technique-driven products in the future.
-        And currently, I am working as the front-end intern in Pickone Inc.<br /><br />
-
-        Outside of learning, I also play on team lead in different groups. I am
-        <b>the president of the student association in the EE department</b>
-        and <b>the event general coordinator in the pop-dance club</b>. I really
-        enjoy the moment of interacting with various people and guide them to
-        move forward together.<br /><br />
-
-        With passion and perseverance to tackle any problem and try new stuff, I
-        hope to grab any opportunities to strengthen myself !!!
-      </p>
+  <section class="overflow-hidden text-gray-700">
+    <div class="container py-2 mx-auto lg:pt-24 lg:px-10">
+      <div class="flex flex-wrap -m-1 md:-m-2">
+        <div class="mt-20 flex flex-wrap lg:w-2/5 md:w-full">
+          <div class="w-full p-10 md:p-2">
+            <img
+              alt="gallery"
+              class="block object-cover w-full h-full rounded-lg shadow-lg"
+              src="@/assets/About/Taitung.png"
+            />
+          </div>
+        </div>
+        <div class="lg:mt-20 flex flex-wrap lg:w-1/2 text-left px-8 md:w-full">
+          <h2>I am Wei-Ko Li (Vivian)</h2>
+          <p>
+            I found a passion for user experiences in my sophomore year in
+            college. After that, I spent lots of time digging into the UX field
+            by joining UX book clubs, conducting side projects (E.g. Podcast
+            redesign project), and taking HCI-related courses during college.
+            (E.g. Meeture, social activity platform for the elderly)<br /><br />
+            However, during the project of Meeture, I saw my knowledge gap in
+            making accessible designs for the elderly since many interviewees
+            suffering from presbyopia expressed their frustration in reading the
+            small text on our website. This project experience was my
+            rudimentary attempt to understand accessible design to help diverse
+            groups of older people easily access technology.<br /><br />
+            Therefore, I decided to build up solid knowledge in implementing
+            user research methods and practical user interface design
+            experiences. I first joined the lab led by Prof. Yung-Ju Chang at
+            National Yang-Ming Chiao Tung University (NYCU) to enhance my UX
+            research skills. I participated in two research projects: in-vehicle
+            reading and travel-based multitasking which polished my research
+            skills in qualitative research skills. (E.g. field study,
+            observation, and semi-structured interviews).<br />Next, I decided
+            to go abroad for a UX master's program to craft age-friendly designs
+            to better capture older people’s challenges when interacting with
+            technology.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-wrap lg:pt-12 lg:px-32">
+      <div class="text-left font-serif">
+        <h1 class="sm:text-xl md:text-4xl">Here I am!</h1>
+        <h4 class="mt-10 sm:text-lg md:text-xl">
+          Studied at the University of Texas at Austin (UT Austin) for MS in
+          Information Science.
+        </h4>
+      </div>
+    </div>
+    <section class="overflow-hidden text-gray-700">
+      <div class="container pl-8 md:pl-20 py-2 mx-auto">
+        <div class="flex flex-wrap -m-1 md:-m-2">
+          <div class="flex flex-wrap w-2/5">
+            <div class="w-2/5 md:1 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block object-cover object-center w-full rounded-lg"
+                src="@/assets/About/CapitolMe.png"
+              />
+            </div>
+            <div class="w-2/5 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block object-cover object-center w-full rounded-lg"
+                src="@/assets/About/Airplane.png"
+              />
+            </div>
+            <div class="w-4/5 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block object-cover object-center w-full rounded-lg"
+                src="@/assets/About/Capitol.png"
+              />
+            </div>
+          </div>
+          <div class="flex flex-wrap w-3/5">
+            <div class="w-2/3 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block object-cover object-center w-full rounded-lg"
+                src="@/assets/About/texasAboutMe.png"
+              />
+            </div>
+            <div class="w-2/3 p-1 md:p-2">
+              <img
+                alt="gallery"
+                class="block object-cover object-center w-full rounded-lg"
+                src="@/assets/About/TaiwanMeetup.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- <div class="projectpic">
-          <div class="col-xs-12 album">
-            <h1>Student Association of electrical engineering Department</h1>
-            <div class="col-md-2"></div>
-            <div class="col-md-8 col-xs-12">
-              <img src="img/EE.jpeg" alt="EE department" />
-            </div>
-            <div class="col-md-2"></div>
-          </div>
-
-          <div class="col-xs-12  album">
-            <h1>NTHU EE summer oversea exchange scholarship</h1>
-            <h3>UBC(University of British Columbia)</h3>
-            <div class="col-md-2"></div>
-            <div class="col-md-4 col-xs-12">
-              <img src="img/UBC1.JPG" alt="UBC_picture" />
-            </div>
-            <div class="col-md-4 col-xs-12">
-              <img src="img/UBC2.JPG" alt="UBC_picture" />
-            </div>
-            <div class="col-md-2"></div>
-          </div>
-          <div class="col-xs-12  album">
-            <div class="col-md-2"></div>
-            <div class="col-md-4 col-xs-12">
-              <img src="img/UBC3.JPG" alt="UBC_picture" />
-            </div>
-            <div class="col-md-4 col-xs-12">
-              <img src="img/UBC4.JPG" alt="UBC_picture" />
-            </div>
-            <div class="col-md-2"></div>
-          </div>
-          <div class="col-xs-12  album">
-            <h1>HPX Book Club</h1>
-            <div class="col-md-2"></div>
-            <div class="col-md-4 col-xs-12">
-              <img src="img/HPX1.JPG" alt="HPX_picture" />
-            </div>
-            <div class="col-md-4 col-xs-12">
-              <img src="img/HPX2.JPG" alt="HPX_picture" />
-            </div>
-            <div class="col-md-2"></div>
-          </div>
-          <div class="col-xs-12  album">
-            <h1>UxCube</h1>
-            <div class="col-md-2"></div>
-            <div class="col-md-4 col-xs-12">
-              <img src="img/cube1.JPG" alt="Uxcube_picture" />
-            </div>
-            <div class="col-md-4 col-xs-12">
-              <img src="img/cube2.JPG" alt="Uxcube_picture" />
-            </div>
-            <div class="col-md-2"></div>
-          </div>
-        </div> -->
+  </section>
+  <div class="bg-yellow-100 md:p-40 p-10 my-10">
+    <div class="text-left">
+      <h3 class="text-lg">
+        I enjoy interacting with different people and emphasizing their feelings
+        about every life. I want to learn more about inclusive design and
+        interact with older populations from diverse backgrounds to bring
+        user-friendly designs to them.
+      </h3>
+    </div>
   </div>
-  <!-- <div id="footer" class="sns">
-    <ul>
-      <li>
-        <a href="https://www.linkedin.com/in/wei-ko-li-a77707194/"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-      </li>
-      <li>
-        <a href="https://github.com/weiaquarius"
-          ><i class="fab fa-github fa-lg"></i
-        ></a>
-      </li>
-      <li>
-        <a href="mailto:weiaquarius17@gmail.com"
-          ><i class="fas fa-envelope fa-lg"></i
-        ></a>
-      </li>
-    </ul>
-    <p>李唯閣 | WEI-KO LI | NTHU EE</p>
-  </div> -->
+
+  <hr class="mx-20 mt-24 mb-20 h-px bg-gray-200 border-0 dark:bg-gray-700" />
+  <h2 class="italic">Check my projects!</h2>
+
+  <div id="linkStyle" class="flex flex-wrap justify-center items-center">
+    <router-link to="/TravelBasedMultitasking">
+      <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-8">
+        <!-- <img
+          class="mt-2"
+          src="@/assets/Home/meeeture_logo.png"
+          style="height: 100px"
+          alt=""
+          loading="lazy"
+        /> -->
+
+        <div class="p-0">
+          <h3>
+            Get Distracted or Missed the Stop? Investigating Public Transit
+            Passengers’ Travel-Based Multitasking Behaviors, Motives, and
+            Challenges
+          </h3>
+          <p>
+            Design a learnable and aging-friendly activity website to encourage
+            the elderly to go outside and make connections with their friends.
+          </p>
+        </div>
+      </div>
+    </router-link>
+    <router-link to="/Meeture">
+      <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-6">
+        <img
+          class="mt-2"
+          src="@/assets/Home/meeeture_logo.png"
+          style="height: 80px"
+          alt=""
+          loading="lazy"
+        />
+
+        <div class="p-0">
+          <h2>Meeture</h2>
+          <h3>Elderly activity platform</h3>
+          <!-- <p class="text-2xl">Meeture</p>
+          <p class="text-xl font-medium">Elderly activity platform</p> -->
+          <p>
+            Design a learnable and aging-friendly activity website to encourage
+            the elderly to go outside and make connections with their friends.
+          </p>
+        </div>
+      </div>
+    </router-link>
+    <router-link to="/PodcastProject">
+      <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-8">
+        <img
+          class="mt-2"
+          src="@/assets/Home/Podcast.png"
+          style="height: 100px"
+          alt=""
+          loading="lazy"
+        />
+
+        <div class="p-0">
+          <h2>Podcast side project</h2>
+          <h3>Podcast app redesign</h3>
+          <!-- <p class="text-2xl">Meeture</p>
+          <p class="text-xl font-medium">Elderly activity platform</p> -->
+          <p></p>
+        </div>
+      </div>
+    </router-link>
+  </div>
 </template>
 <script>
-export default {};
+export default {
+  name: 'About',
+  mounted() {
+    window.scrollTo(0, 0);
+  },
+};
 </script>
 <style scoped lang="scss">
-section {
-  width: 80%;
-  margin: 0 10%;
+#linkStyle {
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    // &.router-link-exact-active {
+    //   color: #80281c;
+    //   text-decoration: underline;
+    // }
+    // &:hover {
+    //   color: #80281c;
+    // }
+  }
+}
+
+#cardStyle {
+  transition: all 0.5s ease-out;
+  &:hover {
+    background-color: rgb(226 232 240);
+
+    transform: scale(1.02) perspective(0px);
+    box-shadow: 0 5px 5px rgba(144, 144, 144, 0.7);
+  }
 }
 </style>

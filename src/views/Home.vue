@@ -1,9 +1,11 @@
 <template>
   <div class="home">
     <BioInfo />
-    <div class="projects">
+    <div>
       <div class="design-work">
-        <h1 class="heading heading--stroke__design">Research Project</h1>
+        <h1 class="m-0 pt-20 heading heading--stroke__design">
+          Research Project
+        </h1>
 
         <div
           data-aos="fade-up"
@@ -14,23 +16,25 @@
           <Travel />
         </div>
       </div>
-      <h1 class="heading heading--stroke px-6">CASE STUDIES</h1>
+      <div class="caseProject">
+        <h1 class="m-0 pt-20 heading heading--stroke px-6">CASE STUDIES</h1>
 
-      <div
-        data-aos="fade-up"
-        data-aos-duration="700"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-      >
-        <Meeture />
-      </div>
-      <div
-        data-aos="fade-up"
-        data-aos-duration="700"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-      >
-        <Podcast />
+        <div
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+        >
+          <Meeture />
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+        >
+          <Podcast />
+        </div>
       </div>
       <!-- <div
         data-aos="fade-up"
@@ -157,8 +161,7 @@ onMounted(() => {
     vertical-align: middle;
   }
 }
-.projects {
-  padding: 10px 0;
+.caseProject {
   background-color: #eaf9ff;
 }
 
@@ -186,9 +189,6 @@ onMounted(() => {
     padding: 0 25px;
     transform: translate(-50%, 150%);
   }
-}
-h1 {
-  margin: 0;
 }
 .heading {
   font-size: 4.5rem;

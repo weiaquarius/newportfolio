@@ -42,7 +42,7 @@
 section {
   width: 100%;
   margin: 0;
-  padding: 56px 0;
+  // padding: 56px 0;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -148,7 +148,7 @@ section {
     top: 25%;
   }
   @media (max-width: 700px) {
-    // top: 30%;
+    top: 15%;
     left: auto;
     right: auto;
   }
