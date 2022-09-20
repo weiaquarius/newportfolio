@@ -16,4 +16,4 @@ git commit -m 'update'
 git push -f git@github.com:weiaquarius/newportfolio.git master:gh-pages
 cd -
 
-# # run file: sh ./deploy.sh
+# run file: sh ./deploy.sh

@@ -1,46 +1,47 @@
 //underline
-.underline {
-  background-image: linear-gradient(120deg, #f5c0c0 0%, #ff9292 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
-  &:hover {
-    background-size: 100% 88%;
-  }
-}
+// .underline {
+//   background-image: linear-gradient(120deg, #f5c0c0 0%, #ff9292 100%);
+//   background-repeat: no-repeat;
+//   background-size: 100% 88%;
+//   // background-size: 100% 0.2em;
+//   background-position: 0 88%;
+//   transition: background-size 0.25s ease-in;
+//   // &:hover {
+//   //   background-size: 100% 88%;
+//   // }
+// }
 
-.diffcolor {
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  &__one {
-    background-image: linear-gradient(120deg, #556052 0%, #3a4637 100%);
-  }
-  &__two {
-    background-image: linear-gradient(120deg, #ff9292 0%, #d68e8e 100%);
-    background-repeat: repeat;
-    padding: 5px;
-    line-height: 45px;
-    @media (max-width: 600px) {
-      background-image: none;
-    }
-  }
-  &__three {
-    background-repeat: repeat;
-    padding: 5px;
-    line-height: 45px;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  }
-  &__four {
-    background-image: linear-gradient(120deg, #ff9292 0%, #d68e8e 100%);
-    background-repeat: repeat;
-    padding: 5px;
-    line-height: 45px;
-  }
-}
+// .diffcolor {
+//   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+//   &__one {
+//     background-image: linear-gradient(120deg, #556052 0%, #3a4637 100%);
+//   }
+//   &__two {
+//     background-image: linear-gradient(120deg, #ff9292 0%, #d68e8e 100%);
+//     background-repeat: repeat;
+//     padding: 5px;
+//     line-height: 45px;
+//     // @media (max-width: 600px) {
+//     //   background-image: none;
+//     // }
+//   }
+//   &__three {
+//     background-repeat: repeat;
+//     padding: 5px;
+//     line-height: 45px;
+//     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+//   }
+//   &__four {
+//     background-image: linear-gradient(120deg, #ff9292 0%, #d68e8e 100%);
+//     background-repeat: repeat;
+//     padding: 5px;
+//     line-height: 45px;
+//   }
+// }
 //
 .pjt-desc {
   width: 100%;
-  background-color: #ecb0ae;
+  // background-color: #ecb0ae;
   height: 400px;
   padding: 100px 0;
   position: relative;

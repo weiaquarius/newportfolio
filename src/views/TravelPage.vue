@@ -75,12 +75,12 @@
       <p class="text-lg font-medium">
         Travel multitaskers’ attention is divided when they are taking public
         transport which probably
-        <b class="underline diffcolor underline-offset-4"
+        <b class="underline diffcolor underline-offset-0"
           >brings negative effects on their major travel task</b
         >
         (e.g. missing their stop or losing belongings due to disembarking in a
         rush). Besides, it could
-        <b class="underline diffcolor underline-offset-4"
+        <b class="underline diffcolor underline-offset-0"
           >cause problems (e.g. reducing tasks’ quality and progress)</b
         >
         to the work they are doing on the public transit.
@@ -270,11 +270,9 @@ export default {
     'next-button': NextButton,
     // BackToTop,
   },
-  data() {
-    return {
-      name: 'Meeture',
-      num: '2',
-    };
+  props: {
+    num: Number,
+    name: String,
   },
   mounted() {
     window.scrollTo(0, 0);

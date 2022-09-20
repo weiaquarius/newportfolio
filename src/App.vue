@@ -14,11 +14,11 @@
     </div>
   </div> -->
   <nav
-    class="relative w-full flex flex-wrap justify-start py-1 text-gray-500 bg-slate-100 shadow-lg navbar navbar-expand-lg navbar-light"
+    class="relative w-full flex flex-wrap justify-start py-6 text-gray-500 bg-slate-100 shadow-lg navbar navbar-expand-lg navbar-light"
     id="nav"
   >
     <div class="container-fluid w-full flex flex-wrap justify-start px-6">
-      <div class="mt-1 collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="mt-1 collapse navbar-collapse">
         <router-link to="/"
           ><img
             src="@/assets/WEIKOLI.png"
@@ -52,73 +52,82 @@
         </ul> -->
         <!-- Left links -->
       </div>
-      <div class="collapse navbar-collapse text-xl" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse text-xl">
         <router-link to="/">Home</router-link>
       </div>
-      <div class="collapse navbar-collapse text-xl" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse text-xl">
         <router-link to="/about">About</router-link>
       </div>
-      <!-- <button
-        class="navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+
+      <n-dropdown
+        trigger="hover"
+        show-arrow
+        :options="options"
+        @select="handleSelect"
       >
-        <svg
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fas"
-          data-icon="bars"
-          class="w-6"
-          role="img"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 448 512"
-        >
-          <path
-            fill="currentColor"
-            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-          ></path>
-        </svg>
-      </button> -->
-
-      <!-- Collapsible wrapper -->
-
-      <!-- Right elements -->
+        <div class="collapse navbar-collapse text-xl">
+          <a class="flex items-center">
+            <span>Project</span>
+            <n-icon class="px-1 arrowStyle" size="30">
+              <keyboard-arrow-down-round />
+            </n-icon>
+          </a>
+        </div>
+      </n-dropdown>
     </div>
   </nav>
   <router-view />
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { NDropdown, NIcon } from 'naive-ui';
+import { KeyboardArrowDownRound } from '@vicons/material';
+import { useRouter } from 'vue-router';
+const options = [
+  {
+    label: 'Travel-Based Multitasking',
+    key: 'Travel',
+  },
+  {
+    label: 'Meeture',
+    key: 'Meeture',
+  },
+  {
+    label: 'Podcast side project',
+    key: 'Podcast',
+  },
+];
+const router = useRouter();
+const handleSelect = (key: string) => {
+  router.push({ name: key });
+  console.log(key);
+};
+</script>
 
 <style lang="scss" scoped>
 #nav {
   // padding: 25px;
   // width: 100%;
   position: fixed;
-  // top: 0;
-  // left: 0;
-  // // display: flex;
-  // // justify-content: flex-start;
-  // // font-size: 20px;
-  // background-color: #e6e6e6;
-  // box-shadow: 0 3px 8px rgba(0, 0, 0, 0.26);
   z-index: 999;
   // max-width: 1000px;
   a {
     font-weight: bold;
     color: #2c3e50;
+    cursor: pointer;
     text-decoration: none;
-    display: block;
-    padding: 20px;
+    padding: 0 20px;
+    .arrowStyle {
+      fill: #2c3e50;
+    }
     &.router-link-exact-active {
       color: #80281c;
       text-decoration: underline;
     }
     &:hover {
       color: #80281c;
+      .arrowStyle {
+        fill: #80281c;
+      }
     }
   }
 }

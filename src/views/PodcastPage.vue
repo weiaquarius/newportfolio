@@ -1,8 +1,8 @@
 <template>
   <div class="pjt-top">
     <div class="pjt-title">
-      <h1>Podcast side project</h1>
-      <h2>Podcast app redesign</h2>
+      <h2 class="lg:test-md font-">Podcast side project</h2>
+      <h2 class="lg:test-md">Podcast app redesign</h2>
       <h3 style="">
         Check
         <a
@@ -62,7 +62,7 @@
     </div>
   </div>
   <div
-    class="pjt-desc"
+    class="pjt-desc bg-orange-100"
     data-aos="fade-up"
     data-aos-duration="700"
     data-aos-easing="ease-in-out"
@@ -70,30 +70,30 @@
     data-aos-anchor-placement="top-center"
   >
     <h1>Problem</h1>
-    <p>
+    <p class="font-medium">
       Some of our team members are
-      <span class="underline diffcolor__one">Podcast listeners</span> , they
-      felt annoyed and difficult when using the platforms.<br />
+      <span class="text-red-700 font-semibold">Podcast listeners</span>
+      , they felt annoyed and difficult when using the platforms.<br />
       <span class="problem-example"
         >For example,<br />
         1. weak bonding between Podcasters and listeners since there are
-        <span class="underline diffcolor__one"
+        <span class="text-red-700 font-semibold"
           >few social connections and interactive features</span
         >
         within Podcast apps so that they need to change platforms to connect
         with the Podcasters.<br />
         2.
-        <span class="underline diffcolor__one">unorderly information</span>
+        <span class="text-red-700 font-semibold">unorderly information</span>
         displayed on the interface.</span
       >
     </p>
-    <p class="problem-statement">
+    <p class="pt-10 problem-statement">
       Therefore, our group wanted to take a research on Podcast platforms and
-      <span class="underline diffcolor__one"
+      <span class="text-red-700 font-semibold"
         >find out pain points of listeners</span
       >
       and
-      <span class="underline diffcolor__one">design a new Podcast app</span>
+      <span class="text-red-700 font-semibold">design a new Podcast app</span>
       to solve their problems.
     </p>
   </div>
@@ -593,11 +593,9 @@ export default {
     'next-button': NextButton,
     // BackToTop,
   },
-  data() {
-    return {
-      name: 'TravelBasedMultitasking',
-      num: '1',
-    };
+  props: {
+    num: Number,
+    name: String,
   },
   mounted() {
     window.scrollTo(0, 0);
@@ -734,12 +732,9 @@ export default {
 .oddboxinner {
   transform: rotate(0.5deg);
 }
-.underline {
-  background-size: 100% 0.14em;
-  &:hover {
-    background-size: 100% 0.14em;
-  }
-}
+// .underline {
+//   background-size: 100% 0.14em;
+// }
 .story-style {
   font-family: 'Source Code Pro', monospace;
   max-width: 600px;

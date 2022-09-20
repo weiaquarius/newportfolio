@@ -241,11 +241,9 @@ export default {
     'next-button': NextButton,
     // BackToTop,
   },
-  data() {
-    return {
-      name: 'PodcastProject',
-      num: '3',
-    };
+  props: {
+    num: Number,
+    name: String,
   },
   mounted() {
     window.scrollTo(0, 0);

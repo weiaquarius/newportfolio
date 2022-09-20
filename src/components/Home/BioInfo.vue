@@ -42,7 +42,7 @@
 section {
   width: 100%;
   margin: 0;
-  // padding: 56px 0;
+  padding: 56px 0;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -145,13 +145,16 @@ section {
   margin: auto;
   transform: translateY(-50%);
   @media (max-width: 992px) {
-    top: 25%;
+    top: 20%;
   }
   @media (max-width: 700px) {
-    top: 15%;
-    left: auto;
-    right: auto;
+    top: 18%;
   }
+  // @media (max-width: 500px) {
+  //   top: 17%;
+  //   left: auto;
+  //   right: auto;
+  // }
 }
 
 .loading span {

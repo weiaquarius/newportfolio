@@ -2,7 +2,7 @@
   <section class="overflow-hidden text-gray-700">
     <div class="container py-2 mx-auto lg:pt-24 lg:px-10">
       <div class="flex flex-wrap -m-1 md:-m-2">
-        <div class="mt-20 flex flex-wrap lg:w-2/5 md:w-full">
+        <div class="mt-20 flex flex-wrap lg:1/2 md:w-1/2">
           <div class="w-full p-10 md:p-2">
             <img
               alt="gallery"
@@ -11,12 +11,12 @@
             />
           </div>
         </div>
-        <div class="lg:mt-20 flex flex-wrap lg:w-1/2 text-left px-8 md:w-full">
-          <h2>I am Wei-Ko Li (Vivian)</h2>
-          <p>
-            I found a passion for user experiences in my sophomore year in
+        <div class="lg:mt-20 flex flex-wrap lg:w-1/2 text-left px-8 md:w-1/2">
+          <h2 class="text-xl">I am Wei-Ko Li (Vivian)</h2>
+          <p class="text-md">
+            I found a passion for user experiences (UX) in my sophomore year in
             college. After that, I spent lots of time digging into the UX field
-            by joining UX book clubs, conducting side projects (E.g. Podcast
+            by joining UX book clubs, conducting side project (E.g. Podcast
             redesign project), and taking HCI-related courses during college.
             (E.g. Meeture, social activity platform for the elderly)<br /><br />
             However, during the project of Meeture, I saw my knowledge gap in
@@ -40,8 +40,8 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap lg:pt-12 lg:px-32">
-      <div class="text-left font-serif">
+    <div class="flex flex-wrap lg:pt-12 px-[20px] md:px-20 lg:px-32">
+      <div class="w-full text-left sm:text-center font-serif">
         <h1 class="sm:text-xl md:text-4xl">Here I am!</h1>
         <h4 class="mt-10 sm:text-lg md:text-xl">
           Studied at the University of Texas at Austin (UT Austin) for MS in
@@ -50,24 +50,24 @@
       </div>
     </div>
     <section class="overflow-hidden text-gray-700">
-      <div class="container pl-8 md:pl-20 py-2 mx-auto">
+      <div class="container px-4 lg:px-[20%] py-2 mx-auto">
         <div class="flex flex-wrap -m-1 md:-m-2">
           <div class="flex flex-wrap w-2/5">
-            <div class="w-2/5 md:1 p-1 md:p-2">
+            <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full rounded-lg"
                 src="@/assets/About/CapitolMe.png"
               />
             </div>
-            <div class="w-2/5 p-1 md:p-2">
+            <!-- <div class="w-1/3 p-1 md:p-2">
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full rounded-lg"
                 src="@/assets/About/Airplane.png"
               />
-            </div>
-            <div class="w-4/5 p-1 md:p-2">
+            </div> -->
+            <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full rounded-lg"
@@ -76,14 +76,14 @@
             </div>
           </div>
           <div class="flex flex-wrap w-3/5">
-            <div class="w-2/3 p-1 md:p-2">
+            <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full rounded-lg"
                 src="@/assets/About/texasAboutMe.png"
               />
             </div>
-            <div class="w-2/3 p-1 md:p-2">
+            <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 class="block object-cover object-center w-full rounded-lg"

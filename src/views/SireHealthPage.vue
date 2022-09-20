@@ -94,11 +94,9 @@ export default {
     'next-button': NextButton,
     // BackToTop
   },
-  data() {
-    return {
-      name: 'Meeture',
-      num: '1',
-    };
+  props: {
+    num: Number,
+    name: String,
   },
   mounted() {
     window.scrollTo(0, 0);

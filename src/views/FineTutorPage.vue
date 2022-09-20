@@ -327,11 +327,9 @@ export default {
     'next-button': NextButton,
     // BackToTop,
   },
-  data() {
-    return {
-      name: 'SireHealth',
-      num: '4',
-    };
+  props: {
+    num: Number,
+    name: String,
   },
   mounted() {
     window.scrollTo(0, 0);
