@@ -6,7 +6,7 @@
       </div>
       <div class="project-bio">
         <h1>Meeture<br /></h1>
-        <h3>Elderly activity platform</h3>
+        <h3 class="capitalize">Elderly activity platform</h3>
         <p>
           Design a learnable and aging-friendly activity website to encourage
           the elderly to go outside and make connections with their friends.

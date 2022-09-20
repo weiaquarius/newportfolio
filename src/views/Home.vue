@@ -16,7 +16,7 @@
           <Travel />
         </div>
       </div>
-      <div class="caseProject">
+      <div class="caseProject pb-3">
         <h1 class="m-0 pt-20 heading heading--stroke px-6">CASE STUDIES</h1>
 
         <div
@@ -64,28 +64,39 @@
   <div id="footer" class="sns mt-4">
     <ul>
       <li>
-        <a href="https://www.linkedin.com/in/wei-ko-li-a77707194/"
-          ><img
+        <a href="https://www.linkedin.com/in/wei-ko-li-a77707194/">
+          <n-icon color="#000" size="30">
+            <linkedin-in></linkedin-in>
+          </n-icon>
+          <!-- <img
             src="https://cdn-icons-png.flaticon.com/512/1384/1384030.png"
             alt=""
             style="padding-top: 10px; width: 33px; height: 33px"
-        /></a>
+        /> -->
+        </a>
       </li>
       <li>
-        <a href="https://github.com/weiaquarius"
-          ><img
+        <a href="https://github.com/weiaquarius">
+          <n-icon color="#000" size="35">
+            <github></github>
+          </n-icon>
+          <!-- <img
             src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png"
             style="padding-top: 6px; width: 40px; height: 40px"
             alt=""
-        /></a>
+        /> -->
+        </a>
       </li>
       <li>
-        <a href="mailto:vivian.wkl@utexas.edu"
-          ><img
+        <a href="mailto:vivian.wkl@utexas.edu">
+          <n-icon color="#000" class="pt-0.5" size="35">
+            <email-round></email-round>
+          </n-icon>
+          <!-- <img
             src="https://cdn-icons-png.flaticon.com/512/95/95645.png"
             style="padding-top: 10px; width: 35px; height: 35px"
-            alt=""
-        /></a>
+            alt="" -->
+        </a>
       </li>
     </ul>
     <p>李唯閣 | WEI-KO LI | NYCU</p>
@@ -105,6 +116,10 @@ import Podcast from '@/components/Home/Podcast.vue';
 import Travel from '@/components/Home/Travel.vue';
 import SireHealth from '@/components/Home/SireHealth.vue';
 
+import { NIcon } from 'naive-ui';
+
+import { Github, LinkedinIn } from '@vicons/fa';
+import { EmailRound } from '@vicons/material';
 // import BackToTop from 'vue-backtotop';
 
 import { onMounted } from 'vue';

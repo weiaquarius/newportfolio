@@ -26,31 +26,6 @@
             alt=""
             loading="lazy"
         /></router-link>
-        <!-- Left links -->
-        <!-- <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
-          <li class="nav-item p-2">
-            <a
-              class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
-              href="#"
-              >Dashboard</a
-            >
-          </li>
-          <li class="nav-item p-2">
-            <a
-              class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
-              href="#"
-              >Team</a
-            >
-          </li>
-          <li class="nav-item p-2">
-            <a
-              class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
-              href="#"
-              >Projects</a
-            >
-          </li>
-        </ul> -->
-        <!-- Left links -->
       </div>
       <div class="collapse navbar-collapse text-xl">
         <router-link to="/">Home</router-link>

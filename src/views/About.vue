@@ -60,13 +60,6 @@
                 src="@/assets/About/CapitolMe.png"
               />
             </div>
-            <!-- <div class="w-1/3 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block object-cover object-center w-full rounded-lg"
-                src="@/assets/About/Airplane.png"
-              />
-            </div> -->
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -112,14 +105,6 @@
   <div id="linkStyle" class="flex flex-wrap justify-center items-center">
     <router-link to="/TravelBasedMultitasking">
       <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-8">
-        <!-- <img
-          class="mt-2"
-          src="@/assets/Home/meeeture_logo.png"
-          style="height: 100px"
-          alt=""
-          loading="lazy"
-        /> -->
-
         <div class="p-0">
           <h3>
             Get Distracted or Missed the Stop? Investigating Public Transit
@@ -145,7 +130,7 @@
 
         <div class="p-0">
           <h2>Meeture</h2>
-          <h3>Elderly activity platform</h3>
+          <h3 class="capitalize">Elderly activity platform</h3>
           <!-- <p class="text-2xl">Meeture</p>
           <p class="text-xl font-medium">Elderly activity platform</p> -->
           <p>
@@ -167,7 +152,7 @@
 
         <div class="p-0">
           <h2>Podcast side project</h2>
-          <h3>Podcast app redesign</h3>
+          <h3 class="capitalize">Podcast app redesign</h3>
           <!-- <p class="text-2xl">Meeture</p>
           <p class="text-xl font-medium">Elderly activity platform</p> -->
           <p></p>

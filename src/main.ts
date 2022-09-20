@@ -3,7 +3,7 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import './plugins/aos'
-import './plugins/underline.js'
+// import './plugins/underline.js'
 import './index.css'
 
 createApp(App)

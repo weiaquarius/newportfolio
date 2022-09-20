@@ -1,11 +1,11 @@
 <template>
-  <div class="travelBg">
-    <img src="@/assets/Travel/TravelMultitasking.jpg" alt="" />
+  <div class="pb-16 md:pb-20 pt-8 flex flex-wrap items-center justify-center">
+    <img class="w-full" src="@/assets/Travel/TravelMultitasking.jpg" alt="" />
   </div>
 
   <!-- <div class="tw-mt-20 tw-grid tw-grid-cols-3 tw-text-left tw-mx-px-20"></div> -->
 
-  <div class="mt-20 grid grid-cols-4 gap-8 text-left">
+  <div class="grid grid-cols-4 gap-8 text-left">
     <div class="col-start-2 col-span-2">
       <h1>Topic</h1>
       <p class="text-lg font-medium italic">
@@ -35,13 +35,13 @@
           alt="TeamPic"
         /> -->
         <div class="px-6 py-6">
-          <div class="mt-5 font-bold text-xl mb-2">Team</div>
-          <p class="text-md font-medium">
+          <div class="mt-5 font-bold text-2xl mb-2">Team</div>
+          <p class="text-lg font-base">
             <b>Students:</b> Hsinju Lee, Fang-Hsin Hsu, Wei-Ko Li, Jie Tsai<br />
             <b>Professor:</b> Ying-Yu Chen, Yung-Ju Chang
           </p>
-          <div class="mt-5 font-bold text-xl mb-2">Time</div>
-          <p class="text-md font-medium">May 2021 - Ongoing</p>
+          <div class="mt-5 font-bold text-2xl mb-2">Time</div>
+          <p class="text-lg font-base">May 2021 - Ongoing</p>
           <!-- <p class="text-gray-700 text-base">
             <ul class="list-disc">
               <li>Qultitative field research method: In-site
@@ -51,7 +51,7 @@
             Grounded theory </li>
             </ul>
           </p> -->
-          <div class="mb-3 font-bold text-xl mb-2">Tools</div>
+          <div class="mb-3 font-bold text-2xl mb-2">Tools</div>
           <span
             class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
             >ATLAS.ti</span
@@ -75,14 +75,10 @@
       <p class="text-lg font-medium">
         Travel multitaskers’ attention is divided when they are taking public
         transport which probably
-        <b class="underline diffcolor underline-offset-0"
-          >brings negative effects on their major travel task</b
-        >
+        <b>brings negative effects on their major travel task</b>
         (e.g. missing their stop or losing belongings due to disembarking in a
         rush). Besides, it could
-        <b class="underline diffcolor underline-offset-0"
-          >cause problems (e.g. reducing tasks’ quality and progress)</b
-        >
+        <b>cause problems (e.g. reducing tasks’ quality and progress)</b>
         to the work they are doing on the public transit.
       </p>
     </div>
@@ -95,7 +91,7 @@
       >
         <li class="mb-10 ml-4">
           <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
           <!-- <time
             class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
@@ -110,7 +106,7 @@
         </li>
         <li class="mb-10 ml-4">
           <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
             Observation
@@ -122,7 +118,7 @@
         </li>
         <li class="ml-4">
           <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
             Short debriefing interview
@@ -131,7 +127,7 @@
         </li>
         <li class="ml-4">
           <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
             Semi-Structured Interviews
@@ -140,7 +136,7 @@
         </li>
         <li class="ml-4">
           <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
             Qualitative data analysis

@@ -1,5 +1,261 @@
 <template>
-  <div class="pjt-top">
+  <div
+    class="bg-green-50 pb-16 md:pb-20 pt-36 flex flex-wrap items-center justify-center"
+  >
+    <img
+      class="w-3/5 md:w-2/5 px-1 md:px-2"
+      src="@/assets/Meeture/Product.png"
+      alt=""
+    />
+    <span>
+      <h1 class="text-2xl md:text-3xl font-bold">Meeture</h1>
+      <p class="text-xl md:text-2xl font-medium italic capitalize">
+        Elderly social activity platform
+      </p>
+    </span>
+  </div>
+  <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
+    <div class="pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      <h1 class="text-2xl md:text-3xl font-bold">Overview & Background</h1>
+      <p class="text-lg font-base">
+        Meeture is a <b>social activity platform</b> that helps the elderly <b>get
+        activity information, find interesting events to join, and meet new
+        friendswhich enhances the social networking</b>  between elderly people and
+      <b>constructs activities memories</b> at the same time.
+      </p>
+    </div>
+    <div class="border-2 border-indigo-600 pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      <div class="rounded overflow-hidden shadow-xl">
+        <div class="px-6 py-6">
+          <h1 class="font-bold text-lg md:text-xl mb-2">Team</h1>
+          <p class="text-md md:text-lg font-base">
+            Wei-Ko Li, Carol Huang, Daniel Chang<br />
+          </p>
+          <h1 class="font-bold text-lg md:text-xl mb-2">Time</h1>
+          <p class="text-md md:text-lg font-base">February 2021 - December 2021</p>
+          <h1 class="text-lg md:text-xl font-bold">My Role</h1>
+          <ul class="text-md md:text-lg list-disc"> 
+              <li>Team Leader</li>
+              <li>User Interface design</li>
+              <li>Web development</li>
+          </ul> 
+          <h1 class="font-bold text-lg md:text-xl">User research methods</h1>
+          <p class="text-gray-700 text-base">
+            <ul class="text-md md:text-lg list-disc">
+              <li>Surveys</li>
+              <li>User Interview</li>
+              <li>How Might We (HMW) & Point of View (PoV)</li>
+              <li>Usability testing</li>
+              <li>Heuristics Evaluation</li>
+            </ul>
+          </p>
+            
+          <h1 class="font-bold text-lg md:text-xl my-2 pb-2">Tools</h1>
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Figma</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Miro</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Vue.js</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Django</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Heroku</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="col-span-6 bg-emerald-50 px-10 lg:px-40 py-20 mt-20">
+      <h1 class="text-2xl md:text-4xl font-bold">Problem</h1>
+      <p class="text-lg md:text-xl font-medium leading-7">
+        <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are <b
+          >ruling out traditional methods, such as using flyers to publicize events or pasting posters on the bulletin boards.</b
+        > Since the elderly are <b>not familiar with smartphones and computers</b>, they do not know how to use them to find out activities.<br>
+        Also, after retiring, they <b>lose social connections with their friends and lack opportunities to meet new friends.</b><br><br>
+        Therefore, we wanted to design <b class="text-orange-700">social activity platforms</b> to help them firstly build up relationships with old friends and also make new friends, and secondly, we hoped to <b class="text-orange-700">bridge the gap between elderly people and digital devices</b> by creating aging-friendly website.
+      </p>
+    </div>
+
+    <div class="pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      <h1 class="mt-16">Research Process</h1>
+      <ol
+        class="list-none relative border-l border-gray-200 dark:border-gray-700"
+      >
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            Competitor Analysis
+          </h3>
+          <p
+            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+          ></p>
+        </li>
+        
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            User Interview
+          </h3>
+          <p
+            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+          ></p>
+        </li>
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            Qualitative data analysis (Affinity Diagram)
+          </h3>
+          <p
+            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+          ></p>
+        </li>
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            User Interview
+          </h3>
+          <p
+            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+          ></p>
+        </li>
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            HMW&PoV
+          </h3>
+          <p class="text-md font-medium">
+            
+          </p>
+        </li>
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            Wireframe & Low-Fidelity
+          </h3>
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
+        </li>
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            Usability testing
+          </h3>
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
+        </li>
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            Mid-Fidelity
+          </h3>
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
+        </li>
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            Heuristics Evaluation
+          </h3>
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
+        </li>
+        <li class="mb-8">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            High-Fidelity
+          </h3>
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
+        </li>
+      </ol>
+    </div>
+
+
+    <div class="pl-5 md:px-10 col-span-4 text-center">
+      <hr class="mx-48 my-24 h-px bg-gray-300 border-0 dark:bg-gray-700" />
+      <h1 class="text-2xl md:text-3xl font-bold">Competitor Analysis</h1>
+      <img class="w-full" src="@/assets/Meeture/MeetureCompetitor.png" alt="" />
+    </div>
+
+    <div class="col-start-2 col-span-4 mt-10">
+      <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Online Interview</h3>
+    </div>
+    <div class="col-span-6 md:col-span-2 md:col-start-2 p-10 bg-rose-100">
+        <h4 class="text-md md:text-lg font-medium"><b>1. Interview Purpose:</b> To help us <b>quickly and deeply understand</b> how older adults build up social networks, what types of activities they would use, and how they use electronic products.</h4>
+        <h4 class="text-md md:text-lg font-medium"><b>2. Participants Recruiting Criteria:</b> People whose ages are close to retirement age (60~80 years), and would use smartphones in their daily lives.</h4>
+        <h4 class="text-sm md:text-md font-medium">
+          * Due to Covid-19, our group decided to conduct online inverviews. <br>(One team member stayed beside the participants to help set up online meetings while others join online meetings to write interview notes and ask questions.)
+        </h4>
+    </div>
+
+    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+      <h2 class="text-lg md:text-xl">
+        We interviewed 4 older adults to understand their
+      </h2>
+      <ul class="text-md md:text-lg list-decimal font-semibold">
+        <li>
+          Technology usage (Pros & Cons, Challenges...)
+        </li>
+        <li>Feelings and concerns when joining activities & Activities types</li>
+        <li>Feelings about current lives</li>
+      </ul>
+    </div>
+
+    <div class="col-span-6 bg-cyan-700 px-10 lg:px-40 py-20 mt-20">
+
+      <h1 class="text-center text-3xl md:text-4xl font-bold pb-10  text-white">Research Findings</h1>
+      <div class="flex flex-wrap items-center justify-evenly">
+        <div class="col-span-3 bg-white w-[350px] h-[150px] p-3 m-5">
+          <h3>
+            <span style="background: yellow; padding: 5px 3px"
+              >Living attitude of the elderly</span
+            ><br />
+            The elderly live regular lives, are afraid of
+            <span class="underline decoration-pink-500">making changes</span>, and are
+            <span class="underline decoration-pink-500">vigilant to information sources.</span>
+          </h3>
+        </div>
+        <div class="col-span-3 bg-white w-[300px] h-[200px] p-3 m-5">
+          <h3>
+            <span style="background: yellow; padding: 5px 3px"
+              >Expand social network</span><br>
+            The elderly want to
+            <span class="underline decoration-pink-500">join activities with their friends</span>,
+            and are
+            <span class="underline decoration-pink-500">STILL willing to make new friends with similar interests and
+              hobbies.</span>
+          </h3>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <div class="pjt-top">
     <div class="pjt-title">
       <h1>Meeture</h1>
       <h2>Elderly social activity platform</h2>
@@ -225,10 +481,7 @@
   <div class="button-bg">
     <div class="button-bg-image"></div>
     <next-button :project-num="num" :name="name"></next-button>
-  </div>
-  <!-- <back-to-top bottom="50px" right="50px">
-    <button type="button" class="btn btn-info btn-to-top"><p>TOP</p></button>
-  </back-to-top> -->
+  </div> -->
 </template>
 
 <script>
