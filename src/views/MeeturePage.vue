@@ -44,7 +44,7 @@
             <ul class="text-md md:text-lg list-disc">
               <li>Surveys</li>
               <li>User Interview</li>
-              <li>How Might We (HMW) & Point of View (PoV)</li>
+              <li>Point of View (PoV) & How Might We (HMW)</li>
               <li>Usability testing</li>
               <li>Heuristics Evaluation</li>
             </ul>
@@ -79,7 +79,7 @@
       <p class="text-lg md:text-xl font-medium leading-7">
         <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are <b
           >ruling out traditional methods, such as using flyers to publicize events or pasting posters on the bulletin boards.</b
-        > Since the elderly are <b>not familiar with smartphones and computers</b>, they do not know how to use them to find out activities.<br>
+        > Since the elderly are <b>not familiar with smartphones and computers</b>, they <b>how to use them to find out activities.</b> <br>
         Also, after retiring, they <b>lose social connections with their friends and lack opportunities to meet new friends.</b><br><br>
         Therefore, we wanted to design <b class="text-orange-700">social activity platforms</b> to help them firstly build up relationships with old friends and also make new friends, and secondly, we hoped to <b class="text-orange-700">bridge the gap between elderly people and digital devices</b> by creating aging-friendly website.
       </p>
@@ -196,16 +196,21 @@
 
 
     <div class="pl-5 md:px-10 col-span-4 text-center">
-      <hr class="mx-48 my-24 h-px bg-gray-300 border-0 dark:bg-gray-700" />
+      <hr class="mx-48 my-24 h-px bg-gray-300 border-0" />
       <h1 class="text-2xl md:text-3xl font-bold">Competitor Analysis</h1>
       <img class="w-full" src="@/assets/Meeture/MeetureCompetitor.png" alt="" />
+    </div>
+
+    <div class="my-20 pl-5 md:px-40 col-span-4 text-center">
+      <h1 class="text-xl md:text-2xl font-bold">After going through competitor analysis, we found out there is no social activities platform mainly focused on retired older adults. Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h1>
+      <hr class="mx-10 mt-8 h-px bg-yellow-600 border-2 border-yellow-200 " />
     </div>
 
     <div class="col-start-2 col-span-4 mt-10">
       <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Online Interview</h3>
     </div>
     <div class="col-span-6 md:col-span-2 md:col-start-2 p-10 bg-rose-100">
-        <h4 class="text-md md:text-lg font-medium"><b>1. Interview Purpose:</b> To help us <b>quickly and deeply understand</b> how older adults build up social networks, what types of activities they would use, and how they use electronic products.</h4>
+        <h4 class="text-md md:text-lg font-medium"><b class="italic">Why Online Interview?</b> <br><br><b>1. Interview Purpose:</b> To help us <b>quickly and deeply understand</b> how older adults build up social networks, what types of activities they would use, and how they use electronic products.</h4>
         <h4 class="text-md md:text-lg font-medium"><b>2. Participants Recruiting Criteria:</b> People whose ages are close to retirement age (60~80 years), and would use smartphones in their daily lives.</h4>
         <h4 class="text-sm md:text-md font-medium">
           * Due to Covid-19, our group decided to conduct online inverviews. <br>(One team member stayed beside the participants to help set up online meetings while others join online meetings to write interview notes and ask questions.)
@@ -225,14 +230,14 @@
       </ul>
     </div>
 
-    <div class="col-span-6 bg-cyan-700 px-10 lg:px-40 py-20 mt-20">
+    <div class="col-span-6 bg-cyan-800 px-10 lg:px-40 py-20 mt-20">
 
       <h1 class="text-center text-3xl md:text-4xl font-bold pb-10  text-white">Research Findings</h1>
       <div class="flex flex-wrap items-center justify-evenly">
         <div class="col-span-3 bg-white w-[350px] h-[150px] p-3 m-5">
           <h3>
             <span style="background: yellow; padding: 5px 3px"
-              >Living attitude of the elderly</span
+              >Finding 1 : Living attitude of the elderly</span
             ><br />
             The elderly live regular lives, are afraid of
             <span class="underline decoration-pink-500">making changes</span>, and are
@@ -242,7 +247,7 @@
         <div class="col-span-3 bg-white w-[300px] h-[200px] p-3 m-5">
           <h3>
             <span style="background: yellow; padding: 5px 3px"
-              >Expand social network</span><br>
+              >Finding 2 : Expand social network</span><br>
             The elderly want to
             <span class="underline decoration-pink-500">join activities with their friends</span>,
             and are
@@ -251,6 +256,81 @@
           </h3>
         </div>
       </div>
+    </div>
+
+    <div class="col-start-2 col-span-4 mt-10">
+      <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Point of View (PoV) & How Might We (HMW)</h3>
+    </div>
+    <div class="col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100">
+      <h4 class="text-md md:text-lg font-medium italic"><b>Why PoV & HMW?</b> <br><br>In order to define clear problems of our users and also help us clarify users' needs, we tried to implement PoV method to emphasize users. <br>Next, we can apply "how might we" method to ideate the problem and brainstorm the design strategies.</h4>
+    </div>
+    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+      <div class="p-5 rounded-lg shadow-lg bg-gray-100 max-w-sm  my-12">
+        <h4 class="md:text-lg text-md">
+          <span style="background: yellow; padding: 5px 3px"
+            >Finding 1 : Living attitude of the elderly</span
+          ><br />
+          The elderly live regular lives, are afraid of
+          <span class="underline decoration-pink-500">making changes</span>, and are
+          <span class="underline decoration-pink-500">vigilant to information sources.</span>
+        </h4>
+      </div>
+      <h2 class="text-lg md:text-xl font-serif">
+        As a [Role], I want [Feature] because of [Some Reason].
+      </h2>
+      <ul class="text-md md:text-lg font-semibold">
+        <li>
+          <b class="underline decoration-pink-500">As a retired older adult</b> who wants to participate in activities but lacking the information sources,
+        </li>
+        <li>wants to have 
+          platforms that would <b class="underline decoration-pink-500">secure their personal and information privacy</b></li>
+        <li>because <b class="underline decoration-pink-500">they are afraid of fake news issues and scam.</b></li>
+      </ul>
+    </div>
+    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+      
+      <h2 class="text-lg md:text-xl font-serif">
+        How Might We
+      </h2>
+      <ul class="text-md md:text-lg font-semibold">
+        <li>
+          <b>How might we</b> establish the trust of the platform for users? <br>➔ How might we <span class="text-amber-700">reduce users' worries by bringing better security specifications design?</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+      <div class="bg-gray-100 p-5 rounded-lg shadow-lg max-w-sm  my-12">
+        <h4 class="md:text-lg text-md">
+          <span style="background: yellow; padding: 5px 3px"
+              >Finding 2 : Expand social network</span><br>
+            The elderly want to
+            <span class="underline decoration-pink-500">join activities with their friends</span>,
+            and are
+            <span class="underline decoration-pink-500">STILL willing to make new friends with similar interests and
+              hobbies.</span>
+        </h4>
+      </div>
+      <h2 class="text-lg md:text-xl font-serif">
+        As a [Role], I want [Feature] because of [Some Reason].
+      </h2>
+      <ul class="text-md md:text-lg font-semibold">
+        <li>
+          <b class="underline decoration-pink-500">As a retired older adult</b> who wants to participate in activities but lacking the information sources,
+        </li>
+        <li>wants to <b class="underline decoration-pink-500">participate in activities with acquaintances</b></li>
+        <li>because they feel<b class="underline decoration-pink-500"> more comfortable.</b></li>
+      </ul>
+    </div>
+    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+      <h2 class="text-lg md:text-xl font-serif">
+        How Might We
+      </h2>
+      <ul class="text-md md:text-lg font-semibold">
+        <li>
+          <b>How might we</b> let users know their friends would come to the activites?<br>➔ How might we <span class="text-amber-700">who is interested or who is going to participate in this event?</span>
+        </li>
+      </ul>
     </div>
 
   </div>

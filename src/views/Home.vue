@@ -2,7 +2,7 @@
   <div class="home">
     <BioInfo />
     <div>
-      <div class="design-work">
+      <!-- <div class="design-work">
         <h1 class="m-0 pt-20 heading heading--stroke__design">
           Research Project
         </h1>
@@ -15,9 +15,17 @@
         >
           <Travel />
         </div>
-      </div>
+      </div> -->
       <div class="caseProject pb-3">
-        <h1 class="m-0 pt-20 heading heading--stroke px-6">CASE STUDIES</h1>
+        <h1 class="m-0 pt-20 heading heading--stroke px-6">UX PROJECTS</h1>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+        >
+          <Travel />
+        </div>
 
         <div
           data-aos="fade-up"
