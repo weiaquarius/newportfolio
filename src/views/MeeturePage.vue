@@ -3,17 +3,18 @@
     class="bg-green-50 pb-16 md:pb-20 pt-36 flex flex-wrap items-center justify-center"
   >
     <img
-      class="w-3/5 md:w-2/5 px-1 md:px-2"
+      class="w-3/5 md:w-2/5 px-1 md:px-2 mt-12 animate__lightSpeedInRight animate__slow"
       src="@/assets/Meeture/Product.png"
       alt=""
     />
-    <span>
+    <span class="animate__lightSpeedInRight animate__slower">
       <h1 class="text-2xl md:text-3xl font-bold">Meeture</h1>
       <p class="text-xl md:text-2xl font-medium italic capitalize">
         Elderly social activity platform
       </p>
     </span>
   </div>
+
   <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
     <div class="pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <h1 class="text-2xl md:text-3xl font-bold">Overview & Background</h1>
@@ -24,7 +25,12 @@
       <b>constructs activities memories</b> at the same time.
       </p>
     </div>
-    <div class="border-2 border-indigo-600 pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div 
+      data-aos="fade-up"
+      data-aos-duration="700"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      class="border-2 border-indigo-600 pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <div class="rounded overflow-hidden shadow-xl">
         <div class="px-6 py-6">
           <h1 class="font-bold text-lg md:text-xl mb-2">Team</h1>
@@ -74,7 +80,12 @@
         </div>
       </div>
     </div>
-    <div class="col-span-6 bg-emerald-50 px-10 lg:px-40 py-20 mt-20">
+    <div 
+      data-aos="fade-up"
+      data-aos-duration="700"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      class="col-span-6 bg-emerald-50 px-10 lg:px-40 py-20 mt-20">
       <h1 class="text-2xl md:text-4xl font-bold">Problem</h1>
       <p class="text-lg md:text-xl font-medium leading-7">
         <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are <b
@@ -151,7 +162,7 @@
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Wireframe & Low-Fidelity
+            Low-Fidelity & Task flow
           </h3>
           <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
         </li>
@@ -195,15 +206,21 @@
     </div>
 
 
-    <div class="pl-5 md:px-10 col-span-4 text-center">
+    <div  
+      class="pl-5 md:px-10 col-span-4 text-center">
       <hr class="mx-48 my-24 h-px bg-gray-300 border-0" />
       <h1 class="text-2xl md:text-3xl font-bold">Competitor Analysis</h1>
-      <img class="w-full" src="@/assets/Meeture/MeetureCompetitor.png" alt="" />
+        <img class="w-full" src="@/assets/Meeture/MeetureCompetitor.png" alt="" />
     </div>
 
-    <div class="my-20 pl-5 md:px-40 col-span-4 text-center">
+    <div 
+      data-aos="fade-up"
+      data-aos-duration="800"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      class="my-20 pl-5 md:px-40 col-span-4 text-center">
       <h1 class="text-xl md:text-2xl font-bold">After going through competitor analysis, we found out there is no social activities platform mainly focused on retired older adults. Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h1>
-      <hr class="mx-10 mt-8 h-px bg-yellow-600 border-2 border-yellow-200 " />
+      <!-- <hr class="mx-10 mt-8 h-px bg-yellow-600 border-2 border-yellow-200 " /> -->
     </div>
 
     <div class="col-start-2 col-span-4 mt-10">
@@ -265,7 +282,7 @@
       <h4 class="text-md md:text-lg font-medium italic"><b>Why PoV & HMW?</b> <br><br>In order to define clear problems of our users and also help us clarify users' needs, we tried to implement PoV method to emphasize users. <br>Next, we can apply "how might we" method to ideate the problem and brainstorm the design strategies.</h4>
     </div>
     <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
-      <div class="p-5 rounded-lg shadow-lg bg-gray-100 max-w-sm  my-12">
+      <div class="p-5 rounded-lg shadow-lg bg-gray-100 max-w-sm my-8">
         <h4 class="md:text-lg text-md">
           <span style="background: yellow; padding: 5px 3px"
             >Finding 1 : Living attitude of the elderly</span
@@ -300,7 +317,7 @@
     </div>
 
     <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
-      <div class="bg-gray-100 p-5 rounded-lg shadow-lg max-w-sm  my-12">
+      <div class="bg-gray-100 p-5 rounded-lg shadow-lg max-w-sm my-8">
         <h4 class="md:text-lg text-md">
           <span style="background: yellow; padding: 5px 3px"
               >Finding 2 : Expand social network</span><br>
@@ -333,7 +350,50 @@
       </ul>
     </div>
 
+    <div class="col-start-2 col-span-4 mt-10">
+      <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Low-Fidelity & Task flow</h3>
+    </div>
+
+    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+        <h2 class="text-lg md:text-xl underline decoration-yellow-500">
+          Finding 1
+        </h2>
+    </div>
+    <div class="col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100">
+      <h4 class="text-md md:text-lg font-medium italic"><b>Apply LINE official account to start the journey</b> <br><br><b>WHY?</b><br>LINE is a messaging platform Taiwanese older adults mostly use in their daily life. Since they have many connections on LINE and LINE is their familiar product, we wanted to use LINE official account as the entry point to share our product with them and reduce their concern.</h4>
+    </div>
+    <div  class="pl-5 md:px-10 flex flex-wrap items-center col-span-4 text-center">
+        <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow1.png" alt="" />
+        <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow2.png" alt="" />
+    </div>
+
+    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span- mt-8">
+        <h2 class="text-lg md:text-xl underline decoration-yellow-500">
+          Finding 2
+        </h2>
+    </div>
+    <div class="col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100 my-4">
+      <h4 class="text-md md:text-lg font-medium italic"><b>Features of "Who also find interested" and "Sharing button via LINE"</b> <br><br><b>WHY?</b><br>First of all, older adults want to join activities with their friends. If they can know who is going to the event, there is a higher chance for them to join.<br> Secondly, we make the sharing process much easier by integrating sharing button with LINE so that older adults can share the inviting link with their friends on the LINE chat channel.</h4>
+    </div>
+    <div  class="pl-5 md:px-10 flex flex-wrap items-center col-span-4 text-center">
+        <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow3.png" alt="" />
+        <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow4.png" alt="" />
+    </div>
+
+    <div class="col-start-2 col-span-4 mt-10">
+      <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Usability testing</h3>
+    </div>
+    <div  class="pl-5 md:px-10 flex flex-wrap items-center col-start-2 col-span-2 text-center gap-3">
+        <img class="w-1/3 shadow-lg" src="@/assets/Meeture/interview.png" alt="testing pictures" />
+        <img class="w-1/3 shadow-lg" src="@/assets/Meeture/interview1.jpg" alt="testing pictures" />
+    </div>
+    <div  class="pl-5 md:px-10 flex flex-wrap items-center col-start-2 col-span-3 text-center">
+        <img class="w-full shadow-lg" src="@/assets/Meeture/UsabilityTest.png" alt="" />
+    </div>
+
   </div>
+  
+
 
   <!-- <div class="pjt-top">
     <div class="pjt-title">
@@ -567,9 +627,25 @@
 <script>
 import NextButton from '../components/Shared/button.vue';
 // import BackToTop from 'vue-backtotop';
+// import { ref } from 'vue'
+// const x = ref(0)
+
+// function onMousemove(e) {
+//   x.value = e.clientX
+// }
 
 export default {
   name: 'PodcastPage',
+  data() {
+    return {
+      x: 0
+    }
+  },
+  methods: {
+    onMousemove(e) {
+      this.x = e.clientX
+    }
+  },
   components: {
     'next-button': NextButton,
     // BackToTop,
@@ -581,6 +657,7 @@ export default {
   mounted() {
     window.scrollTo(0, 0);
   },
+
 };
 </script>
 <style scoped lang="scss">
@@ -589,6 +666,10 @@ export default {
 //fontstyle
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+.movearea {
+  transition: 0.3s background-color ease;
+}
+
 .meeture-image {
   display: flex;
   display: -webkit-inline-box;

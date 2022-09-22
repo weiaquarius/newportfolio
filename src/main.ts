@@ -5,6 +5,8 @@ import store from './store';
 import './plugins/aos'
 // import './plugins/underline.js'
 import './index.css'
+import 'animate.css';
+
 
 createApp(App)
   .use(store)
