@@ -4,13 +4,6 @@
       <div class="loading">
         <span>HELLO ! </span>
       </div>
-      <!-- <h1
-        class="heading heading--stroke heading--halftone heading--halftone-color"
-      >
-        Hello
-      </h1> -->
-      <!-- <h1>Hello!</h1> -->
-
       <h2>
         I am WEI-KO LI, a graduate student major in MS in Information Science
         (UX Track) at the University Of Texas At Austin (UT Austin).

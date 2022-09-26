@@ -1,50 +1,36 @@
 <template>
   <div class="home">
     <BioInfo />
-    <div>
-      <!-- <div class="design-work">
-        <h1 class="m-0 pt-20 heading heading--stroke__design">
-          Research Project
-        </h1>
 
-        <div
-          data-aos="fade-up"
-          data-aos-duration="700"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-        >
-          <Travel />
-        </div>
-      </div> -->
-      <div class="caseProject pb-3">
-        <h1 class="m-0 pt-20 heading heading--stroke px-6">UX PROJECTS</h1>
-        <div
-          data-aos="fade-up"
-          data-aos-duration="700"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-        >
-          <Travel />
-        </div>
-
-        <div
-          data-aos="fade-up"
-          data-aos-duration="700"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-        >
-          <Meeture />
-        </div>
-        <div
-          data-aos="fade-up"
-          data-aos-duration="700"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-        >
-          <Podcast />
-        </div>
+    <div class="caseProject pb-3">
+      <h1 class="m-0 pt-20 heading heading--stroke px-6">UX PROJECTS</h1>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+      >
+        <Travel />
       </div>
-      <!-- <div
+
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+      >
+        <Meeture />
+      </div>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+      >
+        <Podcast />
+      </div>
+    </div>
+    <!-- <div
         data-aos="fade-up"
         data-aos-duration="700"
         data-aos-easing="ease-in-out"
@@ -52,9 +38,9 @@
       >
         <FineTutor />
       </div> -->
-    </div>
+  </div>
 
-    <!-- <div class="design-work">
+  <!-- <div class="design-work">
       <h1 class="heading heading--stroke__design">UI Design</h1>
 
       <div
@@ -66,9 +52,7 @@
         <SireHealth />
       </div>
     </div> -->
-  </div>
 
-  <!-- <div class="bg"></div> -->
   <div id="footer" class="sns mt-4">
     <ul>
       <li>
@@ -76,11 +60,6 @@
           <n-icon color="#000" size="30">
             <linkedin-in></linkedin-in>
           </n-icon>
-          <!-- <img
-            src="https://cdn-icons-png.flaticon.com/512/1384/1384030.png"
-            alt=""
-            style="padding-top: 10px; width: 33px; height: 33px"
-        /> -->
         </a>
       </li>
       <li>
@@ -88,11 +67,6 @@
           <n-icon color="#000" size="35">
             <github></github>
           </n-icon>
-          <!-- <img
-            src="https://cdn-icons-png.flaticon.com/512/1051/1051275.png"
-            style="padding-top: 6px; width: 40px; height: 40px"
-            alt=""
-        /> -->
         </a>
       </li>
       <li>
@@ -100,10 +74,6 @@
           <n-icon color="#000" class="pt-0.5" size="35">
             <email-round></email-round>
           </n-icon>
-          <!-- <img
-            src="https://cdn-icons-png.flaticon.com/512/95/95645.png"
-            style="padding-top: 10px; width: 35px; height: 35px"
-            alt="" -->
         </a>
       </li>
     </ul>
@@ -116,7 +86,8 @@
     </button>
   </back-to-top> -->
 </template>
-<script setup lang="ts">
+<script setup>
+// import '@/cursor.js';
 import BioInfo from '@/components/Home/BioInfo.vue';
 import Meeture from '@/components/Home/Meeture.vue';
 import FineTutor from '@/components/Home/FineTutor.vue';

@@ -1,20 +1,6 @@
 <template>
-  <!-- <div
-    id="nav"
-    class="grid sm:grid-cols-10 text-center p-4 sm:p-6 text-center lg:text-lg md:text-sm"
-  >
-    <div>
-      <router-link to="/">Wei-Ko Li</router-link>
-    </div>
-    <div>
-      <router-link to="/">Home</router-link>
-    </div>
-    <div>
-      <router-link to="/about">About</router-link>
-    </div>
-  </div> -->
   <nav
-    class="relative w-full flex flex-wrap justify-start py-6 text-gray-500 bg-slate-100 shadow-lg navbar navbar-expand-lg navbar-light"
+    class="relative w-full flex flex-wrap justify-start py-6 text-gray-500 bg-white shadow-lg navbar navbar-expand-lg navbar-light"
     id="nav"
   >
     <div class="container-fluid w-full flex flex-wrap justify-start px-6">

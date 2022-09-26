@@ -90,7 +90,7 @@
       <p class="text-lg md:text-xl font-medium leading-7">
         <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are <b
           >ruling out traditional methods, such as using flyers to publicize events or pasting posters on the bulletin boards.</b
-        > Since the elderly are <b>not familiar with smartphones and computers</b>, they <b>how to use them to find out activities.</b> <br>
+        > Since the elderly are <b>not familiar with smartphones and computers</b>, they <b>don't know how to use them to find out activities.</b> <br>
         Also, after retiring, they <b>lose social connections with their friends and lack opportunities to meet new friends.</b><br><br>
         Therefore, we wanted to design <b class="text-orange-700">social activity platforms</b> to help them firstly build up relationships with old friends and also make new friends, and secondly, we hoped to <b class="text-orange-700">bridge the gap between elderly people and digital devices</b> by creating aging-friendly website.
       </p>
@@ -130,17 +130,6 @@
           ></div>
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
             Qualitative data analysis (Affinity Diagram)
-          </h3>
-          <p
-            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
-          ></p>
-        </li>
-        <li class="mb-8">
-          <div
-            class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
-          ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            User Interview
           </h3>
           <p
             class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
@@ -206,20 +195,24 @@
     </div>
 
 
-    <div  
+    <div
+      data-aos="fade-up"
+      data-aos-duration="800"
+      data-aos-easing="ease-in"
+      data-aos-mirror="true"  
       class="pl-5 md:px-10 col-span-4 text-center">
       <hr class="mx-48 my-24 h-px bg-gray-300 border-0" />
       <h1 class="text-2xl md:text-3xl font-bold">Competitor Analysis</h1>
-        <img class="w-full" src="@/assets/Meeture/MeetureCompetitor.png" alt="" />
+      <img class="w-full" src="@/assets/Meeture/MeetureCompetitor.png" alt="" />
     </div>
 
     <div 
       data-aos="fade-up"
       data-aos-duration="800"
-      data-aos-easing="ease-in-out"
+      data-aos-easing="ease-in"
       data-aos-mirror="true"
       class="my-20 pl-5 md:px-40 col-span-4 text-center">
-      <h1 class="text-xl md:text-2xl font-bold">After going through competitor analysis, we found out there is no social activities platform mainly focused on retired older adults. Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h1>
+      <h1 class="text-xl md:text-2xl font-bold">After going through <span class="text-orange-700">competitor analysis</span>, we found out there is <span class="text-orange-700">no social activities platform mainly focused on retired older adults.</span> Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h1>
       <!-- <hr class="mx-10 mt-8 h-px bg-yellow-600 border-2 border-yellow-200 " /> -->
     </div>
 
@@ -229,9 +222,10 @@
     <div class="col-span-6 md:col-span-2 md:col-start-2 p-10 bg-rose-100">
         <h4 class="text-md md:text-lg font-medium"><b class="italic">Why Online Interview?</b> <br><br><b>1. Interview Purpose:</b> To help us <b>quickly and deeply understand</b> how older adults build up social networks, what types of activities they would use, and how they use electronic products.</h4>
         <h4 class="text-md md:text-lg font-medium"><b>2. Participants Recruiting Criteria:</b> People whose ages are close to retirement age (60~80 years), and would use smartphones in their daily lives.</h4>
-        <h4 class="text-sm md:text-md font-medium">
-          * Due to Covid-19, our group decided to conduct online inverviews. <br>(One team member stayed beside the participants to help set up online meetings while others join online meetings to write interview notes and ask questions.)
+        <h4 class="text-md md:text-lg font-medium">
+          * Due to Covid-19, our group decided to conduct online interviews. And we started to find the participants from our grandparents, neighborhood. <br>
         </h4>
+        <h4 class="text-sm md:text-md font-medium">(One team member stayed beside the participants to help set up online meetings while others join online meetings to write interview notes and ask questions.)</h4>
     </div>
 
     <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
@@ -279,7 +273,7 @@
       <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Point of View (PoV) & How Might We (HMW)</h3>
     </div>
     <div class="col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100">
-      <h4 class="text-md md:text-lg font-medium italic"><b>Why PoV & HMW?</b> <br><br>In order to define clear problems of our users and also help us clarify users' needs, we tried to implement PoV method to emphasize users. <br>Next, we can apply "how might we" method to ideate the problem and brainstorm the design strategies.</h4>
+      <h4 class="text-md md:text-lg font-medium italic"><b>Why PoV & HMW?</b> <br><br>In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
     </div>
     <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
       <div class="p-5 rounded-lg shadow-lg bg-gray-100 max-w-sm my-8">
@@ -360,9 +354,9 @@
         </h2>
     </div>
     <div class="col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100">
-      <h4 class="text-md md:text-lg font-medium italic"><b>Apply LINE official account to start the journey</b> <br><br><b>WHY?</b><br>LINE is a messaging platform Taiwanese older adults mostly use in their daily life. Since they have many connections on LINE and LINE is their familiar product, we wanted to use LINE official account as the entry point to share our product with them and reduce their concern.</h4>
+      <h4 class="text-md md:text-lg font-medium italic"><b>Apply LINE official account to start the journey</b> <br><br><b>WHY?</b><br><br><b>LINE is a messaging platform Taiwanese older adults mostly use in their daily life. </b>Since they have many connections on LINE and LINE is their familiar product, we wanted to use LINE official account as the entry point to share our product with them and reduce their concern.</h4>
     </div>
-    <div  class="pl-5 md:px-10 flex flex-wrap items-center col-span-4 text-center">
+    <div  class="pl-5 md:p-10 flex flex-wrap items-center col-span-4 text-center">
         <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow1.png" alt="" />
         <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow2.png" alt="" />
     </div>
@@ -373,7 +367,7 @@
         </h2>
     </div>
     <div class="col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100 my-4">
-      <h4 class="text-md md:text-lg font-medium italic"><b>Features of "Who also find interested" and "Sharing button via LINE"</b> <br><br><b>WHY?</b><br>First of all, older adults want to join activities with their friends. If they can know who is going to the event, there is a higher chance for them to join.<br> Secondly, we make the sharing process much easier by integrating sharing button with LINE so that older adults can share the inviting link with their friends on the LINE chat channel.</h4>
+      <h4 class="text-md md:text-lg font-medium italic"><b>Features of "Who also find interested" and "Sharing button via LINE"</b> <br><br><b>WHY?</b><br>First of all, older adults want to join activities with their friends. If they can know who is going to the event, there is a higher chance for them to join.<br> <br>Secondly, we make the sharing process much easier by integrating sharing button with LINE so that older adults can share the inviting link with their friends on the LINE chat channel.</h4>
     </div>
     <div  class="pl-5 md:px-10 flex flex-wrap items-center col-span-4 text-center">
         <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow3.png" alt="" />
@@ -383,13 +377,22 @@
     <div class="col-start-2 col-span-4 mt-10">
       <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Usability testing</h3>
     </div>
-    <div  class="pl-5 md:px-10 flex flex-wrap items-center col-start-2 col-span-2 text-center gap-3">
+    <div class="col-span-6 md:col-span-2 md:col-start-2 p-10 bg-rose-100">
+        <h4 class="text-md md:text-lg font-medium"><b class="italic">Why Usability Testing?</b></h4>
+        <h4 class="text-md md:text-lg font-medium">Since we are making our low prototype design now, we want to check <b>if these ideated features fit our users' needs</b> or not in the early stage.<br><br>Therefore, we decided to implement usability testing to know <b>how users think about the design, how users will interact with these feature, and what we can improve our design, etc.</b></h4>
+    </div>
+    <div 
+      class="pl-5 md:px-10 col-span-4 text-center pt-10">
+      <h1 class="text-2xl md:text-3xl font-bold">How we implement our testing?</h1>
+      <img class="w-full pt-10" src="@/assets/Meeture/TestingSteps.png" alt="" />
+    </div>
+    <!-- <div  class="pl-5 md:px-10 flex flex-wrap items-center col-start-2 col-span-2 text-center gap-3">
         <img class="w-1/3 shadow-lg" src="@/assets/Meeture/interview.png" alt="testing pictures" />
         <img class="w-1/3 shadow-lg" src="@/assets/Meeture/interview1.jpg" alt="testing pictures" />
     </div>
     <div  class="pl-5 md:px-10 flex flex-wrap items-center col-start-2 col-span-3 text-center">
         <img class="w-full shadow-lg" src="@/assets/Meeture/UsabilityTest.png" alt="" />
-    </div>
+    </div> -->
 
   </div>
   

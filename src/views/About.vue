@@ -2,7 +2,7 @@
   <section class="overflow-hidden text-gray-700">
     <div class="container py-2 mx-auto lg:pt-24 lg:px-10">
       <div class="flex flex-wrap -m-1 md:-m-2">
-        <div class="mt-20 flex flex-wrap lg:1/2 md:w-1/2">
+        <div class="mt-20 flex flex-wrap w-full lg:w-1/2">
           <div class="w-full p-10 md:p-2">
             <img
               alt="gallery"
@@ -12,30 +12,33 @@
           </div>
         </div>
         <div class="lg:mt-20 flex flex-wrap lg:w-1/2 text-left px-8 md:w-1/2">
-          <h2 class="text-xl">I am Wei-Ko Li (Vivian)</h2>
-          <p class="text-md">
-            I found a passion for user experiences (UX) in my sophomore year in
-            college. After that, I spent lots of time digging into the UX field
-            by joining UX book clubs, conducting side project (E.g. Podcast
-            redesign project), and taking HCI-related courses during college.
-            (E.g. Meeture, social activity platform for the elderly)<br /><br />
-            However, during the project of Meeture, I saw my knowledge gap in
-            making accessible designs for the elderly since many interviewees
-            suffering from presbyopia expressed their frustration in reading the
-            small text on our website. This project experience was my
-            rudimentary attempt to understand accessible design to help diverse
-            groups of older people easily access technology.<br /><br />
-            Therefore, I decided to build up solid knowledge in implementing
-            user research methods and practical user interface design
-            experiences. I first joined the lab led by Prof. Yung-Ju Chang at
-            National Yang-Ming Chiao Tung University (NYCU) to enhance my UX
-            research skills. I participated in two research projects: in-vehicle
-            reading and travel-based multitasking which polished my research
-            skills in qualitative research skills. (E.g. field study,
-            observation, and semi-structured interviews).<br />Next, I decided
-            to go abroad for a UX master's program to craft age-friendly designs
-            to better capture older people’s challenges when interacting with
-            technology.
+          <h2 class="text-xl md:text-2xl">I am Wei-Ko Li (Vivian)</h2>
+
+          <p class="text-md md:text-lg">
+            <b>❤️ My passion in UX</b><br />I found a passion for user
+            experiences (UX) in my sophomore year in college. After that, I
+            spent lots of time digging into the UX field by joining UX book
+            clubs, conducting side project (E.g. Podcast redesign project), and
+            taking HCI-related courses during college. (E.g. Meeture, social
+            activity platform for the elderly)<br /><br />
+            <b>💪 Embrace difficulties</b><br />However, during the project of
+            Meeture, I saw my knowledge gap in making accessible designs for the
+            elderly since many interviewees suffering from presbyopia expressed
+            their frustration in reading the small text on our website. This
+            project experience was my rudimentary attempt to understand
+            accessible design to help diverse groups of older people easily
+            access technology.<br /><br />
+            <b>📚 Keep learning</b><br />Therefore, I decided to build up solid
+            knowledge in implementing user research methods and practical user
+            interface design experiences. I first joined the lab led by Prof.
+            Yung-Ju Chang at National Yang-Ming Chiao Tung University (NYCU) to
+            enhance my UX research skills. I participated in two research
+            projects: in-vehicle reading and travel-based multitasking which
+            polished my research skills in qualitative research skills. (E.g.
+            field study, observation, and semi-structured interviews).<br /><br />Next,
+            I decided to go abroad for a UX master's program to craft
+            age-friendly designs to better capture older people’s challenges
+            when interacting with technology.
           </p>
         </div>
       </div>
@@ -88,13 +91,24 @@
       </div>
     </section>
   </section>
+  <div class="aspect-w-16 aspect-h-9">
+    <iframe
+      class="p-4 sm:p-8 lg:p-24"
+      src="https://www.youtube.com/embed/d4Cqz6tT1F0"
+      width="640"
+      height="360"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
   <div class="bg-yellow-100 md:p-40 p-10 my-10">
     <div class="text-left">
-      <h3 class="text-lg">
-        I enjoy interacting with different people and emphasizing their feelings
-        about every life. I want to learn more about inclusive design and
-        interact with older populations from diverse backgrounds to bring
-        user-friendly designs to them.
+      <h3 class="text-xl md:text-2xl italic">
+        "I enjoy interacting with different people and emphasizing their
+        feelings about every life. I want to learn more about inclusive design
+        and interact with older populations from diverse backgrounds to bring
+        user-friendly designs to them."
       </h3>
     </div>
   </div>
@@ -103,21 +117,6 @@
   <h2 class="italic">Check my projects!</h2>
 
   <div id="linkStyle" class="flex flex-wrap justify-center items-center">
-    <router-link to="/TravelBasedMultitasking">
-      <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-8">
-        <div class="p-0">
-          <h3>
-            Get Distracted or Missed the Stop? Investigating Public Transit
-            Passengers’ Travel-Based Multitasking Behaviors, Motives, and
-            Challenges
-          </h3>
-          <p>
-            Design a learnable and aging-friendly activity website to encourage
-            the elderly to go outside and make connections with their friends.
-          </p>
-        </div>
-      </div>
-    </router-link>
     <router-link to="/Meeture">
       <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-6">
         <img
@@ -133,6 +132,21 @@
           <h3 class="capitalize">Elderly activity platform</h3>
           <!-- <p class="text-2xl">Meeture</p>
           <p class="text-xl font-medium">Elderly activity platform</p> -->
+          <p>
+            Design a learnable and aging-friendly activity website to encourage
+            the elderly to go outside and make connections with their friends.
+          </p>
+        </div>
+      </div>
+    </router-link>
+    <router-link to="/TravelBasedMultitasking">
+      <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-8">
+        <div class="p-0">
+          <h3>
+            Get Distracted or Missed the Stop? Investigating Public Transit
+            Passengers’ Travel-Based Multitasking Behaviors, Motives, and
+            Challenges
+          </h3>
           <p>
             Design a learnable and aging-friendly activity website to encourage
             the elderly to go outside and make connections with their friends.
@@ -177,13 +191,6 @@ export default {
     text-decoration: none;
     display: block;
     padding: 20px;
-    // &.router-link-exact-active {
-    //   color: #80281c;
-    //   text-decoration: underline;
-    // }
-    // &:hover {
-    //   color: #80281c;
-    // }
   }
 }
 
