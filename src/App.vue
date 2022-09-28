@@ -45,16 +45,17 @@ import { KeyboardArrowDownRound } from '@vicons/material';
 import { useRouter } from 'vue-router';
 const options = [
   {
-    label: 'Travel-Based Multitasking',
-    key: 'Travel',
-  },
-  {
     label: 'Meeture',
     key: 'Meeture',
   },
   {
     label: 'Podcast side project',
     key: 'Podcast',
+  },
+
+  {
+    label: 'Travel-Based Multitasking',
+    key: 'Travel',
   },
 ];
 const router = useRouter();

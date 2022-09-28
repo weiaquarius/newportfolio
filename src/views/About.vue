@@ -139,21 +139,6 @@
         </div>
       </div>
     </router-link>
-    <router-link to="/TravelBasedMultitasking">
-      <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-8">
-        <div class="p-0">
-          <h3>
-            Get Distracted or Missed the Stop? Investigating Public Transit
-            Passengers’ Travel-Based Multitasking Behaviors, Motives, and
-            Challenges
-          </h3>
-          <p>
-            Design a learnable and aging-friendly activity website to encourage
-            the elderly to go outside and make connections with their friends.
-          </p>
-        </div>
-      </div>
-    </router-link>
     <router-link to="/PodcastProject">
       <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-8">
         <img
@@ -170,6 +155,22 @@
           <!-- <p class="text-2xl">Meeture</p>
           <p class="text-xl font-medium">Elderly activity platform</p> -->
           <p></p>
+        </div>
+      </div>
+    </router-link>
+
+    <router-link to="/TravelBasedMultitasking">
+      <div id="cardStyle" class="rounded-lg shadow-lg bg-gray-50 max-w-sm p-8">
+        <div class="p-0">
+          <h3>
+            Get Distracted or Missed the Stop? Investigating Public Transit
+            Passengers’ Travel-Based Multitasking Behaviors, Motives, and
+            Challenges
+          </h3>
+          <p>
+            Design a learnable and aging-friendly activity website to encourage
+            the elderly to go outside and make connections with their friends.
+          </p>
         </div>
       </div>
     </router-link>

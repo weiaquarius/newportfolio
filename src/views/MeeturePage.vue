@@ -386,6 +386,12 @@
       <h1 class="text-2xl md:text-3xl font-bold">How we implement our testing?</h1>
       <img class="w-full pt-10" src="@/assets/Meeture/TestingSteps.png" alt="" />
     </div>
+    <div 
+      class="pl-5 md:px-10 col-span-4 text-center pt-10">
+      <h1 class="text-2xl md:text-3xl font-bold">Usability Results </h1>
+      <h4 class="text-md md:text-lg font-medium">(REASONS)</h4>
+      <img class="w-full pt-10" src="@/assets/Meeture/usabilityTestResult.png" alt="" />
+    </div>
     <!-- <div  class="pl-5 md:px-10 flex flex-wrap items-center col-start-2 col-span-2 text-center gap-3">
         <img class="w-1/3 shadow-lg" src="@/assets/Meeture/interview.png" alt="testing pictures" />
         <img class="w-1/3 shadow-lg" src="@/assets/Meeture/interview1.jpg" alt="testing pictures" />

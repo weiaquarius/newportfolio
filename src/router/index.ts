@@ -19,22 +19,22 @@ const routes = [
       import('../views/About.vue'),
   },
   {
-    path: '/TravelBasedMultitasking',
-    name: 'Travel',
-    component: TravelPage,
-    props: { num: 1, name:'/PodcastProject' },
-  },
-  {
     path: '/Meeture',
     name: 'Meeture',
     component: MeeturePage,
-    props: { num: 2, name:'/TravelBasedMultitasking' },
+    props: { num: 1, name:'/TravelBasedMultitasking' },
   },
   {
     path: '/PodcastProject',
     name: 'Podcast',
     component: PodcastPage,
-    props: { num: 3, name:'/Meeture' },
+    props: { num: 2, name:'/Meeture' },
+  },
+  {
+    path: '/TravelBasedMultitasking',
+    name: 'Travel',
+    component: TravelPage,
+    props: { num: 3, name:'/PodcastProject' },
   },
   // {
   //   path: '/FineTutor',

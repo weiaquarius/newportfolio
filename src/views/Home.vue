@@ -10,15 +10,6 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
       >
-        <Travel />
-      </div>
-
-      <div
-        data-aos="fade-up"
-        data-aos-duration="700"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-      >
         <Meeture />
       </div>
       <div
@@ -28,6 +19,14 @@
         data-aos-mirror="true"
       >
         <Podcast />
+      </div>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+      >
+        <Travel />
       </div>
     </div>
     <!-- <div
