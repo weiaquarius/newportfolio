@@ -1,5 +1,82 @@
 <template>
-  <div class="pjt-top">
+  <div
+    class="bg-gradient-to-r from-blue-200 via-purple-300 to-red-200 pb-16 md:pb-28 pt-40 flex flex-wrap items-center justify-center"
+  >
+    <img
+      class="w-4/5 md:w-3/5 px-1 md:px-2 mt-12 animate__lightSpeedInRight animate__slow"
+      src="@/assets/Podcast/PodcastCover.png"
+      alt=""
+    />
+  </div>
+
+  <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
+    <div class="pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      <h1 class="text-2xl md:text-3xl font-bold">Overview & Background</h1>
+      <p class="text-lg font-base">
+        I proactively launched a user research project to immerse deeply in research methods and accumulate project experiences. Six team members from engineering, accounting and social science work together to inspire sparkle ideas.
+      </p>
+    </div>
+    <div 
+      data-aos="fade-up"
+      data-aos-duration="700"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      class="border-2 border-indigo-600 pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      <div class="rounded overflow-hidden shadow-xl">
+        <div class="px-6 py-6">
+          <h1 class="font-bold text-lg md:text-xl mb-2">Team</h1>
+          <p class="text-md md:text-lg font-base">
+            Wei-Ko Li, Cecilia Chou, Vivian Chiang<br />
+            Michelle Lee, Ryan Liao, Jhan Yan Lin
+          </p>
+          <h1 class="font-bold text-lg md:text-xl mb-2">Time</h1>
+          <p class="text-md md:text-lg font-base">July 2020 - - December 2021</p>
+          <h1 class="text-lg md:text-xl font-bold">My Role</h1>
+          <ul class="text-md md:text-lg list-disc"> 
+              <li>Team Leader</li>
+              <li>User Researcher</li>
+              <li>Medium documentation writer</li>
+          </ul> 
+          <h1 class="font-bold text-lg md:text-xl">User research methods</h1>
+          <p class="text-gray-700 text-base">
+            <ul class="text-md md:text-lg list-disc">
+              <li>Surveys</li>
+              <li>User Interview</li>
+              <li>Point of View (PoV) & How Might We (HMW)</li>
+              <li>Usability testing</li>
+            </ul>
+          </p>
+            
+          <h1 class="font-bold text-lg md:text-xl my-2 pb-2">Tools</h1>
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Figma</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Miro</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Medium</span
+          >
+        </div>
+      </div>
+    </div>
+    <div 
+      data-aos="fade-up"
+      data-aos-duration="700"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      class="col-span-6 bg-orange-100 px-10 lg:px-40 py-20 mt-20">
+      <h1 class="text-2xl md:text-4xl font-bold">Problem</h1>
+      <p class="text-lg md:text-xl font-medium leading-7">
+        Some of our team members are <b class="text-orange-700">Podcast listeners</b> , they felt annoyed and difficult when using the platforms.<br><br>For example,<br>1. weak bonding between Podcasters and listeners since there are <b class="text-orange-700">few social connections and interactive features</b> within Podcast apps so that they need to change platforms to connect with the Podcasters.<br>2. unorderly information displayed on the interface.Therefore, our group wanted to take a research on Podcast platforms and <b class="text-orange-700">find out pain points of listener</b> and <b class="text-orange-700">design a new Podcast app </b>to solve their problems.
+      </p>
+    </div>
+
+  </div>
+  <!-- <div class="pjt-top">
     <div class="pjt-title">
       <h2 class="lg:test-md font-">Podcast side project</h2>
       <h2 class="lg:test-md">Podcast app redesign</h2>
@@ -15,7 +92,6 @@
     </div>
     <div class="podcast-image">
       <img src="../assets/Podcast/PodcastCover.png" alt="" />
-      <!-- <img src="../assets/Podcast/home2.jpg" alt="" /> -->
     </div>
   </div>
   <div class="pjt-content">
@@ -60,8 +136,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <div
+  </div> -->
+  <!-- <div
     class="pjt-desc bg-orange-100"
     data-aos="fade-up"
     data-aos-duration="700"
@@ -96,7 +172,7 @@
       <span class="text-red-700 font-semibold">design a new Podcast app</span>
       to solve their problems.
     </p>
-  </div>
+  </div> -->
   <div
     class="pjt-desc"
     style="padding: 0px; background-color: white; left: 0; top: 0"
@@ -217,24 +293,43 @@
     </p>
   </div>
 
-  <div class="pjt-desc" style="background: white">
+  <div class="col-span-6 bg-cyan-800 px-10 lg:px-40 py-20 mt-20">
+
+<h1 class="text-center text-3xl md:text-4xl font-bold pb-10  text-white">Research Findings</h1>
+<div class="flex flex-wrap items-center justify-evenly">
+  <div class="col-span-3 bg-white w-[350px] h-[150px] p-3 m-5">
+    <h3>
+      <span style="background: yellow; padding: 5px 3px"
+        >Finding 1 : </span
+      ><br />
+      Users think that 
+      <span class="underline decoration-pink-500">podcast exploration results are not diverse enough.</span>
+    </h3>
+  </div>
+  <div class="col-span-3 bg-white w-[300px] h-[200px] p-3 m-5">
+    <h3>
+      <span style="background: yellow; padding: 5px 3px"
+        >Finding 2 : </span><br><br>
+      <span class="underline decoration-pink-500">Users think that the information display is cluttered and cannot find the target information efficiently.</span>
+    </h3>
+  </div>
+</div>
+</div>
+  <!-- <div class="pjt-desc" style="background: white">
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
       <div class="card" style="margin: 30px">
         <div class="card-style-two">
-          <!-- <div class="card-content-left" style="padding:20px;left:0;"> -->
           <h2>
             Users think that
             <span class="underline"
               >podcast exploration results are not diverse enough.</span
             >
           </h2>
-          <!-- </div> -->
         </div>
       </div>
       <div class="card">
         <div class="card-style-two">
-          <!-- <div class="card-content-left" style="padding:20px;left:0;"> -->
           <h2>
             Users think that
             <span class="underline diffcolor"
@@ -242,11 +337,10 @@
               information efficiently.</span
             >
           </h2>
-          <!-- </div> -->
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="method-reason">
     <h3>How Might We (HMW)</h3>

@@ -3,7 +3,11 @@ import aspectRation from '@tailwindcss/aspect-ratio';
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        podcastCover: "url('/src/assets/Podcast/PodcastCover.png')",
+      },
+    },
   },
   plugins: [aspectRation],
   // prefix: 'tw-',
