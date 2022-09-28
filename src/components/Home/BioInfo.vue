@@ -47,7 +47,7 @@ section {
   // }
 }
 .bio {
-  margin: 200px 0 0 15%;
+  margin: 280px 0 0 15%;
   width: 35%;
   text-align: left;
   z-index: 999;
@@ -134,7 +134,7 @@ section {
   position: absolute;
   left: 10%;
   // right: 10%;
-  top: 25%;
+  top: 30%;
   margin: auto;
   transform: translateY(-50%);
   @media (max-width: 992px) {

@@ -16,9 +16,9 @@
   </div>
 
   <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
-    <div class="pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
-      <h1 class="text-2xl md:text-3xl font-bold">Overview & Background</h1>
-      <p class="text-lg font-base">
+    <div class="pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      <h1 class="text-xl md:text-3xl font-bold">Overview & Background</h1>
+      <p class="text-md md:text-lg font-base">
         Meeture is a <b>social activity platform</b> that helps the elderly <b>get
         activity information, find interesting events to join, and meet new
         friendswhich enhances the social networking</b>  between elderly people and
@@ -30,7 +30,7 @@
       data-aos-duration="700"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
-      class="border-2 border-indigo-600 pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      class="border-2 border-indigo-600 pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <div class="rounded overflow-hidden shadow-xl">
         <div class="px-6 py-6">
           <h1 class="font-bold text-lg md:text-xl mb-2">Team</h1>
@@ -86,7 +86,7 @@
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
       class="col-span-6 bg-emerald-50 px-10 lg:px-40 py-20 mt-20">
-      <h1 class="text-2xl md:text-4xl font-bold">Problem</h1>
+      <h1 class="text-xl md:text-3xl font-bold">Problem</h1>
       <p class="text-lg md:text-xl font-medium leading-7">
         <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are <b
           >ruling out traditional methods, such as using flyers to publicize events or pasting posters on the bulletin boards.</b
@@ -96,16 +96,16 @@
       </p>
     </div>
 
-    <div class="pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
-      <h1 class="mt-16">Research Process</h1>
+    <div class="pl-10 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      <h1 class="text-xl md:text-3xl mt-16">Research Process</h1>
       <ol
         class="list-none relative border-l border-gray-200 dark:border-gray-700"
       >
-        <li class="mb-8">
+        <li class="sm:mb-8">
           <div
             class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
             Competitor Analysis
           </h3>
           <p
@@ -113,80 +113,80 @@
           ></p>
         </li>
         
-        <li class="mb-8">
+        <li class="sm:mb-8">
           <div
             class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
             User Interview
           </h3>
           <p
             class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
           ></p>
         </li>
-        <li class="mb-8">
+        <li class="sm:mb-8">
           <div
             class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
             Qualitative data analysis (Affinity Diagram)
           </h3>
           <p
-            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+            class="sm:mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
           ></p>
         </li>
-        <li class="mb-8">
+        <li class="sm:mb-8">
           <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
             HMW&PoV
           </h3>
           <p class="text-md font-medium">
             
           </p>
         </li>
-        <li class="mb-8">
+        <li class="sm:mb-8">
           <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
             Low-Fidelity & Task flow
           </h3>
           <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
         </li>
-        <li class="mb-8">
+        <li class="sm:mb-8">
           <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
             Usability testing
           </h3>
           <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
         </li>
-        <li class="mb-8">
+        <li class="sm:mb-8">
           <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
             Mid-Fidelity
           </h3>
           <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
         </li>
-        <li class="mb-8">
+        <li class="sm:mb-8">
           <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
             Heuristics Evaluation
           </h3>
           <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
         </li>
-        <li class="mb-8">
+        <li class="sm:mb-8">
           <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
             High-Fidelity
           </h3>
           <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
@@ -195,29 +195,21 @@
     </div>
 
 
-    <div
-      data-aos="fade-up"
-      data-aos-duration="800"
-      data-aos-easing="ease-in"
-      data-aos-mirror="true"  
+    <div 
       class="pl-5 md:px-10 col-span-4 text-center">
       <hr class="mx-48 my-24 h-px bg-gray-300 border-0" />
-      <h1 class="text-2xl md:text-3xl font-bold">Competitor Analysis</h1>
+      <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1>
       <img class="w-full" src="@/assets/Meeture/MeetureCompetitor.png" alt="" />
     </div>
 
     <div 
-      data-aos="fade-up"
-      data-aos-duration="800"
-      data-aos-easing="ease-in"
-      data-aos-mirror="true"
       class="my-20 pl-5 md:px-40 col-span-4 text-center">
-      <h1 class="text-xl md:text-2xl font-bold">After going through <span class="text-orange-700">competitor analysis</span>, we found out there is <span class="text-orange-700">no social activities platform mainly focused on retired older adults.</span> Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h1>
+      <h1 class="text-lg md:text-2xl font-bold">After going through <span class="text-orange-700">competitor analysis</span>, we found out there is <span class="text-orange-700">no social activities platform mainly focused on retired older adults.</span> Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h1>
       <!-- <hr class="mx-10 mt-8 h-px bg-yellow-600 border-2 border-yellow-200 " /> -->
     </div>
 
     <div class="col-start-2 col-span-4 mt-10">
-      <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Online Interview</h3>
+      <h3 class="text-blue-800 Capitalize text-xl font-semibold">➢ Online Interview</h3>
     </div>
     <div class="col-span-6 md:col-span-2 md:col-start-2 p-10 bg-rose-100">
         <h4 class="text-md md:text-lg font-medium"><b class="italic">Why Online Interview?</b> <br><br><b>1. Interview Purpose:</b> To help us <b>quickly and deeply understand</b> how older adults build up social networks, what types of activities they would use, and how they use electronic products.</h4>
@@ -228,7 +220,7 @@
         <h4 class="text-sm md:text-md font-medium">(One team member stayed beside the participants to help set up online meetings while others join online meetings to write interview notes and ask questions.)</h4>
     </div>
 
-    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="pl-10 md:pl-20 mt-8 md:col-start-2 col-span-4 md:col-span-2">
       <h2 class="text-lg md:text-xl">
         We interviewed 4 older adults to understand their
       </h2>
@@ -245,7 +237,7 @@
 
       <h1 class="text-center text-3xl md:text-4xl font-bold pb-10  text-white">Research Findings</h1>
       <div class="flex flex-wrap items-center justify-evenly">
-        <div class="col-span-3 bg-white w-[350px] h-[150px] p-3 m-5">
+        <div class="col-span-3 bg-white w-[350px] h-[200px] sm:h-[150px] p-3 m-5">
           <h3>
             <span style="background: yellow; padding: 5px 3px"
               >Finding 1 : Living attitude of the elderly</span
@@ -255,7 +247,7 @@
             <span class="underline decoration-pink-500">vigilant to information sources.</span>
           </h3>
         </div>
-        <div class="col-span-3 bg-white w-[300px] h-[200px] p-3 m-5">
+        <div class="col-span-3 bg-white w-[300px] h-[230px] sm: h-[200px] p-3 m-5">
           <h3>
             <span style="background: yellow; padding: 5px 3px"
               >Finding 2 : Expand social network</span><br>
@@ -269,13 +261,13 @@
       </div>
     </div>
 
-    <div class="col-start-2 col-span-4 mt-10">
-      <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Point of View (PoV) & How Might We (HMW)</h3>
+    <div class="pl-10 sm:pl-0 sm:col-start-2 col-span-4 mt-10">
+      <h3 class="text-blue-800 Capitalize text-xl font-semibold">➢ Point of View (PoV) & How Might We (HMW)</h3>
     </div>
     <div class="col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100">
-      <h4 class="text-md md:text-lg font-medium italic"><b>Why PoV & HMW?</b> <br><br>In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
+      <h4 class="sm:text-md md:text-lg font-medium italic"><b>Why PoV & HMW?</b> <br><br>In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
     </div>
-    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="px-10 md:px-0 md:col-start-2 col-span-4 md:col-span-2">
       <div class="p-5 rounded-lg shadow-lg bg-gray-100 max-w-sm my-8">
         <h4 class="md:text-lg text-md">
           <span style="background: yellow; padding: 5px 3px"
@@ -286,7 +278,7 @@
           <span class="underline decoration-pink-500">vigilant to information sources.</span>
         </h4>
       </div>
-      <h2 class="text-lg md:text-xl font-serif">
+      <h2 class="px-10 md:px-0 text-lg md:text-xl font-serif">
         As a [Role], I want [Feature] because of [Some Reason].
       </h2>
       <ul class="text-md md:text-lg font-semibold">
@@ -297,10 +289,7 @@
           platforms that would <b class="underline decoration-pink-500">secure their personal and information privacy</b></li>
         <li>because <b class="underline decoration-pink-500">they are afraid of fake news issues and scam.</b></li>
       </ul>
-    </div>
-    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
-      
-      <h2 class="text-lg md:text-xl font-serif">
+      <h2 class="px-10 md:px-0 text-lg md:text-xl font-serif">
         How Might We
       </h2>
       <ul class="text-md md:text-lg font-semibold">
@@ -309,8 +298,7 @@
         </li>
       </ul>
     </div>
-
-    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="px-10 md:px-0  md:col-start-2 col-span-4 md:col-span-2">
       <div class="bg-gray-100 p-5 rounded-lg shadow-lg max-w-sm my-8">
         <h4 class="md:text-lg text-md">
           <span style="background: yellow; padding: 5px 3px"
@@ -322,7 +310,7 @@
               hobbies.</span>
         </h4>
       </div>
-      <h2 class="text-lg md:text-xl font-serif">
+      <h2 class="px-10 md:px-0 text-lg md:text-xl font-serif">
         As a [Role], I want [Feature] because of [Some Reason].
       </h2>
       <ul class="text-md md:text-lg font-semibold">
@@ -332,9 +320,7 @@
         <li>wants to <b class="underline decoration-pink-500">participate in activities with acquaintances</b></li>
         <li>because they feel<b class="underline decoration-pink-500"> more comfortable.</b></li>
       </ul>
-    </div>
-    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
-      <h2 class="text-lg md:text-xl font-serif">
+      <h2 class="px-10 md:px-0 text-lg md:text-xl font-serif">
         How Might We
       </h2>
       <ul class="text-md md:text-lg font-semibold">
@@ -345,23 +331,23 @@
     </div>
 
     <div class="col-start-2 col-span-4 mt-10">
-      <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Low-Fidelity & Task flow</h3>
+      <h3 class="text-blue-800 Capitalize text-xl font-semibold">➢ Low-Fidelity & Task flow</h3>
     </div>
 
-    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="pl-10 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
         <h2 class="text-lg md:text-xl underline decoration-yellow-500">
           Finding 1
         </h2>
     </div>
-    <div class="col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100">
+    <div class="mb-10 col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100">
       <h4 class="text-md md:text-lg font-medium italic"><b>Apply LINE official account to start the journey</b> <br><br><b>WHY?</b><br><br><b>LINE is a messaging platform Taiwanese older adults mostly use in their daily life. </b>Since they have many connections on LINE and LINE is their familiar product, we wanted to use LINE official account as the entry point to share our product with them and reduce their concern.</h4>
     </div>
     <div  class="pl-5 md:p-10 flex flex-wrap items-center col-span-4 text-center">
-        <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow1.png" alt="" />
-        <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow2.png" alt="" />
+        <img class="w-full md:w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow1.png" alt="" />
+        <img class="w-full md:w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow2.png" alt="" />
     </div>
 
-    <div class="pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span- mt-8">
+    <div class="pl-10 md:pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span- mt-8">
         <h2 class="text-lg md:text-xl underline decoration-yellow-500">
           Finding 2
         </h2>
@@ -370,12 +356,12 @@
       <h4 class="text-md md:text-lg font-medium italic"><b>Features of "Who also find interested" and "Sharing button via LINE"</b> <br><br><b>WHY?</b><br>First of all, older adults want to join activities with their friends. If they can know who is going to the event, there is a higher chance for them to join.<br> <br>Secondly, we make the sharing process much easier by integrating sharing button with LINE so that older adults can share the inviting link with their friends on the LINE chat channel.</h4>
     </div>
     <div  class="pl-5 md:px-10 flex flex-wrap items-center col-span-4 text-center">
-        <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow3.png" alt="" />
-        <img class="w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow4.png" alt="" />
+        <img class="w-full md:w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow3.png" alt="" />
+        <img class="w-full md:w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow4.png" alt="" />
     </div>
 
     <div class="col-start-2 col-span-4 mt-10">
-      <h3 class="text-blue-800 Capitalize text-md md:text-xl font-semibold">➢ Usability testing</h3>
+      <h3 class="text-blue-800 Capitalize text-xl font-semibold">➢ Usability testing</h3>
     </div>
     <div class="col-span-6 md:col-span-2 md:col-start-2 p-10 bg-rose-100">
         <h4 class="text-md md:text-lg font-medium"><b class="italic">Why Usability Testing?</b></h4>
