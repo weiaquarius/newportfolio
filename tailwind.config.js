@@ -7,6 +7,10 @@ export default {
       backgroundImage: {
         podcastCover: "url('/src/assets/Podcast/PodcastCover.png')",
       },
+      screens: {
+        navsm: { max: '640px' },
+        // => @media (max-width: 1535px) { ... }
+      },
     },
   },
   plugins: [aspectRation],

@@ -124,7 +124,7 @@
           >
             Observation
           </h3>
-          <p class="text-md font-medium">
+          <p class="text-lg md:text-md font-medium">
             Go to the field (e.g. bus, train, high speed rail, Metro, Intercity
             Bus)
           </p>
@@ -176,7 +176,7 @@
       <p class="text-lg md:text-xl font-medium leading-7">
         Both qualitative and quantitative research methods have pros and
         cons.<br /><br />
-        Questionnaire-based survey have limitations.<br />
+        <b>Questionnaire-based survey has limitations.</b><br />
         Self-reporting methods are less reliable for the short, non-habitual
         activities and has the disadvantage of the memory effect, especially if
         they are not carried out during or immediately after travelling.<br />

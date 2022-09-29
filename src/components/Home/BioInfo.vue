@@ -1,38 +1,46 @@
 <template>
-  <section>
-    <div class="bio">
-      <div class="loading">
-        <span>HELLO ! </span>
-      </div>
-      <h2>
-        I am WEI-KO LI, a graduate student major in MS in Information Science
-        (UX Track) at the University Of Texas At Austin (UT Austin).
-      </h2>
-      <h3>
-        I found interest in
-        <span class="underline diffcolor">User Experience</span> when I was a
-        sophomore and had spent lots of time immersing in the users’ world.
-        <br /><br />
+  <div class="bg-orange-50">
+    <div class="grid grid-cols-4 text-left pt-40 sm:pt-32 px-8 sm:px-20">
+      <div
+        class="col-span-4 md:col-span-2 px-4 sm:px-10 lg:px-24 py-10 sm:py-24"
+      >
+        <div class="loading">
+          <span>HELLO ! </span>
+        </div>
+        <div class="mt-16">
+          <h2>
+            I am WEI-KO LI, a graduate student major in MS in Information
+            Science (UX Track) at the University Of Texas At Austin (UT Austin).
+          </h2>
+          <h3>
+            I found interest in
+            <span class="underline diffcolor">User Experience</span> when I was
+            a sophomore and had spent lots of time immersing in the users’
+            world. <br /><br />
 
-        My portfolio includes the process of<br />
-        • User Interviewing<br />
-        • Qualitative analysis<br />
-        • Usability testing<br />
-        • User interface design.<br />
-        • Web development<br />
-        If you have any questions, please feel free to ask me.<br /><br /><br />
-      </h3>
+            My portfolio includes the process of<br />
+            • User Interviewing<br />
+            • Qualitative analysis<br />
+            • Usability testing<br />
+            • User interface design.<br />
+            • Web development<br />
+            If you have any questions, please feel free to ask me.<br /><br /><br />
+          </h3>
+        </div>
+      </div>
+      <div
+        class="col-span-2 circular--landscape md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[450px] md:ml-8 lg:ml-20 md:my-28"
+      >
+        <img src="@/assets/Home/viviantexas.png" alt="" />
+      </div>
     </div>
-    <div class="profile-img circular--landscape">
-      <img src="@/assets/Home/viviantexas.png" alt="" />
-    </div>
-  </section>
+  </div>
 </template>
 
 <script setup lang="ts"></script>
 
 <style scoped lang="scss">
-section {
+body {
   width: 100%;
   margin: 0;
   padding: 56px 0;
@@ -46,51 +54,52 @@ section {
   //   padding: 0 15%;
   // }
 }
-.bio {
-  margin: 280px 0 0 15%;
-  width: 35%;
-  text-align: left;
-  z-index: 999;
-  @media (max-width: 992px) {
-    h2 {
-      font-size: 24px;
-    }
-    width: 40%;
-    margin: 230px 0 0 0;
-    padding-left: 10%;
-  }
-  @media (max-width: 700px) {
-    width: 60%;
-    h2 {
-      font-size: 20px;
-    }
-    h3 {
-      font-size: 18px;
-    }
-  }
-}
+// .bio {
+//   margin-left: 15%;
+//   // margin: 280px 0 0 15%;
+//   width: 35%;
+//   text-align: left;
+//   z-index: 999;
+//   @media (max-width: 992px) {
+//     h2 {
+//       font-size: 24px;
+//     }
+//     width: 40%;
+//     // margin: 230px 0 0 0;
+//     padding-left: 10%;
+//   }
+//   @media (max-width: 700px) {
+//     width: 60%;
+//     h2 {
+//       font-size: 20px;
+//     }
+//     h3 {
+//       font-size: 18px;
+//     }
+//   }
+// }
 
 .circular--landscape {
   display: inline-block;
-  position: absolute;
-  top: 30%;
-  left: 60%;
-  width: 450px;
-  height: 450px;
+  // position: absolute;
+  // top: 30%;
+  // left: 60%;
+  // width: 450px;
+  // height: 450px;
   overflow: hidden;
   border-radius: 50%;
-  @media (max-width: 1200px) {
-    width: 350px;
-    height: 350px;
-    top: 40%;
-  }
-  @media (max-width: 992px) {
-    width: 300px;
-    height: 300px;
-    top: 40%;
-    left: 55%;
-  }
-  @media (max-width: 700px) {
+  // @media (max-width: 1200px) {
+  //   width: 350px;
+  //   height: 350px;
+  //   top: 40%;
+  // }
+  // @media (max-width: 992px) {
+  //   width: 300px;
+  //   height: 300px;
+  //   top: 40%;
+  //   left: 55%;
+  // }
+  @media (max-width: 768px) {
     display: none;
   }
 }
@@ -102,26 +111,6 @@ section {
     margin-left: -100px;
   }
 }
-// .profile-img {
-//   width: 60%;
-//   position: absolute;
-//   top: 20%;
-//   left: 40%;
-//   img {
-//     width: 55%;
-//   }
-//   @media (max-width: 1200px) {
-//     width: 60%;
-//     top: 30%;
-//   }
-//   @media (max-width: 992px) {
-//     top: 40%;
-//   }
-
-//   @media (max-width: 700px) {
-//     display: none;
-//   }
-// }
 
 .loading {
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
@@ -132,21 +121,16 @@ section {
   line-height: 50px;
 
   position: absolute;
-  left: 10%;
-  // right: 10%;
-  top: 30%;
+  // left: 10%;
+  // // right: 10%;
+  // top: 30%;
   margin: auto;
   transform: translateY(-50%);
-  @media (max-width: 992px) {
-    top: 20%;
-  }
-  @media (max-width: 700px) {
-    top: 18%;
-  }
-  // @media (max-width: 500px) {
-  //   top: 17%;
-  //   left: auto;
-  //   right: auto;
+  // @media (max-width: 992px) {
+  //   top: 20%;
+  // }
+  // @media (max-width: 700px) {
+  //   top: 18%;
   // }
 }
 

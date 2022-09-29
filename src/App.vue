@@ -4,7 +4,7 @@
     id="nav"
   >
     <div class="container-fluid w-full flex flex-wrap justify-start px-6">
-      <div class="mt-1 collapse navbar-collapse">
+      <div class="w-full sm:w-40 mt-1 mb-2 collapse navbar-collapse">
         <router-link to="/"
           ><img
             src="@/assets/WEIKOLI.png"
@@ -13,28 +13,29 @@
             loading="lazy"
         /></router-link>
       </div>
-      <div class="collapse navbar-collapse text-xl">
+      <div class="navsm:w-1/3 collapse navbar-collapse text-lg sm:text-xl">
         <router-link to="/">Home</router-link>
       </div>
-      <div class="collapse navbar-collapse text-xl">
+      <div class="navsm:w-1/3 collapse navbar-collapse text-lg sm:text-xl">
         <router-link to="/about">About</router-link>
       </div>
-
-      <n-dropdown
-        trigger="hover"
-        show-arrow
-        :options="options"
-        @select="handleSelect"
-      >
-        <div class="collapse navbar-collapse text-xl">
-          <a class="flex items-center">
-            <span>Project</span>
-            <n-icon class="px-1 arrowStyle" size="30">
-              <keyboard-arrow-down-round />
-            </n-icon>
-          </a>
-        </div>
-      </n-dropdown>
+      <div class="navsm:w-1/3">
+        <n-dropdown
+          trigger="hover"
+          show-arrow
+          :options="options"
+          @select="handleSelect"
+        >
+          <div class="collapse navbar-collapse text-lg sm:text-xl">
+            <a class="flex items-center">
+              <span>Project</span>
+              <n-icon class="px-1 arrowStyle" size="30">
+                <keyboard-arrow-down-round />
+              </n-icon>
+            </a>
+          </div>
+        </n-dropdown>
+      </div>
     </div>
   </nav>
   <router-view />
