@@ -1,13 +1,14 @@
 <template>
   <div
-    class="pb-16 md:pb-20 pt-16 sm:pt-8 flex flex-wrap items-center justify-center"
+    class="text-white pb-8 md:pb-20 maxsm:pt-28 pt-16 sm:pt-8 flex flex-wrap items-center justify-center"
   >
-    <img class="w-full" src="@/assets/Travel/TravelMultitasking.jpg" alt="" />
+    <img
+      class="w-full maxsm:h-[300px]"
+      src="@/assets/Travel/TravelMultitasking.jpg"
+    />
   </div>
 
-  <!-- <div class="tw-mt-20 tw-grid tw-grid-cols-3 tw-text-left tw-mx-px-20"></div> -->
-
-  <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
+  <div class="mt-0 sm:mt-8 grid grid-cols-4 gap-3 text-left pb-2">
     <div class="pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <h1 class="text-xl md:text-3xl font-bold">Topic</h1>
       <p class="text-lg font-base italic">
@@ -48,17 +49,24 @@
             <b>Students:</b> Hsinju Lee, Fang-Hsin Hsu, Wei-Ko Li, Jie Tsai<br />
             <b>Professor:</b> Ying-Yu Chen, Yung-Ju Chang
           </p>
-          <div class="mt-5 font-bold text-lg md:text-xl mb-2">Time</div>
-          <p class="text-md md:text-lg font-base">May 2021 - Ongoing</p>
-          <!-- <p class="text-gray-700 text-base">
-            <ul class="list-disc">
+          <h1 class="text-lg md:text-xl font-bold">My Role</h1>
+          <ul class="text-md md:text-lg list-disc"> 
+              <li>User Researcher</li>
+              <li>Paper writer</li>
+          </ul> 
+          <h1 class="font-bold text-lg md:text-xl">User research methods</h1>
+          <p class="text-gray-700 text-base">
+            <ul class="text-md md:text-lg list-disc">
               <li>Qultitative field research method: In-site
             observation</li>
             <li> Semi-structured interviews</li>
               <li>Qultitative data analysis:
             Grounded theory </li>
             </ul>
-          </p> -->
+          </p>
+          <div class="mt-5 font-bold text-lg md:text-xl mb-2">Time</div>
+          <p class="text-md md:text-lg font-base">May 2021 - September 2022</p>
+
           <div class="mb-3 font-bold text-lg md:text-xl mb-2">Tools</div>
           <span
             class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
@@ -102,7 +110,7 @@
       <ol
         class="list-none relative border-l border-gray-200 dark:border-gray-700"
       >
-        <li class="sm:mb-10 ml-4">
+        <li class="ml-4">
           <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
@@ -115,7 +123,7 @@
             class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
           ></p>
         </li>
-        <li class="sm:mb-10 ml-4">
+        <li class="ml-4">
           <div
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
           ></div>
@@ -174,32 +182,37 @@
       <h1 class="text-xl md:text-3xl font-bold">Why Mixed-Methods?</h1>
       <br />
       <p class="text-lg md:text-xl font-medium leading-7">
-        Both qualitative and quantitative research methods have pros and
-        cons.<br /><br />
+        <b class="text-orange-700"
+          >Both qualitative and quantitative research methods have pros and
+          cons.</b
+        ><br /><br />
         <b>Questionnaire-based survey has limitations.</b><br />
         Self-reporting methods are less reliable for the short, non-habitual
-        activities and has the disadvantage of the memory effect, especially if
-        they are not carried out during or immediately after travelling.<br />
+        activities and has the disadvantage of the
+        <b class="text-orange-700">memory effect,</b> especially if they are not
+        carried out during or immediately after travelling.<br />
         However, implementation of survey helps us collect data of travel
         multitaskers (e.g. travel mode, travel purpose, types of activities they
         perform) efficiently so that we can select participants for further
         research. <br /><br />
 
-        Qualitative research methods (Observation and semi-structured
-        interviews) can help to identify users’ multiple simultaneous activity
-        episodes and understand their reasons and feelings when multitasking to
-        better register their whole traveling pictures. <br />However, these
-        studies require considerable resources from the researchers and provide
-        limited evidence about just a few passengers. We cannot know much about
-        the actual prevalence of certain activities on different modes and
-        different traveller groups. <br /><br />Therefore, we decided to conduct
+        <b
+          >Qualitative research methods (Observation and semi-structured
+          interviews)</b
+        >
+        can help to identify users’ multiple simultaneous activity episodes and
+        understand their reasons and feelings when multitasking to better
+        register their whole traveling pictures. <br />However, these studies
+        require considerable resources from the researchers and provide limited
+        evidence about just a few passengers. We cannot know much about the
+        actual prevalence of certain activities on different modes and different
+        traveller groups. <br /><br />Therefore, we decided to conduct
         mixed-methods research to bring us large scale of user profile and dive
         deeper into the specific user group we want to understand more to bring
         a efficient research process.
       </p>
     </div>
-
-    <div class="col-span-6 p-10 md:px-40 md:py-20">
+    <!-- <div class="col-span-6 p-10 md:px-40 md:py-20">
       <h1 class="text-xl md:text-3xl text-orange-700">Findings</h1>
       <br />
       <ul class="list-decimal">
@@ -282,6 +295,105 @@
           </div>
         </div>
       </ul>
+    </div> -->
+  </div>
+  <div class="grid grid-cols-8 grid-rows-2 px-4 md:px-12 py-20 mt-20">
+    <!-- <div class="row-span-3">
+      <h1>Four Multitasking Patterns on Public Transit</h1>
+    </div> -->
+    <div class="col-span-8 row-span-2 flex items-center justify-center">
+      <h2>Four Multitasking Patterns on Public Transit</h2>
+    </div>
+    <div class="col-span-8 sm:col-span-4 bg-amber-50 text-left p-8 md:p-16">
+      <h2 class="text-lg sm:text-xl text-center sm:text-left">
+        Habitual Behavior, Part of the Daily Routine
+      </h2>
+      <p class="text-md md:text-lg font-medium">
+        Some participants might perform some tasks-at-hand with no intention and
+        consciousness, they just do the tasks habitually. <br /><br />The
+        participants who followed this pattern usually told us (during
+        debriefing interview after observation) that their task-at-hand choices
+        were <b>habitual, spontaneous, and without particular intention;</b> and
+        some did not recall what they had done during their journeys.
+      </p>
+      <div
+        class="quote--container mt-4 md:m-4 md:p-4 italic font-medium text-md md:text-lg font-serif"
+      >
+        <p class="quote">
+          I probably have checked some stock stuff at that time. [...]. It just
+          occurred to me that I haven’t done this today and so I did it
+        </p>
+        <p class="text-right">&ndash; P05</p>
+      </div>
+    </div>
+    <div class="col-span-8 sm:col-span-4 bg-orange-50 text-left p-8 md:p-16">
+      <h2 class="text-lg sm:text-xl text-center sm:text-left">
+        Making the Most of Travel Time
+      </h2>
+      <p class="text-md md:text-lg font-medium">
+        Participants included in this type would utilize their time fully,
+        regardless of task-at-hand types because they want to
+        <b>avoid idleness and hope to be productive.</b>
+      </p>
+      <div
+        class="quote--container mt-4 md:m-4 md:p-4 italic font-medium text-md md:text-lg font-serif"
+      >
+        <p class="quote">
+          I am a person who can’t tolerate being idle [...] I feel that I just
+          had to find something to do, even including playing games.
+        </p>
+        <p class="text-right">&ndash; P10</p>
+      </div>
+    </div>
+    <div class="col-span-8 sm:col-span-4 bg-teal-50 text-left p-8 md:p-16">
+      <h2 class="text-lg sm:text-xl text-center sm:text-left">
+        Completing Last minute Work or Clearing Work Backlogs
+      </h2>
+      <p class="text-md md:text-lg font-medium">
+        For participants who have heavy workloads and want to complete them
+        during the travel even when performing them caused discomfort or was
+        otherwise ill-suited to the public-transit environment.
+      </p>
+      <div
+        class="quote--container mt-4 md:m-4 md:p-4 italic font-medium text-md md:text-lg font-serif"
+      >
+        <p class="quote">
+          There happened to be some <b>urgent business to deal with</b> at that
+          time. I had to turn on the computer to send a document to a client
+          because there was no way to use my phone to do this. But I was
+          standing in the Metro.
+          <b
+            >All the seats were occupied, so I had to squat down and take out my
+            computer, find a space, and then put the computer on my knee to do
+            my work.</b
+          >
+          It was not an ideal situation. Very crowded, but I had to do it.
+        </p>
+        <p class="text-right">&ndash; P10</p>
+      </div>
+    </div>
+
+    <div class="col-span-8 sm:col-span-4 bg-slate-50 text-left p-8 md:p-16">
+      <h2 class="text-lg sm:text-xl text-center sm:text-left">
+        Performing Tasks Suited to Public Transit’s Rhythm or Environment
+      </h2>
+      <p class="text-md md:text-lg font-medium">
+        Some participants might perform some tasks-at-hand with no intention and
+        consciousness, they just do the tasks habitually. <br /><br />The
+        participants who followed this pattern usually told us (during
+        debriefing interview after observation) that their task-at-hand choices
+        were habitual, spontaneous, and without particular intention; and some
+        did not recall what they had done during their journeys.
+      </p>
+      <div
+        class="quote--container mt-4 md:m-4 md:p-4 italic font-medium text-md md:text-lg font-serif"
+      >
+        <p class="quote">
+          I probably have checked some stock stuff at that time. [...]. It just
+          occurred to me that I haven’t done this today and so I did it
+        </p>
+        <p class="text-right">&ndash; P05</p>
+      </div>
     </div>
   </div>
 
@@ -291,12 +403,11 @@
 </template>
 
 <script>
-import NextButton from '../components/Shared/button.vue';
 // import BackToTop from 'vue-backtotop';
 export default {
   name: 'TravelPage',
   components: {
-    'next-button': NextButton,
+    // 'next-button': NextButton,
     // BackToTop,
   },
   props: {
@@ -322,4 +433,37 @@ export default {
     // top: 20%;
   }
 }
+
+.quote {
+  position: relative;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5rem;
+
+  &:before {
+    content: '“';
+    position: absolute;
+    left: -0.7em;
+  }
+
+  &:after {
+    content: '”';
+    margin-right: -1rem;
+  }
+}
+
+.quote--container {
+  border-bottom: 2px dotted #c6d1bf;
+  padding-bottom: 0.5rem;
+}
+
+.quote--highlight {
+  color: #d24335;
+}
+
+// .quote--author {
+//   font-family: 'Open Sans Condensed';
+//   font-size: 0.8rem;
+//   text-align: right;
+//   font-weight: 300;
+// }
 </style>

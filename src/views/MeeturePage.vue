@@ -18,7 +18,7 @@
   <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
     <div class="pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <h1 class="text-xl md:text-3xl font-bold">Overview & Background</h1>
-      <p class="text-md md:text-lg font-base">
+      <p class="text-lg font-base">
         Meeture is a <b>social activity platform</b> that helps the elderly <b>get
         activity information, find interesting events to join, and meet new
         friendswhich enhances the social networking</b>  between elderly people and
@@ -88,9 +88,7 @@
       class="col-span-6 bg-emerald-50 px-10 lg:px-40 py-20 mt-20">
       <h1 class="text-xl md:text-3xl font-bold">Problem</h1>
       <p class="text-lg md:text-xl font-medium leading-7">
-        <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are <b
-          >ruling out traditional methods, such as using flyers to publicize events or pasting posters on the bulletin boards.</b
-        > Since the elderly are <b>not familiar with smartphones and computers</b>, they <b>don't know how to use them to find out activities.</b> <br>
+        <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are ruling out traditional methods, such as using flyers to publicize events or pasting posters on the bulletin boards. Since the elderly  <b>are not familiar with smartphones and computers</b>, they don't know how to use them to find out activities.<br>
         Also, after retiring, they <b>lose social connections with their friends and lack opportunities to meet new friends.</b><br><br>
         Therefore, we wanted to design <b class="text-orange-700">social activity platforms</b> to help them firstly build up relationships with old friends and also make new friends, and secondly, we hoped to <b class="text-orange-700">bridge the gap between elderly people and digital devices</b> by creating aging-friendly website.
       </p>
@@ -190,7 +188,7 @@
       class="pl-5 md:px-10 col-span-4 text-center">
       <hr class="mx-48 my-24 h-px bg-gray-300 border-0" />
       <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1>
-      <img class="w-full" src="@/assets/Meeture/MeetureCompetitor.png" alt="" />
+      <img class="w-full" src="@/assets/Meeture/CompetitorAnalysis.png" alt="" />
     </div>
 
     <div 
@@ -321,7 +319,7 @@
       </ul>
     </div>
 
-    <div class="col-start-2 col-span-4 mt-10">
+    <div class="pl-16 sm:pl-0 sm:col-start-2 col-span-4 mt-10">
       <h3 class="text-blue-800 Capitalize text-xl font-semibold">➢ Low-Fidelity & Task flow</h3>
     </div>
 
@@ -359,14 +357,93 @@
         <h4 class="text-md md:text-lg font-medium">Since we are making our low prototype design now, we want to check <b>if these ideated features fit our users' needs</b> or not in the early stage.<br><br>Therefore, we decided to implement usability testing to know <b>how users think about the design, how users will interact with these feature, and what we can improve our design, etc.</b></h4>
     </div>
     <div 
-      class="pl-5 md:px-10 col-span-4 text-center pt-10">
+      class="px-10 col-span-6 text-center pt-10">
       <h1 class="text-2xl md:text-3xl font-bold">How we implement our testing?</h1>
-      <img class="w-full pt-10" src="@/assets/Meeture/TestingSteps.png" alt="" />
+        <div style='background-color:rgb(255, 255, 255)'>
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 pt-20 pb-10 lg:pb-20" style="cursor: auto;">
+            
+          <div class="p-10 md:p-6 bg-gray-100 rounded-lg">      
+            <div class="mb-5">
+              <n-icon color="#000" size="70">
+                <number1></number1>
+              </n-icon>
+              <!-- <svg class="hi-outline hi-template inline-block w-12 h-12 text-indigo-500" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path>
+              </svg> -->
+            </div>   
+            <h3 class="text-[18px] md:text-lg font-bold mb-2">
+              Introduce our project
+            </h3>
+            <p class="text-[16px] md:ttext-[17px] leading-6 text-gray-600">
+              What is Meeture?<br>
+              What is our goal?<br>
+              What is the research stage now?<br>
+            </p>  
+          </div>
+              
+          <div class="p-10 md:p-6 bg-gray-100 rounded-lg">         
+            <div class="mb-5">  
+              <n-icon color="#000" size="70">
+                <number2></number2>
+              </n-icon>     
+              <!-- <svg class="hi-outline hi-cube inline-block w-12 h-12 text-indigo-500" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+              </svg>   -->
+            </div>
+            <h3 class="text-[18px] md:text-lg font-bold mb-2">
+              Introduce<br> “Thinking aloud” method
+            </h3>
+            <p class="text-[16px] md:ttext-[17px] leading-6 text-gray-600">
+              ● Users have to speak out their all ideas and implementing process.<br><br>
+              ● Users are free to share any feelings, suggestions to the testers.
+            </p>
+          </div>
+            
+          <div class="p-10 md:p-6 bg-gray-100 rounded-lg" style="cursor: auto;">   
+          <div class="mb-5" style="cursor: auto;">
+            <n-icon color="#000" size="70">
+                <number3></number3>
+              </n-icon> 
+            <!-- <svg class="hi-outline hi-cog inline-block w-12 h-12 text-indigo-500" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg> -->
+          </div>
+            <h3 class="text-[18px] md:text-xl font-bold mb-2">
+              Explain Testing Process
+            </h3>
+            <p class="text-[16px] md:ttext-[17px] leading-6 text-gray-600">
+              ● These paper are used to simulate the "mobile platform interface" <br>you need to touch the blocks on the paper to simulate the operation platform and complete the task<br><br>
+              ● Next, here will be scenarios and tasks you need to be done. (details will be explained later)
+            </p>    
+          </div>
+            
+          <div class="p-10 md:p-6 bg-gray-100 rounded-lg">    
+            <div class="mb-5">  
+              <n-icon color="#000" size="70">
+                <number4></number4>
+              </n-icon>  
+              <!-- <svg class="hi-outline hi-sparkles inline-block w-12 h-12 text-indigo-500" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+              </svg>  -->
+            </div>
+                    
+            <h3 class="text-[18px] md:text-xl font-bold mb-2">
+              Starting Testing
+            </h3>
+            <p class="text-[16px] md:text-[17px] leading-6 text-gray-600">
+              Explain scenarios and tasks respectively.<br><br>
+              Reminder: If they feel that task is completed, report "Mission Completed" to testers.
+            </p>  
+          </div> 
+        </div>
+    </div>
+      <!-- <img class="w-full pt-10" src="@/assets/Meeture/TestingSteps.png" alt="" /> -->
     </div>
     <div 
       class="pl-5 md:px-10 col-span-4 text-center pt-10">
       <h1 class="text-2xl md:text-3xl font-bold">Usability Results </h1>
-      <h4 class="text-md md:text-lg font-medium">(REASONS)</h4>
+      <!-- <h4 class="text-md md:text-lg font-medium">(REASONS)</h4> -->
       <img class="w-full pt-10" src="@/assets/Meeture/usabilityTestResult.png" alt="" />
     </div>
     <!-- <div  class="pl-5 md:px-10 flex flex-wrap items-center col-start-2 col-span-2 text-center gap-3">
@@ -610,41 +687,30 @@
   </div> -->
 </template>
 
-<script>
-import NextButton from '../components/Shared/button.vue';
-// import BackToTop from 'vue-backtotop';
-// import { ref } from 'vue'
-// const x = ref(0)
+<script setup>
 
-// function onMousemove(e) {
-//   x.value = e.clientX
-// }
-
-export default {
-  name: 'PodcastPage',
-  data() {
-    return {
-      x: 0
-    }
-  },
-  methods: {
-    onMousemove(e) {
-      this.x = e.clientX
-    }
-  },
-  components: {
-    'next-button': NextButton,
-    // BackToTop,
-  },
-  props: {
-    num: Number,
+import { NIcon } from 'naive-ui';
+import { Number1,Number2,Number3,Number4 } from '@vicons/carbon';
+import { onMounted } from 'vue';
+defineProps({
+  num: Number,
     name: String,
-  },
-  mounted() {
-    window.scrollTo(0, 0);
-  },
+});
+// data() {
+//   return {
+//     x: 0
+//   }
+// };
+// onMousemove((e)=> {
+//   this.x = e.clientX
+// });
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+// export default {
+  
 
-};
+// };
 </script>
 <style scoped lang="scss">
 @import '../assets/scss/project_content_style.scss';

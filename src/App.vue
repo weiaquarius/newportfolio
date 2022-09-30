@@ -13,14 +13,15 @@
             loading="lazy"
         /></router-link>
       </div>
-      <div class="navsm:w-1/3 collapse navbar-collapse text-lg sm:text-xl">
+      <div class="maxsm:w-1/3 collapse navbar-collapse text-lg sm:text-xl">
         <router-link to="/">Home</router-link>
       </div>
-      <div class="navsm:w-1/3 collapse navbar-collapse text-lg sm:text-xl">
+      <div class="maxsm:w-1/3 collapse navbar-collapse text-lg sm:text-xl">
         <router-link to="/about">About</router-link>
       </div>
-      <div class="navsm:w-1/3">
+      <div class="maxsm:w-1/3">
         <n-dropdown
+          class="text-lg"
           trigger="hover"
           show-arrow
           :options="options"

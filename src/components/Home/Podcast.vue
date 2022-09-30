@@ -1,10 +1,14 @@
 <template>
   <router-link to="/PodcastProject" class="box box1">
-    <div class="oddboxinner">
-      <div class="project-img__podcast">
-        <img src="../../assets/Home/Podcast.png" alt="Podcast.png LOGO" />
+    <div class="oddboxinner grid grid-cols-2">
+      <div class="flex justify-center items-center maxsm:col-span-2">
+        <img
+          class="w-1/3 sm:w-1/2"
+          src="../../assets/Home/Podcast.png"
+          alt="Podcast.png LOGO"
+        />
       </div>
-      <div class="project-bio">
+      <div class="maxsm:col-span-2 text-center md:text-right">
         <h1>Podcast side project<br /></h1>
         <h3>New Podcast App</h3>
         <p>
@@ -34,30 +38,4 @@
 export default {};
 </script>
 
-<style scoped lang="scss">
-.project-img {
-  &__podcast {
-    position: absolute;
-    top: 10%;
-    left: -25%;
-    img {
-      width: 30%;
-    }
-  }
-  @media (max-width: 700px) {
-    &__podcast {
-      top: 15%;
-      left: -35%;
-    }
-  }
-  @media (max-width: 600px) {
-    &__podcast {
-      left: 5%;
-      top: 0%;
-      img {
-        width: 30%;
-      }
-    }
-  }
-}
-</style>
+<style scoped lang="scss"></style>
