@@ -16,7 +16,7 @@
         In the 2020 summer, <b>I proactively launched a post to find teammates to conduct UX side projects</b> at the Facebook group, <i>"Taiwan UI/UX Designers".<br><br></i> My goal was to <b>spend more time diving into user research methods</b> with people in the UX fields and <b>accumulate project experiences.</b>
       </p>
     </div>
-    <div class="pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <h1 class="text-xl md:text-3xl font-bold">Overview</h1>
       <p class="text-md md:text-lg font-base">
         <b>OwnVoice</b> is a Podcast platform craving to bring <b>organized and clear information</b> to the Podcast listeners.<br><br>
@@ -28,7 +28,7 @@
       data-aos-duration="700"
       data-aos-easing="ease-in"
       data-aos-mirror="true"
-      class="border-2 border-indigo-600 pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      class="border-2 border-indigo-600 px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <div class="rounded overflow-hidden shadow-xl">
         <div class="px-6 py-6">
           <h1 class="font-bold text-lg md:text-xl mb-2">Team</h1>

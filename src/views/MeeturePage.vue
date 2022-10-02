@@ -16,7 +16,7 @@
   </div>
 
   <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
-    <div class="pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <h1 class="text-xl md:text-3xl font-bold">Overview & Background</h1>
       <p class="text-lg font-base">
         Meeture is a <b>social activity platform</b> that helps the elderly <b>get
@@ -30,7 +30,7 @@
       data-aos-duration="700"
       data-aos-easing="ease-in"
       data-aos-mirror="true"
-      class="border-2 border-indigo-600 pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+      class="border-2 border-indigo-600 px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <div class="rounded overflow-hidden shadow-xl">
         <div class="px-6 py-6">
           <h1 class="font-bold text-lg md:text-xl mb-2">Team</h1>
@@ -104,96 +104,6 @@
       <h1 class="text-xl md:text-3xl font-bold p-20">Research Process</h1>
       <img class="w-2/3" src="@/assets/Meeture/ResearchProcessMobile.png" alt="" />
     </div>
-
-    <!-- <div class="pl-10 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
-      <h1 class="text-xl md:text-3xl mt-16">Research Process</h1>
-      <ol
-        class="list-none relative border-l border-gray-200 dark:border-gray-700"
-      >
-        <li class="sm:mb-8">
-          <div
-            class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
-          ></div>
-          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
-            Competitor Analysis
-          </h3>
-          <p
-            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
-          ></p>
-        </li>
-        
-        <li class="sm:mb-8">
-          <div
-            class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
-          ></div>
-          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
-            User Interview
-          </h3>
-          <p
-            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
-          ></p>
-        </li>
-        <li class="sm:mb-8">
-          <div
-            class="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
-          ></div>
-          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
-            Qualitative data analysis (Affinity Diagram)
-          </h3>
-          <p
-            class="sm:mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
-          ></p>
-        </li>
-        <li class="sm:mb-8">
-          <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
-          ></div>
-          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
-            HMW&PoV
-          </h3>
-          <p class="text-md font-medium">
-            
-          </p>
-        </li>
-        <li class="sm:mb-8">
-          <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
-          ></div>
-          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
-            Low-Fidelity & Task flow
-          </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
-        </li>
-        <li class="sm:mb-8">
-          <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
-          ></div>
-          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
-            Usability testing & Mid-Fidelity
-          </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
-        </li>
-        <li class="sm:mb-8">
-          <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
-          ></div>
-          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
-            Heuristics Evaluation
-          </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
-        </li>
-        <li class="sm:mb-8">
-          <div
-            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
-          ></div>
-          <h3 class="text-md md:text-lg font-semibold text-gray-900 dark:text-white">
-            High-Fidelity
-          </h3>
-          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
-        </li>
-      </ol>
-    </div> -->
-    
     <div class="px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
       <h3 class="text-lg md:text-xl text-green-700">EMPATHIZE - Competitor Analysis</h3>
       <h2 class="text-[16px] md:text-xl">We know there are many direct and indrect competitive platforms nowadays; therefore, we decided to implement competitor anaylsis to help us find the design gap.</h2>
@@ -201,14 +111,12 @@
 
     <div 
       class="px-2 maxsm:mt-8 md:px-10 col-span-4 text-center">
-      <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
       <img class="w-full" src="@/assets/Meeture/CompetitorAnalysis.png" alt="" />
     </div>
 
     <div 
       class="my-20 md:my-32 maxsm:px-2 md:px-44 col-span-4 text-center italic ">
         <h1 class="text-[16px] md:text-2xl font-bold">After going through <span class="text-orange-700">competitor analysis</span>, we found out there is <span class="text-orange-700">no social activities platform mainly focused on retired older adults.</span> Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h1>
-      <!-- <hr class="mx-10 mt-8 h-px bg-slate-300 border-2 border-transparent" /> -->
     </div>
 
     <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
@@ -234,7 +142,7 @@
         <h4 class="text-sm md:text-md font-medium">(One team member stayed beside the participants to help set up online meetings while others join online meetings to write interview notes and ask questions.)</h4>
     </div> -->
 
-    <div class="pl-10 md:pl-20 mt-8 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="px-10 md:pl-20 mt-8 md:col-start-2 col-span-4 md:col-span-2">
       <h2 class="text-lg md:text-xl">
         We interviewed 4 older adults to understand their
       </h2>
@@ -391,9 +299,6 @@
     <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
       <h3 class="text-lg md:text-xl text-green-700">TEST - Usability testing</h3>
       <h4 class="text-md md:text-lg font-medium text-left">Since we are making our low prototype design now, we want to check <b>if these ideated features fit our users' needs</b> or not in the early stage.<br><br>Therefore, we decided to implement usability testing to know <b>how users think about the design, how users will interact with these feature, and what we can improve our design, etc.</b></h4>
-    </div>
-    <div  class="pl-5 md:px-10 flex flex-wrap items-center col-start-2 col-span-3 text-center">
-        <img class="w-full shadow-lg" src="@/assets/Meeture/UsabilityTest.png" alt="" />
     </div>
     
     <div 
