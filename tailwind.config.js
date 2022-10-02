@@ -11,6 +11,13 @@ export default {
         maxsm: { max: '640px' },
         // => @media (max-width: 1535px) { ... }
       },
+      fontFamily: {
+        // poppins: ['Poppins'],
+        // roboto: ['Roboto'],
+        // montserrat: ['Montserrat'],
+        raleway: ['Raleway', 'sans-serif'],
+        // CenturyGothic: ['Century Gothic'],
+      },
     },
   },
   plugins: [aspectRation],
