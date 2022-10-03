@@ -187,12 +187,6 @@
       <h3 class="text-lg md:text-xl text-green-700">DEFINE & IDEATE - Point of View (PoV) & How Might We (HMW)</h3>
       <h4 class="sm:text-md md:text-lg font-normal text-left">In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br><br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
     </div>
-    <!-- <div class="pl-10 sm:pl-0 sm:col-start-2 col-span-4 mt-10">
-      <h3 class="text-blue-800 Capitalize text-xl font-semibold">➢ Point of View (PoV) & How Might We (HMW)</h3>
-    </div>
-    <div class="col-span-6 md:col-span-2 md:col-start-2 px-10 bg-rose-100">
-      <h4 class="sm:text-md md:text-lg font-medium italic"><b>Why PoV & HMW?</b> <br><br>In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
-    </div> -->
     <div class="px-10 md:px-0 md:col-start-2 col-span-4 md:col-span-2">
       <div class="p-5 rounded-lg shadow-lg bg-gray-100 max-w-sm my-8">
         <h4 class="md:text-lg text-md">
@@ -263,10 +257,6 @@
       <h4 class="sm:text-md md:text-lg font-normal text-left">In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br><br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
     </div>
 
-    <!-- <div class="pl-16 sm:pl-0 sm:col-start-2 col-span-4 mt-10">
-      <h3 class="text-blue-800 Capitalize text-xl font-semibold">➢ Low-Fidelity & Task flow</h3>
-    </div> -->
-
     <div class="pl-10 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
         <h2 class="text-lg md:text-xl underline decoration-yellow-500">
           Finding 1
@@ -303,7 +293,7 @@
     
     <div 
       class="px-10 col-span-4 text-center pt-10">
-      <h1 class="text-2xl md:text-3xl font-bold">How we implement our testing?</h1>
+      <h1 class="text-2xl md:text-3xl font-bold">How we implement the testing?</h1>
         <div style='background-color:rgb(255, 255, 255)'>
           <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 pt-20 pb-10 lg:pb-20" style="cursor: auto;">
             
@@ -375,7 +365,7 @@
 
     <div 
       class="maxsm:px-8 maxsm:px-10 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h1 class="text-2xl md:text-3xl font-bold">Usability Results</h1>
+      <h1 class="text-2xl md:text-3xl font-bold underline">Testing Results</h1>
       <h4 class="text-md md:text-lg font-medium text-left font-serif">
         <b>Scenario 2:</b> <br>After knowing more about Meeture platform, you feel interested in thie product. <br><br>
         <b>Task 2:</b><br>You want to join as a member.
@@ -392,17 +382,13 @@
 
     <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
       <h3 class="text-lg md:text-xl text-green-700">TEST - Heuristic Evaluation</h3>
-      <h4 class="text-md md:text-lg font-medium text-left">Since I am the only person who has experience in Figma prototype design, and also the main interface designer in our team, we decided to invite other experts in UX field to help craft our interface and feature design. <br><br>Therefore, we chose to implement heuristic evaluation after Mid-Fi prototype.</h4>
+      <h4 class="text-md md:text-lg font-medium text-left px-4 md:px-8">Since I am the only person who has experience in Figma prototype design, and also the main interface designer in our team, we decided to invite other experts in UX field to help craft our interface and feature design. <br><br>Therefore, we chose to implement heuristic evaluation after Mid-Fi prototype.</h4>
+      <h1 class="pt-12 text-2xl md:text-3xl font-bold">How we implement the testing?</h1>
     </div>
     <div class="flex flex-wrap items-center justify-center col-span-4 text-center pt-10">
       <!-- 1 card -->
       <div class="relative bg-white py-6 px-6 md:px-12 mx-6 rounded-3xl w-full sm:w-2/3 md:w-1/3 m-12 md:my-4 shadow-xl">
         <div class="text-white flex items-center absolute rounded-full py-3 px-3 shadow-xl bg-pink-500 left-4 -top-4">
-            <!-- svg  -->
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-            </svg> -->
-
             <n-icon color="#fff" size="30" depth="1">
               <user-speaker></user-speaker>
             </n-icon>
@@ -441,20 +427,136 @@
       </div>
     </div>
     <div 
-      class="mt-4 maxsm:px-8 maxsm:px-10 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      class="mt-4 maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
       <h1 class="text-2xl md:text-3xl font-bold">Online testing pictures</h1>
+      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+        We found 2 participants in the UIUX field. (recruited from our friend network)<br><br>
+        <b>Left Picture: </b>The girl was a digital product designer, now a UX master's student.<br>
+        <b>Right Picture: </b>The boy is a UIUX designer intern.<br>
+      </h4>
     </div>
-    <!-- </div> -->
     <div class="px-8 col-span-4 text-center">
-      <img class="p-4 w-1/2 shadow-lg" src="@/assets/Meeture/Heuristic1.png" alt="testing pictures" />
-      <img class="p-4 w-1/2 shadow-lg" src="@/assets/Meeture/Heuristic2.png" alt="testing pictures" />
+      <img class="p-4 w-1/2 h-full" src="@/assets/Meeture/HeuristicPic1.png" alt="testing pictures" />
+      <img class="p-4 w-1/2 h-full" src="@/assets/Meeture/HeuristicPic2.png" alt="testing pictures" />
     </div>
 
-    <!-- <div class="px-8 mt-12 md:mt-20 col-span-4 text-center">
-    <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/interview.png" alt="testing pictures" />
-      <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/interview1.jpg" alt="testing pictures" />
-      <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/interview2.jpg" alt="testing pictures" />
-    </div> -->
+    <div 
+      class="mt-20 maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      <h1 class="text-2xl md:text-3xl font-bold pb-8 underline">Testing Results</h1>
+      <h4 class="text-md md:text-xl font-bold font-serif text-left">
+        Usability Heuristic #4 : Consistency
+      </h4>
+      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+        <b>Question :</b> <br> Do you feel that the design of the LINE chatbot page and Meeture website is <b>uniform and unified?</b>
+      </h4>
+      <h4 class="maxsm:pt-10 text-md md:text-xl font-bold font-serif text-left">
+        Usability Heuristic #5 : Error Strategy
+      </h4>
+      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+        <b>Question :</b> <br> Have you ever encountered a situation where you <b>don't know how to operate</b>, and our platform <b>doesn't given you any hints?<br><br></b>
+        <b class="text-orange-700">Revised Feature :</b> <br> <b>Navigation Bar</b>
+      </h4>
+    </div>
+
+    <div 
+      class="lg:ml-10 col-span-4 text-center">
+      <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
+      <img class="w-full" src="@/assets/Meeture/HeuristicResult.png" alt="" />
+    </div>
+
+    <div 
+      class="mt-20 maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      <h4 class="text-md md:text-xl font-bold font-serif text-left">
+        Usability Heuristic #2 : Match between system and real world
+      </h4>
+      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+        <b>Question :</b> <br>Have you encountered any problems when <b>reading and operating the features</b> on the pages?
+      </h4>
+      <h4 class="maxsm:pt-10 text-md md:text-xl font-bold font-serif text-left">
+        Usability Heuristic #3 : Error Strategy
+      </h4>
+      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+        <b>Question :</b> <br> Was it <b>easy to switch to a different page</b> in the previous tasks?, and our platform <b>doesn't given you any hints?<br><br></b>
+        <b class="text-orange-700">Revised Feature :</b> <br> <b>Top Menu at activity page</b>
+      </h4>
+    </div>
+
+    <div 
+      class="lg:ml-10 col-span-4 text-center">
+      <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
+      <img class="w-full" src="@/assets/Meeture/HeuristicResult2.png" alt="" />
+    </div>
+
+    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      <h3 class="text-lg md:text-xl text-green-700">IDEATE - High-Fidelity Prototype</h3>
+      <h4 class="sm:text-md md:text-lg font-medium">After going through the heuristic evaluation, we finalized our final high-fidelity prototype. Here are some scenario flow and features.</h4>
+    </div>
+
+    <div 
+      class="maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      <h4 class="text-md md:text-xl font-medium font-serif">
+        <b>Scenario 1 :</b> Your friend recommend Meeture LINE official account link to you, and you want to know more about this platform.
+      </h4>
+    </div>
+    <div 
+      class="lg:ml-4 col-span-4 text-center">
+      <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
+      <img class="w-full md:w-5/6" src="@/assets/Meeture/family_recommend.png" alt="" />
+    </div>
+    <div 
+      class="maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      <h4 class="text-md md:text-xl font-medium font-serif">
+        <b>Scenario 4 :</b> You want to invite your friend to join the event together.
+      </h4>
+    </div>
+    <div 
+      class="lg:ml-4 col-span-4 text-center">
+      <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
+      <img class="w-full md:w-4/5" src="@/assets/Meeture/friend_sharing.png" alt="" />
+    </div>
+
+
+    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      <h3 class="text-lg md:text-xl text-green-700">DEVELOP - Meeture Website</h3>
+      <!-- <h4 class="sm:text-md md:text-lg font-normal text-left">In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br><br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4> -->
+    </div>
+    <div 
+      class="maxsm:mx-4 lg:ml-10 col-span-4 text-center">
+      <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
+      <img class="w-full md:w-2/3" src="@/assets/Meeture/Development.png" alt="" />
+    </div>
+
+    <div class="col-span-4 md:col-start-2 md:col-span-2 my-20">
+      <!-- <h3><a href="https://meeture.herokuapp.com/">Links</a></h3> -->
+      <div class="relative ml-32"> 
+        <!-- <iframe
+            class="responsive-iframe" 
+            src="https://meeture.herokuapp.com/"
+        ></iframe> -->
+      </div>
+    </div>
+
+    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      <h3 class="text-lg md:text-xl text-green-700">Challenges and Reflections</h3>
+      <!-- <h4 class="sm:text-md md:text-lg font-medium">After going through the heuristic evaluation, we finalized our final high-fidelity prototype. Here are some scenario flow and features.</h4> -->
+    </div>
+
+    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      <h3 class="text-lg md:text-xl text-green-700">What's next?</h3>
+      <!-- <h4 class="sm:text-md md:text-lg font-medium">After going through the heuristic evaluation, we finalized our final high-fidelity prototype. Here are some scenario flow and features.</h4> -->
+    </div>
+
+
+    <div class="flex flex-wrap mt-96 px-8 mt-12 md:m-20 col-span-4">
+      <h3 class="text-lg md:text-xl text-green-700 text-center w-full">Pictures</h3>
+
+      <img class="p-4 w-full shadow-lg" src="@/assets/Meeture/Meeture_grouppic.png" alt="group pictures" />
+      <img class="p-4 w-1/2 shadow-lg" src="@/assets/Meeture/AffinityDiagram1.jpg" alt="affinityDiagram pictures" />
+      <img class="p-4 w-1/2 shadow-lg" src="@/assets/Meeture/AffinityDiagram2.jpg" alt="affinityDiagram pictures" />
+      <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/testing1.png" alt="testing pictures" />
+      <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/testing2.jpg" alt="testing pictures" />
+      <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/testing3.jpg" alt="testing pictures" />
+    </div>
 
 
   </div>
@@ -492,6 +594,11 @@ onMounted(() => {
 //fontstyle
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+.responsive-iframe{
+  width: 80%;
+  height: 700px;
+}
 .movearea {
   transition: 0.3s background-color ease;
 }

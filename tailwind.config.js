@@ -4,6 +4,9 @@ export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      height: {
+        640: '40rem',
+      },
       backgroundImage: {
         podcastCover: "url('/src/assets/Podcast/PodcastCover.png')",
       },

@@ -20,6 +20,7 @@
     "babel-preset-react": "^6.24.1",
     "circletype": "^2.3.0",
     "gsap": "^3.11.1",
+    "link-prevue": "^1.2.0",
     "tw-elements": "^1.0.0-alpha12",
     "vue": "^3.2.37",
     "vue-backtotop": "^1.6.1",
