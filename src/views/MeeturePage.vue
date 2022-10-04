@@ -104,30 +104,31 @@
       <h1 class="text-xl md:text-3xl font-bold p-20">Research Process</h1>
       <img class="w-2/3" src="@/assets/Meeture/ResearchProcessMobile.png" alt="" />
     </div>
-    <div class="px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h3 class="text-lg md:text-xl text-green-700">EMPATHIZE - Competitor Analysis</h3>
-      <h2 class="text-[16px] md:text-xl">We know there are many direct and indrect competitive platforms nowadays; therefore, we decided to implement competitor anaylsis to help us find the design gap.</h2>
+    <div class="px-10 md:px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">EMPATHIZE - Competitor Analysis</h3>
+      <h2 class="text-lg md:text-xl font-medium">We know there are many direct and indrect competitive platforms nowadays; therefore, we decided to implement competitor anaylsis to help us find the design gap.</h2>
     </div>
 
     <div 
-      class="px-2 maxsm:mt-8 md:px-10 col-span-4 text-center">
+      class="px-2 maxsm:mt-8 md:px-10 col-span-4">
       <img class="w-full" src="@/assets/Meeture/CompetitorAnalysis.png" alt="" />
     </div>
 
     <div 
-      class="my-20 md:my-32 maxsm:px-2 md:px-44 col-span-4 text-center italic ">
-        <h1 class="text-[16px] md:text-2xl font-bold">After going through <span class="text-orange-700">competitor analysis</span>, we found out there is <span class="text-orange-700">no social activities platform mainly focused on retired older adults.</span> Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h1>
+      class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left italic">
+        <h2 class="text-lg md:text-xl font-medium">After going through <span class="text-orange-700">competitor analysis</span>, we found out there is <span class="text-orange-700">no social activities platform mainly focused on retired older adults.</span><br><br> Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h2>
     </div>
 
-    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h3 class="text-lg md:text-xl text-green-700">EMPATHIZE - Online Interview</h3>
+    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+    <!-- <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center"> -->
+      <h3 class="text-lg md:text-xl text-orange-700">EMPATHIZE - Online Interview</h3>
 
-      <h4 class="text-md md:text-lg font-medium text-left"><b>1. Interview Purpose:</b> To help us <b>quickly and deeply understand</b> how older adults build up social networks, what types of activities they would use, and how they use electronic products.</h4>
-      <h4 class="text-md md:text-lg font-medium text-left"><b>2. Participants Recruiting Criteria:</b> People whose ages are close to retirement age (60~80 years), and would use smartphones in their daily lives.</h4>
-      <h4 class="text-md md:text-lg font-medium text-left">
-        * Due to Covid-19, our group decided to conduct online interviews. And we started to find the participants from our grandparents, neighborhood. <br>
+      <h4 class="text-lg font-medium"><b>1. Interview Purpose:</b> To help us <b>quickly and deeply understand</b> how older adults build up social networks, what types of activities they would use, and how they use electronic products.</h4>
+      <h4 class="text-lg font-medium"><b>2. Participants Recruiting Criteria:</b> People whose ages are close to retirement age (60~80 years), and would use smartphones in their daily lives.</h4>
+      <h4 class="text-lg font-medium">
+        <b>Disclaimer:</b> Due to Covid-19, our group decided to conduct online interviews. And we started to find the participants from our grandparents, neighborhood. <br>
       </h4>
-      <h4 class="text-sm md:text-md font-medium text-left">(One team member stayed beside the participants to help set up online meetings while others join online meetings to write interview notes and ask questions.)</h4>
+      <h4 class="text-md md:text-lg font-medium italic">(One team member stayed beside the participants to help set up online meetings while others join online meetings to write interview notes and ask questions.)</h4>
     </div>
 
     <!-- <div class="col-start-2 col-span-4 mt-10">
@@ -142,11 +143,11 @@
         <h4 class="text-sm md:text-md font-medium">(One team member stayed beside the participants to help set up online meetings while others join online meetings to write interview notes and ask questions.)</h4>
     </div> -->
 
-    <div class="px-10 md:pl-20 mt-8 md:col-start-2 col-span-4 md:col-span-2">
-      <h2 class="text-lg md:text-xl">
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h2 class="text-lg">
         We interviewed 4 older adults to understand their
       </h2>
-      <ul class="text-md md:text-lg list-decimal font-semibold">
+      <ul class="text-lg list-decimal font-medium">
         <li>
           Technology usage (Pros & Cons, Challenges...)
         </li>
@@ -161,66 +162,72 @@
       <div class="flex flex-wrap items-center justify-evenly">
         <div class="col-span-2 bg-white w-[350px] h-[200px] sm:h-[150px] p-3 m-5">
           <h3>
-            <span style="background: yellow; padding: 5px 3px"
+            <span style="background: yellow; padding: 3px"
               >Finding 1 : Living attitude of the elderly</span
-            ><br />
-            The elderly live regular lives, are afraid of
-            <span class="underline decoration-pink-500">making changes</span>, and are
-            <span class="underline decoration-pink-500">vigilant to information sources.</span>
+            ><br>
+            The elderly live regular lives, are afraid of making changes, and are
+            vigilant to information sources.
+            <!-- <span class="underline decoration-pink-500">making changes</span>, and are
+            <span class="underline decoration-pink-500">vigilant to information sources.</span> -->
           </h3>
         </div>
-        <div class="col-span-2 bg-white w-[300px] h-[230px] sm: h-[200px] p-3 m-5">
+        <div class="col-span-2 bg-white w-[300px] h-[190px] p-3 m-5">
           <h3>
-            <span style="background: yellow; padding: 5px 3px"
+            <span style="background: yellow; padding: 3px"
               >Finding 2 : Expand social network</span><br>
-            The elderly want to
-            <span class="underline decoration-pink-500">join activities with their friends</span>,
+            The elderly want to join activities with their friends,
+            and are STILL willing to make new friends with similar interests and hobbies.
+            <!-- <span class="underline decoration-pink-500">join activities with their friends</span>,
             and are
             <span class="underline decoration-pink-500">STILL willing to make new friends with similar interests and
-              hobbies.</span>
+              hobbies.</span> -->
           </h3>
         </div>
       </div>
     </div>
 
-    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h3 class="text-lg md:text-xl text-green-700">DEFINE & IDEATE - Point of View (PoV) & How Might We (HMW)</h3>
-      <h4 class="sm:text-md md:text-lg font-normal text-left">In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br><br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
+    <div class="px-10 md:px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">DEFINE - Point of View (PoV) & How Might We (HMW)</h3>
+      <h4 class="text-lg font-medium">In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br><br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
     </div>
-    <div class="px-10 md:px-0 md:col-start-2 col-span-4 md:col-span-2">
-      <div class="p-5 rounded-lg shadow-lg bg-gray-100 max-w-sm my-8">
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2">
+      <!-- <div class="p-5 rounded-lg shadow-lg bg-gray-100 max-w-sm my-8">
         <h4 class="md:text-lg text-md">
-          <span style="background: yellow; padding: 5px 3px"
-            >Finding 1 : Living attitude of the elderly</span
-          ><br />
-          The elderly live regular lives, are afraid of
-          <span class="underline decoration-pink-500">making changes</span>, and are
-          <span class="underline decoration-pink-500">vigilant to information sources.</span>
+          <span style="background: yellow; padding: 3px"
+              >Finding 1 : Living attitude of the elderly</span
+            ><br>
+            The elderly live regular lives, are afraid of making changes, and are
+            vigilant to information sources.
         </h4>
-      </div>
-      <h2 class="px-10 md:px-0 text-lg md:text-xl font-serif">
-        As a [Role], I want [Feature] because of [Some Reason].
+      </div> -->
+      <h2 class="text-lg md:text-xl text-orange-700">
+          Finding 1 :
+        </h2>
+      <h2 class="text-lg md:text-xl">
+        PoV: As a [Role], I want [Feature] because of [Some Reason].
       </h2>
-      <ul class="text-md md:text-lg font-semibold">
+      <h4 class="text-lg font-medium">As a retired older adult who eagers to participate in activities but lacking the information sources, wants to have platforms that would secure their personal and information privacy because they are afraid of fake news issues and scam.</h4>
+      <!-- <ul class="text-md md:text-lg font-medium">
         <li>
-          <b class="underline decoration-pink-500">As a retired older adult</b> who wants to participate in activities but lacking the information sources,
+          <b>As a retired older adult</b> who wants to participate in activities but lacking the information sources,
         </li>
         <li>wants to have 
-          platforms that would <b class="underline decoration-pink-500">secure their personal and information privacy</b></li>
-        <li>because <b class="underline decoration-pink-500">they are afraid of fake news issues and scam.</b></li>
-      </ul>
-      <h2 class="px-10 md:px-0 text-lg md:text-xl font-serif">
-        How Might We
+          platforms that would <b>secure their personal and information privacy</b></li>
+        <li>because <b>they are afraid of fake news issues and scam.</b></li>
+      </ul> -->
+      <h2 class="text-lg md:text-xl">
+        How Might We 
       </h2>
-      <ul class="text-md md:text-lg font-semibold">
+      <h4 class="text-lg font-medium">How might we establish the trust of the platform for users?</h4>
+      <!-- <ul class="text-md md:text-lg font-medium">
         <li>
-          <b>How might we</b> establish the trust of the platform for users? <br>➔ How might we <span class="text-amber-700">reduce users' worries by bringing better security specifications design?</span>
+          <b>How might we</b> establish the trust of the platform for users? <br>➔ How might we <b>reduce users' worries by bringing better security specifications design?</b>
         </li>
-      </ul>
+      </ul> -->
       
     </div>
-    <div class="px-10 md:px-0  md:col-start-2 col-span-4 md:col-span-2">
-      <div class="bg-gray-100 p-5 rounded-lg shadow-lg max-w-sm my-8">
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2">
+      <!-- <div class="bg-gray-100 p-5 rounded-lg shadow-lg max-w-sm my-8">
         <h4 class="md:text-lg text-md">
           <span style="background: yellow; padding: 5px 3px"
               >Finding 2 : Expand social network</span><br>
@@ -230,41 +237,73 @@
             <span class="underline decoration-pink-500">STILL willing to make new friends with similar interests and
               hobbies.</span>
         </h4>
-      </div>
-      <h2 class="px-10 md:px-0 text-lg md:text-xl font-serif">
+      </div> -->
+      <h2 class="text-lg md:text-xl text-orange-700">
+          Finding 2 :
+        </h2>
+      <h2 class="text-lg md:text-xl">
+        PoV: As a [Role], I want [Feature] because of [Some Reason].
+      </h2>
+      <h4 class="text-lg font-medium">As a retired older adult who wants to participate in activities but lacking the information sources, wants to participate in activities with acquaintances because they feel more comfortable.</h4>
+
+      <h2 class="text-lg md:text-xl">
+        How Might We 
+      </h2>
+      <h4 class="text-lg font-medium">How might we let users know their friends would come to the activities?</h4>
+
+      <!-- <h2 class="px-10 md:px-0 text-lg md:text-xl">
         As a [Role], I want [Feature] because of [Some Reason].
       </h2>
       <ul class="text-md md:text-lg font-semibold">
         <li>
-          <b class="underline decoration-pink-500">As a retired older adult</b> who wants to participate in activities but lacking the information sources,
+          <b>As a retired older adult</b> who wants to participate in activities but lacking the information sources,
         </li>
-        <li>wants to <b class="underline decoration-pink-500">participate in activities with acquaintances</b></li>
-        <li>because they feel<b class="underline decoration-pink-500"> more comfortable.</b></li>
+        <li>wants to <b>participate in activities with acquaintances</b></li>
+        <li>because they feel<b> more comfortable.</b></li>
       </ul>
-      <h2 class="px-10 md:px-0 text-lg md:text-xl font-serif">
+      <h2 class="px-10 md:px-0 text-lg md:text-xl">
         How Might We
       </h2>
       <ul class="text-md md:text-lg font-semibold">
         <li>
-          <b>How might we</b> let users know their friends would come to the activites?<br>➔ How might we <span class="text-amber-700">who is interested or who is going to participate in this event?</span>
+          <b>How might we</b> let users know their friends would come to the activites?<br>➔ How might we <b>who is interested or who is going to participate in this event?</b>
         </li>
-      </ul>
+      </ul> -->
+    </div>
+
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">IDEATE - Brainstorming design ideas</h3>
+      <h4 class="text-lg font-medium">After implementing POV and HMW methods, we used How Might We questions to brainstorm lots of ideas on the Miro. <br><br>Then, we used 3 criterias (creativity, personal preference, prospective design for future development) to vote for our final design idea.</h4>
     </div>
 
 
-    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h3 class="text-lg md:text-xl text-green-700">IDEATE - Low-Fidelity & Task flow</h3>
-      <h4 class="sm:text-md md:text-lg font-normal text-left">In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br><br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
+    <div 
+      class="col-span-4">
+      <img class="w-full" src="@/assets/Meeture/brainstorming.jpg" alt="" />
     </div>
 
-    <div class="pl-10 md:pl-0 md:col-start-2 col-span-4 md:col-span-2">
-        <h2 class="text-lg md:text-xl underline decoration-yellow-500">
-          Finding 1
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">PROTOTYPE - Experience Prototype</h3>
+      <h4 class="text-lg font-medium">In order to make all team members easier to engage in the elderly's experiences and the design flow, we decided to draw the experience prototype before the interface design.</h4>
+    </div>
+
+    <div 
+      class="col-span-4">
+      <img class="w-full" src="@/assets/Meeture/experiencePrototype.jpg" alt="" />
+    </div>
+
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">PROTOTYPE - Low-Fidelity & Task flow</h3>
+    </div>
+
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2">
+        <h2 class="text-lg md:text-xl">
+          Finding 1 :
         </h2>
     </div>
 
-    <div class="maxsm:px-8 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h4 class="text-md md:text-lg font-medium italic text-left"><b>Apply LINE official account to start the journey</b> <br><br><b>WHY?</b><br><br><b>LINE is a messaging platform Taiwanese older adults mostly use in their daily life. </b>Since they have many connections on LINE and LINE is their familiar product, we wanted to use LINE official account as the entry point to share our product with them and reduce their concern.</h4>
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg font-medium italic "><b>Apply LINE official account to start the journey</b><br><br><b>WHY?</b><br><br><b>LINE is a messaging platform Taiwanese older adults mostly use in their daily life. </b>Since they have many connections on LINE and LINE is their familiar product, we wanted to use LINE official account as the entry point to share our product with them and reduce their concern.</h4>
     </div>
 
     <div  class="pl-5 md:p-10 flex flex-wrap items-center col-span-4 text-center">
@@ -272,28 +311,29 @@
         <img class="w-full md:w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow2.png" alt="" />
     </div>
 
-    <div class="pl-10 md:pl-20 md:pl-0 md:col-start-2 col-span-4 md:col-span- mt-8">
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 mt-8">
         <h2 class="text-lg md:text-xl underline decoration-yellow-500">
           Finding 2
         </h2>
     </div>
-    <div class="maxsm:px-8 md:col-start-2 col-span-4 md:col-span-2 text-center">
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h4 class="text-md md:text-lg font-medium italic text-left"><b>Features of "Who also find interested" and "Sharing button via LINE"</b> <br><br><b>WHY?</b><br>First of all, older adults want to join activities with their friends. If they can know who is going to the event, there is a higher chance for them to join.<br> <br>Secondly, we make the sharing process much easier by integrating sharing button with LINE so that older adults can share the inviting link with their friends on the LINE chat channel.</h4>
     </div>
 
-    <div  class="pl-5 md:px-10 flex flex-wrap items-center col-span-4 text-center">
+    <div  class="pl-5 md:px-10 mt-10 flex flex-wrap items-center col-span-4 text-center">
         <img class="w-full md:w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow3.png" alt="" />
         <img class="w-full md:w-1/2 shadow-lg" src="@/assets/Meeture/TaskFlow4.png" alt="" />
     </div>
 
-    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h3 class="text-lg md:text-xl text-green-700">TEST - Usability testing</h3>
-      <h4 class="text-md md:text-lg font-medium text-left">Since we are making our low prototype design now, we want to check <b>if these ideated features fit our users' needs</b> or not in the early stage.<br><br>Therefore, we decided to implement usability testing to know <b>how users think about the design, how users will interact with these feature, and what we can improve our design, etc.</b></h4>
+    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">TEST - Usability testing</h3>
+      <h4 class="text-lg font-medium">Since we are making our low prototype design now, we want to check <b>if these ideated features fit our users' needs</b> or not in the early stage.<br><br>Therefore, we decided to implement usability testing to know <b>how users think about the design, how users will interact with these feature, and what we can improve our design, etc.</b></h4>
+      <h4 class="text-xl mt-10 md:mt-20">
+        How we implement the testing?
+      </h4>
     </div>
     
-    <div 
-      class="px-10 col-span-4 text-center pt-10">
-      <h1 class="text-2xl md:text-3xl font-bold">How we implement the testing?</h1>
+    <div class="px-10 col-span-4 text-center">
         <div style='background-color:rgb(255, 255, 255)'>
           <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 pt-20 pb-10 lg:pb-20" style="cursor: auto;">
             
@@ -364,26 +404,25 @@
 
 
     <div 
-      class="maxsm:px-8 maxsm:px-10 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h1 class="text-2xl md:text-3xl font-bold underline">Testing Results</h1>
-      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+      class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h1 class="text-xl">Testing Results : </h1>
+      <h4 class="md:pt-10 text-md md:text-lg font-medium text-left">
         <b>Scenario 2:</b> <br>After knowing more about Meeture platform, you feel interested in thie product. <br><br>
         <b>Task 2:</b><br>You want to join as a member.
       </h4>
-      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+      <h4 class="text-md md:text-lg font-medium text-left">
         <b class="text-orange-700">Testing feature:</b> <br>Interests filter page
       </h4>
     </div>
     <div 
-      class="px-2 md:px-10 col-span-4 text-center">
-      <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
-      <img class="w-full md:w-3/5" src="@/assets/Meeture/usabilityTestResult.png" alt="" />
+      class="col-span-4">
+      <img class="w-full" src="@/assets/Meeture/usabilityTestResult.png" alt="" />
     </div>
 
-    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
+    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h3 class="text-lg md:text-xl text-green-700">TEST - Heuristic Evaluation</h3>
-      <h4 class="text-md md:text-lg font-medium text-left px-4 md:px-8">Since I am the only person who has experience in Figma prototype design, and also the main interface designer in our team, we decided to invite other experts in UX field to help craft our interface and feature design. <br><br>Therefore, we chose to implement heuristic evaluation after Mid-Fi prototype.</h4>
-      <h1 class="pt-12 text-2xl md:text-3xl font-bold">How we implement the testing?</h1>
+      <h4 class="text-lg font-medium">Since I am the only person who has experience in Figma prototype design, and also the main interface designer in our team, we decided to invite other experts in UX field to help craft our interface and feature design. <br><br>Therefore, we chose to implement heuristic evaluation after Mid-Fi prototype.</h4>
+      <h1 class="text-xl mt-10 md:mt-20">How we implement the testing?</h1>
     </div>
     <div class="flex flex-wrap items-center justify-center col-span-4 text-center pt-10">
       <!-- 1 card -->
@@ -427,9 +466,9 @@
       </div>
     </div>
     <div 
-      class="mt-4 maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h1 class="text-2xl md:text-3xl font-bold">Online testing pictures</h1>
-      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+      class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h1 class="text-xl">Online testing pictures</h1>
+      <h4 class="text-md md:text-lg font-medium text-left">
         We found 2 participants in the UIUX field. (recruited from our friend network)<br><br>
         <b>Left Picture: </b>The girl was a digital product designer, now a UX master's student.<br>
         <b>Right Picture: </b>The boy is a UIUX designer intern.<br>
@@ -441,41 +480,39 @@
     </div>
 
     <div 
-      class="mt-20 maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h1 class="text-2xl md:text-3xl font-bold pb-8 underline">Testing Results</h1>
-      <h4 class="text-md md:text-xl font-bold font-serif text-left">
+      class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h1 class="text-xl mb-10">Testing Results</h1>
+      <h4 class="text-lg">
         Usability Heuristic #4 : Consistency
       </h4>
-      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+      <h4 class="text-lg font-medium">
         <b>Question :</b> <br> Do you feel that the design of the LINE chatbot page and Meeture website is <b>uniform and unified?</b>
       </h4>
-      <h4 class="maxsm:pt-10 text-md md:text-xl font-bold font-serif text-left">
+      <h4 class="maxsm:pt-10 text-lg">
         Usability Heuristic #5 : Error Strategy
       </h4>
-      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+      <h4 class="text-lg font-medium">
         <b>Question :</b> <br> Have you ever encountered a situation where you <b>don't know how to operate</b>, and our platform <b>doesn't given you any hints?<br><br></b>
         <b class="text-orange-700">Revised Feature :</b> <br> <b>Navigation Bar</b>
       </h4>
     </div>
 
-    <div 
-      class="lg:ml-10 col-span-4 text-center">
+    <div class="lg:ml-10 col-span-4 text-center">
       <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
       <img class="w-full" src="@/assets/Meeture/HeuristicResult.png" alt="" />
     </div>
 
-    <div 
-      class="mt-20 maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h4 class="text-md md:text-xl font-bold font-serif text-left">
+    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg">
         Usability Heuristic #2 : Match between system and real world
       </h4>
-      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+      <h4 class="text-lg font-medium">
         <b>Question :</b> <br>Have you encountered any problems when <b>reading and operating the features</b> on the pages?
       </h4>
-      <h4 class="maxsm:pt-10 text-md md:text-xl font-bold font-serif text-left">
+      <h4 class="maxsm:pt-10 text-lg">
         Usability Heuristic #3 : Error Strategy
       </h4>
-      <h4 class="text-md md:text-lg font-medium text-left font-serif">
+      <h4 class="text-lg font-medium">
         <b>Question :</b> <br> Was it <b>easy to switch to a different page</b> in the previous tasks?, and our platform <b>doesn't given you any hints?<br><br></b>
         <b class="text-orange-700">Revised Feature :</b> <br> <b>Top Menu at activity page</b>
       </h4>
@@ -487,25 +524,24 @@
       <img class="w-full" src="@/assets/Meeture/HeuristicResult2.png" alt="" />
     </div>
 
-    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
+    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h3 class="text-lg md:text-xl text-green-700">IDEATE - High-Fidelity Prototype</h3>
-      <h4 class="sm:text-md md:text-lg font-medium">After going through the heuristic evaluation, we finalized our final high-fidelity prototype. Here are some scenario flow and features.</h4>
+      <h4 class="text-lg">After going through the heuristic evaluation, we finalized our final high-fidelity prototype. Here are some scenario flow and features.</h4>
     </div>
 
     <div 
-      class="maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h4 class="text-md md:text-xl font-medium font-serif">
+      class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg font-medium">
         <b>Scenario 1 :</b> Your friend recommend Meeture LINE official account link to you, and you want to know more about this platform.
       </h4>
     </div>
-    <div 
-      class="lg:ml-4 col-span-4 text-center">
+    <div class="lg:ml-4 col-span-4 text-center">
       <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
       <img class="w-full md:w-5/6" src="@/assets/Meeture/family_recommend.png" alt="" />
     </div>
     <div 
-      class="maxsm:px-10 sm:px-16 md:px-0 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h4 class="text-md md:text-xl font-medium font-serif">
+      class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="mt-10 text-lg font-medium">
         <b>Scenario 4 :</b> You want to invite your friend to join the event together.
       </h4>
     </div>
@@ -516,51 +552,62 @@
     </div>
 
 
-    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
+    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2">
       <h3 class="text-lg md:text-xl text-green-700">DEVELOP - Meeture Website</h3>
       <!-- <h4 class="sm:text-md md:text-lg font-normal text-left">In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br><br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4> -->
     </div>
     <div 
-      class="maxsm:mx-4 lg:ml-10 col-span-4 text-center">
+      class="mt-10 md:mt-20 maxsm:mx-4 col-span-4 text-center">
       <!-- <h1 class="text-xl md:text-3xl font-bold">Competitor Analysis</h1> -->
-      <img class="w-full md:w-2/3" src="@/assets/Meeture/Development.png" alt="" />
+      <img class="w-full md:w-5/6" src="@/assets/Meeture/Development.png" alt="" />
     </div>
 
     <div class="col-span-4 md:col-start-2 md:col-span-2 my-20">
       <!-- <h3><a href="https://meeture.herokuapp.com/">Links</a></h3> -->
-      <div class="relative ml-32"> 
-        <!-- <iframe
+      <div class="relative maxsm:mx-4 md:ml-32 h-[500px] md:h-[600px]"> 
+        <iframe
             class="responsive-iframe" 
             src="https://meeture.herokuapp.com/"
-        ></iframe> -->
+        ></iframe>
       </div>
     </div>
 
-    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
+    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2">
       <h3 class="text-lg md:text-xl text-green-700">Challenges and Reflections</h3>
-      <!-- <h4 class="sm:text-md md:text-lg font-medium">After going through the heuristic evaluation, we finalized our final high-fidelity prototype. Here are some scenario flow and features.</h4> -->
+      <h4 class="text-lg font-medium">This is the first time for me to design products for the elderly. During the interviews and usability testing, the elderly showed their uncertainty when interacting with electronic devices. Therefore, we had to spend more time explaining features and our ideas clearly to them. At that moment, I realized the necessity of empathy, and researchers really need to put ourselves into their shoes to understand their concerns.<br><br>However, when designing products for the elderly, I saw my knowledge gap in making accessible design since many interviewees suffering from presbyopia expressed their frustration in reading the small text on our website. This project experience was my rudimentary attempt to understand accessible design to help diverse groups of older people easily access technology.</h4>
     </div>
 
-    <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center">
+    <div class="px-10 md:px-5 mt-4 md:col-start-2 col-span-4 md:col-span-2">
       <h3 class="text-lg md:text-xl text-green-700">What's next?</h3>
-      <!-- <h4 class="sm:text-md md:text-lg font-medium">After going through the heuristic evaluation, we finalized our final high-fidelity prototype. Here are some scenario flow and features.</h4> -->
+      <h4 class="text-lg font-medium">After the course project, we joined the competition, "Stanford Center on Longevity Design Challenge Asia, Taiwan" where we pushed our ideas forward to think about how can we craft our activity ideas into the real place and the environment. <br><br> We also got some feedback to help us reflect our product value.<br><br> I believe we should interview more stakeholders such as activity organizers, local elderly community or organizations to learn more about their experiences when joining activities to explore deeper insights to bring new design for them.</h4>
     </div>
 
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2">
+      <h3 class="text-lg md:text-xl text-green-700">Some Pictures</h3>
+    </div>
 
-    <div class="flex flex-wrap mt-96 px-8 mt-12 md:m-20 col-span-4">
-      <h3 class="text-lg md:text-xl text-green-700 text-center w-full">Pictures</h3>
+    <div class="flex flex-wrap px-8 md:mx-20 col-span-4">
 
-      <img class="p-4 w-full shadow-lg" src="@/assets/Meeture/Meeture_grouppic.png" alt="group pictures" />
+      <img class="p-4 w-1/2 shadow-lg" src="@/assets/Meeture/contest1.jpeg" alt="contest pictures" />
+      <img class="p-4 w-1/2 shadow-lg" src="@/assets/Meeture/contest2.jpeg" alt="contest pictures" />
+      <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/contest3.jpeg" alt="contest pictures" />
+      <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/contest4.jpeg" alt="contest pictures" />
+      <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/contestGroupPic.jpeg" alt="group pictures" />
       <img class="p-4 w-1/2 shadow-lg" src="@/assets/Meeture/AffinityDiagram1.jpg" alt="affinityDiagram pictures" />
       <img class="p-4 w-1/2 shadow-lg" src="@/assets/Meeture/AffinityDiagram2.jpg" alt="affinityDiagram pictures" />
       <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/testing1.png" alt="testing pictures" />
       <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/testing2.jpg" alt="testing pictures" />
       <img class="p-4 w-1/3 shadow-lg" src="@/assets/Meeture/testing3.jpg" alt="testing pictures" />
     </div>
-
-
   </div>
-  
+  <div class="grid grid-cols-4 bg-slate-200 mt-20">
+    <div class="maxsm:col-span-4 sm:col-span-2 mt-0 md:mt-10 w-full">
+      <next-button :project-num="num" :name="name"></next-button>
+    </div>
+    <div class="maxsm:col-span-4 sm:col-span-2">
+      <img class="m-0 sm:mt-20 mb-8 md:mb-16 w-4/5 sm:w-10/12" src="@/assets/Podcast/PodcastCover.png" alt="project image" />
+    </div>
+  </div>
 </template>
 
 <script setup>
@@ -568,9 +615,10 @@
 import { NIcon } from 'naive-ui';
 import { Number1,Number2,Number3,Number4,UserSpeaker } from '@vicons/carbon';
 import { onMounted } from 'vue';
+import  NextButton from '../components/Shared/Nextbutton.vue';
 defineProps({
   num: Number,
-    name: String,
+  name: String,
 });
 // data() {
 //   return {
@@ -598,9 +646,29 @@ onMounted(() => {
 .responsive-iframe{
   width: 80%;
   height: 700px;
+  @media (max-width: 640px) {
+    width:100%;
+    height:550px
+  }
 }
 .movearea {
   transition: 0.3s background-color ease;
+}
+
+.button-bg-image {
+  // padding: 150px 0;
+  width: 60%;
+  background-image: url('../assets/Podcast/PodcastCover.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  // left: 40%;
+  right: 0;
 }
 
 .meeture-image {

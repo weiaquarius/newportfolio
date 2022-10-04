@@ -81,24 +81,8 @@ body {
 
 .circular--landscape {
   display: inline-block;
-  // position: absolute;
-  // top: 30%;
-  // left: 60%;
-  // width: 450px;
-  // height: 450px;
   overflow: hidden;
   border-radius: 50%;
-  // @media (max-width: 1200px) {
-  //   width: 350px;
-  //   height: 350px;
-  //   top: 40%;
-  // }
-  // @media (max-width: 992px) {
-  //   width: 300px;
-  //   height: 300px;
-  //   top: 40%;
-  //   left: 55%;
-  // }
   @media (max-width: 768px) {
     display: none;
   }

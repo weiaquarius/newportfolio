@@ -22,19 +22,19 @@ const routes = [
     path: '/Meeture',
     name: 'Meeture',
     component: MeeturePage,
-    props: { num: 1, name:'/TravelBasedMultitasking' },
+    props: { num: 2, name:'/PodcastProject' },
   },
   {
     path: '/PodcastProject',
     name: 'Podcast',
     component: PodcastPage,
-    props: { num: 2, name:'/Meeture' },
+    props: { num: 3, name:'/TravelBasedMultitasking' },
   },
   {
     path: '/TravelBasedMultitasking',
     name: 'Travel',
     component: TravelPage,
-    props: { num: 3, name:'/PodcastProject' },
+    props: { num: 1, name:'/Meeture' },
   },
   // {
   //   path: '/FineTutor',

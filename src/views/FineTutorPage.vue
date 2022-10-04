@@ -316,7 +316,7 @@
 </template>
 
 <script>
-import NextButton from '../components/Shared/button.vue';
+import NextButton from '../components/Shared/Nextbutton.vue';
 // import BackToTop from 'vue-backtotop';
 
 //Fade-In transition

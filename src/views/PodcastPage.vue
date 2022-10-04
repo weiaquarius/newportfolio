@@ -10,25 +10,20 @@
   </div>
 
   <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
-    <div class="pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <h1 class="text-xl md:text-3xl font-bold">Background of side project</h1>
-      <p class="text-md md:text-lg font-base">
+      <p class="text-lg font-base">
         In the 2020 summer, <b>I proactively launched a post to find teammates to conduct UX side projects</b> at the Facebook group, <i>"Taiwan UI/UX Designers".<br><br></i> My goal was to <b>spend more time diving into user research methods</b> with people in the UX fields and <b>accumulate project experiences.</b>
       </p>
     </div>
     <div class="px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <h1 class="text-xl md:text-3xl font-bold">Overview</h1>
-      <p class="text-md md:text-lg font-base">
+      <p class="text-lg font-base">
         <b>OwnVoice</b> is a Podcast platform craving to bring <b>organized and clear information</b> to the Podcast listeners.<br><br>
         Also, we have <b>"Inspiration Card" feature</b>, hoping to recommend Podcast listeners <b>diverse Podcast shows and episodes by swiping cards</b> so that people can explore new creations in a simple, effortless way.
       </p>
     </div>
-    <div 
-      data-aos="fade-up"
-      data-aos-duration="700"
-      data-aos-easing="ease-in"
-      data-aos-mirror="true"
-      class="border-2 border-indigo-600 px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="border-2 border-indigo-600 px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <div class="rounded overflow-hidden shadow-xl">
         <div class="px-6 py-6">
           <h1 class="font-bold text-lg md:text-xl mb-2">Team</h1>
@@ -70,18 +65,27 @@
         </div>
       </div>
     </div>
-    <div 
-      data-aos="fade-up"
-      data-aos-duration="700"
-      data-aos-easing="ease-in"
-      data-aos-mirror="true"
-      class="col-span-6 bg-orange-100 px-10 lg:px-40 py-20 mt-20">
-      <h1 class="text-2xl md:text-4xl font-bold">Problem</h1>
+    <div class="col-span-4 bg-orange-100 px-10 lg:px-40 py-20 mt-20">
+      <h1 class="text-xl md:text-3xl font-bold">Problem</h1>
       <p class="text-lg md:text-xl font-medium leading-7">
         Some of our team members are <b class="text-orange-700">Podcast listeners</b> , they felt annoyed and difficult when using the platforms.<br><br>For example,<br>1. weak bonding between Podcasters and listeners since there are <b class="text-orange-700">few social connections and interactive features</b> within Podcast apps so that they need to change platforms to connect with the Podcasters.<br>2. unorderly information displayed on the interface.Therefore, our group wanted to take a research on Podcast platforms and <b class="text-orange-700">find out pain points of listener</b> and <b class="text-orange-700">design a new Podcast app </b>to solve their problems.
       </p>
     </div>
+    <div
+      class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left italic"
+    >
+      <h2 class="text-lg md:text-xl font-medium">To better understand users' usage habits and to collect information quickly from the podcast listeners, we chose to apply the online survey methods.</h2>
+    </div>
 
+    <div
+      class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left italic"
+    >
+      <h2 class="text-lg md:text-xl">
+        237 respondents<br><br>
+        Students (50.6%) | Technology industry (13.5%)<br><br>
+        Avg. ages: 20~29 (72.5%)<br><br>
+      </h2>
+    </div>
   </div>
   <!-- <div class="pjt-top">
     <div class="pjt-title">
@@ -180,34 +184,10 @@
       to solve their problems.
     </p>
   </div> -->
-  <div
-    class="pjt-desc"
-    style="padding: 0px; background-color: white; left: 0; top: 0"
-  >
-    <h2 class="survey-reason">
-      To better
-      <span class="underline diffcolor">understand users' usage habits</span>
-      and <br />to
-      <span class="underline diffcolor">collect information quickly</span> from
-      the podcast listeners,<br />
-      we chose to apply the
-      <span class="underline" style="background-repeat: repeat"
-        >online survey methods.</span
-      >
-    </h2>
-  </div>
+  
 
-  <div class="survey-result">
-    <h2><span class="underline diffcolor_two">237</span> respondents</h2>
-    <h2>
-      <span class="underline diffcolor_two">Students</span> (50.6%) |
-      <span class="underline diffcolor_two">Technology industry</span> (13.5%)
-    </h2>
-    <h2>
-      Avg. ages: <span class="underline diffcolor_two">20~29</span> (72.5%)
-    </h2>
-  </div>
-  <div class="survey-question">
+  
+  <!-- <div class="survey-question">
     <h1>Question Types</h1>
 
     <div></div>
@@ -282,7 +262,7 @@
       <p>Free time (61.6%)</p>
       <p>Commuting (60.7%)</p>
     </div>
-  </div>
+  </div> -->
   <div class="method-reason">
     <h3>Interview</h3>
     <h1>
@@ -300,7 +280,7 @@
     </p>
   </div>
 
-  <div class="col-span-6 bg-cyan-800 px-10 lg:px-40 py-20 mt-20">
+  <div class="col-span-4 bg-cyan-800 px-10 lg:px-40 py-20 mt-20">
 
 <h1 class="text-center text-3xl md:text-4xl font-bold pb-10  text-white">Research Findings</h1>
 <div class="flex flex-wrap items-center justify-evenly">
@@ -675,17 +655,27 @@
     </h2>
   </div> -->
 
-  <div class="button-bg">
+  <!-- <div class="button-bg">
     <div class="button-bg-image"></div>
     <next-button :project-num="num" :name="name"></next-button>
+  </div> -->
+
+  <div class="grid grid-cols-4 bg-slate-200 mt-20">
+    <div class="maxsm:col-span-4 sm:col-span-2 w-full">
+      <next-button :project-num="num" :name="name"></next-button>
+    </div>
+    <!-- <div class="maxsm:col-span-4 sm:col-span-2">
+      <img class="m-0 sm:mt-20 mb-8 md:mb-16 w-4/5 sm:w-10/12" src="@/assets/Podcast/PodcastCover.png" alt="project image" />
+    </div> -->
   </div>
+
   <!-- <back-to-top bottom="50px" right="50px">
     <button type="button" class="btn btn-info btn-to-top"><p>TOP</p></button>
   </back-to-top> -->
 </template>
 
 <script>
-import NextButton from '../components/Shared/button.vue';
+import NextButton from '../components/Shared/Nextbutton.vue';
 // import BackToTop from 'vue-backtotop';
 
 export default {
@@ -709,6 +699,8 @@ export default {
 //fontstyle
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+
 .podcast-image {
   display: flex;
   display: -webkit-inline-box;
