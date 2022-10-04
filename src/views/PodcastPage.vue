@@ -65,28 +65,281 @@
         </div>
       </div>
     </div>
-    <div class="col-span-4 bg-orange-100 px-10 lg:px-40 py-20 mt-20">
+    <div class="col-span-4 bg-gradient-to-r from-orange-100 to-red-100 px-10 lg:px-40 py-20 mt-20">
       <h1 class="text-xl md:text-3xl font-bold">Problem</h1>
       <p class="text-lg md:text-xl font-medium leading-7">
         Some of our team members are <b class="text-orange-700">Podcast listeners</b> , they felt annoyed and difficult when using the platforms.<br><br>For example,<br>1. weak bonding between Podcasters and listeners since there are <b class="text-orange-700">few social connections and interactive features</b> within Podcast apps so that they need to change platforms to connect with the Podcasters.<br>2. unorderly information displayed on the interface.Therefore, our group wanted to take a research on Podcast platforms and <b class="text-orange-700">find out pain points of listener</b> and <b class="text-orange-700">design a new Podcast app </b>to solve their problems.
       </p>
     </div>
-    <div
-      class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left italic"
-    >
-      <h2 class="text-lg md:text-xl font-medium">To better understand users' usage habits and to collect information quickly from the podcast listeners, we chose to apply the online survey methods.</h2>
+    <div 
+      class="maxsm:hidden pl-5 md:px-10 py-16 col-span-4 text-center">
+      <h1 class="text-xl md:text-3xl font-bold p-20">Research Process</h1>
+      <img class="w-full" src="@/assets/Podcast/ResearchProcess.png" alt="research process" />
     </div>
+    <div 
+      class="maxsm:block hidden pl-5 md:px-10 col-span-4 text-center">
+      <h1 class="text-xl md:text-3xl font-bold p-20">Research Process</h1>
+      <img class="w-2/3" src="@/assets/Podcast/ResearchProcessMobile.png" alt="research process" />
+    </div>
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">EMPATHIZE - Online survey</h3>
+      <h2 class="text-lg md:text-xl font-medium">To better understand users' usage habits and to collect information quickly from the podcast listeners, we chose to apply the online survey methods.</h2>
+      <h2 class="pt-2 text-lg md:text-xl font-medium">
+        <b>Survey Questions types</b><br><br>
+        ● Podcast listening habits & listening content<br>
+        ● Podcast Listening Devices & Platforms<br>
+      </h2>
+      <h2 class="pt-2 text-lg md:text-xl font-medium">
+        <b>Online Survey Tool</b><br><br>
+        <span class="italic">SurveyCake</span>
+      </h2>
+      <h2 class="pt-2 text-lg md:text-xl font-medium">
+        <b>Respondents</b><br><br>
+        237 replies<br>
+        <b>● Gender:</b> Woman (70%) | Man (29.9%)<br>
+        <b>● Professions:</b> Students (50.6%) | Technology industry (13.5%)<br>
+        <b>● Age:</b> 20~29 (72.5%) | 30~39 (14.7%)<br>
+      </h2>
 
-    <div
-      class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left italic"
-    >
-      <h2 class="text-lg md:text-xl">
-        237 respondents<br><br>
-        Students (50.6%) | Technology industry (13.5%)<br><br>
-        Avg. ages: 20~29 (72.5%)<br><br>
+      <h2 class="pt-8 text-lg md:text-xl text-left text-orange-700">
+        <b>Final Results</b>
       </h2>
     </div>
+
+    <div 
+      class="pl-5 py-8 col-span-4 text-center">
+      <img class="w-2/3" src="@/assets/Podcast/surveyResult.png" alt="survey result" />
+    </div>
+
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">EMPATHIZE - User Interview</h3>
+      <h2 class="text-lg md:text-xl font-medium">In order to deeper understand users' listening experinces, we recruited <b>7 people</b> for semi-structured interview.</h2>
+      <h4 class="text-lg font-medium"><b>Participants Recruiting Criteria:</b><br> 
+        In order to ask <b class="text-orange-700">deeper aspects and experiences</b> from the participants, we chose people who are <b>long-term users</b> (used at least 3 months).<br>
+        Also, we referenced their <b>Podcast listening frequency</b> and chose participants who mostly have high frequency usage (> 7 times/week).<br><br>
+        Since our goal was to <b class="text-orange-700">design a new Podcast platform</b>, we want to know Podcast <b>listeners' challenges and difficulties</b> when using their platforms.<br>
+        We referenced their satisfied scale to choose the participants evenly based on the response ratio.<br>
+        (Very Satisfied: 3, Satisfied: 1, Neutral: 2, Unsatisfied: 1)<br><br>
+        To enhance <b>diversity</b> of our participants, we picked up people from different professions, ages, and genders.<br><br>
+        <b>Professions:</b><br> Students(3), Technology Industry(2), Car business(1), Media Industry(1)<br>
+        <b>Ages:</b><br>20~29 (6), 30~39 (1)<br>
+        <b>Genders:</b><br> Woman (5), Man (2)
+      </h4>
+    </div>
+
+    <!-- FINDINGS -->
+    <div class="col-span-4 bg-cyan-800 px-10 lg:px-40 py-20 mt-20">
+      <h1 class="text-center text-3xl md:text-4xl font-bold pb-10  text-white">Research Findings</h1>
+      <div class="flex flex-wrap items-center justify-evenly">
+        <div class="col-span-2 bg-white w-[350px] h-[200px] sm:h-[150px] p-3 m-5">
+          <h3>
+            <span style="background: yellow; padding: 3px"
+              >Finding 1 : </span
+            ><br>
+           Users think that podcast exploration results are not diverse enough.
+          </h3>
+        </div>
+        <div class="col-span-2 bg-white w-[300px] h-[190px] p-3 m-5">
+          <h3>
+            <span style="background: yellow; padding: 3px"
+              >Finding 2 : </span><br>
+              Users think that the information display is cluttered and cannot find the target information efficiently.
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Persona -->
+    <div class="px-10 md:px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">DEFINE - Persona</h3>
+      <h4 class="text-lg font-medium">Since we have interviewed 7 people with very different personalities and habits when using Podcast platforms, we want to integrate our research findings into persona building. Therefore, we can clearly take a look at what type of users we are going to design for.</h4>
+    </div>
+    <div  class="pl-5 md:p-10 col-span-4 text-center">
+      <img class="w-full px-20 md:w-5/6 shadow-lg" src="@/assets/Podcast/Persona.jpg" alt="HMW" />
+    </div>
+
+    <!-- How Might We  -->
+    <div class="px-10 md:px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">DEFINE - How Might We (HMW)</h3>
+      <h4 class="text-lg font-medium">For better ideatation and brainstorming from our research findings, we chose to apply How Might We method to help us break down questions and clearly define users' needs.</h4>
+    </div>
+
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2">
+      <h2 class="text-lg md:text-xl">
+        How Might We (Finding 1)
+        </h2>
+      <h4 class="text-lg font-medium">How might we let users feel fresh on the platform?<br><br>How might we let users want to keep staying on the platform?<br><br>How might we design the exploring procedure so that users can be intrigued by the app?</h4>
+    </div>
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2">
+      <h2 class="text-lg md:text-xl">
+        How Might We (Finding 2)
+        </h2>
+      <h4 class="text-lg font-medium">How might we let users efficiently catch up on the information of the episode?<br><br>How might we let users flexibly change the display of information?</h4>
+    </div>
+
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h1 class="text-xl md:text-2xl">
+        Challenge
+      </h1>
+      <h4 class="text-lg font-medium">However, we didn't specifically identify the reasons for<br><br><span class="underline">"Why"</span> we wanted to code with each HMW questions.<br><br><span class="underline">"How"</span> we wanted to address such question.<br><br><span class="underline">by "What"</span> design methodologies, which resulted in ambiguity of our design.</h4>
+      <h1 class="mt-10 text-xl md:text-2xl text-orange-700">
+        Solution
+      </h1>
+      <h4 class="text-lg font-medium">However, we didn't specifically identify the reasons for<br><br>We decided to write down the <span class="underline">"User Story"</span><br> to zoom in from Why, How and What of our <span class="underline">product features and users' needs.</span><br></h4>
+      <h4 class="text-lg font-medium italic">As a ... users, (Why & Who)<br><br>I want to ... (What),<br><br>so that I can ... (How)</h4>
+    </div>
   </div>
+  <!-- POV with HMW -->
+  <div
+    class="pjt-content"
+    style="margin: 10%; grid-gap: 30px 70px; justify-content: center"
+  >
+    <div class="title">
+      <h2 style="border: none; text-align: left">
+        <span class="underline diffcolor"> How Might We</span><br />
+        (Finding 1)
+      </h2>
+    </div>
+    <div class="title">
+      <h2 style="border: none; text-align: left">
+        <span class="underline"> User Story</span>
+      </h2>
+    </div>
+    <div class="content">
+      <p style="max-width: 300px">
+        How might we let users feel fresh on the platform?
+      </p>
+    </div>
+    <div class="content">
+      <p>
+        <span class="underline">As a user</span> craving to explore new
+        things,<br /><br />
+        <span class="underline">I want to</span> use the random inspired cards
+        to recommend me new episodes,<br /><br />
+        <span class="underline">So that I would</span> not feel bored.
+      </p>
+    </div>
+    <div></div>
+    <div></div>
+    <div class="title">
+      <h2 style="border: none; text-align: left">
+        <span class="underline diffcolor"> How Might We</span><br />
+        (Finding 2)
+      </h2>
+    </div>
+    <div></div>
+    <div class="content">
+      <p>
+        How might we let users efficiently catch up on the information of the
+        episode?
+      </p>
+    </div>
+    <div class="content">
+      <p>
+        <span class="underline diffcolor">As a user</span> don't want to waste
+        time, <br /><br />
+        <span class="underline diffcolor">I want to</span> know the hot spot of
+        each episode,<br /><br />
+        <span class="underline diffcolor">So that I would</span> efficiently
+        know about the information of the episode.
+      </p>
+    </div>
+  </div>
+  <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">IDEATE - Brainstorming design ideas</h3>
+      <h4 class="text-lg font-medium">Based on the user stories and How Might We questions, we started to brainstorm ideas. We firstly wrote down our ideas on the sticky notes then drawed some features on the white board to help everyone better understand.</h4>
+    </div>
+    <div  class="pl-5 md:p-10 col-span-4 text-center">
+      <img class="w-full px-4 md:w-1/2 shadow-lg" src="@/assets/Podcast/Ideate1.jpg" alt="Ideate" />
+      <img class="w-full px-4 md:w-1/2 shadow-lg" src="@/assets/Podcast/Ideate2.jpg" alt="Ideate" />
+   </div>
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg font-medium">Before moving on to the prototype stage, we needed to draw a clear mind map of the information architecture of our Podcast platforms. </h4>
+    </div>
+    <div  class="pl-5 md:p-10 col-span-4 text-center">
+        <img class="w-full px-4 md:w-5/6 shadow-lg" src="@/assets/Podcast/Podcast_mindmap.png" alt="Ideate" />
+    </div>
+
+    <!-- Testing -->
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">TEST - Usability Testing</h3>
+      <h4 class="text-lg font-medium">After designing Mid-Fidelity prototype, we recruited 5 participants to conduct usabilty testing.</h4>
+    </div>
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl text-orange-700">Random Inspiring Cards (inspired by finding 1</h4>
+      <h4 class="text-lg font-medium">Recommend new episodes to users, so that that can feel fresh and novel when they are using our Podcast app.<br>We applied A/B test to evaluate our design</h4>
+      <h4 class="text-lg md:text-xl">Version A:</h4>
+      <h4 class="text-lg font-medium">We put the button in exploring page.<br>Users need to click "search" icon then get to see random inspiring cards.</h4>
+      <h4 class="text-lg md:text-xl">Version B:</h4>
+      <h4 class="text-lg font-medium">We put the button in main tab.<br>Users can directly click the "card" icon to get to the page.
+      </h4>
+    </div>
+    <div  class="col-span-4 text-center">
+      <img class="w-full shadow-lg" src="@/assets/Podcast/Wireframe_RIC_flow.png" alt="random inspiring cards" />
+    </div>
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl">Decision: Version B</h4>
+      <h4 class="text-lg md:text-xl">Task:</h4>
+      <h4 class="text-lg font-medium">"You can try random inspiring cards to explore new episodes and audition tapes. <br>Could you try to find the function in this app?"
+      </h4>
+      <h4 class="text-lg md:text-xl">Users' feedback and results:</h4>
+      <h4 class="text-lg font-medium">Participants think that <b>"random inspiring cards" is an important and special feature</b> in this app, so the functional button should be put in the <b>main tab</b> to emphasize the function.
+      </h4>
+    </div>
+    <!-- Test feature 2 -->
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl text-orange-700">Customized Homepage sections (inspired by finding 2)</h4>
+      <!-- <h4 class="text-lg font-medium">Recommend new episodes to users, so that that can feel fresh and novel when they are using our Podcast app.<br>We applied A/B test to evaluate our design</h4> -->
+      <h4 class="text-lg md:text-xl">Version A:</h4>
+      <h4 class="text-lg font-medium">Users can edit the sequences of homepage sections from pop-up buttons in the same page.</h4>
+      <h4 class="text-lg md:text-xl">Version B:</h4>
+      <h4 class="text-lg font-medium">Users can edit the sections with shifting pages and preview the layout of section.
+      </h4>
+    </div>
+    <div  class="col-span-4 text-center">
+      <img class="w-full shadow-lg" src="@/assets/Podcast/Wireframe_HP_flow.png" alt="random inspiring cards" />
+    </div>
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl">Decision: Version A</h4>
+      <h4 class="text-lg md:text-xl">Task:</h4>
+      <h4 class="text-lg font-medium">"In this podcast app, you have subscribed to lots of favorite shows, and you also want to see the latest episodes of the show on the homepage. <br>Therefore, you want to adjust the content order of the homepage and add the "New episodes" section to the second column, What would you do?"
+      </h4>
+      <h4 class="text-lg md:text-xl">Users' feedback and results:</h4>
+      <h4 class="text-lg font-medium">Participants think that the display window of the edit section should be <b>displayed directly on the same page,</b> and they don't want pages shifting to perform operations.
+      </h4>
+    </div>
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl text-orange-700">IDEATE- High-Fidelity Prototypes</h4>
+      <h4 class="text-lg md:text-xl">Random inspiring cards</h4>
+    </div>
+    <div  class="col-span-4 text-center">
+      <img class="w-full md:w-5/6 shadow-lg" src="@/assets/Podcast/HIFI_RIC_flow.png" alt="random inspiring cards" />
+    </div>
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl">Player</h4>
+    </div>
+    <div  class="col-span-4 text-center">
+      <img class="w-full md:w-5/6 shadow-lg" src="@/assets/Podcast/HIFI_Player_flow.png" alt="random inspiring cards" />
+    </div>
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">Research Documentation- Medium</h3>
+    </div>
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-center">
+      <h3 class="text-lg md:text-xl"><a class="text-black no-underline hover:underline" href="https://medium.com/@podcasthsinchu/podcast-app-ow%CE%BBoice-f0a8721ace6">!! Medium Link Here !!</a></h3>
+    </div>
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+    <h3 class="text-lg md:text-xl text-orange-700">Some Pictures</h3>
+    </div>
+    <div class="flex flex-wrap px-8 md:mx-20 col-span-4">
+      <img class="p-4 w-1/2 shadow-lg" src="@/assets/Podcast/grouppic1.jpg" alt="contest pictures" />
+      <img class="p-4 w-1/2 shadow-lg" src="@/assets/Podcast/grouppic2.jpg" alt="contest pictures" />
+    </div>
+  </div>
+
+
+  
+  
   <!-- <div class="pjt-top">
     <div class="pjt-title">
       <h2 class="lg:test-md font-">Podcast side project</h2>
@@ -186,7 +439,18 @@
   </div> -->
   
 
-  
+  <!-- <div class="method-reason">
+    <h3>Online survey</h3>
+    <h1>
+      To better understand users' usage habits and to collect information quickly from the podcast listeners, we chose to apply the online survey methods.<br />
+    </h1>
+    
+    <h2 class="text-lg md:text-xl">
+        237 respondents<br>
+        Students (50.6%) | Technology industry (13.5%)<br>
+        Avg. ages: 20~29 (72.5%)<br>
+    </h2>
+  </div> -->
   <!-- <div class="survey-question">
     <h1>Question Types</h1>
 
@@ -263,7 +527,7 @@
       <p>Commuting (60.7%)</p>
     </div>
   </div> -->
-  <div class="method-reason">
+  <!-- <div class="method-reason">
     <h3>Interview</h3>
     <h1>
       In order to deeper understand users' listening experinces, we recruited
@@ -278,30 +542,28 @@
       Most of them are high frequency users ( > 7 times/week ) so that we could
       ask more aspects and experiences from them.
     </p>
-  </div>
+  </div> -->
 
-  <div class="col-span-4 bg-cyan-800 px-10 lg:px-40 py-20 mt-20">
-
-<h1 class="text-center text-3xl md:text-4xl font-bold pb-10  text-white">Research Findings</h1>
-<div class="flex flex-wrap items-center justify-evenly">
-  <div class="col-span-3 bg-white w-[350px] h-[150px] p-3 m-5">
-    <h3>
-      <span style="background: yellow; padding: 5px 3px"
-        >Finding 1 : </span
-      ><br />
-      Users think that 
-      <span class="underline decoration-pink-500">podcast exploration results are not diverse enough.</span>
-    </h3>
-  </div>
-  <div class="col-span-3 bg-white w-[300px] h-[200px] p-3 m-5">
-    <h3>
-      <span style="background: yellow; padding: 5px 3px"
-        >Finding 2 : </span><br><br>
-      <span class="underline decoration-pink-500">Users think that the information display is cluttered and cannot find the target information efficiently.</span>
-    </h3>
-  </div>
-</div>
-</div>
+  <!-- <div class="col-span-4 bg-cyan-800 px-10 lg:px-40 py-20 mt-20">
+    <h1 class="text-center text-3xl md:text-4xl font-bold pb-10  text-white">Research Findings</h1>
+    <div class="flex flex-wrap items-center justify-evenly">
+      <div class="col-span-3 bg-white w-[350px] h-[150px] p-3 m-5">
+        <h3>
+          <span style="background: yellow; padding: 5px 3px"
+            >Finding 1 : </span
+          ><br><br>
+          Users think that podcast exploration results are not diverse enough.
+        </h3>
+      </div>
+      <div class="col-span-3 bg-white w-[300px] h-[200px] p-3 m-5">
+        <h3>
+          <span style="background: yellow; padding: 5px 3px"
+            >Finding 2 : </span><br><br>
+            Users think that the information display is cluttered and cannot find the target information efficiently.
+        </h3>
+      </div>
+    </div>
+  </div> -->
   <!-- <div class="pjt-desc" style="background: white">
     <h1 class="card-h1">Research Findings</h1>
     <div class="findings-card-layout">
@@ -329,7 +591,7 @@
     </div>
   </div> -->
 
-  <div class="method-reason">
+  <!-- <div class="method-reason">
     <h3>How Might We (HMW)</h3>
     <h1>
       For
@@ -338,8 +600,8 @@
       <span class="underline">How Might We </span>question to help us develop
       trigger questions and break down users' needs.
     </h1>
-  </div>
-  <div
+  </div> -->
+  <!-- <div
     class="pjt-content"
     style="margin: 10% 0; grid-gap: 20px 70px; justify-content: center"
   >
@@ -349,23 +611,11 @@
         (Finding 1)
       </h2>
     </div>
-    <!-- <div class="title">
-      <h2 style="border:none;text-align:left;">
-        <span class="underline"> User Story</span>
-      </h2>
-    </div> -->
     <div class="content">
       <p style="max-width: 300px">
         How might we let users feel fresh on the platform?
       </p>
     </div>
-    <!-- <div class="content">
-      <p class="story-style">
-        As a user craving to explore new things<br />
-        I want to use the random inspired cards to recommend me new episodes<br />
-        So that I would not feel bored.
-      </p>
-    </div> -->
     <div></div>
     <div class="content">
       <p style="max-width: 300px">
@@ -411,9 +661,9 @@
   <div class="HMW-img">
     <img src="../../src/assets/Podcast/HMW1.jpg" alt="" />
     <img src="../../src/assets/Podcast/HMW2.jpg" alt="" />
-  </div>
+  </div> -->
 
-  <div class="pjt-desc" style="padding-bottom: 50px; background: white">
+  <!-- <div class="pjt-desc" style="padding-bottom: 50px; background: white">
     <h1><span class="underline diffcolor__four">Challenge</span></h1>
     <p style="line-height: 50px; margin-top: 40px">
       We didn't specifically identify the reasons for<br />
@@ -440,63 +690,9 @@
         so that I can ... (How)<br
       /></span>
     </p>
-  </div>
-  <div
-    class="pjt-content"
-    style="margin: 10%; grid-gap: 30px 70px; justify-content: center"
-  >
-    <div class="title">
-      <h2 style="border: none; text-align: left">
-        <span class="underline diffcolor"> How Might We</span><br />
-        (Finding 1)
-      </h2>
-    </div>
-    <div class="title">
-      <h2 style="border: none; text-align: left">
-        <span class="underline"> User Story</span>
-      </h2>
-    </div>
-    <div class="content">
-      <p style="max-width: 300px">
-        How might we let users feel fresh on the platform?
-      </p>
-    </div>
-    <div class="content">
-      <p class="story-style">
-        <span class="underline">As a user</span> craving to explore new
-        things,<br /><br />
-        <span class="underline">I want to</span> use the random inspired cards
-        to recommend me new episodes,<br /><br />
-        <span class="underline">So that I would</span> not feel bored.
-      </p>
-    </div>
-    <div></div>
-    <div></div>
-    <div class="title">
-      <h2 style="border: none; text-align: left">
-        <span class="underline diffcolor"> How Might We</span><br />
-        (Finding 2)
-      </h2>
-    </div>
-    <div></div>
-    <div class="content">
-      <p>
-        How might we let users efficiently catch up on the information of the
-        episode?
-      </p>
-    </div>
-    <div class="content">
-      <p class="story-style">
-        <span class="underline diffcolor">As a user</span> don't want to waste
-        time, <br /><br />
-        <span class="underline diffcolor">I want to</span> know the hot spot of
-        each episode,<br /><br />
-        <span class="underline diffcolor">So that I would</span> efficiently
-        know about the information of the episode.
-      </p>
-    </div>
-  </div>
-  <div class="method-reason">
+  </div> -->
+  
+  <!-- <div class="method-reason">
     <h3>Brainstorming & Usability testing</h3>
     <h1>
       We designed wireframe from our research findings and applied
@@ -526,12 +722,12 @@
         Users can directly click the "card" icon to get to the page.<br />
       </p>
     </h1>
-  </div>
+  </div> -->
 
-  <div class="prototype-image">
+  <!-- <div class="prototype-image">
     <img src="../../src/assets/Podcast/Wireframe_RIC_flow.png" alt="" />
-  </div>
-  <h1><span class="underline">Decision: Version B</span></h1>
+  </div> -->
+  <!-- <h1><span class="underline">Decision: Version B</span></h1>
   <div
     class="pjt-content"
     style="margin: 10%; grid-gap: 30px 70px; justify-content: center"
@@ -559,8 +755,8 @@
         button should be put in the <b>main tab</b> to emphasize the function.
       </p>
     </div>
-  </div>
-  <div class="method-reason">
+  </div> -->
+  <!-- <div class="method-reason">
     <h1>
       <span class="underline diffcolor"
         >2. Customized Homepage sections (inspired by finding 2)</span
@@ -612,8 +808,8 @@
         want pages shifting to perform operations.
       </p>
     </div>
-  </div>
-  <div class="method-reason">
+  </div> -->
+  <!-- <div class="method-reason">
     <h3>Hi-Fidelity Prototypes</h3>
     <h1>
       <span class="underline diffcolor"> Random inspiring cards</span>
@@ -638,7 +834,7 @@
   </p>
   <div class="prototype-image">
     <img src="../../src/assets/Podcast/HIFI_Player_flow.png" alt="" />
-  </div>
+  </div> -->
   <!-- <div
     class="pjt-desc"
     style="padding:0px;background-color:white;left:0;top:0;"

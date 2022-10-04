@@ -156,8 +156,8 @@
       </ul>
     </div>
 
+    <!-- Findings -->
     <div class="col-span-4 bg-cyan-800 px-10 lg:px-40 py-20 mt-20">
-
       <h1 class="text-center text-3xl md:text-4xl font-bold pb-10  text-white">Research Findings</h1>
       <div class="flex flex-wrap items-center justify-evenly">
         <div class="col-span-2 bg-white w-[350px] h-[200px] sm:h-[150px] p-3 m-5">
@@ -186,7 +186,17 @@
       </div>
     </div>
 
+
+    <!-- Persona -->
     <div class="px-10 md:px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700">DEFINE - Persona</h3>
+      <h4 class="text-lg font-medium">We want to integrate our research findings into persona so that every teammates in our group can clearly understand the user profile and focus on our users to design features for them.</h4>
+    </div>
+    <div  class="pl-5 md:pl-10 col-span-4 text-center">
+      <img class="w-full px-20 md:w-4/5 shadow-lg" src="@/assets/Meeture/Persona.jpg" alt="HMW" />
+    </div>
+
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h3 class="text-lg md:text-xl text-orange-700">DEFINE - Point of View (PoV) & How Might We (HMW)</h3>
       <h4 class="text-lg font-medium">In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br><br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
     </div>
