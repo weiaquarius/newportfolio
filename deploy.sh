@@ -12,7 +12,7 @@ cp index.html 404.html
 # echo 'www.example.com' > CNAME
 git init
 git add -A
-git commit -m 'update'
+git commit -m 'update with new username'
 git push -f git@github.com:weikoli/weikoli.github.io.git master:gh-pages
 cd -
 
