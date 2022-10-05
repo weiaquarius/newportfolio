@@ -261,36 +261,159 @@
         <img class="w-full px-4 md:w-5/6 shadow-lg" src="@/assets/Podcast/Podcast_mindmap.png" alt="Ideate" />
     </div>
 
+    <!-- Low-Fi & Mid-Fi Prototype -->
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl text-orange-700">PROTOTYPE - Mid-Fidelity Prototype</h4>
+    </div>
+    <div  class="pl-5 md:p-10 col-span-4 text-center">
+        <img class="w-full md:w-3/5 shadow-lg" src="@/assets/Podcast/MidFi_explore.png" alt="Mid-Fi" />
+        <img class="w-full md:w-full shadow-lg" src="@/assets/Podcast/MidFi_search.png" alt="Mid-Fi" />
+    </div>
+
+
     <!-- Testing -->
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h3 class="text-lg md:text-xl text-orange-700">TEST - Usability Testing</h3>
       <h4 class="text-lg font-medium">After designing Mid-Fidelity prototype, we recruited 5 participants to conduct usabilty testing.</h4>
+      <h4 class="text-xl mt-10">
+        How we implement the testing?
+      </h4>
+      <h4 class="text-lg font-medium">
+        <b>Disclaimer: </b><br>
+        ● Due to covid-19, we all conducted online testing.<br>
+        ● Before the testing, we sent out testing documentation to all the participants to help them better understand what they will do during testing process, and how to setup the online testing environment (Google meet and sharing screen function) before the test.
+      </h4>
     </div>
+
+    <div class="px-10 col-span-4 text-center">
+      <div style='background-color:rgb(255, 255, 255)'>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 pt-10 pb-10 lg:pb-20" style="cursor: auto;">
+          
+        <div class="p-10 md:p-6 bg-gray-100 rounded-lg">      
+          <div class="mb-5">
+            <n-icon color="#000" size="70">
+              <number1></number1>
+            </n-icon>
+          </div>   
+          <h3 class="text-lg font-bold mb-2">
+            Introduce our project
+          </h3>
+          <p class="text-left text-[16px] md:text-[17px] leading-6 text-gray-600">
+            ● What is this project for?<br>
+            ● What is our goal?<br>
+            ● What is the research stage now?<br>
+            ● Why do we want to conduct testing now?<br>
+            <br>
+          </p>  
+        </div>
+            
+        <div class="p-10 md:p-6 bg-gray-100 rounded-lg">         
+          <div class="mb-5">  
+            <n-icon color="#000" size="70">
+              <number2></number2>
+            </n-icon>     
+          </div>
+          <h3 class="text-lg font-bold mb-2">
+            Introduce Testing Goal
+          </h3>
+          <p class="text-left text-[16px] md:text-[17px] leading-6 text-gray-600">
+            ● Test whether the flow and information structure of the currently designed function meet the user's expectations.<br><br>
+            ● Understand how users think about the features and what value it brings to them.<br><br>
+            ● Understand what users think about the entire product. (e.g. their favorite parts, anything makes them feel strange or confused)<br><br>
+            ● Understand what users think about the entire product.<br><br>
+          </p>
+        </div>
+          
+        <div class="p-10 md:p-6 bg-gray-100 rounded-lg" style="cursor: auto;">   
+        <div class="mb-5" style="cursor: auto;">
+          <n-icon color="#000" size="70">
+              <number3></number3>
+            </n-icon> 
+        </div>
+          <h3 class="text-lg font-bold mb-2">
+            Explain Testing Process
+          </h3>
+          <p class="text-left text-[16px] md:text-[17px] leading-6 text-gray-600">
+            ● Introduce our roles in the testing (who is the main tester, who will take notes)<br><br>
+            ● Introduce our testing tool (Figma) and explain how to use the prototype.<br><br>
+            ● Explain meanings of "scenario" and "task" during testing and demonstrate an example to use the Figma prototype to finish the task.<br><br>
+
+          </p>    
+        </div>
+          
+        <div class="p-10 md:p-6 bg-gray-100 rounded-lg">    
+          <div class="mb-5">  
+            <n-icon color="#000" size="70">
+              <number4></number4>
+            </n-icon>  
+          </div>    
+          <h3 class="text-lg font-bold mb-2">
+            Starting Testing
+          </h3>
+          <p class="text-left text-[16px] md:text-[17px] leading-6 text-gray-600">
+            Explain scenarios and tasks respectively.<br><br>
+            Reminder: If they feel that task is completed, report "Mission Completed" to testers.
+          </p>  
+        </div> 
+      </div>
+    </div>
+
+    </div>
+
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h4 class="text-lg md:text-xl text-orange-700">Random Inspiring Cards (inspired by finding 1</h4>
-      <h4 class="text-lg font-medium">Recommend new episodes to users, so that that can feel fresh and novel when they are using our Podcast app.<br>We applied A/B test to evaluate our design</h4>
+      <h4 class="text-lg md:text-xl">Testing method and criteria</h4>
+      <h4 class="text-lg mt-10 font-medium">
+        We referenced the online tutorial, <b>"Guerrilla Usability Testing"</b> in our research, to use quantitative data to help us understand our design problems.<br><br>
+        For example, we tried to <b>capture tasks completion.</b><br>
+        ● We set the timer to track how long should users finish the tasks.<br>
+        ● We mark 1 to 3 points to know how easier or difficult tasks might be for users.<br>
+        <span class="italic">If users can finish the task quickly and with no problems, we mark 3<br>
+        If users can perform the task but have some problems, we mark 2<br>
+        If users cannot finish the task, we mark 1</span><br>
+      </h4>
+      <h4 class="pt-4 text-lg font-medium">
+        Also, we applied <b>10 points Likert scale</b> to help use understand<br>
+        ● How easy or difficult do users feel when doing this task?<br>
+        ● How satisfied do they feel about the task and features?<br>
+        ● How understandable for our feature design?
+      </h4>
+    </div>
+
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl">Testing results</h4>
+    </div>
+
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl text-orange-700">Feature 1: Random Inspiring Cards (inspired by finding 1)</h4>
+      <h4 class="text-lg font-medium">Recommend new episodes to users, so that that can feel fresh and novel when they are using our Podcast app.<br><br>We applied A/B test to evaluate our design</h4>
+      <h4 class="text-lg md:text-xl">Task:</h4>
+      <h4 class="text-lg font-medium">"You can try random inspiring cards to explore new episodes and audition tapes. <br>Could you try to find the function in this app?"
+      </h4>
       <h4 class="text-lg md:text-xl">Version A:</h4>
-      <h4 class="text-lg font-medium">We put the button in exploring page.<br>Users need to click "search" icon then get to see random inspiring cards.</h4>
+      <h4 class="text-lg font-medium">We put the button in <b>exploring page.</b><br>Users need to click "search" icon then get to see random inspiring cards.</h4>
       <h4 class="text-lg md:text-xl">Version B:</h4>
-      <h4 class="text-lg font-medium">We put the button in main tab.<br>Users can directly click the "card" icon to get to the page.
+      <h4 class="text-lg font-medium">We put the button in <b>main tab.</b><br>Users can directly click the "card" icon to get to the page.
       </h4>
     </div>
     <div  class="col-span-4 text-center">
       <img class="w-full shadow-lg" src="@/assets/Podcast/Wireframe_RIC_flow.png" alt="random inspiring cards" />
     </div>
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h4 class="text-lg md:text-xl">Decision: Version B</h4>
-      <h4 class="text-lg md:text-xl">Task:</h4>
-      <h4 class="text-lg font-medium">"You can try random inspiring cards to explore new episodes and audition tapes. <br>Could you try to find the function in this app?"
-      </h4>
-      <h4 class="text-lg md:text-xl">Users' feedback and results:</h4>
-      <h4 class="text-lg font-medium">Participants think that <b>"random inspiring cards" is an important and special feature</b> in this app, so the functional button should be put in the <b>main tab</b> to emphasize the function.
-      </h4>
+      <h4 class="text-lg md:text-xl text-orange-700">Decision: Version B</h4>
+      <h4 class="text-lg md:text-xl font-medium"><b>Quantiative rating points:</b><br><br><b>Average satisfied value: </b>(Total: 10)<br>
+        Version A: 7.2<br>
+        <b>Version B: 10</b><br><br>
+        <b>Average point for how easy do they feel about the task: </b>(Easiest: 10)<br>
+        Version A: 7.7<br>
+        <b>Version B: 10</b></h4>
+      <h4 class="text-lg md:text-xl font-medium"><b>Users' feedback:</b><br>Most of the participants think that <b>"random inspiring cards" is an important and special feature</b> in this app, so the functional button should be put in the <b>main tab</b> to emphasize the function.</h4>
     </div>
     <!-- Test feature 2 -->
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h4 class="text-lg md:text-xl text-orange-700">Customized Homepage sections (inspired by finding 2)</h4>
-      <!-- <h4 class="text-lg font-medium">Recommend new episodes to users, so that that can feel fresh and novel when they are using our Podcast app.<br>We applied A/B test to evaluate our design</h4> -->
+      <h4 class="text-lg md:text-xl text-orange-700">Feature 2: Customized Homepage sections (inspired by finding 2)</h4>
+      <h4 class="text-lg md:text-xl">Task:</h4>
+      <h4 class="text-lg font-medium">"In this podcast app, you have subscribed to lots of favorite shows, and you also want to see the latest episodes of the show on the homepage. <br>Therefore, you want to adjust the content order of the homepage and add the "New episodes" section to the second column, What would you do?"
+      </h4>
       <h4 class="text-lg md:text-xl">Version A:</h4>
       <h4 class="text-lg font-medium">Users can edit the sequences of homepage sections from pop-up buttons in the same page.</h4>
       <h4 class="text-lg md:text-xl">Version B:</h4>
@@ -302,11 +425,14 @@
     </div>
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h4 class="text-lg md:text-xl">Decision: Version A</h4>
-      <h4 class="text-lg md:text-xl">Task:</h4>
-      <h4 class="text-lg font-medium">"In this podcast app, you have subscribed to lots of favorite shows, and you also want to see the latest episodes of the show on the homepage. <br>Therefore, you want to adjust the content order of the homepage and add the "New episodes" section to the second column, What would you do?"
-      </h4>
-      <h4 class="text-lg md:text-xl">Users' feedback and results:</h4>
-      <h4 class="text-lg font-medium">Participants think that the display window of the edit section should be <b>displayed directly on the same page,</b> and they don't want pages shifting to perform operations.
+      <h4 class="text-lg md:text-xl font-medium"><b>Quantiative rating points:</b><br><br><b>Average satisfied value: </b>(Total: 10)<br>
+        <b>Version A: 9.3</b><br>
+        Version B: 8<br><br>
+        <b>Average point for how easy do they feel about the task: </b>(Easiest: 10)<br>
+        <b>Version A: 9.4</b><br>
+        Version B: 8.2</h4>
+      <h4 class="text-lg md:text-xl font-medium"><b>Users' feedback :</b><br>Participants think that the display window of the edit section should be <b>displayed directly on the same page,</b> and they don't want pages shifting to perform operations.</h4>
+      <h4 class="text-lg font-medium">
       </h4>
     </div>
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
@@ -317,16 +443,22 @@
       <img class="w-full md:w-5/6 shadow-lg" src="@/assets/Podcast/HIFI_RIC_flow.png" alt="random inspiring cards" />
     </div>
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg md:text-xl">Profile</h4>
+    </div>
+    <div  class="col-span-4 text-center">
+      <img class="w-full md:w-5/6 shadow-lg" src="@/assets/Podcast/HIFI_Profile.png" alt="Profile" />
+    </div>
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h4 class="text-lg md:text-xl">Player</h4>
     </div>
     <div  class="col-span-4 text-center">
-      <img class="w-full md:w-5/6 shadow-lg" src="@/assets/Podcast/HIFI_Player_flow.png" alt="random inspiring cards" />
+      <img class="w-full md:w-5/6 shadow-lg" src="@/assets/Podcast/HIFI_Player.png" alt="random inspiring cards" />
     </div>
-    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+    <div class="px-10 md:px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h3 class="text-lg md:text-xl text-orange-700">Research Documentation- Medium</h3>
     </div>
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-center">
-      <h3 class="text-lg md:text-xl"><a class="text-black no-underline hover:underline" href="https://medium.com/@podcasthsinchu/podcast-app-ow%CE%BBoice-f0a8721ace6">!! Medium Link Here !!</a></h3>
+      <h3 class="text-lg md:text-xl"><a class="text-black hover:text-green-700" href="https://medium.com/@podcasthsinchu/podcast-app-ow%CE%BBoice-f0a8721ace6">!! Medium Link Here !!</a></h3>
     </div>
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
     <h3 class="text-lg md:text-xl text-orange-700">Some Pictures</h3>
@@ -870,24 +1002,32 @@
   </back-to-top> -->
 </template>
 
-<script>
+<script setup>
+import { onMounted } from 'vue';
+import { NIcon } from 'naive-ui';
+import { Number1,Number2,Number3,Number4} from '@vicons/carbon';
 import NextButton from '../components/Shared/Nextbutton.vue';
-// import BackToTop from 'vue-backtotop';
-
-export default {
-  name: 'PodcastPage',
-  components: {
-    'next-button': NextButton,
-    // BackToTop,
-  },
-  props: {
-    num: Number,
-    name: String,
-  },
-  mounted() {
-    window.scrollTo(0, 0);
-  },
-};
+defineProps({
+  num: Number,
+  name: String,
+});
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+// export default {
+//   name: 'PodcastPage',
+//   components: {
+//     'next-button': NextButton,
+//     // BackToTop,
+//   },
+//   props: {
+//     num: Number,
+//     name: String,
+//   },
+//   mounted() {
+//     window.scrollTo(0, 0);
+//   },
+// };
 </script>
 <style scoped lang="scss">
 @import '../assets/scss/project_content_style.scss';

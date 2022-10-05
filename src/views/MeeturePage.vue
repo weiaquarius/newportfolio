@@ -412,9 +412,7 @@
       </div>
     </div>
 
-
-    <div 
-      class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h1 class="text-xl">Testing Results : </h1>
       <h4 class="md:pt-10 text-md md:text-lg font-medium text-left">
         <b>Scenario 2:</b> <br>After knowing more about Meeture platform, you feel interested in thie product. <br><br>
@@ -621,7 +619,6 @@
 </template>
 
 <script setup>
-
 import { NIcon } from 'naive-ui';
 import { Number1,Number2,Number3,Number4,UserSpeaker } from '@vicons/carbon';
 import { onMounted } from 'vue';
@@ -630,21 +627,10 @@ defineProps({
   num: Number,
   name: String,
 });
-// data() {
-//   return {
-//     x: 0
-//   }
-// };
-// onMousemove((e)=> {
-//   this.x = e.clientX
-// });
 onMounted(() => {
   window.scrollTo(0, 0);
 });
-// export default {
-  
 
-// };
 </script>
 <style scoped lang="scss">
 @import '../assets/scss/project_content_style.scss';
