@@ -36,6 +36,6 @@ export default defineConfig({
       },
     },
   },
-  //   base: "./portfolio/",
-  base: process.env.NODE_ENV === 'production' ? 'portfolio' : './',
+  //   base: "./weikoli.github.io/",
+  base: process.env.NODE_ENV === 'production' ? 'weikoli.github.io' : './',
 });

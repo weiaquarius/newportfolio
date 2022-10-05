@@ -13,7 +13,7 @@ cp index.html 404.html
 git init
 git add -A
 git commit -m 'update'
-git push -f git@github.com:weikoli/portfolio.git master:gh-pages
+git push -f git@github.com:weikoli/weikoli.github.io.git master:gh-pages
 cd -
 
 # run file: sh ./deploy.sh
