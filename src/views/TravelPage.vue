@@ -8,8 +8,8 @@
     />
   </div>
 
-  <div class="mt-0 sm:mt-8 grid grid-cols-4 gap-3 text-left pb-2">
-    <div class="pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+  <div class="mt-0 sm:mt-8 grid grid-cols-4 text-left pb-2">
+    <div class="px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <h1 class="text-xl md:text-3xl font-bold">Topic</h1>
       <p class="text-lg font-base italic">
         Get Distracted or Missed the Stop? Investigating Public Transit
@@ -33,7 +33,7 @@
     <div
       data-aos="fade-up"
       data-aos-duration="700"
-      data-aos-easing="ease-in-out"
+      data-aos-easing="ease-in"
       data-aos-mirror="true"
       class="border-2 border-indigo-600 pl-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2"
     >
@@ -86,12 +86,7 @@
         </div> -->
       </div>
     </div>
-    <div
-      data-aos="fade-up"
-      data-aos-duration="700"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      class="col-span-6 bg-gray-200 px-10 lg:px-40 py-20 mt-20"
+    <div class="col-span-6 bg-gray-200 px-10 lg:px-40 py-20 mt-20"
     >
       <h1 class="text-xl md:text-3xl font-bold">Problem</h1>
       <p class="text-lg md:text-xl font-medium leading-7">
@@ -166,18 +161,13 @@
           <h3
             class="text-md md:text-lg font-semibold text-gray-900 dark:text-white"
           >
-            Qualitative data analysis
+            Qualitative data analysis (based on grounded theory)
           </h3>
           <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
         </li>
       </ol>
     </div>
-    <div
-      data-aos="fade-up"
-      data-aos-duration="700"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      class="col-span-6 bg-slate-300 px-16 lg:px-40 py-20 mt-20"
+    <div class="col-span-6 bg-slate-300 px-16 lg:px-40 py-20 mt-20"
     >
       <h1 class="text-xl md:text-3xl font-bold">Why Mixed-Methods?</h1>
       <br />
@@ -212,98 +202,106 @@
         a efficient research process.
       </p>
     </div>
-    <!-- <div class="col-span-6 p-10 md:px-40 md:py-20">
-      <h1 class="text-xl md:text-3xl text-orange-700">Findings</h1>
-      <br />
-      <ul class="list-decimal">
-        <li class="text-lg md:text-2xl italic font-semibold">
-          Habitual Behavior, Part of the Daily Routine
-        </li>
-        <p class="text-md md:text-lg font-medium">
-          Some participants might perform some tasks-at-hand with no intention
-          and consciousness, they just do the tasks habitually. <br /><br />The
-          participants who followed this pattern usually told us (during
-          debriefing interview after observation) that their task-at-hand
-          choices were habitual, spontaneous, and without particular intention;
-          and some did not recall what they had done during their journeys.
-        </p>
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">Online survey</h3>
+      <h2 class="text-lg font-medium">In order to understand people's experience of multitasking while taking public transport, this study wanted to recruit "20 to 60-year-olds who have engaged in activities other than rest and sleep while riding public transport".</h2>
+      <h2 class="pt-2 text-lg font-medium">
+        <b>Survey Questions types</b><br><br>
+        ● Demographic information<br>
+        ● Travel behavior in the past six months (i.e., the types of public transit the respondents frequently took, and journey purposes, frequencies, and timings)<br>
+        ● Frequent choices of tasks on public transit<br><br>
+        We also applied <b>Polychronic-Monochronic Tendency Scale (PMTS)</b> to help us measure participants' tendency to multitasking.
+      </h2>
+      <h2 class="pt-6 text-lg font-medium">
+        <b>Online Survey Tool</b><br><br>
+        <span class="italic">Google Form</span>
+      </h2>
+      <h2 class="pt-6 text-lg font-medium">
+        <b>Final recruitment</b><br><br>
+        We recruited 22 participants: 9 males and 13 females, ranging in age
+        from 21 to 50 (M=26.3)
+      </h2>
 
-        <div class="mt-8 md:p-4 bg-white rounded-lg shadow-xl">
-          <div class="mb-2">
-            <div class="h-3 text-xl md:text-3xl text-left">“</div>
-            <p class="px-4 text:md md:text-lg italic text-center">
-              I probably have checked some stock stuff at that time. [...]. It
-              just occurred to me that I haven’t done this today and so I did
-              it.
-            </p>
-            <div class="h-3 text-xl md:text-3xl text-right text-gray-600">
-              ”
-            </div>
-          </div>
-        </div>
-        <div class="mt-10 p-4 bg-white rounded-lg shadow-xl">
-          <div class="mb-2">
-            <div class="h-2 text-xl md:text-3xl text-left">“</div>
-            <p class="px-2 text:md md:text-lg italic text-center">
-              It’s probably just an unconscious thing, for no particular reason.
-            </p>
-            <div class="h-3 text-xl md:text-3xl text-right text-gray-600">
-              ”
-            </div>
-          </div>
-        </div>
-        <p class="mt-10 text-md md:text-lg font-medium">
-          Others who followed this multitasking pattern expressed much greater
-          awareness that their tasks-at-hand were parts of their daily routine,
-          e.g., catching up with news or incoming messages during the morning.
-        </p>
-
-        <li class="mt-16 text-lg md:text-2xl italic font-semibold">
-          Making the Most of Travel Time
-        </li>
-        <p class="text-md md:text-lg font-medium">
-          Participants included in this type would utilize their time fully,
-          regardless of task-at-hand types because they want to avoid idleness
-          and hope to be productive.
-        </p>
-
-        <div class="p-4 bg-white rounded-lg shadow-xl">
-          <div class="mb-2">
-            <div class="h-3 text-xl md:text-3xl text-left text-gray-600">“</div>
-            <p class="px-4 text:md md:text-lg italic text-center">
-              I am a person who can’t tolerate being idle [...] I feel that I
-              just had to find something to do, even including playing games.
-            </p>
-            <div class="h-3 text-xl md:text-3xl text-right text-gray-600">
-              ”
-            </div>
-          </div>
-        </div>
-        <div class="mt-10 p-4 bg-white rounded-lg shadow-xl">
-          <div class="mb-2">
-            <div class="h-3 text-xl md:text-3xl text-left">“</div>
-            <p class="px-2 text:md md:text-lg italic text-center">
-              Mostly I see taking high-speed rail as a luxury, so I would hope
-              to be productive when I do it, like making PowerPoints or
-              something. [...] It’s like the extra amount of money could let you
-              stay in a coffee shop. So I will try my best to make this worth
-              it.
-            </p>
-            <div class="h-3 text-xl md:text-3xl text-right text-gray-600">
-              ”
-            </div>
-          </div>
-        </div>
-      </ul>
-    </div> -->
-  </div>
-  <div class="grid grid-cols-8 grid-rows-2 px-4 md:px-12 py-20 mt-20">
-    <!-- <div class="row-span-3">
-      <h1>Four Multitasking Patterns on Public Transit</h1>
-    </div> -->
-    <div class="col-span-8 row-span-2 flex items-center justify-center">
-      <h2>Four Multitasking Patterns on Public Transit</h2>
     </div>
+    <div class="px-10 md:px-5 mt-6 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">Observation</h3>
+      <h2 class="text-lg font-medium">
+        Observation helps us investigate participants' in-situ behaviors that could been difficult to get from retrospection (i.e., interviews). <br><br>Hence, we planned to observe people’s multitasking behaviors, including their attention-switching, task choices, technology choices, and responses to the dynamic environments within public-transit vehicles. 
+      </h2>
+    </div>
+    <div class="col-span-4 text-center">
+      <div style='background-color:rgb(255, 255, 255)'>
+        <div class="grid grid-cols-1 pt-10 pb-10" style="cursor: auto;">
+        <div class="p-10 mx-10 md:mx-20 lg:mx-60 md:px-20 bg-gray-100 rounded-lg">     
+          <h3 class="text-xl font-bold mb-2">
+            Observers' job
+          </h3>
+          <p class="text-left text-lg leading-6 text-gray-600">
+            ● When observing participants, stay at least 5 but not more than 10 feet away to minimize the participant’s awareness of their presence.<br><br>
+            ● Observed and recorded <b>field notes</b> of the participant’
+            multitasking behaviors and their context<br> including : <br>
+            1. activities, devices used<br>
+            2. attention-switching<br>
+            3. progression of the journey<br>
+            4. incidents within the participant’s immediate surroundings<br>
+            5. other aspects of the vehicle environment such as its crowdedness and the nature, frequency and clarity of stop/station-arrival alerts. 
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="flex flex-wrap px-8 md:mx-24 mt-10 col-span-4">
+      <img class="p-4 w-full md:w-2/3 shadow-lg" src="@/assets/Travel/Observation4.jpg" alt="Observation" />
+      <img class="p-4 w-1/2 md:w-1/3 shadow-lg" src="@/assets/Travel/Observation1.jpg" alt="Observation" />
+      <img class="p-4 w-1/2 md:w-1/3 shadow-lg" src="@/assets/Travel/Observation3.jpg" alt="Observation" />
+      <img class="p-4 w-1/2 md:w-1/3 shadow-lg" src="@/assets/Travel/Observation5.jpg" alt="Observation" />
+      <img class="p-4 w-1/2 md:w-1/3 shadow-lg" src="@/assets/Travel/Observation2.jpg" alt="Observation" />
+    </div>
+
+    <!-- short debriefing interview -->
+    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">Short debriefing interview</h3>
+      <h2 class="text-lg font-medium">
+        This short debriefing interview (mostly 30 minutes) helped observers and participants have quick clarifications of the participant’s in situ perceptions, feelings, experiences, and rationales behind their multitasking decisions that might have been difficult to recall in a subsequent semi-structured interview.  
+      </h2>
+    </div>
+
+    <!-- interview -->
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">Semi-structured interview</h3>
+      <h4 class="text-lg font-medium">
+        We mostly asked participants to <b>walk through their multitasking experiences when taking public transit</b> during past six months, including their procedures; their choices of tasks and technology; the rationales behind those choices; their feelings/attitudes toward incidents; their multitasking processes and outcomes; and the challenges and barriers they had encountered along different stages of their journeys, including waiting, riding, and disembarking.<br><br>
+        Also, if we felt that there was knowledge lacking in our field notes and short debriefing interview, we would ask participants follow-up questions.<br>
+        <br>* We opened to<b> hybrid (either in-person or online) interviews</b>, while all participants chose to do online interviews.<br>
+        <br>* Each semi-structured interview lasted between 90 minutes and two hours<br>
+      </h4>
+    </div>
+
+    <!-- Coding -->
+    <div class="px-10 md:px-5 mt-6 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">Qualitative data analysis</h3>
+      <h2 class="text-lg font-medium">
+        Our data-analysis process was guided by the <a class="underline text-orange-700 hover:text-orange-600" href="https://ebn.bmj.com/content/19/2/34" target="_blank"><b>"Grounded-theory approach"</b></a>, and coded the data in ATLAS.ti, an online qualitative-data analysis application.<br><br> Open coding started as soon as the research team had begun collecting the data. Creation of the first set of codes was led by the first author, who regularly discussed the codebook with the other five members of the research team. The team then iteratively revised the codebook until consensus was reached among all members. <br><br>Next, all six researchers used the agreed codebook to code new data as well as the rest of the data, and discussed whether new codes and/or changes in the existing codes would be beneficial. When new codes or revised codes were proposed, they were also examined against existing data.
+      </h2>
+    </div>
+
+    <!-- Finding -->
+    <div class="px-10 md:px-5 mt-6 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">Findings</h3>
+      <h3 class="text-lg font-medium">
+        We presented our findings into 3 topics: <br>
+        ● Four Multitasking Patterns on Public Transit<br>
+        ● Challenges to Carrying out the Travel Task and the Task-at-Hand Simultaneously<br>
+        ● Concerns and Challenges Arising from Public Transit’s Dynamic Environment<br>
+      </h3>
+      <h2 class="text-lg mt-20">
+        Four Multitasking Patterns on Public Transit
+      </h2>
+    </div>
+  </div>
+
+
+  <div class="grid grid-cols-8 grid-rows-2 px-4 md:px-12 py-20">
     <div class="col-span-8 sm:col-span-4 bg-amber-50 text-left p-8 md:p-16">
       <h2 class="text-lg sm:text-xl text-center sm:text-left">
         Habitual Behavior, Part of the Daily Routine
@@ -375,24 +373,18 @@
 
     <div class="col-span-8 sm:col-span-4 bg-slate-50 text-left p-8 md:p-16">
       <h2 class="text-lg sm:text-xl text-center sm:text-left">
-        Performing Tasks Suited to Public Transit’s Rhythm or Environment
+        Performing Tasks Suited to Public Transit’s Environment
       </h2>
       <p class="text-md md:text-lg font-medium">
-        Some participants might perform some tasks-at-hand with no intention and
-        consciousness, they just do the tasks habitually. <br /><br />The
-        participants who followed this pattern usually told us (during
-        debriefing interview after observation) that their task-at-hand choices
-        were habitual, spontaneous, and without particular intention; and some
-        did not recall what they had done during their journeys.
+        Some participants might intentionally deferred certain tasks until they were on public transit because they preferred to perform them there. These participants were highly familiar with the temporal rhythms of the public transit they took. (i.e. stops between journey, and time duration)
       </p>
       <div
         class="quote--container mt-4 md:m-4 md:p-4 italic font-medium text-md md:text-lg font-serif"
       >
         <p class="quote">
-          I probably have checked some stock stuff at that time. [...]. It just
-          occurred to me that I haven’t done this today and so I did it
+          I usually commute on the MRT from Monday to Friday. I use this time to listen to podcasts related to my work. [...] Most podcast shows are <b>thirty to forty minutes long, and the commute time is the same,</b> so I have this clear schedule in which I need to do this. But if I’m not commuting, like taking a walk, my behavior is less predictable and so <b>I wouldn’t want to listen to podcasts during that time.</b>
         </p>
-        <p class="text-right">&ndash; P05</p>
+        <p class="text-right">&ndash; P15</p>
       </div>
     </div>
   </div>

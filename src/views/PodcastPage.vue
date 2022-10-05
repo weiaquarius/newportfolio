@@ -178,7 +178,7 @@
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h1 class="text-xl md:text-2xl">
+      <h1 class="text-xl md:text-2xl text-orange-700">
         Challenge
       </h1>
       <h4 class="text-lg font-medium">However, we didn't specifically identify the reasons for<br><br><span class="underline">"Why"</span> we wanted to code with each HMW questions.<br><br><span class="underline">"How"</span> we wanted to address such question.<br><br><span class="underline">by "What"</span> design methodologies, which resulted in ambiguity of our design.</h4>
@@ -188,9 +188,19 @@
       <h4 class="text-lg font-medium">However, we didn't specifically identify the reasons for<br><br>We decided to write down the <span class="underline">"User Story"</span><br> to zoom in from Why, How and What of our <span class="underline">product features and users' needs.</span><br></h4>
       <h4 class="text-lg font-medium italic">As a ... users, (Why & Who)<br><br>I want to ... (What),<br><br>so that I can ... (How)</h4>
     </div>
+    
+
+    <!-- Solution:POV with HMW -->
+    <div class="px-10 md:px-5 mt-2 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg font-medium"><b>How Might We (Finding 1)</b><br>How might we let users feel fresh on<br> the platform?</h4>
+      <h4 class="text-lg font-medium"><b class="text-orange-700">User Story</b><br><span class="underline">As a user</span> craving to explore new things,<br><span class="underline">I want to</span> use the random inspired cards to recommend me new episodes,<br><span class="underline">So that</span> I would not feel bored.</h4>
+    </div>
+    <div class="px-10 md:px-5 mt-2 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-lg font-medium"><b>How Might We (Finding 2)</b><br>How might we let users efficiently catch<br> up on the information of the episode?</h4>
+      <h4 class="text-lg font-medium"><b class="text-orange-700">User Story</b><br><span class="underline">As a user</span> don't want to waste time,<br><span class="underline">I want to</span> know the hot spot of each episode,<br><span class="underline">So that</span> I would efficiently know about the information of the episode.</h4>
+    </div>
   </div>
-  <!-- POV with HMW -->
-  <div
+  <!-- <div
     class="pjt-content"
     style="margin: 10%; grid-gap: 30px 70px; justify-content: center"
   >
@@ -244,7 +254,7 @@
         know about the information of the episode.
       </p>
     </div>
-  </div>
+  </div> -->
   <div class="mt-8 grid grid-cols-4 gap-3 text-left pb-2">
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h3 class="text-lg md:text-xl text-orange-700">IDEATE - Brainstorming design ideas</h3>
@@ -264,6 +274,7 @@
     <!-- Low-Fi & Mid-Fi Prototype -->
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h4 class="text-lg md:text-xl text-orange-700">PROTOTYPE - Mid-Fidelity Prototype</h4>
+      <h4 class="text-lg font-medium">We had to incorporate the Low-Fi prototype into the design stage of the Mid-Fi prototype due to time constraints. Because we were designing our Podcast platforms based on current products and displaying some features we hoped to highlight, we mostly referred to market Podcast platforms for general features. And we made our design with new elements.</h4>
     </div>
     <div  class="pl-5 md:p-10 col-span-4 text-center">
         <img class="w-full md:w-3/5 shadow-lg" src="@/assets/Podcast/MidFi_explore.png" alt="Mid-Fi" />
@@ -363,7 +374,7 @@
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h4 class="text-lg md:text-xl">Testing method and criteria</h4>
       <h4 class="text-lg mt-10 font-medium">
-        We referenced the online tutorial, <b>"Guerrilla Usability Testing"</b> in our research, to use quantitative data to help us understand our design problems.<br><br>
+        We referenced the online tutorial, <a class="underline text-orange-700 hover:text-orange-600" href="https://www.userbrain.com/blog/7-step-guide-guerrilla-usability-testing-diy-usability-testing-method" target="_blank"><b >"Guerrilla Usability Testing"</b></a> in our research, to use quantitative data to help us understand our design problems.<br><br>
         For example, we tried to <b>capture tasks completion.</b><br>
         ● We set the timer to track how long should users finish the tasks.<br>
         ● We mark 1 to 3 points to know how easier or difficult tasks might be for users.<br>
@@ -460,8 +471,21 @@
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-center">
       <h3 class="text-lg md:text-xl"><a class="text-black hover:text-green-700" href="https://medium.com/@podcasthsinchu/podcast-app-ow%CE%BBoice-f0a8721ace6">!! Medium Link Here !!</a></h3>
     </div>
+    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2">
+      <h3 class="text-lg md:text-xl text-orange-700">Challenges and Reflections</h3>
+      <h4 class="text-lg font-medium"><b>Team collaboration</b><br>Since this is a side project proactively run by 6 college students, how to manage the project schedule, progress, and frequency of meetings are very important. During the stage of design, we mostly changed to online meetings which caused problems such as someone's unfinished assigned work, and inefficient communication to make the final decision. We then tried to assign different people as the project manager that week to organize and guide the meeting. After this project, I wanted to learn some meeting skills to facilitate discussion. For example, if we feel hard to converge on one idea, maybe we can go back to our persona and findings to think about our main goal and our users. Therefore, we can follow these guidelines to bring more efficient discussion.</h4>
+      <h4 class="text-lg font-medium"><b>Increased popularity of Podcast in the community</b><br>When we began our Podcast project, Podcast was a new platform in our country and not widely used in our community. In such circumstances, we can think of numerous unrealized features that are lacking in existing podcast platforms when designing our new podcast platform.  However, as the popularity of Podcast increased dramatically, many features were introduced by popular podcasting platforms. (such as Spotify and Apple Podcasts) When we did usability testing, the majority of participants stated that it is very difficult for them to shift their primary platform presently, even though our Podcast platform has several great and novel features. The reason for this is that they are committed to that product and are intimately versed with the feature flow and platform design. As a result, I believe we should revisit the Podcast market and interview some current Podcast listeners to better understand what the design gap is and what other unfulfilled needs we can deliver to the users.</h4>
+    </div>
+
+    <div class="px-10 md:px-5 mt-4 md:col-start-2 col-span-4 md:col-span-2">
+      <h3 class="text-lg md:text-xl text-orange-700">What's next?</h3>
+      <h4 class="text-lg font-medium"><b>Recruit more Podcast listeners to conduct the usability testing</b><br>We didn't test our features after designing the High-Fidelity prototype. As a result, I'd like to invite more participants to test our products and provide feedback.</h4>
+      <h4 class="text-lg font-medium"><b>Investigate the current experiences of podcast listeners</b><br>I want to know how Podcast listeners' using experiences in their platforms and how they feel about that. (Satisfied or difficult parts) <br>I'm curious about how Podcast listeners use their platforms and how they feel about it. (Parts that are satisfied or difficult)
+      <br>Are those issues still relevant to our project, or are there any new ones we can address in the future?</h4>
+    </div>
+
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
-    <h3 class="text-lg md:text-xl text-orange-700">Some Pictures</h3>
+      <h3 class="text-lg md:text-xl text-orange-700">Some Pictures</h3>
     </div>
     <div class="flex flex-wrap px-8 md:mx-20 col-span-4">
       <img class="p-4 w-1/2 shadow-lg" src="@/assets/Podcast/grouppic1.jpg" alt="contest pictures" />
