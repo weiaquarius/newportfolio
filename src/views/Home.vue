@@ -62,7 +62,7 @@
         </a>
       </li>
       <li>
-        <a href="https://github.com/weiaquarius">
+        <a href="https://github.com/weikoli">
           <n-icon color="#000" size="35">
             <github></github>
           </n-icon>

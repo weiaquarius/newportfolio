@@ -36,6 +36,6 @@ export default defineConfig({
       },
     },
   },
-  //   base: "./newportfolio/",
-  base: process.env.NODE_ENV === 'production' ? 'newportfolio' : './',
+  //   base: "./portfolio/",
+  base: process.env.NODE_ENV === 'production' ? 'portfolio' : './',
 });
