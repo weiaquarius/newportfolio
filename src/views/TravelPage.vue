@@ -11,13 +11,13 @@
   <div class="mt-0 sm:mt-8 grid grid-cols-4 text-left pb-2">
     <div class="px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <h1 class="text-xl md:text-3xl font-bold">Topic</h1>
-      <p class="text-lg font-base italic">
+      <p class="text-lg font-medium italic">
         Get Distracted or Missed the Stop? Investigating Public Transit
         Passengers’ Travel-Based Multitasking Behaviors, Motives, and Challenges
       </p>
 
       <h1 class="text-xl md:text-3xl font-bold">Overview & Background</h1>
-      <p class="text-lg font-base">
+      <p class="text-lg font-medium">
         As technology becomes accessible and brings efficiency to people’s daily
         lives, people nowadays are prone to multitask everywhere, anytime.
         Travel-based multitasking is defined as when “individuals do multiple
