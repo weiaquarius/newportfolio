@@ -21,16 +21,11 @@
       <p class="text-lg font-base">
         Meeture is a <b>social activity platform</b> that helps the elderly <b>get
         activity information, find interesting events to join, and meet new
-        friendswhich enhances the social networking</b>  between elderly people and
+        friends which enhances the social networking</b>  between elderly people and
       <b>constructs activities memories</b> at the same time.
       </p>
     </div>
-    <div 
-      data-aos="fade-up"
-      data-aos-duration="700"
-      data-aos-easing="ease-in"
-      data-aos-mirror="true"
-      class="border-2 border-indigo-600 px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
+    <div class="border-2 border-indigo-600 px-10 md:pl-20 md:p-0 md:col-start-2 col-span-4 md:col-span-2">
       <div class="rounded overflow-hidden shadow-xl">
         <div class="px-6 py-6">
           <h1 class="font-bold text-lg md:text-xl mb-2">Team</h1>
@@ -80,12 +75,7 @@
         </div>
       </div>
     </div>
-    <div 
-      data-aos="fade-up"
-      data-aos-duration="700"
-      data-aos-easing="ease-in"
-      data-aos-mirror="true"
-      class="col-span-4 bg-emerald-50 px-10 lg:px-40 py-20 mt-20">
+    <div class="col-span-4 bg-emerald-50 px-10 lg:px-40 py-20 mt-20">
       <h1 class="text-xl md:text-3xl font-bold">Problem</h1>
       <p class="text-lg md:text-xl font-medium leading-7">
         <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are ruling out traditional methods, such as using flyers to publicize events or pasting posters on the bulletin boards. Since the elderly  <b>are not familiar with smartphones and computers</b>, they don't know how to use them to find out activities.<br>
