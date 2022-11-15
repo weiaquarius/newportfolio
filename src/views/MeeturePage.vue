@@ -183,7 +183,7 @@
       <h4 class="text-lg font-medium">We want to integrate our research findings into persona so that every teammates in our group can clearly understand the user profile and focus on our users to design features for them.</h4>
     </div>
     <div  class="pl-5 md:pl-10 col-span-4 text-center">
-      <img class="w-full px-20 md:w-4/5 shadow-lg" src="@/assets/Meeture/Persona.jpg" alt="HMW" />
+      <img class="w-full px-20 md:w-4/5 shadow-lg" src="@/assets/Meeture/Persona_JakeLee.png" alt="HMW" />
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
