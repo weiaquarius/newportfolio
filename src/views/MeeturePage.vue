@@ -560,15 +560,14 @@
       <img class="w-full md:w-5/6" src="@/assets/Meeture/Development.png" alt="" />
     </div>
 
-    <div class="col-span-4 md:col-start-2 md:col-span-2 my-20">
-      <!-- <h3><a href="https://meeture.herokuapp.com/">Links</a></h3> -->
+    <!-- <div class="col-span-4 md:col-start-2 md:col-span-2 my-20">
       <div class="relative maxsm:mx-4 md:ml-32 h-[500px] md:h-[600px]"> 
         <iframe
             class="responsive-iframe" 
             src="https://meeture.herokuapp.com/"
         ></iframe>
       </div>
-    </div>
+    </div> -->
 
     <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2">
       <h3 class="text-lg md:text-xl text-green-700">Challenges and Reflections</h3>
