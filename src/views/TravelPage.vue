@@ -165,6 +165,17 @@
           </h3>
           <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
         </li>
+        <li class="ml-4">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 left-1 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <h3
+            class="text-md md:text-lg font-semibold text-gray-900 dark:text-white"
+          >
+            Design recommendations
+          </h3>
+          <p class="text-base font-normal text-gray-500 dark:text-gray-400"></p>
+        </li>
       </ol>
     </div>
     <div class="col-span-6 bg-slate-300 px-16 lg:px-40 py-20 mt-20"
@@ -295,7 +306,7 @@
         ● Concerns and Challenges Arising from Public Transit’s Dynamic Environment<br>
       </h3>
       <h2 class="text-lg mt-20">
-        Four Multitasking Patterns on Public Transit
+        1. Four Multitasking Patterns on Public Transit
       </h2>
     </div>
   </div>
@@ -387,8 +398,113 @@
         <p class="text-right">&ndash; P15</p>
       </div>
     </div>
+
+    
   </div>
 
+  <div class="mt-0 sm:mt-8 grid grid-cols-4 text-left pb-2">
+    <div class="px-10 md:px-5 mt-6 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h2 class="text-lg">
+        2. Challenges to Carrying out the Travel Task and the Task-at-Hand Simultaneously
+      </h2>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-8 px-4 md:px-12">
+    <div class="col-span-8 sm:col-span-4 bg-amber-50 text-left p-8 md:p-16">
+      <h2 class="text-lg sm:text-xl text-center sm:text-left">
+        Availability of Clear Cues
+      </h2>
+      <p class="text-md md:text-lg font-medium">
+        Sometimes, the cues participants used to rely on for journey-monitoring, such as
+        cues delivered by public-transit stop announcement systems, were simply unavailable. <br><br>Even when they were, a variety
+        of <b>environmental constraints made the cues unclear and/or not salient enough for participants to notice and distinguish
+        clearly. </b><br><br>For example, one participant mentioned that crowding on public transit not only made the displays difficult to see, but also hard to move closer to. 
+      </p>
+      <div
+        class="quote--container mt-4 md:m-4 md:p-4 italic font-medium text-md md:text-lg font-serif"
+      >
+        <p class="quote">
+          Sometimes I don’t really want to look at that map on the Metro, because there may be too many people standing in front of it. Or every time I look at it, I have to tell other passengers to let me go through.
+        </p>
+        <p class="text-right">&ndash; P13</p>
+      </div>
+    </div>
+    <div class="col-span-8 sm:col-span-4 bg-orange-50 text-left p-8 md:p-16">
+      <h2 class="text-lg sm:text-xl text-center sm:text-left">
+        Receptivity
+      </h2>
+      <p class="text-md md:text-lg font-medium">
+        Even when the cues participants relied on was available and clear, our participants <b>were not always receptive to them, normally because they were concentrating on their tasks-at-hand.</b>
+        Participants reported that this was especially common when the task-at-hand was urgent, in which they were too focused on their tasks-at-hand
+        to notice whether the vehicle was emitting the cues for monitoring their journeys.
+      </p>
+      <div
+        class="quote--container mt-4 md:m-4 md:p-4 italic font-medium text-md md:text-lg font-serif"
+      >
+        <p class="quote">
+          When I arrived at the station, I’m like, ’Oh my God! I got here!’, and I grabbed all my belongings and threw them into the bag. But it turned out that I have missed my stop.
+        </p>
+        <p class="text-right">&ndash; P02</p>
+      </div>
+    </div>    
+  </div>
+
+  <div class="mt-0 sm:mt-8 grid grid-cols-4 text-left pb-2">
+    <div class="px-10 md:px-5 mt-6 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h2 class="text-lg">
+        3. Concerns and Challenges Arising from Public Transit’s Dynamic Environment
+      </h2>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-8 px-4 md:px-12 py-20">
+    <div class="col-span-8 sm:col-span-4 bg-amber-50 text-left p-8 md:p-16">
+      <h2 class="text-lg sm:text-xl text-center sm:text-left">
+        Concerns about Constantly Changing Passengers and Close Contact with Them
+      </h2>
+      <p class="text-md md:text-lg font-medium">
+        The <b>high turnover rate of passengers in the small and constrained public-transit</b> environment led many participants to have several concerns about multi-tasking in such environments, including their personal property, physical health, and personal safety.<br><br>These concerns arose due to these participants’ awareness that other passengers were constantly changing and that there were many strangers with whom they might come into physical contact.
+      </p>
+      <div
+        class="quote--container mt-4 md:m-4 md:p-4 italic font-medium text-md md:text-lg font-serif"
+      >
+        <p class="quote">
+          When you’re focused, you would fear things being taken away. [...] Like your phone or keys, you put them in a place where your backpack can be locked, <b>but when there are many people, you’re still afraid of things being stolen, so you will still check again.</b> [...] I had to put them where I could easily touch them.
+        </p>
+        <p class="text-right">&ndash; P18</p>
+      </div>
+    </div>
+    <div class="col-span-8 sm:col-span-4 bg-orange-50 text-left p-8 md:p-16">
+      <h2 class="text-lg sm:text-xl text-center sm:text-left">
+        Concerns about Privacy and Personal Image
+      </h2>
+      <p class="text-md md:text-lg font-medium">
+        Some participants also had concerns about their privacy and personal image when they were aware of the presence of many other people on public transit, and this concern had affected their task choices.
+      </p>
+      <div
+        class="quote--container mt-4 md:m-4 md:p-4 italic font-medium text-md md:text-lg font-serif"
+      >
+        <p class="quote">
+          If I need to pay with a <b>credit card for online shopping</b>, I will try to use it at home, because I have no way to <b>fully ensure my privacy</b> on public transportation
+        </p>
+        <p class="text-right">&ndash; P26</p>
+      </div>
+    </div>    
+  </div>
+
+  <div class="mt-0 sm:mt-8 grid grid-cols-4 text-left pb-2">
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">Design recommendations</h3>
+      <h2 class="text-lg font-medium">
+        By their sheer quantity, our findings about challenges imply that there is considerable room for improvement in the technological facilitation of multitasking on public transit.<br><br>
+        Our first recommendation is to <b>take people’s motivations for travel multitasking into account when designing or redesigning public-transit infrastructure.</b> It could be accomplished via profile-building during onboarding and/or prompted questionnaires to know individuals’ primary or frequent motivations for multitasking on public transit. <br>
+        Therefore, service provider such as <b>trip-planning related applications or public-transit services can provide suggestions of tasks or locations tailored to them. </b><br><br>For example, passengers who have an explicit need to complete a specific task, such as catching up on urgent work, are more likely to accept location suggestions. In addition, travel multitaskers motivated by the urgency of work are likely to concentrate strongly on their tasks-at-hand, to the extent that they might miss their stop. As such, they may need more salient cues reminding them to disembark.<br><br>
+        Our second suggestion is to <b>enhance travel-multitaskers’ awareness of the characteristics of their upcoming public-transit journeys,</b> including their overall durations, the lengths of the intervals between stops, noise levels, the spatial distribution of seating and standing areas, the locations of stop-announcement displays, etc. Such information can be supplied either directly by public-transit services or via <b>crowdsourcing,</b> which has already been leveraged to obtain public-transit crowdedness information.
+      </h2>
+    </div>
+  </div>
+    
   <!-- <back-to-top bottom="50px" right="50px">
     <button type="button" class="btn btn-info btn-to-top"><p>TOP</p></button>
   </back-to-top> -->
