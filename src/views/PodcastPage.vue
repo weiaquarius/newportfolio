@@ -185,7 +185,7 @@
       <h1 class="mt-10 text-xl md:text-2xl text-orange-700">
         Solution
       </h1>
-      <h4 class="text-lg font-medium">However, we didn't specifically identify the reasons for<br><br>We decided to write down the <span class="underline">"User Story"</span><br> to zoom in from Why, How and What of our <span class="underline">product features and users' needs.</span><br></h4>
+      <h4 class="text-lg font-medium">We decided to write down the <span class="underline">"User Story"</span><br> to zoom in from Why, How and What of our <span class="underline">product features and users' needs.</span><br></h4>
       <h4 class="text-lg font-medium italic">As a ... users, (Why & Who)<br><br>I want to ... (What),<br><br>so that I can ... (How)</h4>
     </div>
     
