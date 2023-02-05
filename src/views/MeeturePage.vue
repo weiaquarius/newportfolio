@@ -33,7 +33,7 @@
             Wei-Ko Li, Carol Huang, Daniel Chang<br />
           </p>
           <h1 class="font-bold text-lg md:text-xl mb-2">Time</h1>
-          <p class="text-md md:text-lg font-base">February 2021 - December 2021</p>
+          <p class="text-md md:text-lg font-base">February 2021 - June 2021</p>
           <h1 class="text-lg md:text-xl font-bold">My Role</h1>
           <ul class="text-md md:text-lg list-disc"> 
               <li>Team Leader</li>
@@ -76,16 +76,85 @@
       </div>
     </div>
     <div class="col-span-4 bg-emerald-50 px-10 lg:px-40 py-20 mt-20">
+      <h1 class="text-left text-3xl md:text-4xl font-bold pb-10">Problem</h1>
+      <p class="text-lg md:text-xl font-medium leading-7">
+        After retirement, the elderly lose focus in lives, easily to feel lonely.
+        <br><br>The elderly used to engage in activities with their friends to deal with boredom, but they don't know what activities to engage in or how to join ones now.
+      </p>
+      <div class="flex flex-wrap items-center justify-evenly">
+        <div class="col-span-2 bg-white w-[370px] h-[200px] sm:h-[150px] p-3 m-5 rounded overflow-hidden shadow-xl">
+          <h3 class="italic font-medium">
+            "It’s harder to connect relationships with my friends, I don’t know their schedules, they are still busy and I don’t want to bother them!"
+          </h3>
+        </div>
+        <div class="col-span-2 bg-white w-[300px] h-[170px] p-3 m-5">
+          <h3 class="italic font-medium">
+            "I care about my family and my friends’ feelings, I don’t want them to feel pressured and treat me as burden."
+          </h3>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-span-4 bg-emerald-50 px-10 lg:px-40 py-20 mt-20">
       <h1 class="text-xl md:text-3xl font-bold">Problem</h1>
       <p class="text-lg md:text-xl font-medium leading-7">
+        After retirement, the elderly lose focus in lives, easily to feel lonely.
+        <br><br>The elderly used to engage in activities with their friends to deal with boredom, but they don't know what activities to engage in or how to join ones now.
+      </p> -->
+      <!-- <p class="text-lg md:text-xl font-medium leading-7">
         <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are ruling out traditional methods, such as using flyers to publicize events or pasting posters on the bulletin boards. Since the elderly  <b>are not familiar with smartphones and computers</b>, they don't know how to use them to find out activities.<br>
         Also, after retiring, they <b>lose social connections with their friends and lack opportunities to meet new friends.</b><br><br>
         Therefore, we wanted to design <b class="text-orange-700">social activity platforms</b> to help them firstly build up relationships with old friends and also make new friends, and secondly, we hoped to <b class="text-orange-700">bridge the gap between elderly people and digital devices</b> by creating aging-friendly website.
-      </p>
-    </div>
+      </p> -->
+    <!-- </div> -->
 
+    <!-- Problem Statement -->
     <div 
-      class="maxsm:hidden pl-5 md:px-20 py-16 col-span-4 text-center">
+      class="px-10 md:px-64 py-16 col-span-4 text-center pt-20">
+      <h1 class="text-xl md:text-xl font-meium">Problem Statement</h1>
+      <hr class="h-px my-8 bg-gray-300 border-0 dark:bg-gray-700">
+      <h1 class="text-xl md:text-3xl font-bold italic">The elderly wants to join activities to connect relationships with their friends but fails in joining process.
+      </h1>
+      <hr class="h-px my-8 bg-gray-300 border-0 dark:bg-gray-700">
+    </div>
+    <!-- Solution -->
+    <div 
+      class="px-10 px-20 lg:px-80 py-16 col-span-4 text-center bg-emerald-50">
+      <h1 class="text-xl md:text-3xl font-bold pt-10">Solution</h1>
+      <p class="text-lg md:text-xl font-medium leading-7">
+        Meeture, an elderly social activity platform, is information organized, would shows friends’ joining status, and friendly guide through features to the elderly by applying chatbot design.
+      </p>
+      <img class="w-full" src="@/assets/Meeture/SolutionPic.png" alt="" />
+    </div>
+    <!-- Key feature -->
+    <div 
+      class="pl-5 px-10 md:px-40 lg:px-48 py-16 col-span-4 text-center">
+      <h1 class="text-xl md:text-3xl font-bold p-10">Key features</h1>
+      <div  class="pl-5 md:px-40 md:py-20 flex flex-wrap items-center col-span-4 text-left">
+        <div class="w-1/2 aspect-w-1 aspect-h-1">
+        <iframe src="https://www.youtube.com/embed/-CcrSiMsCY0?autoplay=1&mute=1&loop=1&playlist=-CcrSiMsCY0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+        <div class="pl-10 md:pl-24 w-1/2">
+          <h1 class="text-2xl font-bold italic">Using LINE Chatbot To Guide Through The Elderly With Simple Signup</h1>
+          <p class="text-lg md:text-xl font-medium leading-7">
+            The elderly can sign up for Meeture via LINE chatbot, the chatbot will also help address any concerns or problems they might have.
+          </p>
+        </div>
+      </div>
+      <div class="pl-5 md:px-40 md:py-20 flex flex-wrap items-center col-span-4 text-left">
+        <div class="w-1/2 aspect-w-1 aspect-h-1">
+        <iframe src="https://www.youtube.com/embed/TjvPFrXP_ac?autoplay=1&mute=1&loop=1&playlist=TjvPFrXP_ac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+        <div class="pl-10 md:pl-24 w-1/2">
+          <h1 class="text-xl text-2xl font-bold italic">Easy Sharing</h1>
+          <p class="text-lg md:text-xl font-medium leading-7">
+            The elderly's connections are all in the LINE platform, with the LINE sharing button, they can easily share activity information with their friends and families.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div 
+      class="maxsm:hidden pl-5 md:px-20 py-10 col-span-4 text-center">
+      <hr class="h-px my-8 bg-gray-300 border-0 dark:bg-gray-700">
       <h1 class="text-xl md:text-3xl font-bold p-20">Research Process</h1>
       <img class="w-full" src="@/assets/Meeture/ResearchProcess.png" alt="" />
     </div>
