@@ -290,7 +290,7 @@
     </div>
 
     <div class="pl-5 col-span-4 text-center">
-        <img class="w-4/5 px-20" src="@/assets/PawPals/LowFi-QR code.png" alt="" />
+        <img class="w-4/5 px-20" src="@/assets/PawPals/LowFi_QR code.png" alt="" />
     </div>
 
     <div class="px-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
@@ -308,7 +308,7 @@
     </div>
 
     <div class="pl-5 col-span-4 text-center">
-        <img class="w-1/2" src="@/assets/PawPals/LowFi-HealthLog.png" alt="" />
+        <img class="w-1/2" src="@/assets/PawPals/LowFi_HealthLog.png" alt="" />
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
