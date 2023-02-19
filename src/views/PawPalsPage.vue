@@ -64,7 +64,7 @@
           >
           <span
             class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-            >UserTesting</span
+            >usertesting.com</span
           >
         </div>
       </div>
@@ -264,7 +264,8 @@
   
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h3 class="text-lg md:text-xl text-cyan-700">PROTOTYPE - Sketches</h3>
-      <h4 class="text-lg font-medium"></h4>
+      <h4 class="text-lg font-medium">Since there are many features in the pets' health platform, we want to do paper prototypes before jumping into the Mid or High Fidelity prototype.
+We ideated many ideas, and this is our first time to visually brainstormed the concept to bring it as our solutions.</h4>
     </div>
     <div 
       class="col-span-4">
@@ -287,6 +288,11 @@
           Solutions:
       </h2>
       <h4 class="text-lg font-medium">Apply QR code to share medical documents</h4>
+      <h2 class="text-lg md:text-xl">
+          Task Flow:
+      </h2>
+      <h4 class="text-lg font-medium">
+        After David uploads his pets' medical documents, he can share the documents with the vet via QR code or Email.<br><br>Vets can scan the QR code to get all pets' files at once, and they can choose the one they want to save for treatments.</h4>
     </div>
 
     <div class="pl-5 col-span-4 text-center">
@@ -304,7 +310,11 @@
       <h2 class="text-lg md:text-xl">
           Solutions:
       </h2>
-      <h4 class="text-lg font-medium">Create to-do tasks and health log </h4>
+      <h4 class="text-lg font-medium">Create to-do tasks and health log</h4>
+      <h2 class="text-lg md:text-xl">
+          Task Flow:
+      </h2>
+      <h4 class="text-lg font-medium">If David wants to add a new task for his pet, he can navigate to the "Log Note" page and click the "add" icon. Then, he can create a task as a to-do or a health log to keep track of his pets' health.</h4>
     </div>
 
     <div class="pl-5 col-span-4 text-center">
@@ -326,21 +336,70 @@
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h1 class="text-xl">Testing Results : </h1>
       <h4 class="text-md md:text-lg font-medium text-left">
-        <b>1. Revised sitemap</b>
+        <b>1. Revised sitemap<br><br></b>
+        After the initial round of usability testing, users expressed confusion about the difference between to-do lists and the health journal.
+        <b>This feedback prompted us to reconsider our sitemap. </b>
+        Since the to-do lists and the health journal are both related to pets’ health record, we decided to put these two under the same page to clarify action.<br><br>
+        Our group also ideated many title names to help users better understand what these features are used for.<br><br>
+        And I also took responsibility for log note page design, so <b class="text-cyan-700">it’s very important for me to revise the information architecture and have clearer feature name before the high-fidelity prototype.</b>
       </h4>
     </div>
+    <div class="col-span-4 text-center">
+        <img class="w-full" src="@/assets/PawPals/test_sitemap.png" alt="" />
+    </div>
 
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-md md:text-lg font-medium text-left">
+        <b>2. Rearrange homepage sections</b><br><br>
+        <b>Majority of our testing participants expressed confusion about the hierarchy of the homepage layout, which caused them to pause and sometimes get stuck on the first step.</b><br><br> After taking into consideration the frequency of feature usage and the necessity of information on the homepage, we decided to <b class="text-cyan-700">reorganize and prioritize the components.</b> This included making the “Quick Access” sections more easily accessible and removing redundant information, such as “Recent Activity.”
+      </h4>
+    </div>
+    <div class="col-span-4 text-center">
+        <img class="w-full" src="@/assets/PawPals/test_homepage.png" alt="" />
+    </div>
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h4 class="text-md md:text-lg font-medium text-left">
+        <b>3. Minimize user interaction on Health log</b><br><br>
+        During my observation of user testing, I noticed that <b>participants had to take many steps and actions to navigate between pages to select tasks or health logs.</b> <br><br>  I brought this issue to our team discussion and we brainstormed solutions. One of our UX designer suggested switching tabs at the top to minimize user interaction, which I found to be a valuable idea.
+      </h4>
+    </div>
+    <div class="col-span-4 text-center">
+        <img class="w-full" src="@/assets/PawPals/test_healthlog.png" alt="" />
+    </div>
+
+    <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      <h1 class="text-xl">Hi-Fidelity prototype testing results from Usertesting.com</h1>
+      <h4 class="text-md md:text-lg font-medium text-left">
+        For our latest round of testing, we utilized the usertesting.com tool to evaluate our high-fidelity prototype. After each task, we asked the participants to rate the level of difficulty of the task.<br><br>
+        <b class="text-cyan-700 italic">How easy or difficult was this task was for you?</b><br><br>
+        Task 4 received the highest average difficulty score, indicating that there is room for improvement in this area. Due to the time constraints of the project, we collected the users' feedback on Task 4 and will use it as a future goal for improvement.
+
+      </h4>
+    </div>
+    <div class="col-span-4 text-center">
+        <img class="w-3/5" src="@/assets/PawPals/test_avgDifficulty.png" alt="" />
+    </div>
+
+
+    <!-- Design system -->
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h3 class="text-lg md:text-xl text-cyan-700">Design System</h3>
       <h4 class="text-xl font-medium">I worked with 2 UX designers to build up Paw Pals' design system to make sure consistent design.</h4>
     </div>
     <div class="pl-5 col-span-4 text-center">
-        <img class="w-4/5" src="@/assets/PawPals/PawPals_DesignSystem.png" alt="" />
+      <img class="w-4/5" src="@/assets/PawPals/PawPals_DesignSystem.png" alt="" />
+      
+      <hr class="h-px mx-20 mt-10 bg-gray-300 border-0 dark:bg-gray-700">
     </div>
-
+    
     <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2">
       <h3 class="text-lg md:text-xl text-cyan-700">Challenges</h3>
-      <h4 class="text-lg"></h4>
+      <h4 class="text-lg font-medium">
+        <b>Personal Challenge: </b><br><br>
+        I'm new to pet ownership and learning about pet health management is both exciting and challenging. To prepare for pet owner interviews, I consulted with my teammates who are pet owners to better understand medical knowledge and veterinarians in our area. As I continue to gain knowledge, I plan to ask additional questions during the interviews to gather more detailed feedback.<br><br>
+        <b>Group Challenge: </b><br><br>
+        We didn't focus enough on examining our information architecture, which caused us to spend more time discussing the feature flow and creating multiple prototype designs. It would be better to iterately examine our sitemap by using techniques such as card sorting and concept testing to bring clearer sitemap and make our prototyping process more efficient.
+      </h4>
     </div>
 
     <div class="px-10 md:px-5 mt-4 md:col-start-2 col-span-4 md:col-span-2">
