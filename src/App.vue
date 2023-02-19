@@ -47,6 +47,10 @@ import { KeyboardArrowDownRound } from '@vicons/material';
 import { useRouter } from 'vue-router';
 const options = [
   {
+    label: 'PawPals',
+    key: 'PawPals',
+  },
+  {
     label: 'Meeture',
     key: 'Meeture',
   },
@@ -54,11 +58,10 @@ const options = [
     label: 'Podcast side project',
     key: 'Podcast',
   },
-
-  {
-    label: 'Travel-Based Multitasking',
-    key: 'Travel',
-  },
+  // {
+  //   label: 'Travel-Based Multitasking',
+  //   key: 'Travel',
+  // },
 ];
 const router = useRouter();
 const handleSelect = (key: string) => {

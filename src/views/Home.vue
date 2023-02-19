@@ -10,6 +10,14 @@
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
       >
+        <PawPals />
+      </div>
+      <div
+        data-aos="fade-up"
+        data-aos-duration="700"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+      >
         <Meeture />
       </div>
       <div
@@ -20,14 +28,14 @@
       >
         <Podcast />
       </div>
-      <div
+      <!-- <div
         data-aos="fade-up"
         data-aos-duration="700"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
       >
         <Travel />
-      </div>
+      </div> -->
     </div>
     <!-- <div
         data-aos="fade-up"
@@ -76,7 +84,7 @@
         </a>
       </li>
     </ul>
-    <p>李唯閣 | WEI-KO LI | NYCU</p>
+    <p>李唯閣 | WEI-KO LI | UT Austin</p>
   </div>
 
   <!-- <back-to-top bottom="50px" right="50px">
@@ -89,9 +97,10 @@
 // import '@/cursor.js';
 import BioInfo from '@/components/Home/BioInfo.vue';
 import Meeture from '@/components/Home/Meeture.vue';
+import PawPals from '@/components/Home/PawPals.vue';
 import FineTutor from '@/components/Home/FineTutor.vue';
 import Podcast from '@/components/Home/Podcast.vue';
-import Travel from '@/components/Home/Travel.vue';
+// import Travel from '@/components/Home/Travel.vue';
 import SireHealth from '@/components/Home/SireHealth.vue';
 
 import { NIcon } from 'naive-ui';

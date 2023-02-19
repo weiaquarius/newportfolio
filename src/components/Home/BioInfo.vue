@@ -4,13 +4,13 @@
       <div
         class="col-span-4 md:col-span-2 px-4 sm:px-10 lg:px-24 py-10 sm:py-24"
       >
-        <div class="loading">
+        <div class="loading mt-10">
           <span>HELLO ! </span>
         </div>
-        <div class="mt-16">
+        <div class="mt-20">
           <h2>
-            I am WEI-KO LI, a graduate student major in MS in Information
-            Science (UX Track) at the University Of Texas At Austin (UT Austin).
+            I am WEI-KO LI, a UX design graduate student at the University Of
+            Texas At Austin (UT Austin).
           </h2>
           <h3>
             I found interest in
@@ -18,18 +18,18 @@
             a sophomore and had spent lots of time immersing in the users’
             world. <br /><br />
 
-            My portfolio includes the process of<br />
+            <!-- My portfolio includes the process of<br />
             • User Interviewing<br />
             • Qualitative analysis<br />
             • Usability testing<br />
             • User interface design.<br />
-            • Web development<br />
+            • Web development<br /> -->
             If you have any questions, please feel free to ask me.<br /><br /><br />
           </h3>
         </div>
       </div>
       <div
-        class="col-span-2 circular--landscape md:w-[350px] md:h-[350px] lg:w-[450px] lg:h-[450px] md:ml-8 lg:ml-20 md:my-28"
+        class="col-span-2 circular--landscape md:w-[350px] md:h-[350px] lg:w-[380px] lg:h-[380px] md:ml-8 lg:ml-20 md:my-28"
       >
         <img src="@/assets/Home/viviantexas.png" alt="" />
       </div>

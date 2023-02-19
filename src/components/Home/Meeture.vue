@@ -3,7 +3,7 @@
     <div class="oddboxinner grid grid-cols-2">
       <div class="flex justify-center items-center maxsm:col-span-2">
         <img
-          class="w-1/3 sm:w-2/3"
+          class="w-1/3 sm:w-1/2"
           src="../../assets/Home/meeeture_logo.png"
           alt="Meeture.png LOGO"
         />

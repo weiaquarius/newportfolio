@@ -4,6 +4,7 @@ import FineTutorPage from '../views/FineTutorPage.vue';
 import TravelPage from '../views/TravelPage.vue';
 import PodcastPage from '../views/PodcastPage.vue';
 import MeeturePage from '../views/MeeturePage.vue';
+import PawPalsPage from '../views/PawPalsPage.vue';
 import SireHealthPage from '../views/SireHealthPage.vue';
 
 const routes = [
@@ -19,23 +20,29 @@ const routes = [
       import('../views/About.vue'),
   },
   {
+    path: '/PawPals',
+    name: 'PawPals',
+    component: PawPalsPage,
+    props: { num: 2, name:'/Meeture' },
+  },
+  {
     path: '/Meeture',
     name: 'Meeture',
     component: MeeturePage,
-    props: { num: 2, name:'/PodcastProject' },
+    props: { num: 3, name:'/PodcastProject' },
   },
   {
     path: '/PodcastProject',
     name: 'Podcast',
     component: PodcastPage,
-    props: { num: 3, name:'/TravelBasedMultitasking' },
+    props: { num: 1, name:'/PawPals' },
   },
-  {
-    path: '/TravelBasedMultitasking',
-    name: 'Travel',
-    component: TravelPage,
-    props: { num: 1, name:'/Meeture' },
-  },
+  // {
+  //   path: '/TravelBasedMultitasking',
+  //   name: 'Travel',
+  //   component: TravelPage,
+  //   props: { num: 1, name:'/Meeture' },
+  // },
   // {
   //   path: '/FineTutor',
   //   name: 'FineTutorPage',

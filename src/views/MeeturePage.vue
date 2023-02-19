@@ -103,7 +103,7 @@
       <!-- <p class="text-lg md:text-xl font-medium leading-7">
         <b>Elderly people</b> are losing ways to <b>retrieve activity information.</b><br><br> The burgeoning electronic transmitted formats are ruling out traditional methods, such as using flyers to publicize events or pasting posters on the bulletin boards. Since the elderly  <b>are not familiar with smartphones and computers</b>, they don't know how to use them to find out activities.<br>
         Also, after retiring, they <b>lose social connections with their friends and lack opportunities to meet new friends.</b><br><br>
-        Therefore, we wanted to design <b class="text-orange-700">social activity platforms</b> to help them firstly build up relationships with old friends and also make new friends, and secondly, we hoped to <b class="text-orange-700">bridge the gap between elderly people and digital devices</b> by creating aging-friendly website.
+        Therefore, we wanted to design <b class="text-green-700">social activity platforms</b> to help them firstly build up relationships with old friends and also make new friends, and secondly, we hoped to <b class="text-green-700">bridge the gap between elderly people and digital devices</b> by creating aging-friendly website.
       </p> -->
     <!-- </div> -->
 
@@ -112,7 +112,7 @@
       class="px-10 md:px-64 py-16 col-span-4 text-center pt-20">
       <h1 class="text-xl md:text-xl font-meium">Problem Statement</h1>
       <hr class="h-px my-8 bg-gray-300 border-0 dark:bg-gray-700">
-      <h1 class="text-xl md:text-3xl font-bold italic">The elderly wants to join activities to connect relationships with their friends but fails in joining process.
+      <h1 class="text-xl md:text-2xl font-bold italic">How might we help the elderly get the activity information they need?
       </h1>
       <hr class="h-px my-8 bg-gray-300 border-0 dark:bg-gray-700">
     </div>
@@ -134,37 +134,37 @@
         <iframe src="https://www.youtube.com/embed/-CcrSiMsCY0?autoplay=1&mute=1&loop=1&playlist=-CcrSiMsCY0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> 
         <div class="pl-10 md:pl-24 w-1/2">
-          <h1 class="text-2xl font-bold italic">Using LINE Chatbot To Guide Through The Elderly With Simple Signup</h1>
-          <p class="text-lg md:text-xl font-medium leading-7">
+          <h1 class="text-lg md:text-2xl font-bold italic">Using LINE Chatbot To Guide Through The Elderly With Simple Signup</h1>
+          <p class="text-md md:text-xl font-medium leading-7">
             The elderly can sign up for Meeture via LINE chatbot, the chatbot will also help address any concerns or problems they might have.
           </p>
         </div>
       </div>
-      <div class="pl-5 md:px-40 md:py-20 flex flex-wrap items-center col-span-4 text-left">
+      <div class="mt-20 pl-5 md:px-40 md:py-20 flex flex-wrap items-center col-span-4 text-left">
         <div class="w-1/2 aspect-w-1 aspect-h-1">
         <iframe src="https://www.youtube.com/embed/TjvPFrXP_ac?autoplay=1&mute=1&loop=1&playlist=TjvPFrXP_ac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> 
         <div class="pl-10 md:pl-24 w-1/2">
-          <h1 class="text-xl text-2xl font-bold italic">Easy Sharing</h1>
-          <p class="text-lg md:text-xl font-medium leading-7">
+          <h1 class="text-lg md:text-2xl font-bold italic">Easy Sharing</h1>
+          <p class="text-md md:text-xl font-medium leading-7">
             The elderly's connections are all in the LINE platform, with the LINE sharing button, they can easily share activity information with their friends and families.
           </p>
         </div>
       </div>
     </div>
     <div 
-      class="maxsm:hidden pl-5 md:px-20 py-10 col-span-4 text-center">
+      class="md:px-20 md:py-5 col-span-4 text-center">
       <hr class="h-px my-8 bg-gray-300 border-0 dark:bg-gray-700">
-      <h1 class="text-xl md:text-3xl font-bold p-20">Research Process</h1>
+      <h1 class="text-xl md:text-3xl font-bold p-20">Design Thinking process - My role</h1>
       <img class="w-full" src="@/assets/Meeture/ResearchProcess.png" alt="" />
     </div>
-    <div 
+    <!-- <div 
       class="maxsm:block hidden pl-5 md:px-20 col-span-4 text-center">
       <h1 class="text-xl md:text-3xl font-bold p-20">Research Process</h1>
       <img class="w-2/3" src="@/assets/Meeture/ResearchProcessMobile.png" alt="" />
-    </div>
+    </div> -->
     <div class="px-10 md:px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h3 class="text-lg md:text-xl text-orange-700 border-l-orange-700 border-2">EMPATHIZE - Competitor Analysis</h3>
+      <h3 class="text-lg md:text-xl text-green-700 border-l-orange-700 border-2">EMPATHIZE - Competitor Analysis</h3>
       <h2 class="text-lg md:text-xl font-medium">We know there are many direct and indrect competitive platforms nowadays; therefore, we decided to implement competitor anaylsis to help us find the design gap.</h2>
     </div>
 
@@ -175,12 +175,12 @@
 
     <div 
       class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left italic">
-        <h2 class="text-lg md:text-xl font-medium">After going through <span class="text-orange-700">competitor analysis</span>, we found out there is <span class="text-orange-700">no social activities platform mainly focused on retired older adults.</span><br><br> Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h2>
+        <h2 class="text-lg md:text-xl font-medium">After going through <span class="text-green-700">competitor analysis</span>, we found out there is <span class="text-green-700 font-bold">no social activities platform mainly focused on retired older adults.</span><br><br> Therefore, we decided to push ourselves into the interview process to better capture this group of people.</h2>
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
     <!-- <div class="maxsm:px-8 mt-12 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-center"> -->
-      <h3 class="text-lg md:text-xl text-orange-700">EMPATHIZE - Online Interview</h3>
+      <h3 class="text-lg md:text-xl text-green-700">EMPATHIZE - Online Interview</h3>
 
       <h4 class="text-lg font-medium"><b>1. Interview Purpose:</b> To help us <b>quickly and deeply understand</b> how older adults build up social networks, what types of activities they would use, and how they use electronic products.</h4>
       <h4 class="text-lg font-medium"><b>2. Participants Recruiting Criteria:</b> People whose ages are close to retirement age (60~80 years), and would use smartphones in their daily lives.</h4>
@@ -248,7 +248,7 @@
 
     <!-- Persona -->
     <div class="px-10 md:px-5 mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h3 class="text-lg md:text-xl text-orange-700">DEFINE - Persona</h3>
+      <h3 class="text-lg md:text-xl text-green-700">DEFINE - Persona</h3>
       <h4 class="text-lg font-medium">We want to integrate our research findings into persona so that every teammates in our group can clearly understand the user profile and focus on our users to design features for them.</h4>
     </div>
     <div  class="pl-5 md:pl-10 col-span-4 text-center">
@@ -256,7 +256,7 @@
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h3 class="text-lg md:text-xl text-orange-700">DEFINE - Point of View (PoV) & How Might We (HMW)</h3>
+      <h3 class="text-lg md:text-xl text-green-700">DEFINE - Point of View (PoV) & How Might We (HMW)</h3>
       <h4 class="text-lg font-medium">In order to <b>define clear problems of our users and also help us clarify users' needs</b>, we tried to implement PoV method to emphasize users. <br><br>Next, we can apply "how might we" method to <b>ideate the problem and brainstorm the design strategies.</b></h4>
     </div>
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2">
@@ -269,7 +269,7 @@
             vigilant to information sources.
         </h4>
       </div> -->
-      <h2 class="text-lg md:text-xl text-orange-700">
+      <h2 class="text-lg md:text-xl text-green-700">
           Finding 1 :
         </h2>
       <h2 class="text-lg md:text-xl">
@@ -307,7 +307,7 @@
               hobbies.</span>
         </h4>
       </div> -->
-      <h2 class="text-lg md:text-xl text-orange-700">
+      <h2 class="text-lg md:text-xl text-green-700">
           Finding 2 :
         </h2>
       <h2 class="text-lg md:text-xl">
@@ -341,7 +341,7 @@
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h3 class="text-lg md:text-xl text-orange-700">IDEATE - Brainstorming design ideas</h3>
+      <h3 class="text-lg md:text-xl text-green-700">IDEATE - Brainstorming design ideas</h3>
       <h4 class="text-lg font-medium">After implementing POV and HMW methods, we used How Might We questions to brainstorm lots of ideas on the Miro. <br><br>Then, we used 3 criterias (creativity, personal preference, prospective design for future development) to vote for our final design idea.</h4>
     </div>
 
@@ -352,7 +352,7 @@
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h3 class="text-lg md:text-xl text-orange-700">PROTOTYPE - Experience Prototype</h3>
+      <h3 class="text-lg md:text-xl text-green-700">PROTOTYPE - Experience Prototype</h3>
       <h4 class="text-lg font-medium">In order to make all team members easier to engage in the elderly's experiences and the design flow, we decided to draw the experience prototype before the interface design.</h4>
     </div>
 
@@ -362,7 +362,7 @@
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h3 class="text-lg md:text-xl text-orange-700">PROTOTYPE - Low-Fidelity & Task flow</h3>
+      <h3 class="text-lg md:text-xl text-green-700">PROTOTYPE - Low-Fidelity & Task flow</h3>
     </div>
 
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2">
@@ -395,14 +395,14 @@
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
-      <h3 class="text-lg md:text-xl text-orange-700">TEST - Usability testing</h3>
+      <h3 class="text-lg md:text-xl text-green-700">TEST - Usability testing</h3>
       <h4 class="text-lg font-medium">Since we are making our low prototype design now, we want to check <b>if these ideated features fit our users' needs</b> or not in the early stage.<br><br>Therefore, we decided to implement usability testing to know <b>how users think about the design, how users will interact with these feature, and what we can improve our design, etc.</b></h4>
-      <h4 class="text-xl mt-10 md:mt-20">
+      <!-- <h4 class="text-xl mt-10 md:mt-20">
         How we implement the testing?
-      </h4>
+      </h4> -->
     </div>
     
-    <div class="px-10 col-span-4 text-center">
+    <!-- <div class="px-10 col-span-4 text-center">
         <div style='background-color:rgb(255, 255, 255)'>
           <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 pt-20 pb-10 lg:pb-20" style="cursor: auto;">
             
@@ -469,16 +469,16 @@
           </div> 
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="px-10 md:px-5 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h1 class="text-xl">Testing Results : </h1>
-      <h4 class="md:pt-10 text-md md:text-lg font-medium text-left">
+      <h4 class="text-md md:text-lg font-medium text-left">
         <b>Scenario 2:</b> <br>After knowing more about Meeture platform, you feel interested in thie product. <br><br>
         <b>Task 2:</b><br>You want to join as a member.
       </h4>
       <h4 class="text-md md:text-lg font-medium text-left">
-        <b class="text-orange-700">Testing feature:</b> <br>Interests filter page
+        <b class="text-green-700">Testing feature:</b> <br>Interests filter page
       </h4>
     </div>
     <div 
@@ -489,10 +489,9 @@
     <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h3 class="text-lg md:text-xl text-green-700">TEST - Heuristic Evaluation</h3>
       <h4 class="text-lg font-medium">Since I am the only person who has experience in Figma prototype design, and also the main interface designer in our team, we decided to invite other experts in UX field to help craft our interface and feature design. <br><br>Therefore, we chose to implement heuristic evaluation after Mid-Fi prototype.</h4>
-      <h1 class="text-xl mt-10 md:mt-20">How we implement the testing?</h1>
+      <!-- <h1 class="text-xl mt-10 md:mt-20">How we implement the testing?</h1> -->
     </div>
-    <div class="flex flex-wrap items-center justify-center col-span-4 text-center pt-10">
-      <!-- 1 card -->
+    <!-- <div class="flex flex-wrap items-center justify-center col-span-4 text-center pt-10">
       <div class="relative bg-white py-6 px-6 md:px-12 mx-6 rounded-3xl w-full sm:w-2/3 md:w-1/3 m-12 md:my-4 shadow-xl">
         <div class="text-white flex items-center absolute rounded-full py-3 px-3 shadow-xl bg-pink-500 left-4 -top-4">
             <n-icon color="#fff" size="30" depth="1">
@@ -512,10 +511,8 @@
         </div>
       </div>
 
-      <!-- 2 card -->
       <div class="relative bg-white py-6 px-6 md:px-12 mx-6 rounded-3xl w-full sm:w-2/3 md:w-2/5 m-12 md:my-4 shadow-xl">
         <div class="text-white flex items-center justify-center absolute rounded-full py-3 px-3 shadow-xl bg-green-500 left-4 -top-3">
-          <!-- svg  -->
           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
@@ -531,9 +528,9 @@
           </div>  
         </div>
       </div>
-    </div>
+    </div> -->
     <div 
-      class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+      class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h1 class="text-xl">Online testing pictures</h1>
       <h4 class="text-md md:text-lg font-medium text-left">
         We found 2 participants in the UIUX field. (recruited from our friend network)<br><br>
@@ -560,7 +557,7 @@
       </h4>
       <h4 class="text-lg font-medium">
         <b>Question :</b> <br> Have you ever encountered a situation where you <b>don't know how to operate</b>, and our platform <b>doesn't given you any hints?<br><br></b>
-        <b class="text-orange-700">Revised Feature :</b> <br> <b>Navigation Bar</b>
+        <b class="text-green-700">Revised Feature :</b> <br> <b>Navigation Bar</b>
       </h4>
     </div>
 
@@ -569,7 +566,7 @@
       <img class="w-full" src="@/assets/Meeture/HeuristicResult.png" alt="" />
     </div>
 
-    <div class="px-10 md:px-5 mt-10 md:mt-20 md:col-start-2 col-span-4 md:col-span-2 text-left">
+    <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
       <h4 class="text-lg">
         Usability Heuristic #2 : Match between system and real world
       </h4>
@@ -581,7 +578,7 @@
       </h4>
       <h4 class="text-lg font-medium">
         <b>Question :</b> <br> Was it <b>easy to switch to a different page</b> in the previous tasks?, and our platform <b>doesn't given you any hints?<br><br></b>
-        <b class="text-orange-700">Revised Feature :</b> <br> <b>Top Menu at activity page</b>
+        <b class="text-green-700">Revised Feature :</b> <br> <b>Top Menu at activity page</b>
       </h4>
     </div>
 

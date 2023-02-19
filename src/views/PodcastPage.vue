@@ -1016,14 +1016,11 @@
     <div class="maxsm:col-span-4 sm:col-span-2 w-full">
       <next-button :project-num="num" :name="name"></next-button>
     </div>
-    <!-- <div class="maxsm:col-span-4 sm:col-span-2">
-      <img class="m-0 sm:mt-20 mb-8 md:mb-16 w-4/5 sm:w-10/12" src="@/assets/Podcast/PodcastCover.png" alt="project image" />
-    </div> -->
+    <div class="maxsm:col-span-4 sm:col-span-2">
+      <img class="mt-10 mb-8 w-full" src="@/assets/PawPals/PawPals_cover.png" alt="project image" />
+    </div>
   </div>
 
-  <!-- <back-to-top bottom="50px" right="50px">
-    <button type="button" class="btn btn-info btn-to-top"><p>TOP</p></button>
-  </back-to-top> -->
 </template>
 
 <script setup>
