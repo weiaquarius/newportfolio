@@ -249,7 +249,7 @@
       </ul>
     </div>
     <div  class="pl-5 md:pl-10 col-span-4 text-center">
-      <img class="w-full px-20 md:w-4/5" src="@/assets/PawPals/Expert Owner.png" alt="Persona" />
+      <img class="w-full px-20 md:w-4/5" src="@/assets/PawPals/ExpertOwner.png" alt="Persona" />
     </div>
 
     <div class="px-10 md:px-5 mt-10 md:col-start-2 col-span-4 md:col-span-2 text-left">
